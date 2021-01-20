@@ -1,0 +1,980 @@
+# -*- coding: utf-8 -*-
+
+##
+## SUMMARY
+##
+## Indel (insertion or deletion) of stress symbol or punctuation: 0.5
+## Other indel: 1.0
+##
+## Substitution of tokens with the same base symbol,
+##    differing only in one or more diacritics: 0.5
+## Substitution of vowel with consonant: 2.0
+## Other substitution: 1.0
+##
+
+########
+DEFINES
+########
+
+VERSION 2             # 0|1|2 (default: 0)
+
+#TOP 65535             # output maximum (default: 65535)
+
+#SUBSTMAX 2.1          # maximum for a substitution; larger values are cut off (default: 1)
+
+INDEL 0.01             # indel, if not specified otherwise (default: .5 * SUBSTMAX)
+
+#METHOD SUM            # SUM|SQUARE|EUCLID|(MINKOWSKI value)  (default: SUM)
+
+#TOKENSTRING RAW       # RAW|ESC (default: RAW)
+
+START 0               # STATE at start of string (default: 0)
+
+#RANGE 0.01 0.99 0.5   # everything in range 0.01:0.99 will be set to 0.5
+#RANGE 1 50 1          # everything in range 1:50 will be set to 1
+#RANGE 50 1000 2       # everything in range 50:1000 will be set to 2
+
+########
+FEATURES
+########
+
+# This file uses VERSION 2 (see DEFINES above)
+
+# VERSION 0
+# B|N|D label
+# B|N|D weight label
+
+# VERSION 1 and VERSION 2
+# B|N|D default_diff label
+# B|N|D default_diff weight label
+
+# B : bitmap   (integer)
+# N : numeric  (float)
+# D : discrete (integer numbers)
+
+B 1 1 type
+D 1 0.01 id
+
+########
+TEMPLATES
+########
+
+T vowel
+F type = 1
+F STATE + 1
+
+T consonant
+F type = 2
+F STATE + 1
+
+T semivowel
+F type = 3
+F STATE + 1
+
+########
+INDELS
+########
+
+# (nothing)
+
+########
+TOKENS
+########
+
+# vowels
+
+H a
+T vowel
+F id = 97
+
+H à
+T vowel
+F id = 97
+
+H ã
+T vowel
+F id = 97
+
+H ă
+T vowel
+F id = 97
+
+H e
+T vowel
+F id = 101
+
+H ẽ
+T vowel
+F id = 101
+
+H i
+T vowel
+F id = 105
+
+H ĩ
+T vowel
+F id = 105
+
+H o
+T vowel
+F id = 111
+
+H u
+T vowel
+F id = 117
+
+H ũ
+T vowel
+F id = 117
+
+H ŭ
+T vowel
+F id = 117
+
+H y
+T vowel
+F id = 121
+
+H æ
+T vowel
+F id = 230
+
+H ӕ
+T vowel
+F id = 230
+
+H ø
+T vowel
+F id = 248
+
+H œ
+T vowel
+F id = 339
+
+H ɐ
+T vowel
+F id = 592
+
+H ɑ
+T vowel
+F id = 593
+
+H ɒ
+T vowel
+F id = 594
+
+H ɔ
+T vowel
+F id = 596
+
+H ɘ
+T vowel
+F id = 600
+
+H ə
+T vowel
+F id = 601
+
+H ǝ
+T vowel
+F id = 601
+
+H ә
+T vowel
+F id = 601
+
+
+H ɛ
+T vowel
+F id = 603
+
+H ɜ
+T vowel
+F id = 604
+
+H ɞ
+T vowel
+F id = 606
+
+H ɤ
+T vowel
+F id = 612
+
+H ɨ
+T vowel
+F id = 616
+
+H ɪ
+T vowel
+F id = 618
+
+H I
+T vowel
+F id = 618
+
+H ɯ
+T vowel
+F id = 623
+
+H ɵ
+T vowel
+F id = 629
+
+H ʉ
+T vowel
+F id = 649
+
+H ʊ
+T vowel
+F id = 650
+
+H ʌ
+T vowel
+F id = 652
+
+H ʏ
+T vowel
+F id = 655
+
+
+H ɛː
+T vowel
+F id = 800
+
+H ɛ̃ː
+T vowel
+F id = 800
+
+H ɛ̝ː
+T vowel
+F id = 800
+
+H ɛ̞ː
+T vowel
+F id = 800
+
+H ɛ̝̃ː
+T vowel
+F id = 800
+
+H ɛ̰ː
+T vowel
+F id = 800
+
+
+
+
+H e̝ː
+T vowel
+F id = 801
+
+H eː
+T vowel
+F id = 801
+
+
+H ẽː
+T vowel
+F id = 801
+
+H e̞ː
+T vowel
+F id = 801
+
+H əː
+T vowel
+F id = 802
+
+H ɔː
+T vowel
+F id = 803
+
+H ɔ̃ː
+T vowel
+F id = 803
+
+H ɔ˞ː
+T vowel
+F id = 803
+
+H ɔ̝ː
+T vowel
+F id = 803
+
+
+
+H ɑː
+T vowel
+F id = 804
+
+H ɑ̘ː
+T vowel
+F id = 804
+
+H ɑ̃ː
+T vowel
+F id = 804
+
+H oː
+T vowel
+F id = 805
+
+H õː
+T vowel
+F id = 805
+
+H o̞ː
+T vowel
+F id = 805
+
+
+
+H æ̝ː
+T vowel
+F id = 806
+
+H æ̃ː
+T vowel
+F id = 806
+
+H æː
+T vowel
+F id = 806
+
+H æ̝̃ː
+T vowel
+F id = 806
+
+H æ̝̃ː
+T vowel
+F id = 806
+
+
+H æ̞ː
+T vowel
+F id = 806
+
+H æ̟̃ː
+T vowel
+F id = 806
+
+H æ̟̃ː
+T vowel
+F id = 806
+
+H aː
+T vowel
+F id = 807
+
+H ãː
+T vowel
+F id = 807
+
+H a̝ː
+T vowel
+F id = 807
+
+
+
+H ɐː
+T vowel
+F id = 808
+
+
+H iː
+T vowel
+F id = 810
+
+H i̞ː
+T vowel
+F id = 810
+
+H i̝ː
+T vowel
+F id = 810
+
+
+H ĩː
+T vowel
+F id = 810
+
+H i̱ː
+T vowel
+F id = 810
+
+H ɪ̝ː
+T vowel
+F id = 811
+
+H ɪ̝̃ː
+T vowel
+F id = 811
+
+H ɪː
+T vowel
+F id = 811
+
+H ɪ̃ː
+T vowel
+F id = 811
+
+H ɪ̞ː
+T vowel
+F id = 811
+
+H uː
+T vowel
+F id = 812
+
+H ũː
+T vowel
+F id = 812
+
+H u̘ː
+T vowel
+F id = 812
+
+H ũ̟ː
+T vowel
+F id = 812
+
+
+H u̟ː
+T vowel
+F id = 812
+
+H u̝ː
+T vowel
+F id = 812
+
+H u̞ː
+T vowel
+F id = 812
+
+H ũ̞ː
+T vowel
+F id = 812
+
+H ũ̘ː
+T vowel
+F id = 812
+
+H ũ̝ː
+T vowel
+F id = 812
+
+H ũː
+T vowel
+F id = 812
+
+
+
+H ʊː
+T vowel
+F id = 813
+
+H ʊ̆ː
+T vowel
+F id = 813
+
+H ʊ̃ː
+T vowel
+F id = 813
+
+H ʊ̃ː
+T vowel
+F id = 813
+
+H ɯː
+T vowel
+F id = 814
+
+H ɯ̃ː
+T vowel
+F id = 814
+
+
+
+H ɒː
+T vowel
+F id = 815
+
+H ɞː
+T vowel
+F id = 816
+
+H ʌː
+T vowel
+F id = 817
+
+H ʌ̃ː
+T vowel
+F id = 817
+
+
+H ɜː
+T vowel
+F id = 818
+
+H ɤː
+T vowel
+F id = 819
+
+H ʉː
+T vowel
+F id = 820
+
+H ʉ̃ː
+T vowel
+F id = 820
+
+H œː
+T vowel
+F id = 821
+
+# consonants
+
+H b
+T consonant
+F id = 98
+
+H bː
+T consonant
+F id = 98
+
+H b´ː
+T consonant
+F id = 98
+
+
+H c
+T consonant
+F id = 99
+
+H d
+T consonant
+F id = 100
+
+H dː
+T consonant
+F id = 100
+
+
+
+H f
+T consonant
+F id = 102
+
+H fː
+T consonant
+F id = 102
+
+
+H g
+T consonant
+F id = 103
+
+H h
+T consonant
+F id = 104
+
+H k
+T consonant
+F id = 107
+
+H kː
+T consonant
+F id = 107
+
+
+H l
+T consonant
+F id = 108
+
+H lː
+T consonant
+F id = 108
+
+
+H ⅼ
+T consonant
+F id = 108
+
+H m
+T consonant
+F id = 109
+
+H mː
+T consonant
+F id = 109
+
+
+H n
+T consonant
+F id = 110
+
+H nː
+T consonant
+F id = 110
+
+H ṉː
+T consonant
+F id = 110
+
+
+H p
+T consonant
+F id = 112
+
+H r
+T consonant
+F id = 114
+
+H rː
+T consonant
+F id = 114
+
+
+
+H s
+T consonant
+F id = 115
+
+
+H sː
+T consonant
+F id = 115
+
+H s̬ː
+T consonant
+F id = 115
+
+
+
+H t
+T consonant
+F id = 116
+
+H t̪ː
+T consonant
+F id = 116
+
+H tː
+T consonant
+F id = 116
+
+
+H v
+T consonant
+F id = 118
+
+H vː
+T consonant
+F id = 118
+
+
+H x
+T consonant
+F id = 120
+
+H z
+T consonant
+F id = 122
+
+H zː
+T consonant
+F id = 122
+
+
+H ç
+T consonant
+F id = 231
+
+H ð
+T consonant
+F id = 240
+
+H ŋ
+T consonant
+F id = 331
+
+H ŋː
+T consonant
+F id = 331
+
+H ŋ̟ː
+T consonant
+F id = 331
+
+
+
+H ɓ
+T consonant
+F id = 595
+
+H ɕ
+T consonant
+F id = 597
+
+H ɖ
+T consonant
+F id = 598
+
+H ɗ
+T consonant
+F id = 599
+
+H ɡ
+T consonant
+F id = 609
+
+H ɣ
+T consonant
+F id = 611
+
+H ɦ
+T consonant
+F id = 614
+
+H ɬ
+T consonant
+F id = 620
+
+H ɭ
+T consonant
+F id = 621
+
+H ɮ
+T consonant
+F id = 622
+
+H ɱ
+T consonant
+F id = 625
+
+H ɲ
+T consonant
+F id = 626
+
+H ɳ
+T consonant
+F id = 627
+
+H ɸ
+T consonant
+F id = 632
+
+H ɺ
+T consonant
+F id = 634
+
+H ɽ
+T consonant
+F id = 637
+
+H ɾ
+T consonant
+F id = 638
+
+H ʀ
+T consonant
+F id = 640
+
+H ʁ
+T consonant
+F id = 641
+
+H ʂ
+T consonant
+F id = 642
+
+H ʃ
+T consonant
+F id = 643
+
+H ʃː
+T consonant
+F id = 643
+
+
+H ∫
+T consonant
+F id = 643
+
+
+
+H ᶴ
+T consonant
+F id = 643
+
+H ʈ
+T consonant
+F id = 648
+
+H ʍ
+T consonant
+F id = 653
+
+H ʎ
+T consonant
+F id = 654
+
+H ʐ
+T consonant
+F id = 656
+
+H ʑ
+T consonant
+F id = 657
+
+H ʒ
+T consonant
+F id = 658
+
+H ʔ
+T consonant
+F id = 660
+
+H ʕ
+T consonant
+F id = 661
+
+H ʝ
+T consonant
+F id = 669
+
+H ʤ
+T consonant
+F id = 676
+
+H ʧ
+T consonant
+F id = 679
+
+H ʧ´ː
+T consonant
+F id = 679
+
+
+
+H β
+T consonant
+F id = 946
+
+H θ
+T consonant
+F id = 952
+
+H θː
+T consonant
+F id = 952
+
+
+H χ
+T consonant
+F id = 967
+
+# semivowels
+
+H j
+T semivowel
+F id = 106
+
+H w
+T semivowel
+F id = 119
+
+H ɚ
+T semivowel
+F id = 602
+
+H ɚː
+T semivowel
+F id = 602
+
+
+
+H ɝ
+T semivowel
+F id = 605
+
+H ɹ
+T semivowel
+F id = 633
+
+H ɹ̩ː
+T semivowel
+F id = 633
+
+H ɹː
+T semivowel
+F id = 633
+
+
+H ɻ
+T semivowel
+F id = 635
+
+H ʋ
+T semivowel
+F id = 651
+
+H pʰ
+T consonant
+F id = 701
+
+H tʰ
+T consonant
+F id = 702
+
+H kʰ
+T consonant
+F id = 703
+
+
+
+MI ˈ
+MI ͡
+MI :
+MI ´
+MI ᵊ
+MI ʰ
+MI ʲ
+MI ʷ
+MI ˀ
+MI ː
+MI ˑ
+MI ˞
+MI ˠ
+MI ˡ
+MI ˢ
+MI ˤ
+MI ˳
+MI ˺
+MI ̃
+MI ̆
+MI ̌
+MI ̑
+MI ̘
+MI ̙
+MI ̚
+MI ̜
+MI ̝
+MI ̞
+MI ̟
+MI ̠
+MI ̤
+MI ̥
+MI ̩
+MI ̪
+MI ̬
+MI ̮
+MI ̰
+MI ̱
+MI ̹
+MI ̺
+MI ̻
+MI ͂
+MI ͆
+MI ͉
+MI ͎
