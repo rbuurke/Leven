@@ -1,0 +1,6881 @@
+location	word	transcription
+Appelscha	aan	ɑn
+Appelscha	agent	plisi
+Appelscha	als	as
+Appelscha	beiden	ɑlətʋei
+Appelscha	besluit	ʋɪl
+Appelscha	bij	bɛi
+Appelscha	buiten	bytn
+Appelscha	daar	dʌ
+Appelscha	dan_1	
+Appelscha	dat	
+Appelscha	de_6	də
+Appelscha	door	dʏr
+Appelscha	een_count	en
+Appelscha	een_det	ən
+Appelscha	er	ɛr
+Appelscha	even	eibmpis
+Appelscha	extra	
+Appelscha	gerinkel	laʋai
+Appelscha	glas	xlas
+Appelscha	glaszetter_1	xlasɛtər
+Appelscha	goed	xut
+Appelscha	gooien	xʊin
+Appelscha	he	
+Appelscha	heel	
+Appelscha	hem	hɛm
+Appelscha	het	hɛd
+Appelscha	hij_2	i
+Appelscha	hoek	hukə
+Appelscha	houden	hɒln
+Appelscha	huizen	hysn
+Appelscha	in_1	ɪn
+Appelscha	ineens	ɪnenn
+Appelscha	is	ɪs
+Appelscha	jongetje_2	jɔxi
+Appelscha	juist	krɛkt
+Appelscha	klein	
+Appelscha	klinkt	
+Appelscha	korte	
+Appelscha	krijgen	kriɡŋ
+Appelscha	later	lætər
+Appelscha	let	
+Appelscha	loopt	
+Appelscha	lopen	loupm
+Appelscha	lukt	lɒkt
+Appelscha	maar_1	
+Appelscha	met_1	mɛt
+Appelscha	mevrouw	frau
+Appelscha	naar	nʌ
+Appelscha	net	krɛkt
+Appelscha	niet	nit
+Appelscha	nou	
+Appelscha	nu	nɑu
+Appelscha	of	ɒf
+Appelscha	om	
+Appelscha	ontdaan	fəbɑuʋərɪt
+Appelscha	ook	
+Appelscha	op	ɔp
+Appelscha	pakken	
+Appelscha	politieagent	plisi
+Appelscha	repareren	makŋ
+Appelscha	ruit	ryt
+Appelscha	ruiten	rytn
+Appelscha	samen	
+Appelscha	sneuvelen	xʌnkəpʌt
+Appelscha	staan	stʌn
+Appelscha	stapt	loup
+Appelscha	steen	stinə
+Appelscha	stil	stɪlə
+Appelscha	straat	strʌtə
+Appelscha	straten	
+Appelscha	te	
+Appelscha	tijd	
+Appelscha	toevallig	
+Appelscha	van	fan
+Appelscha	veel	
+Appelscha	vraagt	frʌxt
+Appelscha	vrouw	frau
+Appelscha	wil_1	ʋɛl
+Appelscha	ze_1	sə
+Appelscha	ziet_1	sit
+Axel	aan	
+Axel	agent	pəlisi
+Axel	als	ɑt
+Axel	beiden	ɑləbæi
+Axel	besluit	wɪl
+Axel	bij	bi
+Axel	buiten	bytn
+Axel	daar	də
+Axel	dan_1	dɑ
+Axel	dat	dɑ
+Axel	de_6	də
+Axel	door	dʏr
+Axel	een_count	ɪn
+Axel	een_det	ə
+Axel	er	dər
+Axel	even	eifə
+Axel	extra	
+Axel	gerinkel	
+Axel	glas	hlɑs
+Axel	glaszetter_1	χlasætər
+Axel	goed	χut
+Axel	gooien	χʊiən
+Axel	he	
+Axel	heel	
+Axel	hem	əm
+Axel	het	t
+Axel	hij_2	i
+Axel	hoek	uk
+Axel	houden	pɑkŋ
+Axel	huizen	ysn
+Axel	in_1	
+Axel	ineens	ɪnens
+Axel	is	ɪs
+Axel	jongetje_2	fɛncə
+Axel	juist	nɛt
+Axel	klein	klɛin
+Axel	klinkt	
+Axel	korte	kɒrtn
+Axel	krijgen	
+Axel	later	lʌtər
+Axel	let	læt
+Axel	loopt	lopt
+Axel	lopen	lopm
+Axel	lukt	lœkt
+Axel	maar_1	mʌr
+Axel	met_1	met
+Axel	mevrouw	frɑuə
+Axel	naar	nɑ
+Axel	net	næt
+Axel	niet	nɪ
+Axel	nou	nɑu
+Axel	nu	nɒu
+Axel	of	ɒf
+Axel	om	
+Axel	ontdaan	
+Axel	ook	ok
+Axel	op	ɪn
+Axel	pakken	
+Axel	politieagent	pəlisi
+Axel	repareren	mɒkŋ
+Axel	ruit	
+Axel	ruiten	rytn
+Axel	samen	sʌmm
+Axel	sneuvelen	χɒnkɑpɒt
+Axel	staan	
+Axel	stapt	kɔm
+Axel	steen	stɪn
+Axel	stil	stɪl
+Axel	straat	strʌtə
+Axel	straten	
+Axel	te	
+Axel	tijd	tit
+Axel	toevallig	
+Axel	van	fɑn
+Axel	veel	
+Axel	vraagt	frɒχt
+Axel	vrouw	frɑuə
+Axel	wil_1	wɪl
+Axel	ze_1	
+Axel	ziet_1	zit
+Budel	aan	ɒn
+Budel	agent	plisi
+Budel	als	ɑz
+Budel	beiden	ʌləbæi
+Budel	besluit	bəʃlut
+Budel	bij	bi
+Budel	buiten	butə
+Budel	daar	də
+Budel	dan_1	dɑn
+Budel	dat	da
+Budel	de_6	də
+Budel	door	dʏʀ
+Budel	een_count	en
+Budel	een_det	nə
+Budel	er	əʀ
+Budel	even	ɛfə
+Budel	extra	
+Budel	gerinkel	çəʀɪŋkəl
+Budel	glas	çlɒs
+Budel	glaszetter_1	çlɒsætəʀ
+Budel	goed	çu
+Budel	gooien	çɒiə
+Budel	he	hei
+Budel	heel	hil
+Budel	hem	əm
+Budel	het	t
+Budel	hij_2	hei
+Budel	hoek	huk
+Budel	houden	hauə
+Budel	huizen	huzə
+Budel	in_1	ɪn
+Budel	ineens	ɪnɛns
+Budel	is	ɪs
+Budel	jongetje_2	mænəkə
+Budel	juist	jyst
+Budel	klein	
+Budel	klinkt	
+Budel	korte	kɒʀtə
+Budel	krijgen	kʀiɡə
+Budel	later	lɒtəʀ
+Budel	let	lɛt
+Budel	loopt	lœpt
+Budel	lopen	lɯpə
+Budel	lukt	lœkt
+Budel	maar_1	mɑʀ
+Budel	met_1	mæt
+Budel	mevrouw	fʀɒu
+Budel	naar	nə
+Budel	net	næ
+Budel	niet	nɪt
+Budel	nou	nə
+Budel	nu	nɒu
+Budel	of	ɒf
+Budel	om	œm
+Budel	ontdaan	
+Budel	ook	ok
+Budel	op	ɔp
+Budel	pakken	pɑkə
+Budel	politieagent	plisi
+Budel	repareren	mɑkə
+Budel	ruit	ʀut
+Budel	ruiten	ʀutn
+Budel	samen	
+Budel	sneuvelen	snøfəln
+Budel	staan	
+Budel	stapt	lʏbd
+Budel	steen	kæi
+Budel	stil	stɪl
+Budel	straat	stʀɒt
+Budel	straten	
+Budel	te	tə
+Budel	tijd	tit
+Budel	toevallig	tufɑləç
+Budel	van	fɑn
+Budel	veel	føl
+Budel	vraagt	fʀœçt
+Budel	vrouw	fʀɒu
+Budel	wil_1	wɪl
+Budel	ze_1	sə
+Budel	ziet_1	sɪt
+Deerlijk	aan	
+Deerlijk	agent	aχæt
+Deerlijk	als	ɑt
+Deerlijk	beiden	ɒlətwə
+Deerlijk	besluit	
+Deerlijk	bij	
+Deerlijk	buiten	bœitn
+Deerlijk	daar	
+Deerlijk	dan_1	tɯn
+Deerlijk	dat	dɑ
+Deerlijk	de_6	də
+Deerlijk	door	dʏr
+Deerlijk	een_count	en
+Deerlijk	een_det	nə
+Deerlijk	er	də
+Deerlijk	even	əbeitsə
+Deerlijk	extra	
+Deerlijk	gerinkel	rɪŋkəln
+Deerlijk	glas	hləs
+Deerlijk	glaszetter_1	χləzəmʌkər
+Deerlijk	goed	
+Deerlijk	gooien	smæitn
+Deerlijk	he	ɛ
+Deerlijk	heel	vrut
+Deerlijk	hem	
+Deerlijk	het	t
+Deerlijk	hij_2	i
+Deerlijk	hoek	ɯk
+Deerlijk	houden	pɑkŋ
+Deerlijk	huizen	œizn
+Deerlijk	in_1	ɛn
+Deerlijk	ineens	ɔmənəkɪr
+Deerlijk	is	ɛs
+Deerlijk	jongetje_2	fɪncə
+Deerlijk	juist	ʒyst
+Deerlijk	klein	klɛn
+Deerlijk	klinkt	klɪŋkt
+Deerlijk	korte	kɒrtn
+Deerlijk	krijgen	krɛin
+Deerlijk	later	dərɑxtər
+Deerlijk	let	læt
+Deerlijk	loopt	lœpt
+Deerlijk	lopen	lœpm
+Deerlijk	lukt	
+Deerlijk	maar_1	mər
+Deerlijk	met_1	mɪt
+Deerlijk	mevrouw	frəuə
+Deerlijk	naar	
+Deerlijk	net	ʃystə
+Deerlijk	niet	ni
+Deerlijk	nou	ny
+Deerlijk	nu	nə
+Deerlijk	of	ɒfdɑt
+Deerlijk	om	
+Deerlijk	ontdaan	fəsχotn
+Deerlijk	ook	
+Deerlijk	op	ɔp
+Deerlijk	pakken	
+Deerlijk	politieagent	pəlisi
+Deerlijk	repareren	fəmɒkŋ
+Deerlijk	ruit	rʏtə
+Deerlijk	ruiten	rœtn
+Deerlijk	samen	tʏpə
+Deerlijk	sneuvelen	brɪkŋ
+Deerlijk	staan	
+Deerlijk	stapt	kɔm
+Deerlijk	steen	stɪn
+Deerlijk	stil	stɛl
+Deerlijk	straat	strʌtə
+Deerlijk	straten	strʌtn
+Deerlijk	te	
+Deerlijk	tijd	teit
+Deerlijk	toevallig	lœkŋ
+Deerlijk	van	fɑn
+Deerlijk	veel	fɪl
+Deerlijk	vraagt	frɑht
+Deerlijk	vrouw	frəuə
+Deerlijk	wil_1	wɪl
+Deerlijk	ze_1	sə
+Deerlijk	ziet_1	zit
+Den Burg	aan	
+Den Burg	agent	pəlisi
+Den Burg	als	ʌz
+Den Burg	beiden	bɛiə
+Den Burg	besluit	wɪl
+Den Burg	bij	bei
+Den Burg	buiten	bytə
+Den Burg	daar	dɪr
+Den Burg	dan_1	
+Den Burg	dat	
+Den Burg	de_6	də
+Den Burg	door	
+Den Burg	een_count	in
+Den Burg	een_det	ən
+Den Burg	er	ər
+Den Burg	even	ənhɒrcə
+Den Burg	extra	
+Den Burg	gerinkel	xərɪŋkəl
+Den Burg	glas	xlɔəs
+Den Burg	glaszetter_1	xlɑzəmɑkər
+Den Burg	goed	xut
+Den Burg	gooien	xʊiə
+Den Burg	he	
+Den Burg	heel	
+Den Burg	hem	
+Den Burg	het	ət
+Den Burg	hij_2	i
+Den Burg	hoek	huk
+Den Burg	houden	xripə
+Den Burg	huizen	hyzə
+Den Burg	in_1	ɪn
+Den Burg	ineens	ɪninə
+Den Burg	is	ɪs
+Den Burg	jongetje_2	jɒxi
+Den Burg	juist	krɛk
+Den Burg	klein	klɛin
+Den Burg	klinkt	
+Den Burg	korte	
+Den Burg	krijgen	
+Den Burg	later	lɑtər
+Den Burg	let	
+Den Burg	loopt	lop
+Den Burg	lopen	lopə
+Den Burg	lukt	
+Den Burg	maar_1	mʌ
+Den Burg	met_1	mɪt
+Den Burg	mevrouw	frɑu
+Den Burg	naar	nɑ
+Den Burg	net	nɛt
+Den Burg	niet	
+Den Burg	nou	
+Den Burg	nu	nɑu
+Den Burg	of	ɒf
+Den Burg	om	
+Den Burg	ontdaan	fəsxɪft
+Den Burg	ook	
+Den Burg	op	ɔp
+Den Burg	pakken	
+Den Burg	politieagent	pəlisi
+Den Burg	repareren	
+Den Burg	ruit	xlɔs
+Den Burg	ruiten	rɑmə
+Den Burg	samen	sampis
+Den Burg	sneuvelen	xɑntəbɒrst
+Den Burg	staan	
+Den Burg	stapt	kɔmt
+Den Burg	steen	stin
+Den Burg	stil	stɪl
+Den Burg	straat	strɪt
+Den Burg	straten	
+Den Burg	te	
+Den Burg	tijd	
+Den Burg	toevallig	
+Den Burg	van	fɑn
+Den Burg	veel	
+Den Burg	vraagt	fraxt
+Den Burg	vrouw	frɑu
+Den Burg	wil_1	wɪl
+Den Burg	ze_1	sə
+Den Burg	ziet_1	sit
+Dendermonde	aan	ʊn
+Dendermonde	agent	
+Dendermonde	als	
+Dendermonde	beiden	
+Dendermonde	besluit	
+Dendermonde	bij	
+Dendermonde	buiten	bɒœtə
+Dendermonde	daar	
+Dendermonde	dan_1	
+Dendermonde	dat	dɑ
+Dendermonde	de_6	
+Dendermonde	door	
+Dendermonde	een_count	in
+Dendermonde	een_det	nə
+Dendermonde	er	
+Dendermonde	even	ətæcə
+Dendermonde	extra	
+Dendermonde	gerinkel	lɑwɑit
+Dendermonde	glas	çlɑs
+Dendermonde	glaszetter_1	rəɒtəmɔkər
+Dendermonde	goed	çut
+Dendermonde	gooien	smætn
+Dendermonde	he	hei
+Dendermonde	heel	
+Dendermonde	hem	
+Dendermonde	het	t
+Dendermonde	hij_2	m
+Dendermonde	hoek	
+Dendermonde	houden	hɑə
+Dendermonde	huizen	ɔzə
+Dendermonde	in_1	ɪn
+Dendermonde	ineens	inenekir
+Dendermonde	is	ɪs
+Dendermonde	jongetje_2	
+Dendermonde	juist	
+Dendermonde	klein	
+Dendermonde	klinkt	
+Dendermonde	korte	
+Dendermonde	krijgen	kræχə
+Dendermonde	later	nədi
+Dendermonde	let	kɪkt
+Dendermonde	loopt	pɑsɪrt
+Dendermonde	lopen	
+Dendermonde	lukt	
+Dendermonde	maar_1	
+Dendermonde	met_1	mɛt
+Dendermonde	mevrouw	frɑ
+Dendermonde	naar	
+Dendermonde	net	
+Dendermonde	niet	ni
+Dendermonde	nou	
+Dendermonde	nu	
+Dendermonde	of	ɒf
+Dendermonde	om	
+Dendermonde	ontdaan	ʊhədon
+Dendermonde	ook	
+Dendermonde	op	ɔp
+Dendermonde	pakken	pɑkə
+Dendermonde	politieagent	pɒliʃəmɑn
+Dendermonde	repareren	rəparɪrə
+Dendermonde	ruit	fɛistər
+Dendermonde	ruiten	fɛistərs
+Dendermonde	samen	təsʊmm
+Dendermonde	sneuvelen	
+Dendermonde	staan	
+Dendermonde	stapt	kɔm
+Dendermonde	steen	sten
+Dendermonde	stil	stɪləkəs
+Dendermonde	straat	strʊt
+Dendermonde	straten	
+Dendermonde	te	
+Dendermonde	tijd	
+Dendermonde	toevallig	likə
+Dendermonde	van	fɑn
+Dendermonde	veel	
+Dendermonde	vraagt	frʊçt
+Dendermonde	vrouw	frɑ
+Dendermonde	wil_1	mɒktɑvɑns
+Dendermonde	ze_1	zə
+Dendermonde	ziet_1	sit
+Didam	aan	an
+Didam	agent	plitsi
+Didam	als	ɑt
+Didam	beiden	ɑləbɛi
+Didam	besluit	bəslyt
+Didam	bij	bei
+Didam	buiten	bytə
+Didam	daar	dʊ
+Didam	dan_1	dɑn
+Didam	dat	dɑ
+Didam	de_6	də
+Didam	door	
+Didam	een_count	en
+Didam	een_det	ən
+Didam	er	dər
+Didam	even	ɛfkəs
+Didam	extra	ɛkstra
+Didam	gerinkel	çərɪŋkəl
+Didam	glas	çlɑs
+Didam	glaszetter_1	
+Didam	goed	çut
+Didam	gooien	çʊiə
+Didam	he	hɛ
+Didam	heel	hɪl
+Didam	hem	əm
+Didam	het	ət
+Didam	hij_2	ə
+Didam	hoek	huk
+Didam	houden	hɒldə
+Didam	huizen	hyzə
+Didam	in_1	ɪn
+Didam	ineens	inɛns
+Didam	is	ɪs
+Didam	jongetje_2	jʏŋskə
+Didam	juist	krɛk
+Didam	klein	klɛin
+Didam	klinkt	klɪŋk
+Didam	korte	kɒrtə
+Didam	krijgen	kriçə
+Didam	later	latər
+Didam	let	kik
+Didam	loopt	lʏp
+Didam	lopen	lopə
+Didam	lukt	lʏk
+Didam	maar_1	mɒr
+Didam	met_1	mɛt
+Didam	mevrouw	frɑu
+Didam	naar	nə
+Didam	net	nɛt
+Didam	niet	nit
+Didam	nou	nə
+Didam	nu	nɒu
+Didam	of	ɒf
+Didam	om	ʏm
+Didam	ontdaan	fəsçrɪk
+Didam	ook	ok
+Didam	op	ɔp
+Didam	pakken	pɑkə
+Didam	politieagent	plitsi
+Didam	repareren	makə
+Didam	ruit	rut
+Didam	ruiten	rutə
+Didam	samen	samə
+Didam	sneuvelen	snøfələ
+Didam	staan	
+Didam	stapt	kʏmp
+Didam	steen	kɛi
+Didam	stil	stɪl
+Didam	straat	strɔt
+Didam	straten	
+Didam	te	tə
+Didam	tijd	tit
+Didam	toevallig	tufɑləç
+Didam	van	fɑn
+Didam	veel	fœl
+Didam	vraagt	frʏç
+Didam	vrouw	frɑu
+Didam	wil_1	ʋɪl
+Didam	ze_1	zə
+Didam	ziet_1	sʏt
+Diepenbeek	aan	ʌ
+Diepenbeek	agent	pəlis
+Diepenbeek	als	ɑs
+Diepenbeek	beiden	ɑləbæ
+Diepenbeek	besluit	wil
+Diepenbeek	bij	bɛ
+Diepenbeek	buiten	bɔtə
+Diepenbeek	daar	
+Diepenbeek	dan_1	dɑn
+Diepenbeek	dat	
+Diepenbeek	de_6	də
+Diepenbeek	door	dʏʀ
+Diepenbeek	een_count	ein
+Diepenbeek	een_det	ənə
+Diepenbeek	er	ə
+Diepenbeek	even	əbitʃə
+Diepenbeek	extra	ækstʀə
+Diepenbeek	gerinkel	ʀiŋkələn
+Diepenbeek	glas	çlɒs
+Diepenbeek	glaszetter_1	çlɑzəmɑkəʀ
+Diepenbeek	goed	çut
+Diepenbeek	gooien	çuiə
+Diepenbeek	he	
+Diepenbeek	heel	hil
+Diepenbeek	hem	
+Diepenbeek	het	t
+Diepenbeek	hij_2	əʀ
+Diepenbeek	hoek	huk
+Diepenbeek	houden	haɡə
+Diepenbeek	huizen	hœys
+Diepenbeek	in_1	ɛn
+Diepenbeek	ineens	ɔpɛns
+Diepenbeek	is	ɪs
+Diepenbeek	jongetje_2	mænəkə
+Diepenbeek	juist	
+Diepenbeek	klein	
+Diepenbeek	klinkt	
+Diepenbeek	korte	
+Diepenbeek	krijgen	kʁɛeçə
+Diepenbeek	later	lʌtəʀ
+Diepenbeek	let	læt
+Diepenbeek	loopt	kʏmt
+Diepenbeek	lopen	loupə
+Diepenbeek	lukt	
+Diepenbeek	maar_1	mɑ
+Diepenbeek	met_1	
+Diepenbeek	mevrouw	fʀəu
+Diepenbeek	naar	nə
+Diepenbeek	net	ʒyst
+Diepenbeek	niet	nɪ
+Diepenbeek	nou	
+Diepenbeek	nu	nɒu
+Diepenbeek	of	
+Diepenbeek	om	
+Diepenbeek	ontdaan	hiləçɑnzʏfəʀətuʀ
+Diepenbeek	ook	
+Diepenbeek	op	ɔp
+Diepenbeek	pakken	
+Diepenbeek	politieagent	pəlis
+Diepenbeek	repareren	mʌkə
+Diepenbeek	ruit	
+Diepenbeek	ruiten	ʀʌtə
+Diepenbeek	samen	bəden
+Diepenbeek	sneuvelen	
+Diepenbeek	staan	
+Diepenbeek	stapt	kʏmp
+Diepenbeek	steen	sten
+Diepenbeek	stil	stɪl
+Diepenbeek	straat	stʀodə
+Diepenbeek	straten	
+Diepenbeek	te	
+Diepenbeek	tijd	
+Diepenbeek	toevallig	
+Diepenbeek	van	fɑn
+Diepenbeek	veel	føl
+Diepenbeek	vraagt	fʀʏç
+Diepenbeek	vrouw	fʀəu
+Diepenbeek	wil_1	wɪlt
+Diepenbeek	ze_1	zə
+Diepenbeek	ziet_1	zit
+Dokkum	aan	an
+Dokkum	agent	plisi
+Dokkum	als	ɑt
+Dokkum	beiden	bɛidn
+Dokkum	besluit	bəslyt
+Dokkum	bij	
+Dokkum	buiten	
+Dokkum	daar	də
+Dokkum	dan_1	dan
+Dokkum	dat	
+Dokkum	de_6	də
+Dokkum	door	dʊr
+Dokkum	een_count	
+Dokkum	een_det	n
+Dokkum	er	dər
+Dokkum	even	eifə
+Dokkum	extra	
+Dokkum	gerinkel	ɡərɪŋkəl
+Dokkum	glas	ɡlɑs
+Dokkum	glaszetter_1	ɡlasɛtər
+Dokkum	goed	ɡut
+Dokkum	gooien	ɡʊiə
+Dokkum	he	
+Dokkum	heel	
+Dokkum	hem	
+Dokkum	het	ət
+Dokkum	hij_2	ər
+Dokkum	hoek	hukə
+Dokkum	houden	hɑudn
+Dokkum	huizen	
+Dokkum	in_1	
+Dokkum	ineens	ɪnis
+Dokkum	is	ɪs
+Dokkum	jongetje_2	jɔŋkjə
+Dokkum	juist	krɛk
+Dokkum	klein	klɛin
+Dokkum	klinkt	
+Dokkum	korte	kɒrtə
+Dokkum	krijgen	kræiə
+Dokkum	later	latər
+Dokkum	let	siət
+Dokkum	loopt	loupt
+Dokkum	lopen	lʌupən
+Dokkum	lukt	
+Dokkum	maar_1	mɑr
+Dokkum	met_1	mɛd
+Dokkum	mevrouw	frau
+Dokkum	naar	
+Dokkum	net	krɛkt
+Dokkum	niet	nit
+Dokkum	nou	
+Dokkum	nu	
+Dokkum	of	ɒf
+Dokkum	om	
+Dokkum	ontdaan	
+Dokkum	ook	
+Dokkum	op	ɔp
+Dokkum	pakken	pakŋ
+Dokkum	politieagent	plisi
+Dokkum	repareren	
+Dokkum	ruit	
+Dokkum	ruiten	rytn
+Dokkum	samen	
+Dokkum	sneuvelen	snøfələ
+Dokkum	staan	
+Dokkum	stapt	
+Dokkum	steen	stɪən
+Dokkum	stil	stɪl
+Dokkum	straat	strat
+Dokkum	straten	stratn
+Dokkum	te	tə
+Dokkum	tijd	tit
+Dokkum	toevallig	
+Dokkum	van	
+Dokkum	veel	
+Dokkum	vraagt	fraxt
+Dokkum	vrouw	frau
+Dokkum	wil_1	sɪl
+Dokkum	ze_1	
+Dokkum	ziet_1	sit
+Dordrecht	aan	
+Dordrecht	agent	dindər
+Dordrecht	als	ɑls
+Dordrecht	beiden	
+Dordrecht	besluit	
+Dordrecht	bij	
+Dordrecht	buiten	bœtə
+Dordrecht	daar	dar
+Dordrecht	dan_1	
+Dordrecht	dat	
+Dordrecht	de_6	də
+Dordrecht	door	dʊr
+Dordrecht	een_count	ein
+Dordrecht	een_det	ə
+Dordrecht	er	ər
+Dordrecht	even	
+Dordrecht	extra	
+Dordrecht	gerinkel	
+Dordrecht	glas	
+Dordrecht	glaszetter_1	
+Dordrecht	goed	xut
+Dordrecht	gooien	xʊiə
+Dordrecht	he	hei
+Dordrecht	heel	
+Dordrecht	hem	
+Dordrecht	het	hɛt
+Dordrecht	hij_2	hɛi
+Dordrecht	hoek	huk
+Dordrecht	houden	
+Dordrecht	huizen	hœyzə
+Dordrecht	in_1	
+Dordrecht	ineens	
+Dordrecht	is	ɪs
+Dordrecht	jongetje_2	knapi
+Dordrecht	juist	
+Dordrecht	klein	klɛin
+Dordrecht	klinkt	
+Dordrecht	korte	
+Dordrecht	krijgen	
+Dordrecht	later	
+Dordrecht	let	lɛt
+Dordrecht	loopt	
+Dordrecht	lopen	
+Dordrecht	lukt	
+Dordrecht	maar_1	
+Dordrecht	met_1	
+Dordrecht	mevrouw	frɑu
+Dordrecht	naar	nə
+Dordrecht	net	næt
+Dordrecht	niet	nit
+Dordrecht	nou	
+Dordrecht	nu	ny
+Dordrecht	of	
+Dordrecht	om	
+Dordrecht	ontdaan	
+Dordrecht	ook	
+Dordrecht	op	
+Dordrecht	pakken	pɑkə
+Dordrecht	politieagent	jyt
+Dordrecht	repareren	mɑkə
+Dordrecht	ruit	
+Dordrecht	ruiten	raytə
+Dordrecht	samen	
+Dordrecht	sneuvelen	snøfələ
+Dordrecht	staan	
+Dordrecht	stapt	stɑp
+Dordrecht	steen	stein
+Dordrecht	stil	stɪl
+Dordrecht	straat	
+Dordrecht	straten	stratə
+Dordrecht	te	
+Dordrecht	tijd	
+Dordrecht	toevallig	tufɒləx
+Dordrecht	van	fɑn
+Dordrecht	veel	
+Dordrecht	vraagt	frɑxt
+Dordrecht	vrouw	ʋɛf
+Dordrecht	wil_1	wʏl
+Dordrecht	ze_1	sə
+Dordrecht	ziet_1	sin
+Eelde	aan	æ
+Eelde	agent	axɛt
+Eelde	als	ɑz
+Eelde	beiden	ɑləbɑi
+Eelde	besluit	ʋɪ
+Eelde	bij	bi
+Eelde	buiten	butn
+Eelde	daar	dʊ
+Eelde	dan_1	dan
+Eelde	dat	dɑ
+Eelde	de_6	də
+Eelde	door	
+Eelde	een_count	ɑi
+Eelde	een_det	n
+Eelde	er	dər
+Eelde	even	eibm
+Eelde	extra	ɛkstrə
+Eelde	gerinkel	xərɪŋkəl
+Eelde	glas	xlas
+Eelde	glaszetter_1	xlasɛtər
+Eelde	goed	xɑut
+Eelde	gooien	xʊin
+Eelde	he	hei
+Eelde	heel	
+Eelde	hem	əm
+Eelde	het	hət
+Eelde	hij_2	e
+Eelde	hoek	hɑuk
+Eelde	houden	hʌll
+Eelde	huizen	huzn
+Eelde	in_1	ɪn
+Eelde	ineens	ɪnɑis
+Eelde	is	ɪs
+Eelde	jongetje_2	jɔŋki
+Eelde	juist	nɛt
+Eelde	klein	klain
+Eelde	klinkt	klɪŋkt
+Eelde	korte	kœrdə
+Eelde	krijgen	kriɡŋ
+Eelde	later	lɔtər
+Eelde	let	lɛt
+Eelde	loopt	lɒp
+Eelde	lopen	
+Eelde	lukt	lʏkt
+Eelde	maar_1	mʌr
+Eelde	met_1	mɛt
+Eelde	mevrouw	
+Eelde	naar	nə
+Eelde	net	nɛt
+Eelde	niet	nait
+Eelde	nou	
+Eelde	nu	nɑu
+Eelde	of	ɒf
+Eelde	om	
+Eelde	ontdaan	ɔndɔn
+Eelde	ook	ouk
+Eelde	op	ɔp
+Eelde	pakken	pakŋ
+Eelde	politieagent	plitsiɑxɛt
+Eelde	repareren	mɒkŋ
+Eelde	ruit	rut
+Eelde	ruiten	rʊmm
+Eelde	samen	sɔmm
+Eelde	sneuvelen	
+Eelde	staan	stɒn
+Eelde	stapt	stap
+Eelde	steen	stɑin
+Eelde	stil	stɪl
+Eelde	straat	strʊt
+Eelde	straten	
+Eelde	te	
+Eelde	tijd	tit
+Eelde	toevallig	təfɑləx
+Eelde	van	fan
+Eelde	veel	
+Eelde	vraagt	frax
+Eelde	vrouw	frɑu
+Eelde	wil_1	ʋʏl
+Eelde	ze_1	zə
+Eelde	ziet_1	sʏt
+Ermelo	aan	
+Ermelo	agent	dindər
+Ermelo	als	ɑs
+Ermelo	beiden	
+Ermelo	besluit	
+Ermelo	bij	bi
+Ermelo	buiten	bytn
+Ermelo	daar	
+Ermelo	dan_1	dɑn
+Ermelo	dat	dɑ
+Ermelo	de_6	də
+Ermelo	door	dʏr
+Ermelo	een_count	
+Ermelo	een_det	ən
+Ermelo	er	ər
+Ermelo	even	ɛfə
+Ermelo	extra	
+Ermelo	gerinkel	xərɑməl
+Ermelo	glas	xlɑs
+Ermelo	glaszetter_1	xlʊzəzɛtər
+Ermelo	goed	xut
+Ermelo	gooien	xʊiən
+Ermelo	he	hei
+Ermelo	heel	
+Ermelo	hem	
+Ermelo	het	t
+Ermelo	hij_2	i
+Ermelo	hoek	huk
+Ermelo	houden	
+Ermelo	huizen	
+Ermelo	in_1	
+Ermelo	ineens	ɪnens
+Ermelo	is	ɪs
+Ermelo	jongetje_2	jɔŋəcə
+Ermelo	juist	nɛt
+Ermelo	klein	klɛin
+Ermelo	klinkt	klɪŋkt
+Ermelo	korte	
+Ermelo	krijgen	krixə
+Ermelo	later	lɒtər
+Ermelo	let	kikt
+Ermelo	loopt	lœp
+Ermelo	lopen	rœnn
+Ermelo	lukt	
+Ermelo	maar_1	
+Ermelo	met_1	mɛt
+Ermelo	mevrouw	frɑu
+Ermelo	naar	nə
+Ermelo	net	nɛt
+Ermelo	niet	nit
+Ermelo	nou	
+Ermelo	nu	
+Ermelo	of	
+Ermelo	om	
+Ermelo	ontdaan	fəsxrɪkt
+Ermelo	ook	
+Ermelo	op	ɔp
+Ermelo	pakken	
+Ermelo	politieagent	dindər
+Ermelo	repareren	makə
+Ermelo	ruit	ryt
+Ermelo	ruiten	rytn
+Ermelo	samen	
+Ermelo	sneuvelen	breikənkəpɒt
+Ermelo	staan	
+Ermelo	stapt	kɔmt
+Ermelo	steen	kɛi
+Ermelo	stil	stɪl
+Ermelo	straat	strɔt
+Ermelo	straten	
+Ermelo	te	
+Ermelo	tijd	
+Ermelo	toevallig	tufɑləx
+Ermelo	van	
+Ermelo	veel	
+Ermelo	vraagt	fraxt
+Ermelo	vrouw	frɑu
+Ermelo	wil_1	ʋɪl
+Ermelo	ze_1	zə
+Ermelo	ziet_1	zit
+Eys	aan	ɑ
+Eys	agent	pəlis
+Eys	als	wɛnt
+Eys	beiden	
+Eys	besluit	
+Eys	bij	bei
+Eys	buiten	butə
+Eys	daar	də
+Eys	dan_1	dɑ
+Eys	dat	dɑt
+Eys	de_6	də
+Eys	door	dœʀç
+Eys	een_count	ein
+Eys	een_det	ənə
+Eys	er	
+Eys	even	æfə
+Eys	extra	ɛkstʀə
+Eys	gerinkel	çəʀɪŋkəl
+Eys	glas	çlɑs
+Eys	glaszetter_1	çlɑsætəʀ
+Eys	goed	çut
+Eys	gooien	bʀʏiə
+Eys	he	hɛ
+Eys	heel	hil
+Eys	hem	əm
+Eys	het	hɛd
+Eys	hij_2	hɪʀ
+Eys	hoek	ɛk
+Eys	houden	hɒdə
+Eys	huizen	huzəʀ
+Eys	in_1	ɪn
+Eys	ineens	ɪnɛns
+Eys	is	ɪʃ
+Eys	jongetje_2	jʏŋskə
+Eys	juist	jyst
+Eys	klein	klɛn
+Eys	klinkt	
+Eys	korte	
+Eys	krijgen	kʀiçə
+Eys	later	spidəʀ
+Eys	let	lɛt
+Eys	loopt	çet
+Eys	lopen	
+Eys	lukt	lœkt
+Eys	maar_1	maʀ
+Eys	met_1	mæt
+Eys	mevrouw	fʀɒu
+Eys	naar	nə
+Eys	net	çʀat
+Eys	niet	nɪt
+Eys	nou	
+Eys	nu	nu
+Eys	of	ɒf
+Eys	om	œm
+Eys	ontdaan	əntsæt
+Eys	ook	ouç
+Eys	op	ɔp
+Eys	pakken	
+Eys	politieagent	blɑuə
+Eys	repareren	mʌkə
+Eys	ruit	ʀut
+Eys	ruiten	ʀutə
+Eys	samen	sɑmə
+Eys	sneuvelen	ʃnøfələ
+Eys	staan	
+Eys	stapt	kʏmt
+Eys	steen	ʃte
+Eys	stil	ʃtɛl
+Eys	straat	wɛç
+Eys	straten	
+Eys	te	tə
+Eys	tijd	tit
+Eys	toevallig	tufɑləç
+Eys	van	fən
+Eys	veel	fœl
+Eys	vraagt	fʀʊçt
+Eys	vrouw	fʀɒu
+Eys	wil_1	wɪlt
+Eys	ze_1	zə
+Eys	ziet_1	sit
+Finsterwolde	aan	æ
+Finsterwolde	agent	plitsi
+Finsterwolde	als	az
+Finsterwolde	beiden	bɑidə
+Finsterwolde	besluit	bəslʊt
+Finsterwolde	bij	
+Finsterwolde	buiten	butn
+Finsterwolde	daar	dʊ
+Finsterwolde	dan_1	dɛn
+Finsterwolde	dat	da
+Finsterwolde	de_6	də
+Finsterwolde	door	dʏr
+Finsterwolde	een_count	ɒi
+Finsterwolde	een_det	n
+Finsterwolde	er	ər
+Finsterwolde	even	eibm
+Finsterwolde	extra	
+Finsterwolde	gerinkel	xərɪŋkəl
+Finsterwolde	glas	xlas
+Finsterwolde	glaszetter_1	xlʊznzɛdər
+Finsterwolde	goed	xɑut
+Finsterwolde	gooien	xʊin
+Finsterwolde	he	hei
+Finsterwolde	heel	
+Finsterwolde	hem	hɒm
+Finsterwolde	het	t
+Finsterwolde	hij_2	hɛi
+Finsterwolde	hoek	hɑukə
+Finsterwolde	houden	hʊdn
+Finsterwolde	huizen	huzn
+Finsterwolde	in_1	ɪn
+Finsterwolde	ineens	ɪnɒis
+Finsterwolde	is	ɪs
+Finsterwolde	jongetje_2	jɔŋkjə
+Finsterwolde	juist	nɛt
+Finsterwolde	klein	løcə
+Finsterwolde	klinkt	klɪŋkt
+Finsterwolde	korte	
+Finsterwolde	krijgen	kriɡŋ
+Finsterwolde	later	lʊtər
+Finsterwolde	let	lɛt
+Finsterwolde	loopt	lɒp
+Finsterwolde	lopen	loupm
+Finsterwolde	lukt	lʏkt
+Finsterwolde	maar_1	mɒr
+Finsterwolde	met_1	mɛt
+Finsterwolde	mevrouw	frɑu
+Finsterwolde	naar	nʊ
+Finsterwolde	net	nɛd
+Finsterwolde	niet	nɑit
+Finsterwolde	nou	nɑu
+Finsterwolde	nu	nɒ
+Finsterwolde	of	ɒf
+Finsterwolde	om	ɔm
+Finsterwolde	ontdaan	ɔndɔn
+Finsterwolde	ook	ouk
+Finsterwolde	op	ɔp
+Finsterwolde	pakken	pakŋ
+Finsterwolde	politieagent	plitsiɑxɛnt
+Finsterwolde	repareren	repɑrɪrn
+Finsterwolde	ruit	rutə
+Finsterwolde	ruiten	rutn
+Finsterwolde	samen	sʊmm
+Finsterwolde	sneuvelen	snøfəln
+Finsterwolde	staan	
+Finsterwolde	stapt	ʃtapt
+Finsterwolde	steen	stɑinə
+Finsterwolde	stil	stɪl
+Finsterwolde	straat	strʊtə
+Finsterwolde	straten	strʊtn
+Finsterwolde	te	tə
+Finsterwolde	tijd	
+Finsterwolde	toevallig	təfɑləx
+Finsterwolde	van	fɑn
+Finsterwolde	veel	
+Finsterwolde	vraagt	frɑxt
+Finsterwolde	vrouw	frɑu
+Finsterwolde	wil_1	ʋɪl
+Finsterwolde	ze_1	zə
+Finsterwolde	ziet_1	sʏxt
+Gavere	aan	
+Gavere	agent	ɑχænt
+Gavere	als	ʊst
+Gavere	beiden	ɒlətwiə
+Gavere	besluit	bəslɪt
+Gavere	bij	
+Gavere	buiten	bœtn
+Gavere	daar	
+Gavere	dan_1	tʊs
+Gavere	dat	dɑ
+Gavere	de_6	də
+Gavere	door	dʏr
+Gavere	een_count	inə
+Gavere	een_det	nə
+Gavere	er	dər
+Gavere	even	becə
+Gavere	extra	
+Gavere	gerinkel	həklætər
+Gavere	glas	xlʊs
+Gavere	glaszetter_1	çlʊzəmɔkər
+Gavere	goed	χu
+Gavere	gooien	smetn
+Gavere	he	
+Gavere	heel	vri
+Gavere	hem	ɛm
+Gavere	het	t
+Gavere	hij_2	i
+Gavere	hoek	uk
+Gavere	houden	ɑræstɪrn
+Gavere	huizen	œzn
+Gavere	in_1	ɛn
+Gavere	ineens	ɔmɛnəkir
+Gavere	is	ɑs
+Gavere	jongetje_2	jʊncə
+Gavere	juist	ʃyst
+Gavere	klein	klɛn
+Gavere	klinkt	klɪŋkt
+Gavere	korte	kœrtn
+Gavere	krijgen	kren
+Gavere	later	lɔtrə
+Gavere	let	læt
+Gavere	loopt	lœpt
+Gavere	lopen	løpm
+Gavere	lukt	lœkt
+Gavere	maar_1	mʌr
+Gavere	met_1	mɪt
+Gavere	mevrouw	mɑdɑm
+Gavere	naar	nə
+Gavere	net	ʃyst
+Gavere	niet	ni
+Gavere	nou	
+Gavere	nu	
+Gavere	of	ɒfdɒt
+Gavere	om	ɔm
+Gavere	ontdaan	ɑnhəslen
+Gavere	ook	
+Gavere	op	in
+Gavere	pakken	pʌkŋ
+Gavere	politieagent	pulisimʌn
+Gavere	repareren	rɪpərɪrn
+Gavere	ruit	rœtə
+Gavere	ruiten	rœtn
+Gavere	samen	typə
+Gavere	sneuvelen	snøfələn
+Gavere	staan	
+Gavere	stapt	kɔmt
+Gavere	steen	stin
+Gavere	stil	stil
+Gavere	straat	strʊitə
+Gavere	straten	
+Gavere	te	t
+Gavere	tijd	tet
+Gavere	toevallig	lʏkŋ
+Gavere	van	fɑn
+Gavere	veel	
+Gavere	vraagt	frʊχt
+Gavere	vrouw	frɑu
+Gavere	wil_1	wɛl
+Gavere	ze_1	zə
+Gavere	ziet_1	zit
+Geraardsbergen	aan	ʊn
+Geraardsbergen	agent	ʒɑmpætər
+Geraardsbergen	als	ɑst
+Geraardsbergen	beiden	ʌlətwɪə
+Geraardsbergen	besluit	wɪl
+Geraardsbergen	bij	
+Geraardsbergen	buiten	bœtn
+Geraardsbergen	daar	də
+Geraardsbergen	dan_1	tys
+Geraardsbergen	dat	dɑ
+Geraardsbergen	de_6	də
+Geraardsbergen	door	dør
+Geraardsbergen	een_count	enə
+Geraardsbergen	een_det	ə
+Geraardsbergen	er	
+Geraardsbergen	even	wɑ
+Geraardsbergen	extra	
+Geraardsbergen	gerinkel	
+Geraardsbergen	glas	χlɑs
+Geraardsbergen	glaszetter_1	χlʊzəmʊkər
+Geraardsbergen	goed	
+Geraardsbergen	gooien	smætn
+Geraardsbergen	he	
+Geraardsbergen	heel	
+Geraardsbergen	hem	
+Geraardsbergen	het	t
+Geraardsbergen	hij_2	ɛ
+Geraardsbergen	hoek	uk
+Geraardsbergen	houden	hɑn
+Geraardsbergen	huizen	œzn
+Geraardsbergen	in_1	ɪn
+Geraardsbergen	ineens	ɑmənəkir
+Geraardsbergen	is	ɛs
+Geraardsbergen	jongetje_2	mɑnəkən
+Geraardsbergen	juist	ʒyst
+Geraardsbergen	klein	klæn
+Geraardsbergen	klinkt	
+Geraardsbergen	korte	
+Geraardsbergen	krijgen	
+Geraardsbergen	later	nɑrdin
+Geraardsbergen	let	
+Geraardsbergen	loopt	lʏpt
+Geraardsbergen	lopen	lɤupən
+Geraardsbergen	lukt	
+Geraardsbergen	maar_1	mɒr
+Geraardsbergen	met_1	mæt
+Geraardsbergen	mevrouw	frau
+Geraardsbergen	naar	
+Geraardsbergen	net	ʃyst
+Geraardsbergen	niet	ni
+Geraardsbergen	nou	na
+Geraardsbergen	nu	
+Geraardsbergen	of	ɒfdɑt
+Geraardsbergen	om	
+Geraardsbergen	ontdaan	fɑnhʏrɤt
+Geraardsbergen	ook	
+Geraardsbergen	op	ɔp
+Geraardsbergen	pakken	pɑkən
+Geraardsbergen	politieagent	ʒɑmpætər
+Geraardsbergen	repareren	repɑrɪrn
+Geraardsbergen	ruit	rœtə
+Geraardsbergen	ruiten	rœtn
+Geraardsbergen	samen	sʊmm
+Geraardsbergen	sneuvelen	
+Geraardsbergen	staan	
+Geraardsbergen	stapt	stɑpt
+Geraardsbergen	steen	stɪ
+Geraardsbergen	stil	stɪl
+Geraardsbergen	straat	strɔtə
+Geraardsbergen	straten	
+Geraardsbergen	te	
+Geraardsbergen	tijd	
+Geraardsbergen	toevallig	lʏkən
+Geraardsbergen	van	fɑn
+Geraardsbergen	veel	
+Geraardsbergen	vraagt	frʊxt
+Geraardsbergen	vrouw	frau
+Geraardsbergen	wil_1	wɪl
+Geraardsbergen	ze_1	zə
+Geraardsbergen	ziet_1	sit
+Grijpskerk	aan	
+Grijpskerk	agent	pəlitsi
+Grijpskerk	als	as
+Grijpskerk	beiden	bɛidn
+Grijpskerk	besluit	ʋɪl
+Grijpskerk	bij	bɛi
+Grijpskerk	buiten	bytn
+Grijpskerk	daar	dʊ
+Grijpskerk	dan_1	dan
+Grijpskerk	dat	
+Grijpskerk	de_6	də
+Grijpskerk	door	dʏr
+Grijpskerk	een_count	ein
+Grijpskerk	een_det	n
+Grijpskerk	er	
+Grijpskerk	even	eibm
+Grijpskerk	extra	ɛkstrə
+Grijpskerk	gerinkel	rɪŋkəln
+Grijpskerk	glas	xlas
+Grijpskerk	glaszetter_1	xlasɛtər
+Grijpskerk	goed	xud
+Grijpskerk	gooien	xʊin
+Grijpskerk	he	
+Grijpskerk	heel	
+Grijpskerk	hem	hɪm
+Grijpskerk	het	t
+Grijpskerk	hij_2	hɛi
+Grijpskerk	hoek	
+Grijpskerk	houden	pakŋ
+Grijpskerk	huizen	hysn
+Grijpskerk	in_1	in
+Grijpskerk	ineens	ɪneis
+Grijpskerk	is	ɪs
+Grijpskerk	jongetje_2	jɔŋkjə
+Grijpskerk	juist	krɛk
+Grijpskerk	klein	klɛin
+Grijpskerk	klinkt	klɪŋk
+Grijpskerk	korte	kɒrtə
+Grijpskerk	krijgen	kriɡŋ
+Grijpskerk	later	lɔtər
+Grijpskerk	let	lɛt
+Grijpskerk	loopt	loupt
+Grijpskerk	lopen	
+Grijpskerk	lukt	lʏkt
+Grijpskerk	maar_1	mɒr
+Grijpskerk	met_1	mɛt
+Grijpskerk	mevrouw	frɑu
+Grijpskerk	naar	nə
+Grijpskerk	net	nɛt
+Grijpskerk	niet	nit
+Grijpskerk	nou	
+Grijpskerk	nu	nau
+Grijpskerk	of	ɒf
+Grijpskerk	om	
+Grijpskerk	ontdaan	
+Grijpskerk	ook	
+Grijpskerk	op	ɔp
+Grijpskerk	pakken	pɑkŋ
+Grijpskerk	politieagent	pəlitsiman
+Grijpskerk	repareren	mɒkŋ
+Grijpskerk	ruit	
+Grijpskerk	ruiten	rytn
+Grijpskerk	samen	sɔmm
+Grijpskerk	sneuvelen	snøfəln
+Grijpskerk	staan	stɒn
+Grijpskerk	stapt	kɔmt
+Grijpskerk	steen	sti
+Grijpskerk	stil	stɪl
+Grijpskerk	straat	strʊt
+Grijpskerk	straten	strʊtn
+Grijpskerk	te	
+Grijpskerk	tijd	tit
+Grijpskerk	toevallig	
+Grijpskerk	van	fan
+Grijpskerk	veel	føl
+Grijpskerk	vraagt	frʊxt
+Grijpskerk	vrouw	frɑu
+Grijpskerk	wil_1	ʋʏl
+Grijpskerk	ze_1	zə
+Grijpskerk	ziet_1	sɪxt
+Groenlo	aan	ɑn
+Groenlo	agent	ʋɑut
+Groenlo	als	ɑs
+Groenlo	beiden	bɛidə
+Groenlo	besluit	bəslœts
+Groenlo	bij	bi
+Groenlo	buiten	butn
+Groenlo	daar	d
+Groenlo	dan_1	dan
+Groenlo	dat	
+Groenlo	de_6	də
+Groenlo	door	dʏʀ
+Groenlo	een_count	e
+Groenlo	een_det	nə
+Groenlo	er	ə
+Groenlo	even	nhɒtə
+Groenlo	extra	ɛkstʀa
+Groenlo	gerinkel	xəʀɪŋkəl
+Groenlo	glas	xlas
+Groenlo	glaszetter_1	xlasɛtəʀ
+Groenlo	goed	xud
+Groenlo	gooien	smitn
+Groenlo	he	hɪ
+Groenlo	heel	
+Groenlo	hem	əm
+Groenlo	het	t
+Groenlo	hij_2	he
+Groenlo	hoek	hok
+Groenlo	houden	hɒln
+Groenlo	huizen	hyzəʀ
+Groenlo	in_1	ɪn
+Groenlo	ineens	ɪnɛns
+Groenlo	is	ɪs
+Groenlo	jongetje_2	jʏŋskə
+Groenlo	juist	nɛt
+Groenlo	klein	klɛin
+Groenlo	klinkt	
+Groenlo	korte	kɒʀtn
+Groenlo	krijgen	kʀɪxən
+Groenlo	later	latəʀ
+Groenlo	let	lɛt
+Groenlo	loopt	lœp
+Groenlo	lopen	lopən
+Groenlo	lukt	lʏkt
+Groenlo	maar_1	mɔr
+Groenlo	met_1	mɛt
+Groenlo	mevrouw	fʀɑuə
+Groenlo	naar	nə
+Groenlo	net	nɛt
+Groenlo	niet	neit
+Groenlo	nou	nə
+Groenlo	nu	nɒ
+Groenlo	of	ɒf
+Groenlo	om	ɔm
+Groenlo	ontdaan	fəʀɑldərɪʀt
+Groenlo	ook	ok
+Groenlo	op	ɔp
+Groenlo	pakken	pakən
+Groenlo	politieagent	ʋɑut
+Groenlo	repareren	ʀepɑʀɪʀn
+Groenlo	ruit	ʀutə
+Groenlo	ruiten	ʀutn
+Groenlo	samen	samm
+Groenlo	sneuvelen	xɒtəʀɑn
+Groenlo	staan	
+Groenlo	stapt	kʏmp
+Groenlo	steen	kɛi
+Groenlo	stil	stɪlə
+Groenlo	straat	stʀʌtə
+Groenlo	straten	stʀʌtn
+Groenlo	te	tə
+Groenlo	tijd	tit
+Groenlo	toevallig	tufɑləx
+Groenlo	van	fan
+Groenlo	veel	
+Groenlo	vraagt	fʀʏx
+Groenlo	vrouw	fʀɑuə
+Groenlo	wil_1	ʋʏl
+Groenlo	ze_1	sə
+Groenlo	ziet_1	sœt
+Grolloo	aan	ɑn
+Grolloo	agent	plisi
+Grolloo	als	ɑz
+Grolloo	beiden	bɛidə
+Grolloo	besluit	bəslœt
+Grolloo	bij	bɛi
+Grolloo	buiten	butn
+Grolloo	daar	dɒ
+Grolloo	dan_1	dan
+Grolloo	dat	da
+Grolloo	de_6	də
+Grolloo	door	dʏr
+Grolloo	een_count	i
+Grolloo	een_det	n
+Grolloo	er	ər
+Grolloo	even	ebmpis
+Grolloo	extra	
+Grolloo	gerinkel	xərɪŋkəl
+Grolloo	glas	xlas
+Grolloo	glaszetter_1	xlasɛdər
+Grolloo	goed	xud
+Grolloo	gooien	smitn
+Grolloo	he	
+Grolloo	heel	hil
+Grolloo	hem	
+Grolloo	het	t
+Grolloo	hij_2	i
+Grolloo	hoek	huk
+Grolloo	houden	hɒln
+Grolloo	huizen	husn
+Grolloo	in_1	ɪn
+Grolloo	ineens	ɔpis
+Grolloo	is	ɪs
+Grolloo	jongetje_2	jɔŋki
+Grolloo	juist	jyst
+Grolloo	klein	klɛin
+Grolloo	klinkt	
+Grolloo	korte	kœrdə
+Grolloo	krijgen	
+Grolloo	later	lʌtər
+Grolloo	let	lɛt
+Grolloo	loopt	lɒp
+Grolloo	lopen	lopm
+Grolloo	lukt	lʏk
+Grolloo	maar_1	mɑ
+Grolloo	met_1	mɛt
+Grolloo	mevrouw	frɑu
+Grolloo	naar	ɛ
+Grolloo	net	nɛt
+Grolloo	niet	nit
+Grolloo	nou	
+Grolloo	nu	nɑu
+Grolloo	of	ɒf
+Grolloo	om	œm
+Grolloo	ontdaan	fərɑldərɪt
+Grolloo	ook	ɤuk
+Grolloo	op	ɔp
+Grolloo	pakken	
+Grolloo	politieagent	plitsi
+Grolloo	repareren	mɑkŋ
+Grolloo	ruit	rut
+Grolloo	ruiten	rutn
+Grolloo	samen	
+Grolloo	sneuvelen	snøfəlt
+Grolloo	staan	
+Grolloo	stapt	kɔmt
+Grolloo	steen	sti
+Grolloo	stil	stɪl
+Grolloo	straat	strʌt
+Grolloo	straten	strʌtn
+Grolloo	te	tə
+Grolloo	tijd	tit
+Grolloo	toevallig	
+Grolloo	van	fan
+Grolloo	veel	
+Grolloo	vraagt	frax
+Grolloo	vrouw	frɑuspəsɔ
+Grolloo	wil_1	wʏl
+Grolloo	ze_1	sə
+Grolloo	ziet_1	zœt
+Grouw	aan	ʊn
+Grouw	agent	pliʃə
+Grouw	als	
+Grouw	beiden	ɑlətʋa
+Grouw	besluit	bəslyt
+Grouw	bij	bei
+Grouw	buiten	butn
+Grouw	daar	da
+Grouw	dan_1	
+Grouw	dat	dɑt
+Grouw	de_6	də
+Grouw	door	
+Grouw	een_count	ɪ
+Grouw	een_det	ən
+Grouw	er	ər
+Grouw	even	ɛfkəs
+Grouw	extra	
+Grouw	gerinkel	
+Grouw	glas	ɡlɛs
+Grouw	glaszetter_1	ɡlɛsɛtər
+Grouw	goed	
+Grouw	gooien	smitə
+Grouw	he	
+Grouw	heel	
+Grouw	hem	
+Grouw	het	ət
+Grouw	hij_2	hɛi
+Grouw	hoek	hukə
+Grouw	houden	hɒdn
+Grouw	huizen	hysn
+Grouw	in_1	ɪn
+Grouw	ineens	ijɪnn
+Grouw	is	ɪs
+Grouw	jongetje_2	jɔŋkjə
+Grouw	juist	
+Grouw	klein	
+Grouw	klinkt	
+Grouw	korte	kuɑtskɔfkə
+Grouw	krijgen	kræiə
+Grouw	later	lɛtər
+Grouw	let	
+Grouw	loopt	rɪnt
+Grouw	lopen	rɪnn
+Grouw	lukt	
+Grouw	maar_1	mɑr
+Grouw	met_1	ma
+Grouw	mevrouw	frau
+Grouw	naar	nɑi
+Grouw	net	krɛkt
+Grouw	niet	nɛt
+Grouw	nou	
+Grouw	nu	
+Grouw	of	dɑt
+Grouw	om	ɔm
+Grouw	ontdaan	tixəskrɒkŋ
+Grouw	ook	ɛk
+Grouw	op	ɔp
+Grouw	pakken	pakə
+Grouw	politieagent	pliʃə
+Grouw	repareren	mɑitʃə
+Grouw	ruit	ryt
+Grouw	ruiten	rytn
+Grouw	samen	təɡɛrə
+Grouw	sneuvelen	
+Grouw	staan	
+Grouw	stapt	stapt
+Grouw	steen	stɪn
+Grouw	stil	stɪl
+Grouw	straat	strɪtə
+Grouw	straten	
+Grouw	te	tə
+Grouw	tijd	
+Grouw	toevallig	təfɑləx
+Grouw	van	fan
+Grouw	veel	
+Grouw	vraagt	freixət
+Grouw	vrouw	frau
+Grouw	wil_1	zɪl
+Grouw	ze_1	harn
+Grouw	ziet_1	ʃɔxt
+Heerewaarden	aan	ʌ
+Heerewaarden	agent	plisi
+Heerewaarden	als	æs
+Heerewaarden	beiden	bæi
+Heerewaarden	besluit	bəslœt
+Heerewaarden	bij	bɛi
+Heerewaarden	buiten	bœytə
+Heerewaarden	daar	dɒ
+Heerewaarden	dan_1	dɑn
+Heerewaarden	dat	dæ
+Heerewaarden	de_6	də
+Heerewaarden	door	dʏʀ
+Heerewaarden	een_count	
+Heerewaarden	een_det	ənə
+Heerewaarden	er	də
+Heerewaarden	even	ɛfkəs
+Heerewaarden	extra	ækstʀa
+Heerewaarden	gerinkel	çəʀɪŋkəl
+Heerewaarden	glas	çlɑs
+Heerewaarden	glaszetter_1	çlɑsɛtəʀ
+Heerewaarden	goed	çud
+Heerewaarden	gooien	çʊiə
+Heerewaarden	he	hei
+Heerewaarden	heel	
+Heerewaarden	hem	əm
+Heerewaarden	het	t
+Heerewaarden	hij_2	i
+Heerewaarden	hoek	huk
+Heerewaarden	houden	hauə
+Heerewaarden	huizen	
+Heerewaarden	in_1	
+Heerewaarden	ineens	nɪns
+Heerewaarden	is	ɪs
+Heerewaarden	jongetje_2	mænəkə
+Heerewaarden	juist	nɛt
+Heerewaarden	klein	klæn
+Heerewaarden	klinkt	klɪŋkt
+Heerewaarden	korte	
+Heerewaarden	krijgen	
+Heerewaarden	later	lʌtəʀ
+Heerewaarden	let	kɛk
+Heerewaarden	loopt	loup
+Heerewaarden	lopen	loupə
+Heerewaarden	lukt	lʏkt
+Heerewaarden	maar_1	ma
+Heerewaarden	met_1	mɪt
+Heerewaarden	mevrouw	fʀɑu
+Heerewaarden	naar	na
+Heerewaarden	net	næt
+Heerewaarden	niet	ni
+Heerewaarden	nou	
+Heerewaarden	nu	nɑu
+Heerewaarden	of	ɒf
+Heerewaarden	om	ɔm
+Heerewaarden	ontdaan	oufəsty
+Heerewaarden	ook	ouk
+Heerewaarden	op	ɔp
+Heerewaarden	pakken	
+Heerewaarden	politieagent	plisi
+Heerewaarden	repareren	makə
+Heerewaarden	ruit	ʀayt
+Heerewaarden	ruiten	
+Heerewaarden	samen	samə
+Heerewaarden	sneuvelen	çɒnkəpɒt
+Heerewaarden	staan	
+Heerewaarden	stapt	stapt
+Heerewaarden	steen	sten
+Heerewaarden	stil	stɪl
+Heerewaarden	straat	stʀʌt
+Heerewaarden	straten	stʀɒtə
+Heerewaarden	te	tə
+Heerewaarden	tijd	
+Heerewaarden	toevallig	tufaləç
+Heerewaarden	van	
+Heerewaarden	veel	
+Heerewaarden	vraagt	fʀʌçt
+Heerewaarden	vrouw	fʀɑu
+Heerewaarden	wil_1	wɪl
+Heerewaarden	ze_1	sə
+Heerewaarden	ziet_1	sit
+Hoeven	aan	ɑ
+Hoeven	agent	açænt
+Hoeven	als	ɑt
+Hoeven	beiden	ɑləbæi
+Hoeven	besluit	bəslœt
+Hoeven	bij	bɛi
+Hoeven	buiten	bœytə
+Hoeven	daar	dʌ
+Hoeven	dan_1	dɑn
+Hoeven	dat	
+Hoeven	de_6	də
+Hoeven	door	dʏʀ
+Hoeven	een_count	ɪn
+Hoeven	een_det	nə
+Hoeven	er	dər
+Hoeven	even	ɛfə
+Hoeven	extra	
+Hoeven	gerinkel	çəʀɪŋkəl
+Hoeven	glas	çlas
+Hoeven	glaszetter_1	çlɑsætəʀ
+Hoeven	goed	çud
+Hoeven	gooien	çuiə
+Hoeven	he	hei
+Hoeven	heel	hil
+Hoeven	hem	əm
+Hoeven	het	t
+Hoeven	hij_2	i
+Hoeven	hoek	uk
+Hoeven	houden	hɑuə
+Hoeven	huizen	œyzə
+Hoeven	in_1	ɪn
+Hoeven	ineens	ənɪs
+Hoeven	is	ɪs
+Hoeven	jongetje_2	mɑnəkə
+Hoeven	juist	jyst
+Hoeven	klein	klɛin
+Hoeven	klinkt	klɪŋkt
+Hoeven	korte	
+Hoeven	krijgen	
+Hoeven	later	lʌtəʀ
+Hoeven	let	kɛk
+Hoeven	loopt	loup
+Hoeven	lopen	lɤupə
+Hoeven	lukt	lʏkt
+Hoeven	maar_1	maʀ
+Hoeven	met_1	mæt
+Hoeven	mevrouw	fʀɑu
+Hoeven	naar	nə
+Hoeven	net	næt
+Hoeven	niet	ni
+Hoeven	nou	
+Hoeven	nu	nɑu
+Hoeven	of	ɒf
+Hoeven	om	ɔm
+Hoeven	ontdaan	ɑçədɑn
+Hoeven	ook	
+Hoeven	op	ɔp
+Hoeven	pakken	pakə
+Hoeven	politieagent	plisi
+Hoeven	repareren	mʌkə
+Hoeven	ruit	ʀœyt
+Hoeven	ruiten	ʀœytə
+Hoeven	samen	
+Hoeven	sneuvelen	snøfələ
+Hoeven	staan	
+Hoeven	stapt	stɑpt
+Hoeven	steen	sten
+Hoeven	stil	stɪl
+Hoeven	straat	stʀʌt
+Hoeven	straten	stʀʌtə
+Hoeven	te	t
+Hoeven	tijd	
+Hoeven	toevallig	
+Hoeven	van	fan
+Hoeven	veel	fʏl
+Hoeven	vraagt	fʀʌçt
+Hoeven	vrouw	fʀɑu
+Hoeven	wil_1	wʏl
+Hoeven	ze_1	zə
+Hoeven	ziet_1	sit
+Hollum	aan	ɑn
+Hollum	agent	pliʃə
+Hollum	als	az
+Hollum	beiden	
+Hollum	besluit	ʋʏl
+Hollum	bij	bɛi
+Hollum	buiten	bytn
+Hollum	daar	
+Hollum	dan_1	da
+Hollum	dat	
+Hollum	de_6	də
+Hollum	door	dʏr
+Hollum	een_count	ɪn
+Hollum	een_det	ə
+Hollum	er	ər
+Hollum	even	efə
+Hollum	extra	
+Hollum	gerinkel	
+Hollum	glas	
+Hollum	glaszetter_1	
+Hollum	goed	ɡut
+Hollum	gooien	smitə
+Hollum	he	
+Hollum	heel	hʏl
+Hollum	hem	
+Hollum	het	ɪt
+Hollum	hij_2	
+Hollum	hoek	huk
+Hollum	houden	hɑuə
+Hollum	huizen	hyzn
+Hollum	in_1	ɪn
+Hollum	ineens	ənɪnn
+Hollum	is	ɪs
+Hollum	jongetje_2	
+Hollum	juist	
+Hollum	klein	klɛin
+Hollum	klinkt	
+Hollum	korte	
+Hollum	krijgen	
+Hollum	later	latər
+Hollum	let	
+Hollum	loopt	
+Hollum	lopen	loupən
+Hollum	lukt	
+Hollum	maar_1	mar
+Hollum	met_1	
+Hollum	mevrouw	frɒu
+Hollum	naar	nə
+Hollum	net	krɛkt
+Hollum	niet	nit
+Hollum	nou	
+Hollum	nu	
+Hollum	of	ɒf
+Hollum	om	
+Hollum	ontdaan	oufəsty
+Hollum	ook	
+Hollum	op	ɪn
+Hollum	pakken	pakŋ
+Hollum	politieagent	pliʃə
+Hollum	repareren	makə
+Hollum	ruit	ɡlɑs
+Hollum	ruiten	xlazn
+Hollum	samen	təxarə
+Hollum	sneuvelen	snøfələ
+Hollum	staan	
+Hollum	stapt	kɔmd
+Hollum	steen	stɪn
+Hollum	stil	rʏstəx
+Hollum	straat	lʊn
+Hollum	straten	
+Hollum	te	
+Hollum	tijd	bəstɛk
+Hollum	toevallig	
+Hollum	van	fan
+Hollum	veel	fʏl
+Hollum	vraagt	fraɡt
+Hollum	vrouw	frɒuspəsɔ
+Hollum	wil_1	ʋɪl
+Hollum	ze_1	sə
+Hollum	ziet_1	sit
+Horn	aan	an
+Horn	agent	plis
+Horn	als	ɑs
+Horn	beiden	ɑləbæi
+Horn	besluit	bəʃlyt
+Horn	bij	bi
+Horn	buiten	butə
+Horn	daar	dʌ
+Horn	dan_1	dɑn
+Horn	dat	dat
+Horn	de_6	də
+Horn	door	dʊʀ
+Horn	een_count	ein
+Horn	een_det	ənə
+Horn	er	
+Horn	even	ɛfə
+Horn	extra	ækstʀə
+Horn	gerinkel	çəʀɪŋkəl
+Horn	glas	çlas
+Horn	glaszetter_1	çlasætəʀ
+Horn	goed	çʊt
+Horn	gooien	çʊiə
+Horn	he	hei
+Horn	heel	hil
+Horn	hem	əm
+Horn	het	hɛt
+Horn	hij_2	hɛ
+Horn	hoek	hʊk
+Horn	houden	hɒiə
+Horn	huizen	huzəʀ
+Horn	in_1	ɛn
+Horn	ineens	ɔpɛns
+Horn	is	ɪʃ
+Horn	jongetje_2	jʏŋskə
+Horn	juist	kʀɛk
+Horn	klein	klen
+Horn	klinkt	klɪŋkt
+Horn	korte	kɒʀtə
+Horn	krijgen	kʀiçə
+Horn	later	latəʀ
+Horn	let	læt
+Horn	loopt	lœpt
+Horn	lopen	lʌupə
+Horn	lukt	lœkt
+Horn	maar_1	mæʀ
+Horn	met_1	mæt
+Horn	mevrouw	fʀɒu
+Horn	naar	nɑ
+Horn	net	næt
+Horn	niet	nɪt
+Horn	nou	nɯ
+Horn	nu	ny
+Horn	of	ɒf
+Horn	om	ɔm
+Horn	ontdaan	çəʃʀʊkə
+Horn	ook	
+Horn	op	ɛn
+Horn	pakken	pɑkə
+Horn	politieagent	pliʃəmɑn
+Horn	repareren	makə
+Horn	ruit	ʀut
+Horn	ruiten	ʀutə
+Horn	samen	samə
+Horn	sneuvelen	ʃnøfələ
+Horn	staan	
+Horn	stapt	ʃtɑpt
+Horn	steen	ʃten
+Horn	stil	ʃtɪl
+Horn	straat	ʃtʀɒt
+Horn	straten	ʃtʀɒtə
+Horn	te	tə
+Horn	tijd	tit
+Horn	toevallig	təfɑləç
+Horn	van	fɑn
+Horn	veel	fœl
+Horn	vraagt	fʀʏçt
+Horn	vrouw	fʀɒu
+Horn	wil_1	wɪlt
+Horn	ze_1	zə
+Horn	ziet_1	zyt
+Houthulst	aan	ɑn
+Houthulst	agent	ɑχɛnt
+Houthulst	als	ɒst
+Houthulst	beiden	ʊlətweə
+Houthulst	besluit	bəslyt
+Houthulst	bij	
+Houthulst	buiten	bytn
+Houthulst	daar	dʊ
+Houthulst	dan_1	tun
+Houthulst	dat	
+Houthulst	de_6	də
+Houthulst	door	dʏr
+Houthulst	een_count	en
+Houthulst	een_det	ə
+Houthulst	er	dər
+Houthulst	even	əbecə
+Houthulst	extra	
+Houthulst	gerinkel	
+Houthulst	glas	hlɑs
+Houthulst	glaszetter_1	rytəfəmʌkər
+Houthulst	goed	hud
+Houthulst	gooien	smitn
+Houthulst	he	
+Houthulst	heel	
+Houthulst	hem	
+Houthulst	het	t
+Houthulst	hij_2	m
+Houthulst	hoek	uk
+Houthulst	houden	un
+Houthulst	huizen	yzn
+Houthulst	in_1	ɛn
+Houthulst	ineens	ɔməkɪr
+Houthulst	is	ɪs
+Houthulst	jongetje_2	
+Houthulst	juist	ɟystə
+Houthulst	klein	klɪn
+Houthulst	klinkt	
+Houthulst	korte	hɪ
+Houthulst	krijgen	
+Houthulst	later	lʌtər
+Houthulst	let	læt
+Houthulst	loopt	lɔp
+Houthulst	lopen	lopm
+Houthulst	lukt	
+Houthulst	maar_1	mʌ
+Houthulst	met_1	mæt
+Houthulst	mevrouw	mɑdam
+Houthulst	naar	nɔ
+Houthulst	net	ʒyst
+Houthulst	niet	ni
+Houthulst	nou	
+Houthulst	nu	ny
+Houthulst	of	ɒfdɑt
+Houthulst	om	ɔm
+Houthulst	ontdaan	dʊtfəsχotn
+Houthulst	ook	
+Houthulst	op	ɪn
+Houthulst	pakken	pɑkŋ
+Houthulst	politieagent	pəlisi
+Houthulst	repareren	fəmʌkŋ
+Houthulst	ruit	rytə
+Houthulst	ruiten	rytn
+Houthulst	samen	təhɒrə
+Houthulst	sneuvelen	hɒnkʌpɔt
+Houthulst	staan	
+Houthulst	stapt	kɔmt
+Houthulst	steen	stɪ
+Houthulst	stil	stɪl
+Houthulst	straat	strɔtə
+Houthulst	straten	
+Houthulst	te	t
+Houthulst	tijd	tɪt
+Houthulst	toevallig	
+Houthulst	van	fɑn
+Houthulst	veel	
+Houthulst	vraagt	frʌχt
+Houthulst	vrouw	frɔumɛs
+Houthulst	wil_1	wɛlt
+Houthulst	ze_1	sə
+Houthulst	ziet_1	zit
+Huizen	aan	ɑn
+Huizen	agent	plisi
+Huizen	als	ɑs
+Huizen	beiden	ɑləbai
+Huizen	besluit	ʋʏl
+Huizen	bij	bɛi
+Huizen	buiten	bœytn
+Huizen	daar	dɪr
+Huizen	dan_1	dan
+Huizen	dat	da
+Huizen	de_6	də
+Huizen	door	dʏr
+Huizen	een_count	ɪn
+Huizen	een_det	ə
+Huizen	er	dər
+Huizen	even	ɛfə
+Huizen	extra	
+Huizen	gerinkel	xərɪŋkəl
+Huizen	glas	xlas
+Huizen	glaszetter_1	xlasɛtər
+Huizen	goed	xut
+Huizen	gooien	xʊiən
+Huizen	he	
+Huizen	heel	hɪl
+Huizen	hem	əm
+Huizen	het	t
+Huizen	hij_2	i
+Huizen	hoek	huk
+Huizen	houden	hɑuən
+Huizen	huizen	hœyzən
+Huizen	in_1	ɪn
+Huizen	ineens	ɪnɪnn
+Huizen	is	ɪs
+Huizen	jongetje_2	jʊncə
+Huizen	juist	nɛt
+Huizen	klein	klɑin
+Huizen	klinkt	klɪŋkt
+Huizen	korte	kɒrtə
+Huizen	krijgen	krɛia
+Huizen	later	lɑtər
+Huizen	let	lɛt
+Huizen	loopt	lop
+Huizen	lopen	lopm
+Huizen	lukt	lʏkt
+Huizen	maar_1	mɑr
+Huizen	met_1	mut
+Huizen	mevrouw	
+Huizen	naar	nɪ
+Huizen	net	nɛt
+Huizen	niet	næit
+Huizen	nou	na
+Huizen	nu	nɑu
+Huizen	of	ɒf
+Huizen	om	
+Huizen	ontdaan	stɪkbədyst
+Huizen	ook	ok
+Huizen	op	ɔp
+Huizen	pakken	pakə
+Huizen	politieagent	plisi
+Huizen	repareren	mʌkə
+Huizen	ruit	rœyt
+Huizen	ruiten	rœytə
+Huizen	samen	sɑmə
+Huizen	sneuvelen	xɪnkəpɔt
+Huizen	staan	
+Huizen	stapt	kɔmt
+Huizen	steen	stɪ
+Huizen	stil	stɪl
+Huizen	straat	strɪt
+Huizen	straten	strɪtn
+Huizen	te	
+Huizen	tijd	tɛit
+Huizen	toevallig	tufɑləx
+Huizen	van	fan
+Huizen	veel	fyl
+Huizen	vraagt	frʌxt
+Huizen	vrouw	fraumɪns
+Huizen	wil_1	ʋʏl
+Huizen	ze_1	sə
+Huizen	ziet_1	zit
+IJmuiden	aan	
+IJmuiden	agent	axɪnt
+IJmuiden	als	
+IJmuiden	beiden	
+IJmuiden	besluit	
+IJmuiden	bij	bɛi
+IJmuiden	buiten	baytə
+IJmuiden	daar	
+IJmuiden	dan_1	
+IJmuiden	dat	dɑt
+IJmuiden	de_6	də
+IJmuiden	door	
+IJmuiden	een_count	ei
+IJmuiden	een_det	ə
+IJmuiden	er	ɛr
+IJmuiden	even	eifə
+IJmuiden	extra	
+IJmuiden	gerinkel	xərɪŋkəl
+IJmuiden	glas	xlɒʃ
+IJmuiden	glaszetter_1	xlʌʃɪtər
+IJmuiden	goed	
+IJmuiden	gooien	xʊiə
+IJmuiden	he	hei
+IJmuiden	heel	
+IJmuiden	hem	
+IJmuiden	het	hɛt
+IJmuiden	hij_2	ə
+IJmuiden	hoek	
+IJmuiden	houden	
+IJmuiden	huizen	hayʃə
+IJmuiden	in_1	
+IJmuiden	ineens	ɪneiʃ
+IJmuiden	is	ɪʃ
+IJmuiden	jongetje_2	jɔŋəcə
+IJmuiden	juist	
+IJmuiden	klein	
+IJmuiden	klinkt	
+IJmuiden	korte	
+IJmuiden	krijgen	
+IJmuiden	later	latər
+IJmuiden	let	kɛikt
+IJmuiden	loopt	
+IJmuiden	lopen	loupə
+IJmuiden	lukt	
+IJmuiden	maar_1	mar
+IJmuiden	met_1	mɪt
+IJmuiden	mevrouw	məfrɑu
+IJmuiden	naar	na
+IJmuiden	net	nɛt
+IJmuiden	niet	nit
+IJmuiden	nou	
+IJmuiden	nu	ny
+IJmuiden	of	
+IJmuiden	om	
+IJmuiden	ontdaan	
+IJmuiden	ook	ouk
+IJmuiden	op	ɔp
+IJmuiden	pakken	pɑkə
+IJmuiden	politieagent	plitsi
+IJmuiden	repareren	makə
+IJmuiden	ruit	
+IJmuiden	ruiten	ramə
+IJmuiden	samen	sæmm
+IJmuiden	sneuvelen	snøfələ
+IJmuiden	staan	
+IJmuiden	stapt	stɑpt
+IJmuiden	steen	stei
+IJmuiden	stil	stɪl
+IJmuiden	straat	strat
+IJmuiden	straten	
+IJmuiden	te	
+IJmuiden	tijd	
+IJmuiden	toevallig	tufɒləx
+IJmuiden	van	fɑn
+IJmuiden	veel	
+IJmuiden	vraagt	
+IJmuiden	vrouw	frɑu
+IJmuiden	wil_1	ʋʏl
+IJmuiden	ze_1	sə
+IJmuiden	ziet_1	sit
+IJsselmuiden	aan	ɑn
+IJsselmuiden	agent	plisi
+IJsselmuiden	als	ɑs
+IJsselmuiden	beiden	bɛidn
+IJsselmuiden	besluit	bəslœt
+IJsselmuiden	bij	bei
+IJsselmuiden	buiten	bytn
+IJsselmuiden	daar	dɑ
+IJsselmuiden	dan_1	dən
+IJsselmuiden	dat	dɑ
+IJsselmuiden	de_6	də
+IJsselmuiden	door	dʏʀ
+IJsselmuiden	een_count	e
+IJsselmuiden	een_det	ə
+IJsselmuiden	er	dəʀ
+IJsselmuiden	even	əposi
+IJsselmuiden	extra	ɛkstʀa
+IJsselmuiden	gerinkel	xəʀɪŋkəl
+IJsselmuiden	glas	
+IJsselmuiden	glaszetter_1	xlɑsɛtəʀ
+IJsselmuiden	goed	xud
+IJsselmuiden	gooien	xʊin
+IJsselmuiden	he	
+IJsselmuiden	heel	
+IJsselmuiden	hem	əm
+IJsselmuiden	het	hɛd
+IJsselmuiden	hij_2	i
+IJsselmuiden	hoek	huk
+IJsselmuiden	houden	hɒln
+IJsselmuiden	huizen	hyzn
+IJsselmuiden	in_1	ɪn
+IJsselmuiden	ineens	ɪnenkɪʀ
+IJsselmuiden	is	ɪs
+IJsselmuiden	jongetje_2	jɒxi
+IJsselmuiden	juist	jyst
+IJsselmuiden	klein	klɛin
+IJsselmuiden	klinkt	klɪŋkt
+IJsselmuiden	korte	kœʀtə
+IJsselmuiden	krijgen	kʀiɡŋ
+IJsselmuiden	later	latəʀ
+IJsselmuiden	let	læt
+IJsselmuiden	loopt	lœp
+IJsselmuiden	lopen	lopm
+IJsselmuiden	lukt	lʏkt
+IJsselmuiden	maar_1	ma
+IJsselmuiden	met_1	mɛt
+IJsselmuiden	mevrouw	fʀɒuə
+IJsselmuiden	naar	nɔ
+IJsselmuiden	net	nɛd
+IJsselmuiden	niet	nit
+IJsselmuiden	nou	nʊ
+IJsselmuiden	nu	nɒu
+IJsselmuiden	of	ɒf
+IJsselmuiden	om	œm
+IJsselmuiden	ontdaan	əsxʀœkŋ
+IJsselmuiden	ook	ok
+IJsselmuiden	op	ɔp
+IJsselmuiden	pakken	pɑkŋ
+IJsselmuiden	politieagent	plisi
+IJsselmuiden	repareren	makŋ
+IJsselmuiden	ruit	ʀytə
+IJsselmuiden	ruiten	ʀytn
+IJsselmuiden	samen	samm
+IJsselmuiden	sneuvelen	
+IJsselmuiden	staan	
+IJsselmuiden	stapt	lœp
+IJsselmuiden	steen	stɪ
+IJsselmuiden	stil	stɪl
+IJsselmuiden	straat	stʀɒtə
+IJsselmuiden	straten	
+IJsselmuiden	te	tə
+IJsselmuiden	tijd	tit
+IJsselmuiden	toevallig	tufɑləx
+IJsselmuiden	van	fɑn
+IJsselmuiden	veel	
+IJsselmuiden	vraagt	fʀœx
+IJsselmuiden	vrouw	fʀɒuə
+IJsselmuiden	wil_1	ʋɪl
+IJsselmuiden	ze_1	sə
+IJsselmuiden	ziet_1	sit
+Itegem	aan	ʊn
+Itegem	agent	çɑrdə
+Itegem	als	ɑs
+Itegem	beiden	ɑləba
+Itegem	besluit	bəslœt
+Itegem	bij	
+Itegem	buiten	bɒətə
+Itegem	daar	dʌ
+Itegem	dan_1	
+Itegem	dat	dɑt
+Itegem	de_6	də
+Itegem	door	dʏr
+Itegem	een_count	
+Itegem	een_det	nə
+Itegem	er	
+Itegem	even	əbekə
+Itegem	extra	
+Itegem	gerinkel	
+Itegem	glas	
+Itegem	glaszetter_1	çlɔzəmɔkər
+Itegem	goed	çɯ
+Itegem	gooien	smætə
+Itegem	he	
+Itegem	heel	
+Itegem	hem	
+Itegem	het	hɛt
+Itegem	hij_2	hɛ
+Itegem	hoek	hɯk
+Itegem	houden	hævə
+Itegem	huizen	hɒəsə
+Itegem	in_1	ɪn
+Itegem	ineens	ɪnɪs
+Itegem	is	ɪs
+Itegem	jongetje_2	feŋkə
+Itegem	juist	
+Itegem	klein	
+Itegem	klinkt	
+Itegem	korte	kœtn
+Itegem	krijgen	
+Itegem	later	lɒtər
+Itegem	let	
+Itegem	loopt	lœpt
+Itegem	lopen	lɤpə
+Itegem	lukt	
+Itegem	maar_1	mɒ
+Itegem	met_1	mɛt
+Itegem	mevrouw	frau
+Itegem	naar	
+Itegem	net	ʒyst
+Itegem	niet	nɪ
+Itegem	nou	
+Itegem	nu	
+Itegem	of	ɒf
+Itegem	om	
+Itegem	ontdaan	fərsçʌtə
+Itegem	ook	
+Itegem	op	ɔp
+Itegem	pakken	pɑkə
+Itegem	politieagent	çɑrdə
+Itegem	repareren	
+Itegem	ruit	rœt
+Itegem	ruiten	rɑtə
+Itegem	samen	
+Itegem	sneuvelen	
+Itegem	staan	stɒn
+Itegem	stapt	
+Itegem	steen	stɪn
+Itegem	stil	stɪl
+Itegem	straat	strɒt
+Itegem	straten	
+Itegem	te	tə
+Itegem	tijd	tæt
+Itegem	toevallig	lykə
+Itegem	van	fɑn
+Itegem	veel	
+Itegem	vraagt	frʊçt
+Itegem	vrouw	frau
+Itegem	wil_1	wɪl
+Itegem	ze_1	zə
+Itegem	ziet_1	zi
+Jubbega	aan	ɑn
+Jubbega	agent	pəlɪʃəmɑn
+Jubbega	als	ɑz
+Jubbega	beiden	bɑidə
+Jubbega	besluit	bəslyt
+Jubbega	bij	bai
+Jubbega	buiten	butn
+Jubbega	daar	də
+Jubbega	dan_1	dan
+Jubbega	dat	dɑ
+Jubbega	de_6	də
+Jubbega	door	trʊ
+Jubbega	een_count	ɪ
+Jubbega	een_det	ən
+Jubbega	er	ər
+Jubbega	even	ɛfkəs
+Jubbega	extra	ɛkstrə
+Jubbega	gerinkel	ɡəreŋkəl
+Jubbega	glas	ɡlæs
+Jubbega	glaszetter_1	ɡlɛsɛtər
+Jubbega	goed	ɡud
+Jubbega	gooien	ɡʊiə
+Jubbega	he	
+Jubbega	heel	
+Jubbega	hem	
+Jubbega	het	ət
+Jubbega	hij_2	hɛi
+Jubbega	hoek	hukə
+Jubbega	houden	hɒdn
+Jubbega	huizen	huzn
+Jubbega	in_1	ɪn
+Jubbega	ineens	ɔpɪs
+Jubbega	is	ɪs
+Jubbega	jongetje_2	jɔŋkjə
+Jubbega	juist	krɛk
+Jubbega	klein	lits
+Jubbega	klinkt	kleŋkt
+Jubbega	korte	kuɑtə
+Jubbega	krijgen	krai
+Jubbega	later	lɛtər
+Jubbega	let	lɛt
+Jubbega	loopt	rɛnt
+Jubbega	lopen	rɪnn
+Jubbega	lukt	lʏkt
+Jubbega	maar_1	mɑr
+Jubbega	met_1	mai
+Jubbega	mevrouw	frau
+Jubbega	naar	na
+Jubbega	net	krɛkt
+Jubbega	niet	nɛt
+Jubbega	nou	nau
+Jubbega	nu	nɒu
+Jubbega	of	ɒft
+Jubbega	om	ɔm
+Jubbega	ontdaan	ustjur
+Jubbega	ook	ɛk
+Jubbega	op	ɔp
+Jubbega	pakken	pɑkŋ
+Jubbega	politieagent	pəliʃə
+Jubbega	repareren	mɑitʃə
+Jubbega	ruit	ɡlas
+Jubbega	ruiten	ɡlazn
+Jubbega	samen	təjɛrə
+Jubbega	sneuvelen	snøfələ
+Jubbega	staan	stɪn
+Jubbega	stapt	stapt
+Jubbega	steen	stɛ
+Jubbega	stil	stɪl
+Jubbega	straat	dik
+Jubbega	straten	strɪtə
+Jubbega	te	tə
+Jubbega	tijd	tit
+Jubbega	toevallig	tufɑləx
+Jubbega	van	fan
+Jubbega	veel	
+Jubbega	vraagt	freiɡət
+Jubbega	vrouw	frɑməs
+Jubbega	wil_1	ʋɔl
+Jubbega	ze_1	zə
+Jubbega	ziet_1	ʒɔxt
+Kampen	aan	ɑn
+Kampen	agent	ɑxɛnt
+Kampen	als	ɑz
+Kampen	beiden	ɑləbɛi
+Kampen	besluit	bəslœt
+Kampen	bij	bei
+Kampen	buiten	bytn
+Kampen	daar	dʊ
+Kampen	dan_1	dɑn
+Kampen	dat	dɛ
+Kampen	de_6	də
+Kampen	door	dʏʀ
+Kampen	een_count	enə
+Kampen	een_det	ən
+Kampen	er	dəʀ
+Kampen	even	ibm
+Kampen	extra	ɛkstʀa
+Kampen	gerinkel	xəʀɪŋkəl
+Kampen	glas	xlɑs
+Kampen	glaszetter_1	ʀytnzɛdəʀ
+Kampen	goed	xut
+Kampen	gooien	xʊin
+Kampen	he	he
+Kampen	heel	il
+Kampen	hem	əm
+Kampen	het	ət
+Kampen	hij_2	i
+Kampen	hoek	huk
+Kampen	houden	ɒln
+Kampen	huizen	hyzn
+Kampen	in_1	ɪn
+Kampen	ineens	ɪnens
+Kampen	is	ɪs
+Kampen	jongetje_2	jɔnxi
+Kampen	juist	jyst
+Kampen	klein	klɛin
+Kampen	klinkt	klɪŋkt
+Kampen	korte	kɒʀtə
+Kampen	krijgen	kʀiɡŋ
+Kampen	later	latəʀ
+Kampen	let	kɪk
+Kampen	loopt	lœp
+Kampen	lopen	lopm
+Kampen	lukt	lʏkt
+Kampen	maar_1	ma
+Kampen	met_1	mɛt
+Kampen	mevrouw	fʀɒuə
+Kampen	naar	nɔ
+Kampen	net	nɛt
+Kampen	niet	nit
+Kampen	nou	nə
+Kampen	nu	nɒu
+Kampen	of	ɒf
+Kampen	om	ʏm
+Kampen	ontdaan	ɔntdɔn
+Kampen	ook	ok
+Kampen	op	ɔp
+Kampen	pakken	pɑkŋ
+Kampen	politieagent	plisiæxɛnt
+Kampen	repareren	makŋ
+Kampen	ruit	ʀytə
+Kampen	ruiten	ʀytn
+Kampen	samen	samm
+Kampen	sneuvelen	snøfələn
+Kampen	staan	
+Kampen	stapt	stɒpt
+Kampen	steen	kɛiə
+Kampen	stil	stɪlə
+Kampen	straat	stʀɒtə
+Kampen	straten	stʀɒtn
+Kampen	te	tə
+Kampen	tijd	tit
+Kampen	toevallig	tufɑləx
+Kampen	van	fɑn
+Kampen	veel	følə
+Kampen	vraagt	fʀœx
+Kampen	vrouw	fʀɒuə
+Kampen	wil_1	ʋɪl
+Kampen	ze_1	zə
+Kampen	ziet_1	sit
+Kerkrade	aan	a
+Kerkrade	agent	pʊlis
+Kerkrade	als	wɛnt
+Kerkrade	beiden	ɑlətswai
+Kerkrade	besluit	næmtsiçfyʀ
+Kerkrade	bij	bei
+Kerkrade	buiten	us
+Kerkrade	daar	dʊ
+Kerkrade	dan_1	dan
+Kerkrade	dat	dɑt
+Kerkrade	de_6	də
+Kerkrade	door	dœʀç
+Kerkrade	een_count	en
+Kerkrade	een_det	nə
+Kerkrade	er	
+Kerkrade	even	ɛfə
+Kerkrade	extra	ɛkstʀə
+Kerkrade	gerinkel	jəʀiŋkəl
+Kerkrade	glas	jlas
+Kerkrade	glaszetter_1	jlaskɪəl
+Kerkrade	goed	jʊt
+Kerkrade	gooien	wæʀpə
+Kerkrade	he	
+Kerkrade	heel	jɑns
+Kerkrade	hem	
+Kerkrade	het	əd
+Kerkrade	hij_2	hɪʀ
+Kerkrade	hoek	ɛk
+Kerkrade	houden	hʊdə
+Kerkrade	huizen	huzəʀ
+Kerkrade	in_1	ɪn
+Kerkrade	ineens	ɪnɛns
+Kerkrade	is	ɪʃ
+Kerkrade	jongetje_2	jʏŋʃə
+Kerkrade	juist	jʀat
+Kerkrade	klein	klɪn
+Kerkrade	klinkt	kleŋkt
+Kerkrade	korte	kʊʀtə
+Kerkrade	krijgen	
+Kerkrade	later	ʃpidəʀ
+Kerkrade	let	pɑst
+Kerkrade	loopt	løft
+Kerkrade	lopen	lofə
+Kerkrade	lukt	
+Kerkrade	maar_1	ævəl
+Kerkrade	met_1	mɪt
+Kerkrade	mevrouw	fʀʌu
+Kerkrade	naar	əʀ
+Kerkrade	net	jʀat
+Kerkrade	niet	nɪt
+Kerkrade	nou	
+Kerkrade	nu	nun
+Kerkrade	of	ɒf
+Kerkrade	om	œm
+Kerkrade	ontdaan	jɑnsʊpjəʀɪçt
+Kerkrade	ook	oç
+Kerkrade	op	ɔp
+Kerkrade	pakken	
+Kerkrade	politieagent	pʊlis
+Kerkrade	repareren	
+Kerkrade	ruit	ʀut
+Kerkrade	ruiten	ʀutə
+Kerkrade	samen	təzamə
+Kerkrade	sneuvelen	ʃnøfələ
+Kerkrade	staan	
+Kerkrade	stapt	kʏmt
+Kerkrade	steen	ʃte
+Kerkrade	stil	ʃtɛl
+Kerkrade	straat	ʃtʀɔəʃ
+Kerkrade	straten	ʃtʀɔəsə
+Kerkrade	te	tsə
+Kerkrade	tijd	tsit
+Kerkrade	toevallig	soufɛləç
+Kerkrade	van	fɑn
+Kerkrade	veel	fʏl
+Kerkrade	vraagt	fʀʊçt
+Kerkrade	vrouw	fʀʌu
+Kerkrade	wil_1	wɛlt
+Kerkrade	ze_1	zə
+Kerkrade	ziet_1	zit
+Koekange	aan	an
+Koekange	agent	plisi
+Koekange	als	az
+Koekange	beiden	ɑləbɛi
+Koekange	besluit	bəslœt
+Koekange	bij	bei
+Koekange	buiten	bytn
+Koekange	daar	dɑ
+Koekange	dan_1	dan
+Koekange	dat	da
+Koekange	de_6	də
+Koekange	door	dʏr
+Koekange	een_count	inə
+Koekange	een_det	n
+Koekange	er	dər
+Koekange	even	ɪbm
+Koekange	extra	
+Koekange	gerinkel	xərɪŋkəl
+Koekange	glas	xlas
+Koekange	glaszetter_1	xlasɛdər
+Koekange	goed	xut
+Koekange	gooien	xʊin
+Koekange	he	he
+Koekange	heel	hɪl
+Koekange	hem	əm
+Koekange	het	t
+Koekange	hij_2	he
+Koekange	hoek	hɯk
+Koekange	houden	hɒln
+Koekange	huizen	hyzn
+Koekange	in_1	ɪn
+Koekange	ineens	nis
+Koekange	is	ɪs
+Koekange	jongetje_2	jɒxi
+Koekange	juist	nɛt
+Koekange	klein	klɛin
+Koekange	klinkt	
+Koekange	korte	kɒrdə
+Koekange	krijgen	kriɡŋ
+Koekange	later	lætər
+Koekange	let	
+Koekange	loopt	lʌp
+Koekange	lopen	lopm
+Koekange	lukt	lœkt
+Koekange	maar_1	mar
+Koekange	met_1	mɛt
+Koekange	mevrouw	frɑuə
+Koekange	naar	nɑ
+Koekange	net	nɛd
+Koekange	niet	nit
+Koekange	nou	nau
+Koekange	nu	
+Koekange	of	ɒf
+Koekange	om	œm
+Koekange	ontdaan	xəsxrœkŋ
+Koekange	ook	
+Koekange	op	ɔp
+Koekange	pakken	pakŋ
+Koekange	politieagent	plɪtsi
+Koekange	repareren	makŋ
+Koekange	ruit	rudə
+Koekange	ruiten	rudə
+Koekange	samen	samm
+Koekange	sneuvelen	snøfəld
+Koekange	staan	
+Koekange	stapt	kʌmt
+Koekange	steen	sti
+Koekange	stil	stɪl
+Koekange	straat	strʌdə
+Koekange	straten	
+Koekange	te	t
+Koekange	tijd	tit
+Koekange	toevallig	tufɑləx
+Koekange	van	fan
+Koekange	veel	følə
+Koekange	vraagt	frɑx
+Koekange	vrouw	frɑuə
+Koekange	wil_1	wɛl
+Koekange	ze_1	zə
+Koekange	ziet_1	sɛt
+Kudelstaart	aan	an
+Kudelstaart	agent	axɛnt
+Kudelstaart	als	ɑls
+Kudelstaart	beiden	bɛidə
+Kudelstaart	besluit	ʋɪl
+Kudelstaart	bij	
+Kudelstaart	buiten	
+Kudelstaart	daar	dar
+Kudelstaart	dan_1	
+Kudelstaart	dat	
+Kudelstaart	de_6	də
+Kudelstaart	door	dʊr
+Kudelstaart	een_count	
+Kudelstaart	een_det	ə
+Kudelstaart	er	ɛr
+Kudelstaart	even	eifə
+Kudelstaart	extra	
+Kudelstaart	gerinkel	
+Kudelstaart	glas	xlɑs
+Kudelstaart	glaszetter_1	xlɑsɛtər
+Kudelstaart	goed	xut
+Kudelstaart	gooien	hʊiə
+Kudelstaart	he	
+Kudelstaart	heel	
+Kudelstaart	hem	
+Kudelstaart	het	hɛt
+Kudelstaart	hij_2	hɛi
+Kudelstaart	hoek	huk
+Kudelstaart	houden	hɑudə
+Kudelstaart	huizen	
+Kudelstaart	in_1	ɪn
+Kudelstaart	ineens	plɔtsəlɪŋ
+Kudelstaart	is	ɪs
+Kudelstaart	jongetje_2	kɪrəlcə
+Kudelstaart	juist	
+Kudelstaart	klein	klɑin
+Kudelstaart	klinkt	
+Kudelstaart	korte	
+Kudelstaart	krijgen	
+Kudelstaart	later	latər
+Kudelstaart	let	lɛt
+Kudelstaart	loopt	kɔmt
+Kudelstaart	lopen	
+Kudelstaart	lukt	lœkt
+Kudelstaart	maar_1	mɑr
+Kudelstaart	met_1	bɛi
+Kudelstaart	mevrouw	frau
+Kudelstaart	naar	
+Kudelstaart	net	
+Kudelstaart	niet	nit
+Kudelstaart	nou	
+Kudelstaart	nu	
+Kudelstaart	of	ɒf
+Kudelstaart	om	
+Kudelstaart	ontdaan	
+Kudelstaart	ook	
+Kudelstaart	op	ɔp
+Kudelstaart	pakken	
+Kudelstaart	politieagent	pəlitsi
+Kudelstaart	repareren	makə
+Kudelstaart	ruit	rayt
+Kudelstaart	ruiten	rœytə
+Kudelstaart	samen	
+Kudelstaart	sneuvelen	breikə
+Kudelstaart	staan	
+Kudelstaart	stapt	
+Kudelstaart	steen	stein
+Kudelstaart	stil	ʃtɪl
+Kudelstaart	straat	ʋɛx
+Kudelstaart	straten	
+Kudelstaart	te	
+Kudelstaart	tijd	
+Kudelstaart	toevallig	tufʌləx
+Kudelstaart	van	
+Kudelstaart	veel	
+Kudelstaart	vraagt	fraht
+Kudelstaart	vrouw	frau
+Kudelstaart	wil_1	ʋɪl
+Kudelstaart	ze_1	
+Kudelstaart	ziet_1	zit
+Laren	aan	
+Laren	agent	
+Laren	als	ɑs
+Laren	beiden	
+Laren	besluit	
+Laren	bij	bi
+Laren	buiten	bytn
+Laren	daar	dɒ
+Laren	dan_1	
+Laren	dat	dɑ
+Laren	de_6	də
+Laren	door	dʏr
+Laren	een_count	en
+Laren	een_det	ə
+Laren	er	ər
+Laren	even	ɛfkəs
+Laren	extra	ɛkstra
+Laren	gerinkel	
+Laren	glas	
+Laren	glaszetter_1	xlasɛtər
+Laren	goed	
+Laren	gooien	xʊin
+Laren	he	
+Laren	heel	
+Laren	hem	həm
+Laren	het	hɛt
+Laren	hij_2	
+Laren	hoek	
+Laren	houden	
+Laren	huizen	hyzə
+Laren	in_1	ɪn
+Laren	ineens	ɔpɛns
+Laren	is	ɪs
+Laren	jongetje_2	jʏŋskə
+Laren	juist	nɛt
+Laren	klein	
+Laren	klinkt	
+Laren	korte	
+Laren	krijgen	kriɡŋ
+Laren	later	dənʌ
+Laren	let	
+Laren	loopt	lœp
+Laren	lopen	lopm
+Laren	lukt	lʏkt
+Laren	maar_1	mʌr
+Laren	met_1	mɛt
+Laren	mevrouw	frʌuə
+Laren	naar	nɑ
+Laren	net	
+Laren	niet	nɪt
+Laren	nou	
+Laren	nu	
+Laren	of	ɒf
+Laren	om	
+Laren	ontdaan	hɪləmɔɒfəstʏr
+Laren	ook	ɤuk
+Laren	op	ɔp
+Laren	pakken	pakŋ
+Laren	politieagent	plytsi
+Laren	repareren	makŋ
+Laren	ruit	rutə
+Laren	ruiten	rutn
+Laren	samen	
+Laren	sneuvelen	xɒtkəpɔət
+Laren	staan	
+Laren	stapt	kʏmp
+Laren	steen	kɛi
+Laren	stil	stɪl
+Laren	straat	strʌtə
+Laren	straten	
+Laren	te	
+Laren	tijd	zɛt
+Laren	toevallig	tufɑləx
+Laren	van	fa
+Laren	veel	
+Laren	vraagt	frœx
+Laren	vrouw	frʌuə
+Laren	wil_1	ʋʏl
+Laren	ze_1	zə
+Laren	ziet_1	sʏt
+Leersum	aan	
+Leersum	agent	açɛnt
+Leersum	als	
+Leersum	beiden	
+Leersum	besluit	
+Leersum	bij	bɛi
+Leersum	buiten	bœytə
+Leersum	daar	dar
+Leersum	dan_1	dɑn
+Leersum	dat	
+Leersum	de_6	də
+Leersum	door	
+Leersum	een_count	
+Leersum	een_det	ə
+Leersum	er	
+Leersum	even	
+Leersum	extra	
+Leersum	gerinkel	çərɪŋkəl
+Leersum	glas	çlas
+Leersum	glaszetter_1	
+Leersum	goed	
+Leersum	gooien	xʊiə
+Leersum	he	
+Leersum	heel	
+Leersum	hem	
+Leersum	het	hɛt
+Leersum	hij_2	hɛi
+Leersum	hoek	
+Leersum	houden	
+Leersum	huizen	
+Leersum	in_1	ɪn
+Leersum	ineens	
+Leersum	is	ɪs
+Leersum	jongetje_2	
+Leersum	juist	
+Leersum	klein	
+Leersum	klinkt	klɪŋkt
+Leersum	korte	
+Leersum	krijgen	krɛiçə
+Leersum	later	
+Leersum	let	
+Leersum	loopt	loup
+Leersum	lopen	ləupə
+Leersum	lukt	lœkt
+Leersum	maar_1	
+Leersum	met_1	
+Leersum	mevrouw	frɑu
+Leersum	naar	na
+Leersum	net	
+Leersum	niet	nit
+Leersum	nou	
+Leersum	nu	
+Leersum	of	
+Leersum	om	
+Leersum	ontdaan	ɔndan
+Leersum	ook	
+Leersum	op	ɔp
+Leersum	pakken	pakə
+Leersum	politieagent	ʋɛikæçɛnt
+Leersum	repareren	
+Leersum	ruit	
+Leersum	ruiten	rœytə
+Leersum	samen	samə
+Leersum	sneuvelen	
+Leersum	staan	
+Leersum	stapt	stapt
+Leersum	steen	stein
+Leersum	stil	stɛl
+Leersum	straat	ʋɛç
+Leersum	straten	
+Leersum	te	
+Leersum	tijd	
+Leersum	toevallig	tufaləç
+Leersum	van	
+Leersum	veel	
+Leersum	vraagt	fraçt
+Leersum	vrouw	frau
+Leersum	wil_1	ʋɪl
+Leersum	ze_1	zə
+Leersum	ziet_1	zit
+Lemmer	aan	ɑn
+Lemmer	agent	pliʃə
+Lemmer	als	ʋɑnɪr
+Lemmer	beiden	bɛidə
+Lemmer	besluit	bəslyt
+Lemmer	bij	bai
+Lemmer	buiten	bytn
+Lemmer	daar	də
+Lemmer	dan_1	dɑn
+Lemmer	dat	dɑ
+Lemmer	de_6	də
+Lemmer	door	trʊ
+Lemmer	een_count	ɪ
+Lemmer	een_det	ən
+Lemmer	er	ər
+Lemmer	even	eifə
+Lemmer	extra	ɛkstra
+Lemmer	gerinkel	ɡərɪŋkəl
+Lemmer	glas	ɡlɛs
+Lemmer	glaszetter_1	ɡlɛsɛtər
+Lemmer	goed	ɡuj
+Lemmer	gooien	ɡʊiə
+Lemmer	he	hei
+Lemmer	heel	
+Lemmer	hem	əm
+Lemmer	het	hət
+Lemmer	hij_2	hɛi
+Lemmer	hoek	hukə
+Lemmer	houden	hɒdn
+Lemmer	huizen	hyzn
+Lemmer	in_1	in
+Lemmer	ineens	ɪnes
+Lemmer	is	ɪs
+Lemmer	jongetje_2	jɔŋkjə
+Lemmer	juist	krɛk
+Lemmer	klein	lits
+Lemmer	klinkt	klɪŋkt
+Lemmer	korte	kœtə
+Lemmer	krijgen	
+Lemmer	later	lɛtər
+Lemmer	let	lɛt
+Lemmer	loopt	rɔnt
+Lemmer	lopen	rɔnn
+Lemmer	lukt	lʏkt
+Lemmer	maar_1	mɑr
+Lemmer	met_1	mai
+Lemmer	mevrouw	frau
+Lemmer	naar	nɑi
+Lemmer	net	krɛkt
+Lemmer	niet	nɛt
+Lemmer	nou	
+Lemmer	nu	nɑu
+Lemmer	of	ɒf
+Lemmer	om	ɔm
+Lemmer	ontdaan	ostjur
+Lemmer	ook	
+Lemmer	op	ɔp
+Lemmer	pakken	pakŋ
+Lemmer	politieagent	pliʃə
+Lemmer	repareren	mɑitʃə
+Lemmer	ruit	ryt
+Lemmer	ruiten	rytn
+Lemmer	samen	
+Lemmer	sneuvelen	snøfələ
+Lemmer	staan	
+Lemmer	stapt	stap
+Lemmer	steen	stɪ
+Lemmer	stil	stɪl
+Lemmer	straat	strɪtə
+Lemmer	straten	strʏtn
+Lemmer	te	tə
+Lemmer	tijd	tit
+Lemmer	toevallig	təfɑləx
+Lemmer	van	fan
+Lemmer	veel	
+Lemmer	vraagt	freiɡət
+Lemmer	vrouw	frau
+Lemmer	wil_1	ʋɔl
+Lemmer	ze_1	zə
+Lemmer	ziet_1	ʃʏt
+Lokeren	aan	ɒn
+Lokeren	agent	ʃɑmpætərə
+Lokeren	als	ɑst
+Lokeren	beiden	ɑlətwiə
+Lokeren	besluit	wʊl
+Lokeren	bij	bɛi
+Lokeren	buiten	bøtən
+Lokeren	daar	də
+Lokeren	dan_1	dæ
+Lokeren	dat	dɑ
+Lokeren	de_6	də
+Lokeren	door	dʏr
+Lokeren	een_count	in
+Lokeren	een_det	nə
+Lokeren	er	dər
+Lokeren	even	əbecə
+Lokeren	extra	
+Lokeren	gerinkel	
+Lokeren	glas	çlɑs
+Lokeren	glaszetter_1	çlʊzəmʊkərə
+Lokeren	goed	çut
+Lokeren	gooien	smetn
+Lokeren	he	
+Lokeren	heel	
+Lokeren	hem	
+Lokeren	het	t
+Lokeren	hij_2	m
+Lokeren	hoek	ɯk
+Lokeren	houden	ɒn
+Lokeren	huizen	høzn
+Lokeren	in_1	ɪn
+Lokeren	ineens	ɪnɛnəkir
+Lokeren	is	ɪs
+Lokeren	jongetje_2	
+Lokeren	juist	ʒyst
+Lokeren	klein	klɛn
+Lokeren	klinkt	
+Lokeren	korte	
+Lokeren	krijgen	kren
+Lokeren	later	nədin
+Lokeren	let	
+Lokeren	loopt	lœp
+Lokeren	lopen	løpən
+Lokeren	lukt	
+Lokeren	maar_1	mʌr
+Lokeren	met_1	mɪt
+Lokeren	mevrouw	mɑdɑm
+Lokeren	naar	nɑ
+Lokeren	net	ʒyst
+Lokeren	niet	ni
+Lokeren	nou	nʌ
+Lokeren	nu	nɔ
+Lokeren	of	ɒfdɑt
+Lokeren	om	
+Lokeren	ontdaan	prəsisfandəryrn
+Lokeren	ook	
+Lokeren	op	ɔp
+Lokeren	pakken	
+Lokeren	politieagent	ʃɑmpætərə
+Lokeren	repareren	
+Lokeren	ruit	rœtə
+Lokeren	ruiten	rœtn
+Lokeren	samen	təsʊmm
+Lokeren	sneuvelen	çɒnnədəfoncəs
+Lokeren	staan	stʌnə
+Lokeren	stapt	kɔm
+Lokeren	steen	stiən
+Lokeren	stil	stɔl
+Lokeren	straat	strɔtə
+Lokeren	straten	
+Lokeren	te	
+Lokeren	tijd	
+Lokeren	toevallig	lækən
+Lokeren	van	fɑn
+Lokeren	veel	
+Lokeren	vraagt	frʊçt
+Lokeren	vrouw	frɔ
+Lokeren	wil_1	wʊl
+Lokeren	ze_1	sə
+Lokeren	ziet_1	zit
+Lommel	aan	æn
+Lommel	agent	pəlis
+Lommel	als	ɑs
+Lommel	beiden	ɑləbæi
+Lommel	besluit	dɛŋktəræn
+Lommel	bij	bɛi
+Lommel	buiten	bœytn
+Lommel	daar	dɒr
+Lommel	dan_1	dɑn
+Lommel	dat	da
+Lommel	de_6	də
+Lommel	door	dʏr
+Lommel	een_count	en
+Lommel	een_det	nə
+Lommel	er	dər
+Lommel	even	æfkəs
+Lommel	extra	
+Lommel	gerinkel	çərɪŋkəl
+Lommel	glas	çlɑs
+Lommel	glaszetter_1	çlɔzəmʌər
+Lommel	goed	çut
+Lommel	gooien	smɛitn
+Lommel	he	
+Lommel	heel	hɪl
+Lommel	hem	əm
+Lommel	het	t
+Lommel	hij_2	i
+Lommel	hoek	huk
+Lommel	houden	hʌuən
+Lommel	huizen	hœøzə
+Lommel	in_1	in
+Lommel	ineens	ɔpeins
+Lommel	is	ɪs
+Lommel	jongetje_2	mænəʔən
+Lommel	juist	ʃyst
+Lommel	klein	klæn
+Lommel	klinkt	klɪŋkt
+Lommel	korte	
+Lommel	krijgen	krɛeçn
+Lommel	later	lɒtər
+Lommel	let	lɛt
+Lommel	loopt	lʏpt
+Lommel	lopen	lopən
+Lommel	lukt	lʏkt
+Lommel	maar_1	mɑr
+Lommel	met_1	mit
+Lommel	mevrouw	frɑməs
+Lommel	naar	nɑ
+Lommel	net	ʃyst
+Lommel	niet	ni
+Lommel	nou	nə
+Lommel	nu	nəu
+Lommel	of	ɒf
+Lommel	om	fɑn
+Lommel	ontdaan	fərbɑuərɪrt
+Lommel	ook	ɤk
+Lommel	op	ɔp
+Lommel	pakken	pɑkŋ
+Lommel	politieagent	pəlis
+Lommel	repareren	repərɪrn
+Lommel	ruit	rœt
+Lommel	ruiten	rœitən
+Lommel	samen	çəlɛik
+Lommel	sneuvelen	snøfələn
+Lommel	staan	
+Lommel	stapt	kʏmp
+Lommel	steen	stein
+Lommel	stil	stɪl
+Lommel	straat	strɔt
+Lommel	straten	strʊtə
+Lommel	te	tə
+Lommel	tijd	
+Lommel	toevallig	
+Lommel	van	fɑn
+Lommel	veel	føl
+Lommel	vraagt	frøçt
+Lommel	vrouw	frɑməs
+Lommel	wil_1	wɪlt
+Lommel	ze_1	zə
+Lommel	ziet_1	sit
+Lunteren	aan	ɑn
+Lunteren	agent	pəlisi
+Lunteren	als	as
+Lunteren	beiden	ɑləbɛi
+Lunteren	besluit	bəslyt
+Lunteren	bij	bei
+Lunteren	buiten	bytə
+Lunteren	daar	dɑ
+Lunteren	dan_1	dan
+Lunteren	dat	dɑ
+Lunteren	de_6	də
+Lunteren	door	dʏr
+Lunteren	een_count	ɪ
+Lunteren	een_det	ə
+Lunteren	er	dər
+Lunteren	even	ɛfə
+Lunteren	extra	
+Lunteren	gerinkel	rɪŋkələn
+Lunteren	glas	çlɑʃ
+Lunteren	glaszetter_1	xlasmɑkər
+Lunteren	goed	çut
+Lunteren	gooien	xʊiə
+Lunteren	he	hei
+Lunteren	heel	hɪl
+Lunteren	hem	
+Lunteren	het	t
+Lunteren	hij_2	i
+Lunteren	hoek	hʊk
+Lunteren	houden	hɑuə
+Lunteren	huizen	hyzə
+Lunteren	in_1	ɪn
+Lunteren	ineens	plɒtsəlɪŋ
+Lunteren	is	ɪs
+Lunteren	jongetje_2	jɔŋəcə
+Lunteren	juist	jyst
+Lunteren	klein	klɛin
+Lunteren	klinkt	klɪŋk
+Lunteren	korte	kɒrtə
+Lunteren	krijgen	kriçə
+Lunteren	later	lʌtər
+Lunteren	let	kik
+Lunteren	loopt	loup
+Lunteren	lopen	loupə
+Lunteren	lukt	
+Lunteren	maar_1	mar
+Lunteren	met_1	mɛt
+Lunteren	mevrouw	
+Lunteren	naar	nə
+Lunteren	net	nɛt
+Lunteren	niet	nit
+Lunteren	nou	nʊ
+Lunteren	nu	nu
+Lunteren	of	ɒf
+Lunteren	om	ʌm
+Lunteren	ontdaan	heiloufəstyr
+Lunteren	ook	ouk
+Lunteren	op	ɔp
+Lunteren	pakken	pɑkə
+Lunteren	politieagent	pəlisi
+Lunteren	repareren	mʌkŋ
+Lunteren	ruit	ryt
+Lunteren	ruiten	rytə
+Lunteren	samen	sɑmən
+Lunteren	sneuvelen	snøfələ
+Lunteren	staan	
+Lunteren	stapt	stapt
+Lunteren	steen	stɪn
+Lunteren	stil	stɪl
+Lunteren	straat	strɑt
+Lunteren	straten	strʌtə
+Lunteren	te	tə
+Lunteren	tijd	tit
+Lunteren	toevallig	tufɑləx
+Lunteren	van	fan
+Lunteren	veel	fʏl
+Lunteren	vraagt	frɑxt
+Lunteren	vrouw	ʋif
+Lunteren	wil_1	ʋʏl
+Lunteren	ze_1	zə
+Lunteren	ziet_1	sit
+Maldegem	aan	
+Maldegem	agent	æχæt
+Maldegem	als	dæsdɑt
+Maldegem	beiden	ɑlətwɪə
+Maldegem	besluit	χət
+Maldegem	bij	
+Maldegem	buiten	bytn
+Maldegem	daar	
+Maldegem	dan_1	tʊs
+Maldegem	dat	
+Maldegem	de_6	də
+Maldegem	door	dʏr
+Maldegem	een_count	ɪnə
+Maldegem	een_det	nə
+Maldegem	er	dər
+Maldegem	even	əticə
+Maldegem	extra	
+Maldegem	gerinkel	
+Maldegem	glas	χlɑs
+Maldegem	glaszetter_1	rytəmɒkr
+Maldegem	goed	χu
+Maldegem	gooien	smitn
+Maldegem	he	
+Maldegem	heel	
+Maldegem	hem	
+Maldegem	het	t
+Maldegem	hij_2	i
+Maldegem	hoek	uk
+Maldegem	houden	pɑkŋ
+Maldegem	huizen	hʏzn
+Maldegem	in_1	ɛn
+Maldegem	ineens	ɒmɛnəkir
+Maldegem	is	ɪs
+Maldegem	jongetje_2	
+Maldegem	juist	ʒyst
+Maldegem	klein	
+Maldegem	klinkt	
+Maldegem	korte	kɒrtn
+Maldegem	krijgen	
+Maldegem	later	lœtrə
+Maldegem	let	kɪk
+Maldegem	loopt	pɑsirt
+Maldegem	lopen	lʏpm
+Maldegem	lukt	
+Maldegem	maar_1	mər
+Maldegem	met_1	mɪt
+Maldegem	mevrouw	
+Maldegem	naar	
+Maldegem	net	ʃystə
+Maldegem	niet	ni
+Maldegem	nou	
+Maldegem	nu	nɛi
+Maldegem	of	ɒf
+Maldegem	om	
+Maldegem	ontdaan	fifəsχotn
+Maldegem	ook	
+Maldegem	op	ɔp
+Maldegem	pakken	fʌstə
+Maldegem	politieagent	ʃɑndɑrm
+Maldegem	repareren	mʊkŋ
+Maldegem	ruit	rytə
+Maldegem	ruiten	rytn
+Maldegem	samen	tɯpə
+Maldegem	sneuvelen	fliχənkʌpɔt
+Maldegem	staan	
+Maldegem	stapt	kɔm
+Maldegem	steen	kæi
+Maldegem	stil	stɛl
+Maldegem	straat	strʏtə
+Maldegem	straten	
+Maldegem	te	
+Maldegem	tijd	tɛit
+Maldegem	toevallig	lækŋ
+Maldegem	van	fɑn
+Maldegem	veel	fel
+Maldegem	vraagt	frʊχt
+Maldegem	vrouw	
+Maldegem	wil_1	wɛl
+Maldegem	ze_1	sə
+Maldegem	ziet_1	sit
+Marken	aan	an
+Marken	agent	pəlisi
+Marken	als	ɑs
+Marken	beiden	ɑlətʋei
+Marken	besluit	neimtəbəslayt
+Marken	bij	bɛi
+Marken	buiten	bœytə
+Marken	daar	də
+Marken	dan_1	dɑn
+Marken	dat	dɑ
+Marken	de_6	də
+Marken	door	dʏr
+Marken	een_count	e
+Marken	een_det	ə
+Marken	er	də
+Marken	even	ɛfə
+Marken	extra	ɛkstra
+Marken	gerinkel	xəriŋkəl
+Marken	glas	xlas
+Marken	glaszetter_1	xlasɛtər
+Marken	goed	
+Marken	gooien	xɤiə
+Marken	he	hɛ
+Marken	heel	
+Marken	hem	
+Marken	het	ət
+Marken	hij_2	i
+Marken	hoek	hok
+Marken	houden	hɑuə
+Marken	huizen	haysə
+Marken	in_1	ɪn
+Marken	ineens	ənins
+Marken	is	ɪs
+Marken	jongetje_2	jɔŋəcə
+Marken	juist	nɛt
+Marken	klein	klɑin
+Marken	klinkt	
+Marken	korte	
+Marken	krijgen	kraə
+Marken	later	dənɛi
+Marken	let	lɛt
+Marken	loopt	loupt
+Marken	lopen	lɑupə
+Marken	lukt	lʏkt
+Marken	maar_1	mɑr
+Marken	met_1	mɪt
+Marken	mevrouw	
+Marken	naar	nei
+Marken	net	nɛt
+Marken	niet	nit
+Marken	nou	nə
+Marken	nu	nɑu
+Marken	of	ɒf
+Marken	om	ɔm
+Marken	ontdaan	eiləxʌrɑndein
+Marken	ook	ouk
+Marken	op	ɔp
+Marken	pakken	
+Marken	politieagent	pəlisi
+Marken	repareren	mʌkə
+Marken	ruit	rayt
+Marken	ruiten	rœytə
+Marken	samen	
+Marken	sneuvelen	xɛtəbarstə
+Marken	staan	
+Marken	stapt	stɑpt
+Marken	steen	sti
+Marken	stil	stɪl
+Marken	straat	strɛit
+Marken	straten	strɛitə
+Marken	te	tə
+Marken	tijd	
+Marken	toevallig	tufɑləx
+Marken	van	fɑn
+Marken	veel	
+Marken	vraagt	freixt
+Marken	vrouw	
+Marken	wil_1	wʏl
+Marken	ze_1	zə
+Marken	ziet_1	zit
+Middelharnis	aan	ɑn
+Middelharnis	agent	plɪsi
+Middelharnis	als	ɑst
+Middelharnis	beiden	ɑləbæiə
+Middelharnis	besluit	bəslyt
+Middelharnis	bij	bi
+Middelharnis	buiten	bytən
+Middelharnis	daar	dɑ
+Middelharnis	dan_1	dɑn
+Middelharnis	dat	da
+Middelharnis	de_6	də
+Middelharnis	door	dʏr
+Middelharnis	een_count	ɪ
+Middelharnis	een_det	ən
+Middelharnis	er	ər
+Middelharnis	even	efə
+Middelharnis	extra	
+Middelharnis	gerinkel	
+Middelharnis	glas	xlɑs
+Middelharnis	glaszetter_1	xlazəzætər
+Middelharnis	goed	χud
+Middelharnis	gooien	χʊin
+Middelharnis	he	
+Middelharnis	heel	
+Middelharnis	hem	əm
+Middelharnis	het	t
+Middelharnis	hij_2	i
+Middelharnis	hoek	huk
+Middelharnis	houden	hauən
+Middelharnis	huizen	hyzən
+Middelharnis	in_1	ɛn
+Middelharnis	ineens	ənɪns
+Middelharnis	is	ɪs
+Middelharnis	jongetje_2	fæncə
+Middelharnis	juist	jyst
+Middelharnis	klein	klɛin
+Middelharnis	klinkt	
+Middelharnis	korte	kɒrtə
+Middelharnis	krijgen	krɪxn
+Middelharnis	later	lætər
+Middelharnis	let	læt
+Middelharnis	loopt	lʌp
+Middelharnis	lopen	lɑpə
+Middelharnis	lukt	lœkt
+Middelharnis	maar_1	mɑr
+Middelharnis	met_1	mæt
+Middelharnis	mevrouw	frauə
+Middelharnis	naar	næ
+Middelharnis	net	næt
+Middelharnis	niet	nɪt
+Middelharnis	nou	nə
+Middelharnis	nu	
+Middelharnis	of	ɒf
+Middelharnis	om	
+Middelharnis	ontdaan	hɪləmalʌufərdəturn
+Middelharnis	ook	ʌk
+Middelharnis	op	ɔp
+Middelharnis	pakken	pɑkən
+Middelharnis	politieagent	pəlɪsi
+Middelharnis	repareren	mækə
+Middelharnis	ruit	rytə
+Middelharnis	ruiten	rytn
+Middelharnis	samen	sæmm
+Middelharnis	sneuvelen	snøfələ
+Middelharnis	staan	
+Middelharnis	stapt	stapt
+Middelharnis	steen	stɪ
+Middelharnis	stil	stɪlə
+Middelharnis	straat	stratə
+Middelharnis	straten	stratən
+Middelharnis	te	tə
+Middelharnis	tijd	tit
+Middelharnis	toevallig	tufɑləχ
+Middelharnis	van	fɑn
+Middelharnis	veel	
+Middelharnis	vraagt	fræχt
+Middelharnis	vrouw	frauə
+Middelharnis	wil_1	wʏl
+Middelharnis	ze_1	sə
+Middelharnis	ziet_1	zit
+Naaldwijk	aan	ɑn
+Naaldwijk	agent	ɑxɛnt
+Naaldwijk	als	ɒls
+Naaldwijk	beiden	ʌləbai
+Naaldwijk	besluit	bəslœyt
+Naaldwijk	bij	bɛi
+Naaldwijk	buiten	bœtə
+Naaldwijk	daar	da
+Naaldwijk	dan_1	dɑn
+Naaldwijk	dat	dɑt
+Naaldwijk	de_6	də
+Naaldwijk	door	dʊʀ
+Naaldwijk	een_count	ein
+Naaldwijk	een_det	ə
+Naaldwijk	er	əʀ
+Naaldwijk	even	eifə
+Naaldwijk	extra	ɛkstʀə
+Naaldwijk	gerinkel	xəʀɪŋkəl
+Naaldwijk	glas	xlɑs
+Naaldwijk	glaszetter_1	xlʌsɛtəʀ
+Naaldwijk	goed	xɯt
+Naaldwijk	gooien	xɤiə
+Naaldwijk	he	
+Naaldwijk	heel	heil
+Naaldwijk	hem	
+Naaldwijk	het	hɛt
+Naaldwijk	hij_2	hɛi
+Naaldwijk	hoek	huk
+Naaldwijk	houden	hɑudə
+Naaldwijk	huizen	hayzə
+Naaldwijk	in_1	ɪn
+Naaldwijk	ineens	ɪneis
+Naaldwijk	is	ɪs
+Naaldwijk	jongetje_2	jɔŋəcə
+Naaldwijk	juist	jœyst
+Naaldwijk	klein	klain
+Naaldwijk	klinkt	klɪŋkt
+Naaldwijk	korte	kɒrtə
+Naaldwijk	krijgen	kʀaixə
+Naaldwijk	later	lɑtəʀ
+Naaldwijk	let	lɛt
+Naaldwijk	loopt	lɤupt
+Naaldwijk	lopen	lɤupə
+Naaldwijk	lukt	lʏkt
+Naaldwijk	maar_1	mɑʀ
+Naaldwijk	met_1	mɛt
+Naaldwijk	mevrouw	məfʀaɯ
+Naaldwijk	naar	na
+Naaldwijk	net	nɛt
+Naaldwijk	niet	nit
+Naaldwijk	nou	nə
+Naaldwijk	nu	nʏ
+Naaldwijk	of	ɒf
+Naaldwijk	om	ɔm
+Naaldwijk	ontdaan	xəsxʀʊkə
+Naaldwijk	ook	ɤuk
+Naaldwijk	op	ɔp
+Naaldwijk	pakken	pɑkə
+Naaldwijk	politieagent	plisiɑxɛnt
+Naaldwijk	repareren	mɑkə
+Naaldwijk	ruit	ʀœyt
+Naaldwijk	ruiten	ʀœytə
+Naaldwijk	samen	sɑmm
+Naaldwijk	sneuvelen	snøfələ
+Naaldwijk	staan	
+Naaldwijk	stapt	stɒpt
+Naaldwijk	steen	stein
+Naaldwijk	stil	stɪl
+Naaldwijk	straat	stʀat
+Naaldwijk	straten	stʀatə
+Naaldwijk	te	tə
+Naaldwijk	tijd	tait
+Naaldwijk	toevallig	tufʌləx
+Naaldwijk	van	fɑn
+Naaldwijk	veel	fɤl
+Naaldwijk	vraagt	fʀɑht
+Naaldwijk	vrouw	fʀaɯ
+Naaldwijk	wil_1	ʋʏl
+Naaldwijk	ze_1	zə
+Naaldwijk	ziet_1	zit
+Neeroeteren	aan	
+Neeroeteren	agent	bɒi
+Neeroeteren	als	ɑs
+Neeroeteren	beiden	ɑləbæi
+Neeroeteren	besluit	bəʃlɪst
+Neeroeteren	bij	bi
+Neeroeteren	buiten	bytə
+Neeroeteren	daar	dɒ
+Neeroeteren	dan_1	dan
+Neeroeteren	dat	dat
+Neeroeteren	de_6	də
+Neeroeteren	door	dʏʀ
+Neeroeteren	een_count	ein
+Neeroeteren	een_det	ənə
+Neeroeteren	er	əʀ
+Neeroeteren	even	ɛfkəs
+Neeroeteren	extra	
+Neeroeteren	gerinkel	çəʀɪŋkəl
+Neeroeteren	glas	çlas
+Neeroeteren	glaszetter_1	çlasənɛikəʀ
+Neeroeteren	goed	çʊt
+Neeroeteren	gooien	çuiə
+Neeroeteren	he	hei
+Neeroeteren	heel	
+Neeroeteren	hem	əm
+Neeroeteren	het	t
+Neeroeteren	hij_2	m
+Neeroeteren	hoek	hɔk
+Neeroeteren	houden	hɑuə
+Neeroeteren	huizen	hysəʀ
+Neeroeteren	in_1	ɪn
+Neeroeteren	ineens	ɪnɪns
+Neeroeteren	is	ɪs
+Neeroeteren	jongetje_2	mænəkə
+Neeroeteren	juist	ʃyst
+Neeroeteren	klein	
+Neeroeteren	klinkt	klɪŋk
+Neeroeteren	korte	çeinən
+Neeroeteren	krijgen	
+Neeroeteren	later	dənɒ
+Neeroeteren	let	læt
+Neeroeteren	loopt	lɛi
+Neeroeteren	lopen	lɤupə
+Neeroeteren	lukt	lækt
+Neeroeteren	maar_1	mɑʀ
+Neeroeteren	met_1	bi
+Neeroeteren	mevrouw	fʀəɯ
+Neeroeteren	naar	nʌ
+Neeroeteren	net	ʃʏst
+Neeroeteren	niet	nɪt
+Neeroeteren	nou	nɯ
+Neeroeteren	nu	nu
+Neeroeteren	of	ɒf
+Neeroeteren	om	um
+Neeroeteren	ontdaan	fəʃʀʊkə
+Neeroeteren	ook	ɤk
+Neeroeteren	op	ɔp
+Neeroeteren	pakken	pɑkə
+Neeroeteren	politieagent	bɒi
+Neeroeteren	repareren	mɑkə
+Neeroeteren	ruit	ʀut
+Neeroeteren	ruiten	ʀytə
+Neeroeteren	samen	
+Neeroeteren	sneuvelen	çɒnkəpʊt
+Neeroeteren	staan	
+Neeroeteren	stapt	ʃtɑpt
+Neeroeteren	steen	stein
+Neeroeteren	stil	ʃtɪl
+Neeroeteren	straat	stʀɒt
+Neeroeteren	straten	stʀɒtə
+Neeroeteren	te	
+Neeroeteren	tijd	ti
+Neeroeteren	toevallig	
+Neeroeteren	van	fɑn
+Neeroeteren	veel	
+Neeroeteren	vraagt	fʀeiçt
+Neeroeteren	vrouw	fʀəɯ
+Neeroeteren	wil_1	wɪl
+Neeroeteren	ze_1	zə
+Neeroeteren	ziet_1	zit
+Nij Altoenae	aan	ɑn
+Nij Altoenae	agent	plisiman
+Nij Altoenae	als	at
+Nij Altoenae	beiden	bɒidə
+Nij Altoenae	besluit	bəslyt
+Nij Altoenae	bij	bɛi
+Nij Altoenae	buiten	bytn
+Nij Altoenae	daar	dæ
+Nij Altoenae	dan_1	dan
+Nij Altoenae	dat	dɑ
+Nij Altoenae	de_6	də
+Nij Altoenae	door	dʏr
+Nij Altoenae	een_count	ein
+Nij Altoenae	een_det	n
+Nij Altoenae	er	ər
+Nij Altoenae	even	ənhʏtʃə
+Nij Altoenae	extra	ɛkstrə
+Nij Altoenae	gerinkel	ɡərɪŋkəl
+Nij Altoenae	glas	ɡlɑs
+Nij Altoenae	glaszetter_1	ɡlɑsɛtər
+Nij Altoenae	goed	ɡut
+Nij Altoenae	gooien	smitə
+Nij Altoenae	he	
+Nij Altoenae	heel	
+Nij Altoenae	hem	əm
+Nij Altoenae	het	t
+Nij Altoenae	hij_2	i
+Nij Altoenae	hoek	huk
+Nij Altoenae	houden	hɑə
+Nij Altoenae	huizen	hyzn
+Nij Altoenae	in_1	
+Nij Altoenae	ineens	ɪneis
+Nij Altoenae	is	ɪs
+Nij Altoenae	jongetje_2	jɔŋətsi
+Nij Altoenae	juist	krɛk
+Nij Altoenae	klein	
+Nij Altoenae	klinkt	
+Nij Altoenae	korte	klɒinhʏtsi
+Nij Altoenae	krijgen	krɑiən
+Nij Altoenae	later	latər
+Nij Altoenae	let	kik
+Nij Altoenae	loopt	kɔmt
+Nij Altoenae	lopen	lʌupm
+Nij Altoenae	lukt	lʏkt
+Nij Altoenae	maar_1	ma
+Nij Altoenae	met_1	mɛt
+Nij Altoenae	mevrouw	frɑu
+Nij Altoenae	naar	na
+Nij Altoenae	net	
+Nij Altoenae	niet	nit
+Nij Altoenae	nou	nə
+Nij Altoenae	nu	nɑu
+Nij Altoenae	of	ɒf
+Nij Altoenae	om	ɔm
+Nij Altoenae	ontdaan	ɡəheoufəstu
+Nij Altoenae	ook	ok
+Nij Altoenae	op	ɪn
+Nij Altoenae	pakken	pakən
+Nij Altoenae	politieagent	plisiman
+Nij Altoenae	repareren	makə
+Nij Altoenae	ruit	ryt
+Nij Altoenae	ruiten	rytn
+Nij Altoenae	samen	təɡar
+Nij Altoenae	sneuvelen	
+Nij Altoenae	staan	stæn
+Nij Altoenae	stapt	kɔm
+Nij Altoenae	steen	stein
+Nij Altoenae	stil	stɪl
+Nij Altoenae	straat	strat
+Nij Altoenae	straten	
+Nij Altoenae	te	tə
+Nij Altoenae	tijd	tit
+Nij Altoenae	toevallig	tufaləx
+Nij Altoenae	van	fan
+Nij Altoenae	veel	føl
+Nij Altoenae	vraagt	fraxt
+Nij Altoenae	vrouw	frɑu
+Nij Altoenae	wil_1	sɪl
+Nij Altoenae	ze_1	sə
+Nij Altoenae	ziet_1	sit
+Nijverdal	aan	ɑn
+Nijverdal	agent	plitsi
+Nijverdal	als	ɑs
+Nijverdal	beiden	bɛidə
+Nijverdal	besluit	bəslœt
+Nijverdal	bij	bi
+Nijverdal	buiten	bytn
+Nijverdal	daar	dʊ
+Nijverdal	dan_1	dɑn
+Nijverdal	dat	dɑ
+Nijverdal	de_6	də
+Nijverdal	door	dʏr
+Nijverdal	een_count	en
+Nijverdal	een_det	n
+Nijverdal	er	ər
+Nijverdal	even	ɛbm
+Nijverdal	extra	ɛkstra
+Nijverdal	gerinkel	xərɪŋkəl
+Nijverdal	glas	xlɑs
+Nijverdal	glaszetter_1	xlɑsɛtər
+Nijverdal	goed	xut
+Nijverdal	gooien	xʊin
+Nijverdal	he	he
+Nijverdal	heel	hɪl
+Nijverdal	hem	əm
+Nijverdal	het	hɛt
+Nijverdal	hij_2	hɛi
+Nijverdal	hoek	huk
+Nijverdal	houden	hɒln
+Nijverdal	huizen	hyzər
+Nijverdal	in_1	ɪn
+Nijverdal	ineens	ɪnes
+Nijverdal	is	ɪs
+Nijverdal	jongetje_2	jɒxi
+Nijverdal	juist	jyst
+Nijverdal	klein	klɛin
+Nijverdal	klinkt	klɪŋkt
+Nijverdal	korte	kɒrtn
+Nijverdal	krijgen	kriɡŋ
+Nijverdal	later	latər
+Nijverdal	let	
+Nijverdal	loopt	lœp
+Nijverdal	lopen	lopm
+Nijverdal	lukt	lʏkt
+Nijverdal	maar_1	mɑr
+Nijverdal	met_1	mɛt
+Nijverdal	mevrouw	frɑuə
+Nijverdal	naar	nɒ
+Nijverdal	net	nɛt
+Nijverdal	niet	nit
+Nijverdal	nou	nə
+Nijverdal	nu	
+Nijverdal	of	ɒf
+Nijverdal	om	œm
+Nijverdal	ontdaan	ɒndɒn
+Nijverdal	ook	ok
+Nijverdal	op	ɔp
+Nijverdal	pakken	pɑkŋ
+Nijverdal	politieagent	plitsiaxɛnt
+Nijverdal	repareren	reparɪrn
+Nijverdal	ruit	rutə
+Nijverdal	ruiten	rutn
+Nijverdal	samen	samən
+Nijverdal	sneuvelen	snøfəlt
+Nijverdal	staan	
+Nijverdal	stapt	stɑpt
+Nijverdal	steen	sten
+Nijverdal	stil	stɪlə
+Nijverdal	straat	strʌtə
+Nijverdal	straten	
+Nijverdal	te	tə
+Nijverdal	tijd	tit
+Nijverdal	toevallig	tufɑləx
+Nijverdal	van	fɑn
+Nijverdal	veel	fœlə
+Nijverdal	vraagt	frœx
+Nijverdal	vrouw	frɑuə
+Nijverdal	wil_1	ʋʏl
+Nijverdal	ze_1	sə
+Nijverdal	ziet_1	sœt
+Noordwolde	aan	ɑn
+Noordwolde	agent	pəlizi
+Noordwolde	als	ɶz
+Noordwolde	beiden	
+Noordwolde	besluit	bəslyt
+Noordwolde	bij	bɛi
+Noordwolde	buiten	bytn
+Noordwolde	daar	da
+Noordwolde	dan_1	
+Noordwolde	dat	
+Noordwolde	de_6	də
+Noordwolde	door	dʏr
+Noordwolde	een_count	ein
+Noordwolde	een_det	ə
+Noordwolde	er	ər
+Noordwolde	even	
+Noordwolde	extra	
+Noordwolde	gerinkel	xərɪŋkəl
+Noordwolde	glas	xlas
+Noordwolde	glaszetter_1	xlɑsɛtər
+Noordwolde	goed	xut
+Noordwolde	gooien	xʊin
+Noordwolde	he	he
+Noordwolde	heel	
+Noordwolde	hem	
+Noordwolde	het	t
+Noordwolde	hij_2	i
+Noordwolde	hoek	huk
+Noordwolde	houden	hɒln
+Noordwolde	huizen	hyzn
+Noordwolde	in_1	ɪn
+Noordwolde	ineens	ɪnis
+Noordwolde	is	ɪzə
+Noordwolde	jongetje_2	jɒxi
+Noordwolde	juist	krɛk
+Noordwolde	klein	
+Noordwolde	klinkt	
+Noordwolde	korte	kɒrdə
+Noordwolde	krijgen	kriɡŋ
+Noordwolde	later	lætər
+Noordwolde	let	kik
+Noordwolde	loopt	lop
+Noordwolde	lopen	lopm
+Noordwolde	lukt	
+Noordwolde	maar_1	
+Noordwolde	met_1	mɛt
+Noordwolde	mevrouw	məfrʌu
+Noordwolde	naar	nʌ
+Noordwolde	net	
+Noordwolde	niet	nit
+Noordwolde	nou	
+Noordwolde	nu	nau
+Noordwolde	of	ɑz
+Noordwolde	om	ɔm
+Noordwolde	ontdaan	ɔndʌn
+Noordwolde	ook	
+Noordwolde	op	ɔp
+Noordwolde	pakken	pakŋ
+Noordwolde	politieagent	pəlizi
+Noordwolde	repareren	mækŋ
+Noordwolde	ruit	
+Noordwolde	ruiten	rytn
+Noordwolde	samen	
+Noordwolde	sneuvelen	xɒnkəpɒt
+Noordwolde	staan	stʌn
+Noordwolde	stapt	kɔmd
+Noordwolde	steen	stin
+Noordwolde	stil	stɪl
+Noordwolde	straat	strʌdə
+Noordwolde	straten	
+Noordwolde	te	t
+Noordwolde	tijd	tit
+Noordwolde	toevallig	
+Noordwolde	van	fan
+Noordwolde	veel	
+Noordwolde	vraagt	frʌxt
+Noordwolde	vrouw	frʌu
+Noordwolde	wil_1	wɪl
+Noordwolde	ze_1	sə
+Noordwolde	ziet_1	sit
+Ommen	aan	ɑn
+Ommen	agent	plitsi
+Ommen	als	ɑz
+Ommen	beiden	bɛidn
+Ommen	besluit	wɪl
+Ommen	bij	bei
+Ommen	buiten	bytn
+Ommen	daar	dʊ
+Ommen	dan_1	dɑn
+Ommen	dat	dɑ
+Ommen	de_6	də
+Ommen	door	dʏr
+Ommen	een_count	i
+Ommen	een_det	n
+Ommen	er	
+Ommen	even	wɑt
+Ommen	extra	
+Ommen	gerinkel	xəlyt
+Ommen	glas	xlas
+Ommen	glaszetter_1	xlɑsɛtər
+Ommen	goed	
+Ommen	gooien	xʊin
+Ommen	he	he
+Ommen	heel	
+Ommen	hem	
+Ommen	het	t
+Ommen	hij_2	ə
+Ommen	hoek	huk
+Ommen	houden	hɒln
+Ommen	huizen	hyzə
+Ommen	in_1	
+Ommen	ineens	ɪnis
+Ommen	is	ɪs
+Ommen	jongetje_2	jɒxi
+Ommen	juist	nɛt
+Ommen	klein	klɛin
+Ommen	klinkt	klɪŋkt
+Ommen	korte	kɒrdə
+Ommen	krijgen	
+Ommen	later	latər
+Ommen	let	
+Ommen	loopt	lœp
+Ommen	lopen	lopm
+Ommen	lukt	
+Ommen	maar_1	
+Ommen	met_1	mɛt
+Ommen	mevrouw	frɒuə
+Ommen	naar	nʌ
+Ommen	net	nɛt
+Ommen	niet	ni
+Ommen	nou	
+Ommen	nu	
+Ommen	of	ɒf
+Ommen	om	
+Ommen	ontdaan	fərɑldərɪt
+Ommen	ook	
+Ommen	op	ɪn
+Ommen	pakken	pɑkŋ
+Ommen	politieagent	pəlitsi
+Ommen	repareren	makŋ
+Ommen	ruit	rutə
+Ommen	ruiten	rutn
+Ommen	samen	sæmm
+Ommen	sneuvelen	
+Ommen	staan	
+Ommen	stapt	kʏmp
+Ommen	steen	stin
+Ommen	stil	stɪlə
+Ommen	straat	strʌtə
+Ommen	straten	
+Ommen	te	
+Ommen	tijd	tit
+Ommen	toevallig	
+Ommen	van	fɑn
+Ommen	veel	
+Ommen	vraagt	frʏx
+Ommen	vrouw	frɒumɛsə
+Ommen	wil_1	wɔl
+Ommen	ze_1	sə
+Ommen	ziet_1	zœt
+Onstwedde	aan	æ
+Onstwedde	agent	plitsi
+Onstwedde	als	az
+Onstwedde	beiden	bɛidn
+Onstwedde	besluit	bəslʊt
+Onstwedde	bij	bi
+Onstwedde	buiten	butn
+Onstwedde	daar	dʊ
+Onstwedde	dan_1	dan
+Onstwedde	dat	da
+Onstwedde	de_6	də
+Onstwedde	door	dʏr
+Onstwedde	een_count	ɑi
+Onstwedde	een_det	n
+Onstwedde	er	ə
+Onstwedde	even	eibm
+Onstwedde	extra	
+Onstwedde	gerinkel	
+Onstwedde	glas	xlas
+Onstwedde	glaszetter_1	xlasɛtər
+Onstwedde	goed	xɑud
+Onstwedde	gooien	xʊin
+Onstwedde	he	
+Onstwedde	heel	hɑl
+Onstwedde	hem	əm
+Onstwedde	het	t
+Onstwedde	hij_2	i
+Onstwedde	hoek	hɑuk
+Onstwedde	houden	
+Onstwedde	huizen	huzn
+Onstwedde	in_1	ɪn
+Onstwedde	ineens	ɪnɑis
+Onstwedde	is	ɪs
+Onstwedde	jongetje_2	jʌŋkjə
+Onstwedde	juist	nɛt
+Onstwedde	klein	
+Onstwedde	klinkt	
+Onstwedde	korte	kœrdə
+Onstwedde	krijgen	kriɡŋ
+Onstwedde	later	lɒtər
+Onstwedde	let	kɪk
+Onstwedde	loopt	lɒpt
+Onstwedde	lopen	lʌupm
+Onstwedde	lukt	lʏkt
+Onstwedde	maar_1	mar
+Onstwedde	met_1	mɪt
+Onstwedde	mevrouw	məfrau
+Onstwedde	naar	nʊ
+Onstwedde	net	nɛt
+Onstwedde	niet	nix
+Onstwedde	nou	
+Onstwedde	nu	
+Onstwedde	of	ɒf
+Onstwedde	om	ʏm
+Onstwedde	ontdaan	fəbɑuʋərɪt
+Onstwedde	ook	ouk
+Onstwedde	op	ɔp
+Onstwedde	pakken	pakŋ
+Onstwedde	politieagent	plitsi
+Onstwedde	repareren	
+Onstwedde	ruit	rudə
+Onstwedde	ruiten	rutn
+Onstwedde	samen	sɒmm
+Onstwedde	sneuvelen	snøfəld
+Onstwedde	staan	
+Onstwedde	stapt	stap
+Onstwedde	steen	stɑinə
+Onstwedde	stil	stɪl
+Onstwedde	straat	strʊdə
+Onstwedde	straten	
+Onstwedde	te	tə
+Onstwedde	tijd	tit
+Onstwedde	toevallig	təfɑləx
+Onstwedde	van	fan
+Onstwedde	veel	
+Onstwedde	vraagt	fraxt
+Onstwedde	vrouw	frau
+Onstwedde	wil_1	ʋɪ
+Onstwedde	ze_1	sə
+Onstwedde	ziet_1	sʏxt
+Oostende	aan	
+Oostende	agent	pliʃə
+Oostende	als	ɒst
+Oostende	beiden	ʊlətwɛ
+Oostende	besluit	ɪsfanplan
+Oostende	bij	bi
+Oostende	buiten	bytn
+Oostende	daar	
+Oostende	dan_1	tʊnə
+Oostende	dat	
+Oostende	de_6	də
+Oostende	door	dʏr
+Oostende	een_count	ɛən
+Oostende	een_det	ə
+Oostende	er	dər
+Oostende	even	əlæcə
+Oostende	extra	
+Oostende	gerinkel	həriŋkəl
+Oostende	glas	hlɑs
+Oostende	glaszetter_1	rytəmʌkər
+Oostende	goed	çut
+Oostende	gooien	smitn
+Oostende	he	
+Oostende	heel	stif
+Oostende	hem	æm
+Oostende	het	t
+Oostende	hij_2	m
+Oostende	hoek	
+Oostende	houden	ʃtækŋ
+Oostende	huizen	yzn
+Oostende	in_1	ɪn
+Oostende	ineens	ənɛikɪ
+Oostende	is	ɪs
+Oostende	jongetje_2	χaʃə
+Oostende	juist	ʃystə
+Oostende	klein	klɛin
+Oostende	klinkt	klɪŋkt
+Oostende	korte	hɛn
+Oostende	krijgen	krihən
+Oostende	later	lɒtər
+Oostende	let	lɛt
+Oostende	loopt	lɒpt
+Oostende	lopen	loupən
+Oostende	lukt	lœkt
+Oostende	maar_1	mʌr
+Oostende	met_1	mæt
+Oostende	mevrouw	wyf
+Oostende	naar	nɒ
+Oostende	net	ʃystə
+Oostende	niet	ni
+Oostende	nou	
+Oostende	nu	
+Oostende	of	ɒst
+Oostende	om	
+Oostende	ontdaan	ɑχədɒn
+Oostende	ook	
+Oostende	op	ɪn
+Oostende	pakken	ʃtækən
+Oostende	politieagent	pliʃə
+Oostende	repareren	fəmɑkŋ
+Oostende	ruit	rytə
+Oostende	ruiten	rytn
+Oostende	samen	təhɒrə
+Oostende	sneuvelen	
+Oostende	staan	
+Oostende	stapt	stapt
+Oostende	steen	stɛ
+Oostende	stil	stɪlə
+Oostende	straat	strʌtə
+Oostende	straten	
+Oostende	te	tə
+Oostende	tijd	tit
+Oostende	toevallig	
+Oostende	van	fan
+Oostende	veel	
+Oostende	vraagt	fraxt
+Oostende	vrouw	wyf
+Oostende	wil_1	wɛl
+Oostende	ze_1	œndər
+Oostende	ziet_1	sit
+Ooy	aan	
+Ooy	agent	pəlisi
+Ooy	als	
+Ooy	beiden	ɑləbe
+Ooy	besluit	wɪl
+Ooy	bij	bei
+Ooy	buiten	bytə
+Ooy	daar	
+Ooy	dan_1	dan
+Ooy	dat	
+Ooy	de_6	də
+Ooy	door	
+Ooy	een_count	e
+Ooy	een_det	ə
+Ooy	er	dəʀ
+Ooy	even	ɛfkəs
+Ooy	extra	
+Ooy	gerinkel	çəʀɪŋkəl
+Ooy	glas	çlɑs
+Ooy	glaszetter_1	ʀytəzætəʀ
+Ooy	goed	
+Ooy	gooien	smitə
+Ooy	he	
+Ooy	heel	
+Ooy	hem	
+Ooy	het	t
+Ooy	hij_2	he
+Ooy	hoek	
+Ooy	houden	
+Ooy	huizen	hysə
+Ooy	in_1	ɪn
+Ooy	ineens	ɪnɛns
+Ooy	is	ɪs
+Ooy	jongetje_2	
+Ooy	juist	kʀɛk
+Ooy	klein	
+Ooy	klinkt	
+Ooy	korte	
+Ooy	krijgen	
+Ooy	later	lɑtəʀ
+Ooy	let	kik
+Ooy	loopt	kʏmpt
+Ooy	lopen	lopə
+Ooy	lukt	
+Ooy	maar_1	mʌ
+Ooy	met_1	mət
+Ooy	mevrouw	ʋif
+Ooy	naar	nə
+Ooy	net	
+Ooy	niet	nit
+Ooy	nou	
+Ooy	nu	
+Ooy	of	ɒf
+Ooy	om	
+Ooy	ontdaan	
+Ooy	ook	
+Ooy	op	ɔp
+Ooy	pakken	pakə
+Ooy	politieagent	pəlisi
+Ooy	repareren	
+Ooy	ruit	ʀyt
+Ooy	ruiten	ʀytə
+Ooy	samen	
+Ooy	sneuvelen	fliçədəʀyt
+Ooy	staan	
+Ooy	stapt	kʏm
+Ooy	steen	kɛi
+Ooy	stil	stɪl
+Ooy	straat	stʀʌt
+Ooy	straten	
+Ooy	te	tə
+Ooy	tijd	
+Ooy	toevallig	
+Ooy	van	fɑ
+Ooy	veel	
+Ooy	vraagt	fʀʏx
+Ooy	vrouw	ʋif
+Ooy	wil_1	
+Ooy	ze_1	sə
+Ooy	ziet_1	syt
+Oude Niedorp	aan	ɑn
+Oude Niedorp	agent	plisi
+Oude Niedorp	als	ɑʃ
+Oude Niedorp	beiden	ɑlətwɑi
+Oude Niedorp	besluit	wʏl
+Oude Niedorp	bij	bɑi
+Oude Niedorp	buiten	bœytə
+Oude Niedorp	daar	dæ
+Oude Niedorp	dan_1	dɛn
+Oude Niedorp	dat	dɑ
+Oude Niedorp	de_6	də
+Oude Niedorp	door	dʏr
+Oude Niedorp	een_count	in
+Oude Niedorp	een_det	ə
+Oude Niedorp	er	ɛr
+Oude Niedorp	even	ɛfis
+Oude Niedorp	extra	ɛkstra
+Oude Niedorp	gerinkel	xərɪŋkəl
+Oude Niedorp	glas	xlɑs
+Oude Niedorp	glaszetter_1	xlɑʃɛtər
+Oude Niedorp	goed	xut
+Oude Niedorp	gooien	χʊiə
+Oude Niedorp	he	
+Oude Niedorp	heel	
+Oude Niedorp	hem	
+Oude Niedorp	het	ət
+Oude Niedorp	hij_2	i
+Oude Niedorp	hoek	huk
+Oude Niedorp	houden	hʌuə
+Oude Niedorp	huizen	hayzə
+Oude Niedorp	in_1	ɪn
+Oude Niedorp	ineens	ɔpɪs
+Oude Niedorp	is	ɪs
+Oude Niedorp	jongetje_2	jɒxi
+Oude Niedorp	juist	nɛt
+Oude Niedorp	klein	klɑin
+Oude Niedorp	klinkt	klɪŋk
+Oude Niedorp	korte	
+Oude Niedorp	krijgen	krɑixə
+Oude Niedorp	later	lɛitər
+Oude Niedorp	let	kɑikt
+Oude Niedorp	loopt	
+Oude Niedorp	lopen	
+Oude Niedorp	lukt	
+Oude Niedorp	maar_1	mɑr
+Oude Niedorp	met_1	mɛt
+Oude Niedorp	mevrouw	
+Oude Niedorp	naar	nai
+Oude Niedorp	net	nɛt
+Oude Niedorp	niet	nit
+Oude Niedorp	nou	
+Oude Niedorp	nu	
+Oude Niedorp	of	ɒf
+Oude Niedorp	om	
+Oude Niedorp	ontdaan	
+Oude Niedorp	ook	ouk
+Oude Niedorp	op	ɔp
+Oude Niedorp	pakken	pɑkə
+Oude Niedorp	politieagent	plisi
+Oude Niedorp	repareren	repərɪrə
+Oude Niedorp	ruit	ram
+Oude Niedorp	ruiten	ramə
+Oude Niedorp	samen	sɑmə
+Oude Niedorp	sneuvelen	xanstɪk
+Oude Niedorp	staan	
+Oude Niedorp	stapt	kɔm
+Oude Niedorp	steen	stɪ
+Oude Niedorp	stil	stɪl
+Oude Niedorp	straat	strɛit
+Oude Niedorp	straten	strɛitə
+Oude Niedorp	te	
+Oude Niedorp	tijd	tɑit
+Oude Niedorp	toevallig	tufɑləx
+Oude Niedorp	van	fɑn
+Oude Niedorp	veel	
+Oude Niedorp	vraagt	fraxt
+Oude Niedorp	vrouw	frɑu
+Oude Niedorp	wil_1	wʏl
+Oude Niedorp	ze_1	zə
+Oude Niedorp	ziet_1	sit
+Oudebildtzijl	aan	
+Oudebildtzijl	agent	
+Oudebildtzijl	als	ɑt
+Oudebildtzijl	beiden	
+Oudebildtzijl	besluit	
+Oudebildtzijl	bij	bɛi
+Oudebildtzijl	buiten	bytn
+Oudebildtzijl	daar	dæ
+Oudebildtzijl	dan_1	
+Oudebildtzijl	dat	dɑ
+Oudebildtzijl	de_6	də
+Oudebildtzijl	door	
+Oudebildtzijl	een_count	ein
+Oudebildtzijl	een_det	ən
+Oudebildtzijl	er	dər
+Oudebildtzijl	even	ətitʃə
+Oudebildtzijl	extra	
+Oudebildtzijl	gerinkel	
+Oudebildtzijl	glas	ɡlɑs
+Oudebildtzijl	glaszetter_1	ɡlɑsɛtər
+Oudebildtzijl	goed	ɡut
+Oudebildtzijl	gooien	ɡʊiə
+Oudebildtzijl	he	hei
+Oudebildtzijl	heel	
+Oudebildtzijl	hem	
+Oudebildtzijl	het	t
+Oudebildtzijl	hij_2	hɛi
+Oudebildtzijl	hoek	huk
+Oudebildtzijl	houden	
+Oudebildtzijl	huizen	hysn
+Oudebildtzijl	in_1	
+Oudebildtzijl	ineens	ɪneinn
+Oudebildtzijl	is	ɪs
+Oudebildtzijl	jongetje_2	jɔŋətsi
+Oudebildtzijl	juist	
+Oudebildtzijl	klein	klɑin
+Oudebildtzijl	klinkt	
+Oudebildtzijl	korte	kɒrdə
+Oudebildtzijl	krijgen	krɛiə
+Oudebildtzijl	later	latər
+Oudebildtzijl	let	kikt
+Oudebildtzijl	loopt	kɔmt
+Oudebildtzijl	lopen	
+Oudebildtzijl	lukt	
+Oudebildtzijl	maar_1	mar
+Oudebildtzijl	met_1	mɛt
+Oudebildtzijl	mevrouw	
+Oudebildtzijl	naar	nɑ
+Oudebildtzijl	net	krɛkt
+Oudebildtzijl	niet	nit
+Oudebildtzijl	nou	nɑu
+Oudebildtzijl	nu	nɑu
+Oudebildtzijl	of	
+Oudebildtzijl	om	
+Oudebildtzijl	ontdaan	rasxrɒkə
+Oudebildtzijl	ook	ouk
+Oudebildtzijl	op	ɔp
+Oudebildtzijl	pakken	pɑkŋ
+Oudebildtzijl	politieagent	plitsi
+Oudebildtzijl	repareren	makə
+Oudebildtzijl	ruit	ryt
+Oudebildtzijl	ruiten	rytn
+Oudebildtzijl	samen	təɡar
+Oudebildtzijl	sneuvelen	snøfələ
+Oudebildtzijl	staan	stæn
+Oudebildtzijl	stapt	kɔmt
+Oudebildtzijl	steen	stein
+Oudebildtzijl	stil	rʏstəx
+Oudebildtzijl	straat	dik
+Oudebildtzijl	straten	
+Oudebildtzijl	te	
+Oudebildtzijl	tijd	tit
+Oudebildtzijl	toevallig	tufaləx
+Oudebildtzijl	van	fan
+Oudebildtzijl	veel	føl
+Oudebildtzijl	vraagt	
+Oudebildtzijl	vrouw	frɑu
+Oudebildtzijl	wil_1	sɪl
+Oudebildtzijl	ze_1	zə
+Oudebildtzijl	ziet_1	sit
+Overijse	aan	ɔn
+Overijse	agent	açænt
+Overijse	als	ɛs
+Overijse	beiden	ɑlətwi
+Overijse	besluit	bəslœt
+Overijse	bij	
+Overijse	buiten	bʊətə
+Overijse	daar	de
+Overijse	dan_1	dæn
+Overijse	dat	dɑ
+Overijse	de_6	dən
+Overijse	door	dœy
+Overijse	een_count	
+Overijse	een_det	nə
+Overijse	er	əʀ
+Overijse	even	əbeikə
+Overijse	extra	
+Overijse	gerinkel	lɑwɑit
+Overijse	glas	çlɑs
+Overijse	glaszetter_1	çlʊzəmʊkəʀ
+Overijse	goed	çʏd
+Overijse	gooien	smæitə
+Overijse	he	
+Overijse	heel	
+Overijse	hem	
+Overijse	het	t
+Overijse	hij_2	m
+Overijse	hoek	uk
+Overijse	houden	havə
+Overijse	huizen	
+Overijse	in_1	in
+Overijse	ineens	ɪneinəki
+Overijse	is	ɪs
+Overijse	jongetje_2	mænəkə
+Overijse	juist	ʒyst
+Overijse	klein	klan
+Overijse	klinkt	
+Overijse	korte	kœʀtən
+Overijse	krijgen	
+Overijse	later	lʊtəʀ
+Overijse	let	lɛt
+Overijse	loopt	kɔmt
+Overijse	lopen	
+Overijse	lukt	
+Overijse	maar_1	mɔʀ
+Overijse	met_1	mæt
+Overijse	mevrouw	fʀɑ
+Overijse	naar	
+Overijse	net	ʒyst
+Overijse	niet	ni
+Overijse	nou	nɑ
+Overijse	nu	na
+Overijse	of	dɑt
+Overijse	om	fɑn
+Overijse	ontdaan	çilfɑnhæʀəndʏu
+Overijse	ook	
+Overijse	op	ɔp
+Overijse	pakken	pakə
+Overijse	politieagent	açɛnt
+Overijse	repareren	ʀepɑʀɛʀən
+Overijse	ruit	ʀʊət
+Overijse	ruiten	ʀʊətə
+Overijse	samen	
+Overijse	sneuvelen	snøfələ
+Overijse	staan	stun
+Overijse	stapt	stɑpt
+Overijse	steen	stin
+Overijse	stil	stɪləkəs
+Overijse	straat	stʀɔt
+Overijse	straten	stʀʊtə
+Overijse	te	t
+Overijse	tijd	tæt
+Overijse	toevallig	lykə
+Overijse	van	
+Overijse	veel	fɶl
+Overijse	vraagt	fʀʊçt
+Overijse	vrouw	fʀɑ
+Overijse	wil_1	wɪl
+Overijse	ze_1	zə
+Overijse	ziet_1	zet
+Pannerden	aan	ɑn
+Pannerden	agent	plisi
+Pannerden	als	
+Pannerden	beiden	ɑləbæi
+Pannerden	besluit	bəslyt
+Pannerden	bij	bei
+Pannerden	buiten	bytə
+Pannerden	daar	dæ
+Pannerden	dan_1	dɑn
+Pannerden	dat	dɑ
+Pannerden	de_6	də
+Pannerden	door	
+Pannerden	een_count	en
+Pannerden	een_det	ən
+Pannerden	er	dər
+Pannerden	even	ɛkəs
+Pannerden	extra	ækstra
+Pannerden	gerinkel	çərɪŋkəl
+Pannerden	glas	çlɑs
+Pannerden	glaszetter_1	çlɑsætər
+Pannerden	goed	çut
+Pannerden	gooien	çʊiə
+Pannerden	he	hei
+Pannerden	heel	hɪl
+Pannerden	hem	
+Pannerden	het	ət
+Pannerden	hij_2	i
+Pannerden	hoek	huk
+Pannerden	houden	hɒldə
+Pannerden	huizen	hys
+Pannerden	in_1	ɪn
+Pannerden	ineens	ɪnɛns
+Pannerden	is	ɪs
+Pannerden	jongetje_2	kɛljə
+Pannerden	juist	nɛt
+Pannerden	klein	klɛin
+Pannerden	klinkt	klɪŋk
+Pannerden	korte	kɒrtə
+Pannerden	krijgen	kʀiçə
+Pannerden	later	lɒtər
+Pannerden	let	
+Pannerden	loopt	
+Pannerden	lopen	lopə
+Pannerden	lukt	
+Pannerden	maar_1	mɑr
+Pannerden	met_1	mæt
+Pannerden	mevrouw	frɑu
+Pannerden	naar	nə
+Pannerden	net	næt
+Pannerden	niet	nit
+Pannerden	nou	
+Pannerden	nu	nɑ
+Pannerden	of	ɒf
+Pannerden	om	
+Pannerden	ontdaan	fɑslɑç
+Pannerden	ook	ok
+Pannerden	op	ɔp
+Pannerden	pakken	pak
+Pannerden	politieagent	plisi
+Pannerden	repareren	makə
+Pannerden	ruit	ryt
+Pannerden	ruiten	rytə
+Pannerden	samen	samm
+Pannerden	sneuvelen	snøfələ
+Pannerden	staan	
+Pannerden	stapt	trɛit
+Pannerden	steen	kɛi
+Pannerden	stil	stɪl
+Pannerden	straat	strʌt
+Pannerden	straten	
+Pannerden	te	tə
+Pannerden	tijd	tit
+Pannerden	toevallig	tufɑləç
+Pannerden	van	fan
+Pannerden	veel	føl
+Pannerden	vraagt	frœç
+Pannerden	vrouw	frɑu
+Pannerden	wil_1	wɛl
+Pannerden	ze_1	zə
+Pannerden	ziet_1	zit
+Poperinge	aan	ɑn
+Poperinge	agent	hɑrdə
+Poperinge	als	ɑt
+Poperinge	beiden	ɒlətwiə
+Poperinge	besluit	ɪsfɑnplɑn
+Poperinge	bij	bi
+Poperinge	buiten	bytn
+Poperinge	daar	
+Poperinge	dan_1	tʊn
+Poperinge	dat	
+Poperinge	de_6	də
+Poperinge	door	dʏr
+Poperinge	een_count	ɪn
+Poperinge	een_det	ə
+Poperinge	er	dər
+Poperinge	even	əmænt
+Poperinge	extra	
+Poperinge	gerinkel	
+Poperinge	glas	hlɑs
+Poperinge	glaszetter_1	hlɒzənir
+Poperinge	goed	
+Poperinge	gooien	smitn
+Poperinge	he	
+Poperinge	heel	
+Poperinge	hem	
+Poperinge	het	t
+Poperinge	hij_2	m
+Poperinge	hoek	uk
+Poperinge	houden	ɯn
+Poperinge	huizen	yzn
+Poperinge	in_1	ɛn
+Poperinge	ineens	ɔməkiɹ
+Poperinge	is	ɪs
+Poperinge	jongetje_2	fæncə
+Poperinge	juist	jyst
+Poperinge	klein	klin
+Poperinge	klinkt	
+Poperinge	korte	
+Poperinge	krijgen	
+Poperinge	later	lɒtər
+Poperinge	let	læt
+Poperinge	loopt	pɑsɪrt
+Poperinge	lopen	
+Poperinge	lukt	
+Poperinge	maar_1	mʌr
+Poperinge	met_1	bɪ
+Poperinge	mevrouw	frɒmɛs
+Poperinge	naar	nɒ
+Poperinge	net	ʃystə
+Poperinge	niet	ni
+Poperinge	nou	
+Poperinge	nu	n
+Poperinge	of	ɒfdɑt
+Poperinge	om	ɔm
+Poperinge	ontdaan	fɑntfəsχɒt
+Poperinge	ook	
+Poperinge	op	ɔp
+Poperinge	pakken	pɑkŋ
+Poperinge	politieagent	hɑrdə
+Poperinge	repareren	fəmɒkŋ
+Poperinge	ruit	rytə
+Poperinge	ruiten	rytn
+Poperinge	samen	təhɒrə
+Poperinge	sneuvelen	
+Poperinge	staan	
+Poperinge	stapt	kɔmt
+Poperinge	steen	stɪn
+Poperinge	stil	stɪl
+Poperinge	straat	strʌtə
+Poperinge	straten	strɒtn
+Poperinge	te	t
+Poperinge	tijd	
+Poperinge	toevallig	
+Poperinge	van	fan
+Poperinge	veel	
+Poperinge	vraagt	frɔχt
+Poperinge	vrouw	frɒmɛs
+Poperinge	wil_1	ɪʃvanplɑn
+Poperinge	ze_1	sə
+Poperinge	ziet_1	sit
+Reeuwijk	aan	an
+Reeuwijk	agent	axɛnt
+Reeuwijk	als	
+Reeuwijk	beiden	ʌləbai
+Reeuwijk	besluit	bəslʌyt
+Reeuwijk	bij	bɑi
+Reeuwijk	buiten	bœytə
+Reeuwijk	daar	da
+Reeuwijk	dan_1	dɑn
+Reeuwijk	dat	də
+Reeuwijk	de_6	də
+Reeuwijk	door	dʊr
+Reeuwijk	een_count	ein
+Reeuwijk	een_det	ə
+Reeuwijk	er	ə
+Reeuwijk	even	eifə
+Reeuwijk	extra	ɛkstrə
+Reeuwijk	gerinkel	xərɪŋkəl
+Reeuwijk	glas	xlɑs
+Reeuwijk	glaszetter_1	xlʌsɛtər
+Reeuwijk	goed	xɯt
+Reeuwijk	gooien	xʊiə
+Reeuwijk	he	hei
+Reeuwijk	heel	heil
+Reeuwijk	hem	hɛm
+Reeuwijk	het	hɛt
+Reeuwijk	hij_2	i
+Reeuwijk	hoek	hɯk
+Reeuwijk	houden	hɑudə
+Reeuwijk	huizen	hayzə
+Reeuwijk	in_1	
+Reeuwijk	ineens	ɪneins
+Reeuwijk	is	ɪs
+Reeuwijk	jongetje_2	juŋəcə
+Reeuwijk	juist	
+Reeuwijk	klein	klɑin
+Reeuwijk	klinkt	klɪŋkt
+Reeuwijk	korte	kʊrtə
+Reeuwijk	krijgen	krɑiha
+Reeuwijk	later	latər
+Reeuwijk	let	lɛt
+Reeuwijk	loopt	loupt
+Reeuwijk	lopen	lʌupə
+Reeuwijk	lukt	lʏkt
+Reeuwijk	maar_1	mar
+Reeuwijk	met_1	mɛt
+Reeuwijk	mevrouw	frɑu
+Reeuwijk	naar	na
+Reeuwijk	net	nɛt
+Reeuwijk	niet	nit
+Reeuwijk	nou	
+Reeuwijk	nu	ny
+Reeuwijk	of	ɒf
+Reeuwijk	om	
+Reeuwijk	ontdaan	
+Reeuwijk	ook	ək
+Reeuwijk	op	ɔp
+Reeuwijk	pakken	pɑkə
+Reeuwijk	politieagent	pəlitsiəxɛnt
+Reeuwijk	repareren	makə
+Reeuwijk	ruit	rayt
+Reeuwijk	ruiten	raytə
+Reeuwijk	samen	samə
+Reeuwijk	sneuvelen	xɛnkəpʊt
+Reeuwijk	staan	
+Reeuwijk	stapt	stɒpt
+Reeuwijk	steen	stei
+Reeuwijk	stil	rʏstəx
+Reeuwijk	straat	strat
+Reeuwijk	straten	
+Reeuwijk	te	tə
+Reeuwijk	tijd	tɑit
+Reeuwijk	toevallig	tufʌləx
+Reeuwijk	van	fɑn
+Reeuwijk	veel	føl
+Reeuwijk	vraagt	fraxt
+Reeuwijk	vrouw	frɑu
+Reeuwijk	wil_1	ʋʏl
+Reeuwijk	ze_1	sə
+Reeuwijk	ziet_1	zit
+Rijen	aan	
+Rijen	agent	pəliʃə
+Rijen	als	æs
+Rijen	beiden	ɑləbæi
+Rijen	besluit	wɪl
+Rijen	bij	
+Rijen	buiten	
+Rijen	daar	dɒ
+Rijen	dan_1	dɑn
+Rijen	dat	dæ
+Rijen	de_6	də
+Rijen	door	dʏʀ
+Rijen	een_count	
+Rijen	een_det	nə
+Rijen	er	
+Rijen	even	ɛfkəs
+Rijen	extra	
+Rijen	gerinkel	
+Rijen	glas	çlɑs
+Rijen	glaszetter_1	
+Rijen	goed	
+Rijen	gooien	çʊiə
+Rijen	he	
+Rijen	heel	
+Rijen	hem	
+Rijen	het	t
+Rijen	hij_2	i
+Rijen	hoek	huk
+Rijen	houden	ɑʀəstɪʀə
+Rijen	huizen	
+Rijen	in_1	
+Rijen	ineens	ɪnes
+Rijen	is	ɪs
+Rijen	jongetje_2	
+Rijen	juist	ɟyst
+Rijen	klein	
+Rijen	klinkt	
+Rijen	korte	
+Rijen	krijgen	kʀɛiçə
+Rijen	later	lʌtəʀ
+Rijen	let	læt
+Rijen	loopt	lɒp
+Rijen	lopen	lɒpə
+Rijen	lukt	
+Rijen	maar_1	
+Rijen	met_1	mɪt
+Rijen	mevrouw	
+Rijen	naar	
+Rijen	net	syst
+Rijen	niet	ni
+Rijen	nou	
+Rijen	nu	
+Rijen	of	
+Rijen	om	
+Rijen	ontdaan	
+Rijen	ook	ouk
+Rijen	op	ɔp
+Rijen	pakken	
+Rijen	politieagent	fæltwɑçtəʀ
+Rijen	repareren	
+Rijen	ruit	çlɑs
+Rijen	ruiten	ʀœtə
+Rijen	samen	sʌmm
+Rijen	sneuvelen	
+Rijen	staan	
+Rijen	stapt	
+Rijen	steen	kɑi
+Rijen	stil	stɪl
+Rijen	straat	stʀɒt
+Rijen	straten	
+Rijen	te	
+Rijen	tijd	
+Rijen	toevallig	
+Rijen	van	
+Rijen	veel	
+Rijen	vraagt	
+Rijen	vrouw	
+Rijen	wil_1	wɛl
+Rijen	ze_1	zə
+Rijen	ziet_1	zit
+Rijkevorsel	aan	ʌn
+Rijkevorsel	agent	pəlisi
+Rijkevorsel	als	ɑs
+Rijkevorsel	beiden	
+Rijkevorsel	besluit	wʏl
+Rijkevorsel	bij	bei
+Rijkevorsel	buiten	batə
+Rijkevorsel	daar	də
+Rijkevorsel	dan_1	dɑn
+Rijkevorsel	dat	da
+Rijkevorsel	de_6	də
+Rijkevorsel	door	dʏʀ
+Rijkevorsel	een_count	ɪ
+Rijkevorsel	een_det	nə
+Rijkevorsel	er	əʀ
+Rijkevorsel	even	efkəs
+Rijkevorsel	extra	ɛkstʀa
+Rijkevorsel	gerinkel	çəʀiŋkəl
+Rijkevorsel	glas	çlas
+Rijkevorsel	glaszetter_1	çlʌzəmʌkəʀ
+Rijkevorsel	goed	çud
+Rijkevorsel	gooien	çuiə
+Rijkevorsel	he	hei
+Rijkevorsel	heel	ɪl
+Rijkevorsel	hem	əm
+Rijkevorsel	het	t
+Rijkevorsel	hij_2	m
+Rijkevorsel	hoek	uk
+Rijkevorsel	houden	hauə
+Rijkevorsel	huizen	œzə
+Rijkevorsel	in_1	ɪn
+Rijkevorsel	ineens	ɪnis
+Rijkevorsel	is	ɪs
+Rijkevorsel	jongetje_2	juŋəskə
+Rijkevorsel	juist	ʃyst
+Rijkevorsel	klein	klæin
+Rijkevorsel	klinkt	klɪŋk
+Rijkevorsel	korte	kœʀtə
+Rijkevorsel	krijgen	kʀɛiə
+Rijkevorsel	later	lʌtəʀ
+Rijkevorsel	let	lɛt
+Rijkevorsel	loopt	lʏpt
+Rijkevorsel	lopen	lɯpə
+Rijkevorsel	lukt	lʏkt
+Rijkevorsel	maar_1	maʀ
+Rijkevorsel	met_1	mɛt
+Rijkevorsel	mevrouw	mɑdɑm
+Rijkevorsel	naar	nə
+Rijkevorsel	net	ʃyst
+Rijkevorsel	niet	ni
+Rijkevorsel	nou	nau
+Rijkevorsel	nu	nɑu
+Rijkevorsel	of	ɒf
+Rijkevorsel	om	
+Rijkevorsel	ontdaan	
+Rijkevorsel	ook	
+Rijkevorsel	op	ɔp
+Rijkevorsel	pakken	pakə
+Rijkevorsel	politieagent	pəlisi
+Rijkevorsel	repareren	ʀəpaʀɪʀə
+Rijkevorsel	ruit	ʀœt
+Rijkevorsel	ruiten	ʀœtə
+Rijkevorsel	samen	sɑmə
+Rijkevorsel	sneuvelen	snøfəln
+Rijkevorsel	staan	
+Rijkevorsel	stapt	stɑpt
+Rijkevorsel	steen	stɪn
+Rijkevorsel	stil	stɪl
+Rijkevorsel	straat	stʀʌt
+Rijkevorsel	straten	stʀʌtə
+Rijkevorsel	te	
+Rijkevorsel	tijd	tæt
+Rijkevorsel	toevallig	lykə
+Rijkevorsel	van	fan
+Rijkevorsel	veel	føl
+Rijkevorsel	vraagt	fʀʌçt
+Rijkevorsel	vrouw	fʀɑɯ
+Rijkevorsel	wil_1	wʏl
+Rijkevorsel	ze_1	zə
+Rijkevorsel	ziet_1	sit
+Roswinkel	aan	æ
+Roswinkel	agent	fɛltʋaxtər
+Roswinkel	als	az
+Roswinkel	beiden	bɛidə
+Roswinkel	besluit	ɪsfanplan
+Roswinkel	bij	bi
+Roswinkel	buiten	butn
+Roswinkel	daar	
+Roswinkel	dan_1	dan
+Roswinkel	dat	da
+Roswinkel	de_6	də
+Roswinkel	door	dʏr
+Roswinkel	een_count	ɑi
+Roswinkel	een_det	ən
+Roswinkel	er	dər
+Roswinkel	even	nzɛɟə
+Roswinkel	extra	
+Roswinkel	gerinkel	xərɪŋkəl
+Roswinkel	glas	xlas
+Roswinkel	glaszetter_1	xlasɛtər
+Roswinkel	goed	xɑut
+Roswinkel	gooien	xʊin
+Roswinkel	he	he
+Roswinkel	heel	
+Roswinkel	hem	hɛm
+Roswinkel	het	t
+Roswinkel	hij_2	ər
+Roswinkel	hoek	hɑuk
+Roswinkel	houden	hɒln
+Roswinkel	huizen	huzn
+Roswinkel	in_1	ɪn
+Roswinkel	ineens	inɑimʊl
+Roswinkel	is	ɪs
+Roswinkel	jongetje_2	jɔŋki
+Roswinkel	juist	nɛt
+Roswinkel	klein	
+Roswinkel	klinkt	
+Roswinkel	korte	kœrdə
+Roswinkel	krijgen	kriɡŋ
+Roswinkel	later	lɒtər
+Roswinkel	let	
+Roswinkel	loopt	lʌp
+Roswinkel	lopen	loupm
+Roswinkel	lukt	xəlʏkt
+Roswinkel	maar_1	mʌr
+Roswinkel	met_1	mɛt
+Roswinkel	mevrouw	frɑu
+Roswinkel	naar	na
+Roswinkel	net	nɛt
+Roswinkel	niet	ni
+Roswinkel	nou	nɑu
+Roswinkel	nu	nɑu
+Roswinkel	of	ɒf
+Roswinkel	om	
+Roswinkel	ontdaan	fəsxrɪk
+Roswinkel	ook	ouk
+Roswinkel	op	ɔp
+Roswinkel	pakken	pakŋ
+Roswinkel	politieagent	fɛltʋaxtər
+Roswinkel	repareren	klɒrmɒkŋ
+Roswinkel	ruit	
+Roswinkel	ruiten	rʌmm
+Roswinkel	samen	xəlik
+Roswinkel	sneuvelen	kɒmmstʏk
+Roswinkel	staan	
+Roswinkel	stapt	kɔmt
+Roswinkel	steen	stɑinə
+Roswinkel	stil	stɪl
+Roswinkel	straat	strʊdə
+Roswinkel	straten	
+Roswinkel	te	tə
+Roswinkel	tijd	tit
+Roswinkel	toevallig	tufɑlə
+Roswinkel	van	fan
+Roswinkel	veel	føl
+Roswinkel	vraagt	frɑx
+Roswinkel	vrouw	frɑu
+Roswinkel	wil_1	ʋɪl
+Roswinkel	ze_1	zə
+Roswinkel	ziet_1	zʏx
+s-Gravenvoeren	aan	a
+s-Gravenvoeren	agent	ʃɑndɑʀm
+s-Gravenvoeren	als	ɛs
+s-Gravenvoeren	beiden	aləbei
+s-Gravenvoeren	besluit	bəslyt
+s-Gravenvoeren	bij	bi
+s-Gravenvoeren	buiten	butə
+s-Gravenvoeren	daar	də
+s-Gravenvoeren	dan_1	dɑ
+s-Gravenvoeren	dat	dɑt
+s-Gravenvoeren	de_6	də
+s-Gravenvoeren	door	dʊʀ
+s-Gravenvoeren	een_count	ɪn
+s-Gravenvoeren	een_det	ənə
+s-Gravenvoeren	er	
+s-Gravenvoeren	even	əbitʃə
+s-Gravenvoeren	extra	
+s-Gravenvoeren	gerinkel	bʀikə
+s-Gravenvoeren	glas	çlas
+s-Gravenvoeren	glaszetter_1	çlasəniʀkə
+s-Gravenvoeren	goed	çut
+s-Gravenvoeren	gooien	bʀuiə
+s-Gravenvoeren	he	
+s-Gravenvoeren	heel	hil
+s-Gravenvoeren	hem	əm
+s-Gravenvoeren	het	t
+s-Gravenvoeren	hij_2	hiʀ
+s-Gravenvoeren	hoek	hʊk
+s-Gravenvoeren	houden	hɔuə
+s-Gravenvoeren	huizen	huzəʀ
+s-Gravenvoeren	in_1	i
+s-Gravenvoeren	ineens	ɤbɪns
+s-Gravenvoeren	is	ɪʃ
+s-Gravenvoeren	jongetje_2	jʏŋskə
+s-Gravenvoeren	juist	ʃyst
+s-Gravenvoeren	klein	klen
+s-Gravenvoeren	klinkt	klɪŋkt
+s-Gravenvoeren	korte	kɒʀtə
+s-Gravenvoeren	krijgen	kʀiçə
+s-Gravenvoeren	later	latəʀ
+s-Gravenvoeren	let	lɪt
+s-Gravenvoeren	loopt	lʏpt
+s-Gravenvoeren	lopen	lɯpə
+s-Gravenvoeren	lukt	lʏkt
+s-Gravenvoeren	maar_1	mɛ
+s-Gravenvoeren	met_1	mət
+s-Gravenvoeren	mevrouw	mɑdɑm
+s-Gravenvoeren	naar	nɑ
+s-Gravenvoeren	net	ʃyz
+s-Gravenvoeren	niet	nɪət
+s-Gravenvoeren	nou	
+s-Gravenvoeren	nu	nu
+s-Gravenvoeren	of	ɒf
+s-Gravenvoeren	om	fœʀ
+s-Gravenvoeren	ontdaan	
+s-Gravenvoeren	ook	oç
+s-Gravenvoeren	op	ɪ
+s-Gravenvoeren	pakken	
+s-Gravenvoeren	politieagent	ʃɑndɑʀm
+s-Gravenvoeren	repareren	ʀepɑʀɪʀə
+s-Gravenvoeren	ruit	ʀut
+s-Gravenvoeren	ruiten	ʀutə
+s-Gravenvoeren	samen	təhoupə
+s-Gravenvoeren	sneuvelen	fliçənkɑput
+s-Gravenvoeren	staan	
+s-Gravenvoeren	stapt	kʏmp
+s-Gravenvoeren	steen	ʃte
+s-Gravenvoeren	stil	ʃtɪlə
+s-Gravenvoeren	straat	ʃtʀot
+s-Gravenvoeren	straten	
+s-Gravenvoeren	te	tə
+s-Gravenvoeren	tijd	tit
+s-Gravenvoeren	toevallig	lʏkə
+s-Gravenvoeren	van	fɑn
+s-Gravenvoeren	veel	fœl
+s-Gravenvoeren	vraagt	fʀøçt
+s-Gravenvoeren	vrouw	fʀɔu
+s-Gravenvoeren	wil_1	wɪl
+s-Gravenvoeren	ze_1	sə
+s-Gravenvoeren	ziet_1	zit
+Sexbierum	aan	ʊn
+Sexbierum	agent	pəlisi
+Sexbierum	als	ɑt
+Sexbierum	beiden	bɑidə
+Sexbierum	besluit	bəslyt
+Sexbierum	bij	bai
+Sexbierum	buiten	butn
+Sexbierum	daar	da
+Sexbierum	dan_1	dan
+Sexbierum	dat	dɑt
+Sexbierum	de_6	də
+Sexbierum	door	trʊ
+Sexbierum	een_count	ɪ
+Sexbierum	een_det	ən
+Sexbierum	er	də
+Sexbierum	even	ɛfkəs
+Sexbierum	extra	ɛkstrə
+Sexbierum	gerinkel	ɡərɪŋkəl
+Sexbierum	glas	ɡlɛs
+Sexbierum	glaszetter_1	ɡlɛsɛtər
+Sexbierum	goed	ɡut
+Sexbierum	gooien	ɡʊiə
+Sexbierum	he	he
+Sexbierum	heel	
+Sexbierum	hem	hɛm
+Sexbierum	het	ət
+Sexbierum	hij_2	ər
+Sexbierum	hoek	hukə
+Sexbierum	houden	hɒdn
+Sexbierum	huizen	hyzn
+Sexbierum	in_1	in
+Sexbierum	ineens	
+Sexbierum	is	ɪs
+Sexbierum	jongetje_2	jɔŋkjə
+Sexbierum	juist	krɛk
+Sexbierum	klein	lits
+Sexbierum	klinkt	
+Sexbierum	korte	kuɑtə
+Sexbierum	krijgen	kraiə
+Sexbierum	later	lɛtər
+Sexbierum	let	lɛt
+Sexbierum	loopt	rɪnt
+Sexbierum	lopen	rɪnn
+Sexbierum	lukt	lʏkt
+Sexbierum	maar_1	mɑr
+Sexbierum	met_1	ma
+Sexbierum	mevrouw	frɑu
+Sexbierum	naar	nɑi
+Sexbierum	net	krɛkt
+Sexbierum	niet	nɛt
+Sexbierum	nou	
+Sexbierum	nu	
+Sexbierum	of	ɒf
+Sexbierum	om	ɔm
+Sexbierum	ontdaan	untdɪn
+Sexbierum	ook	ɛk
+Sexbierum	op	ɔp
+Sexbierum	pakken	pakən
+Sexbierum	politieagent	pliʃə
+Sexbierum	repareren	mɑitʃə
+Sexbierum	ruit	ryt
+Sexbierum	ruiten	rytn
+Sexbierum	samen	təɡɛrə
+Sexbierum	sneuvelen	snøfələ
+Sexbierum	staan	
+Sexbierum	stapt	stapt
+Sexbierum	steen	stɪn
+Sexbierum	stil	stɪl
+Sexbierum	straat	strɪtə
+Sexbierum	straten	strɪtə
+Sexbierum	te	tə
+Sexbierum	tijd	tit
+Sexbierum	toevallig	tɑfɑləx
+Sexbierum	van	fan
+Sexbierum	veel	
+Sexbierum	vraagt	freiɡət
+Sexbierum	vrouw	frɑu
+Sexbierum	wil_1	ʋɔl
+Sexbierum	ze_1	zə
+Sexbierum	ziet_1	ʃʏxt
+Sint Annaparochie	aan	ɑn
+Sint Annaparochie	agent	plisimɑn
+Sint Annaparochie	als	ɑt
+Sint Annaparochie	beiden	bɒidə
+Sint Annaparochie	besluit	bəslyt
+Sint Annaparochie	bij	bai
+Sint Annaparochie	buiten	bytn
+Sint Annaparochie	daar	dæ
+Sint Annaparochie	dan_1	dan
+Sint Annaparochie	dat	dɑt
+Sint Annaparochie	de_6	də
+Sint Annaparochie	door	dʏr
+Sint Annaparochie	een_count	ein
+Sint Annaparochie	een_det	n
+Sint Annaparochie	er	dər
+Sint Annaparochie	even	eifən
+Sint Annaparochie	extra	
+Sint Annaparochie	gerinkel	rɛŋkələn
+Sint Annaparochie	glas	ɡlɑs
+Sint Annaparochie	glaszetter_1	ɡlɑsɛtər
+Sint Annaparochie	goed	ɡut
+Sint Annaparochie	gooien	ɡʊiə
+Sint Annaparochie	he	
+Sint Annaparochie	heel	
+Sint Annaparochie	hem	hɛm
+Sint Annaparochie	het	ət
+Sint Annaparochie	hij_2	i
+Sint Annaparochie	hoek	huk
+Sint Annaparochie	houden	hɑuən
+Sint Annaparochie	huizen	hyzn
+Sint Annaparochie	in_1	ɪn
+Sint Annaparochie	ineens	ɪneinən
+Sint Annaparochie	is	ɪs
+Sint Annaparochie	jongetje_2	jɔŋətsi
+Sint Annaparochie	juist	krɛkt
+Sint Annaparochie	klein	
+Sint Annaparochie	klinkt	
+Sint Annaparochie	korte	kɒrthʏtsi
+Sint Annaparochie	krijgen	krɑiən
+Sint Annaparochie	later	latər
+Sint Annaparochie	let	
+Sint Annaparochie	loopt	kɔmt
+Sint Annaparochie	lopen	loupən
+Sint Annaparochie	lukt	slaxt
+Sint Annaparochie	maar_1	mɑr
+Sint Annaparochie	met_1	mɛt
+Sint Annaparochie	mevrouw	frɑu
+Sint Annaparochie	naar	nə
+Sint Annaparochie	net	krɛkt
+Sint Annaparochie	niet	nit
+Sint Annaparochie	nou	nɑu
+Sint Annaparochie	nu	nɑu
+Sint Annaparochie	of	ɑt
+Sint Annaparochie	om	ɔm
+Sint Annaparochie	ontdaan	heilndɑlfɑnətsɛntrəm
+Sint Annaparochie	ook	ok
+Sint Annaparochie	op	ɔp
+Sint Annaparochie	pakken	pɑkən
+Sint Annaparochie	politieagent	plisiman
+Sint Annaparochie	repareren	repərɪrə
+Sint Annaparochie	ruit	ryt
+Sint Annaparochie	ruiten	rytn
+Sint Annaparochie	samen	
+Sint Annaparochie	sneuvelen	ɡanstɪkŋ
+Sint Annaparochie	staan	
+Sint Annaparochie	stapt	kɔmd
+Sint Annaparochie	steen	stein
+Sint Annaparochie	stil	stɪl
+Sint Annaparochie	straat	dik
+Sint Annaparochie	straten	stratn
+Sint Annaparochie	te	tə
+Sint Annaparochie	tijd	
+Sint Annaparochie	toevallig	tufɑləx
+Sint Annaparochie	van	fan
+Sint Annaparochie	veel	
+Sint Annaparochie	vraagt	fraxt
+Sint Annaparochie	vrouw	frɑu
+Sint Annaparochie	wil_1	ɪsfandʊl
+Sint Annaparochie	ze_1	zə
+Sint Annaparochie	ziet_1	sit
+Sint Jacobiparochie	aan	an
+Sint Jacobiparochie	agent	plisi
+Sint Jacobiparochie	als	ɑt
+Sint Jacobiparochie	beiden	bɑidə
+Sint Jacobiparochie	besluit	bəslyt
+Sint Jacobiparochie	bij	bai
+Sint Jacobiparochie	buiten	bytn
+Sint Jacobiparochie	daar	də
+Sint Jacobiparochie	dan_1	dan
+Sint Jacobiparochie	dat	dɑ
+Sint Jacobiparochie	de_6	də
+Sint Jacobiparochie	door	
+Sint Jacobiparochie	een_count	ein
+Sint Jacobiparochie	een_det	ən
+Sint Jacobiparochie	er	ər
+Sint Jacobiparochie	even	eifjəs
+Sint Jacobiparochie	extra	ɛkstrə
+Sint Jacobiparochie	gerinkel	ɡərɪŋləl
+Sint Jacobiparochie	glas	ɡlɑs
+Sint Jacobiparochie	glaszetter_1	ɡlɑsɛtər
+Sint Jacobiparochie	goed	ɡut
+Sint Jacobiparochie	gooien	xʊiə
+Sint Jacobiparochie	he	hɛ
+Sint Jacobiparochie	heel	
+Sint Jacobiparochie	hem	
+Sint Jacobiparochie	het	ət
+Sint Jacobiparochie	hij_2	i
+Sint Jacobiparochie	hoek	huk
+Sint Jacobiparochie	houden	hɑuən
+Sint Jacobiparochie	huizen	hyzn
+Sint Jacobiparochie	in_1	
+Sint Jacobiparochie	ineens	ɪneinn
+Sint Jacobiparochie	is	ɪs
+Sint Jacobiparochie	jongetje_2	jɔŋətsi
+Sint Jacobiparochie	juist	krɛk
+Sint Jacobiparochie	klein	
+Sint Jacobiparochie	klinkt	klɪŋk
+Sint Jacobiparochie	korte	kɒrtə
+Sint Jacobiparochie	krijgen	
+Sint Jacobiparochie	later	latər
+Sint Jacobiparochie	let	siət
+Sint Jacobiparochie	loopt	loupt
+Sint Jacobiparochie	lopen	loupən
+Sint Jacobiparochie	lukt	lʏkt
+Sint Jacobiparochie	maar_1	
+Sint Jacobiparochie	met_1	mɛt
+Sint Jacobiparochie	mevrouw	frɑu
+Sint Jacobiparochie	naar	nai
+Sint Jacobiparochie	net	krɛk
+Sint Jacobiparochie	niet	nit
+Sint Jacobiparochie	nou	
+Sint Jacobiparochie	nu	nɑu
+Sint Jacobiparochie	of	ɑt
+Sint Jacobiparochie	om	ɔm
+Sint Jacobiparochie	ontdaan	fərbistət
+Sint Jacobiparochie	ook	ɤuk
+Sint Jacobiparochie	op	ɔp
+Sint Jacobiparochie	pakken	pakən
+Sint Jacobiparochie	politieagent	plisi
+Sint Jacobiparochie	repareren	makə
+Sint Jacobiparochie	ruit	ryt
+Sint Jacobiparochie	ruiten	rytn
+Sint Jacobiparochie	samen	təɡar
+Sint Jacobiparochie	sneuvelen	ɡanstɪkŋ
+Sint Jacobiparochie	staan	
+Sint Jacobiparochie	stapt	stap
+Sint Jacobiparochie	steen	stein
+Sint Jacobiparochie	stil	stɪl
+Sint Jacobiparochie	straat	dik
+Sint Jacobiparochie	straten	
+Sint Jacobiparochie	te	tə
+Sint Jacobiparochie	tijd	tit
+Sint Jacobiparochie	toevallig	tufaləx
+Sint Jacobiparochie	van	fan
+Sint Jacobiparochie	veel	
+Sint Jacobiparochie	vraagt	fraxt
+Sint Jacobiparochie	vrouw	frɑu
+Sint Jacobiparochie	wil_1	ʋʏl
+Sint Jacobiparochie	ze_1	zə
+Sint Jacobiparochie	ziet_1	sit
+Sint-Oedenrode	aan	ʌn
+Sint-Oedenrode	agent	plisi
+Sint-Oedenrode	als	æz
+Sint-Oedenrode	beiden	ɑləbæi
+Sint-Oedenrode	besluit	
+Sint-Oedenrode	bij	bɛ
+Sint-Oedenrode	buiten	bœtə
+Sint-Oedenrode	daar	də
+Sint-Oedenrode	dan_1	
+Sint-Oedenrode	dat	
+Sint-Oedenrode	de_6	də
+Sint-Oedenrode	door	dʏʀ
+Sint-Oedenrode	een_count	ein
+Sint-Oedenrode	een_det	ənə
+Sint-Oedenrode	er	dəʀ
+Sint-Oedenrode	even	ɛfkəs
+Sint-Oedenrode	extra	
+Sint-Oedenrode	gerinkel	çəʀɪŋkəl
+Sint-Oedenrode	glas	çlɑs
+Sint-Oedenrode	glaszetter_1	
+Sint-Oedenrode	goed	
+Sint-Oedenrode	gooien	çʊiə
+Sint-Oedenrode	he	hei
+Sint-Oedenrode	heel	
+Sint-Oedenrode	hem	
+Sint-Oedenrode	het	t
+Sint-Oedenrode	hij_2	
+Sint-Oedenrode	hoek	huk
+Sint-Oedenrode	houden	
+Sint-Oedenrode	huizen	hœys
+Sint-Oedenrode	in_1	ɪn
+Sint-Oedenrode	ineens	
+Sint-Oedenrode	is	ɪs
+Sint-Oedenrode	jongetje_2	
+Sint-Oedenrode	juist	kʀɛkt
+Sint-Oedenrode	klein	
+Sint-Oedenrode	klinkt	
+Sint-Oedenrode	korte	
+Sint-Oedenrode	krijgen	
+Sint-Oedenrode	later	lɒtəʀ
+Sint-Oedenrode	let	lɛt
+Sint-Oedenrode	loopt	kʏmp
+Sint-Oedenrode	lopen	lopə
+Sint-Oedenrode	lukt	
+Sint-Oedenrode	maar_1	mɑʀ
+Sint-Oedenrode	met_1	mɪt
+Sint-Oedenrode	mevrouw	fʀɒu
+Sint-Oedenrode	naar	nə
+Sint-Oedenrode	net	næt
+Sint-Oedenrode	niet	ni
+Sint-Oedenrode	nou	
+Sint-Oedenrode	nu	
+Sint-Oedenrode	of	ɒf
+Sint-Oedenrode	om	
+Sint-Oedenrode	ontdaan	fəskotə
+Sint-Oedenrode	ook	
+Sint-Oedenrode	op	ɔp
+Sint-Oedenrode	pakken	
+Sint-Oedenrode	politieagent	plisi
+Sint-Oedenrode	repareren	
+Sint-Oedenrode	ruit	çlɑs
+Sint-Oedenrode	ruiten	ʀɒmə
+Sint-Oedenrode	samen	
+Sint-Oedenrode	sneuvelen	fliçəkəpɒt
+Sint-Oedenrode	staan	
+Sint-Oedenrode	stapt	kʏmp
+Sint-Oedenrode	steen	kai
+Sint-Oedenrode	stil	stɪl
+Sint-Oedenrode	straat	stʀɒt
+Sint-Oedenrode	straten	
+Sint-Oedenrode	te	
+Sint-Oedenrode	tijd	
+Sint-Oedenrode	toevallig	
+Sint-Oedenrode	van	fɑn
+Sint-Oedenrode	veel	
+Sint-Oedenrode	vraagt	fʀɒçt
+Sint-Oedenrode	vrouw	fʀɒu
+Sint-Oedenrode	wil_1	
+Sint-Oedenrode	ze_1	zə
+Sint-Oedenrode	ziet_1	zi
+Slochteren	aan	æ
+Slochteren	agent	plitsi
+Slochteren	als	ɑz
+Slochteren	beiden	bɑidnt
+Slochteren	besluit	ʋɪl
+Slochteren	bij	bi
+Slochteren	buiten	butn
+Slochteren	daar	dʊ
+Slochteren	dan_1	dən
+Slochteren	dat	da
+Slochteren	de_6	
+Slochteren	door	dʏr
+Slochteren	een_count	ɒin
+Slochteren	een_det	n
+Slochteren	er	ə
+Slochteren	even	eifkəs
+Slochteren	extra	
+Slochteren	gerinkel	xərɪŋkəl
+Slochteren	glas	xlɑs
+Slochteren	glaszetter_1	xlasɛtər
+Slochteren	goed	
+Slochteren	gooien	xʊin
+Slochteren	he	hei
+Slochteren	heel	
+Slochteren	hem	
+Slochteren	het	t
+Slochteren	hij_2	hɛi
+Slochteren	hoek	hɑuk
+Slochteren	houden	hɒln
+Slochteren	huizen	huzn
+Slochteren	in_1	ɪn
+Slochteren	ineens	inɑinn
+Slochteren	is	ɪs
+Slochteren	jongetje_2	jɔŋkjə
+Slochteren	juist	nɛt
+Slochteren	klein	løɟi
+Slochteren	klinkt	klɪŋkt
+Slochteren	korte	
+Slochteren	krijgen	
+Slochteren	later	lɔtər
+Slochteren	let	kikt
+Slochteren	loopt	lɒp
+Slochteren	lopen	loupm
+Slochteren	lukt	
+Slochteren	maar_1	mɒr
+Slochteren	met_1	mɪt
+Slochteren	mevrouw	frɑ
+Slochteren	naar	nə
+Slochteren	net	nɛt
+Slochteren	niet	nait
+Slochteren	nou	
+Slochteren	nu	nɑu
+Slochteren	of	ɒf
+Slochteren	om	
+Slochteren	ontdaan	fərɑldərɪt
+Slochteren	ook	ɤuk
+Slochteren	op	ɔp
+Slochteren	pakken	pakŋ
+Slochteren	politieagent	plitsi
+Slochteren	repareren	
+Slochteren	ruit	xlas
+Slochteren	ruiten	rutn
+Slochteren	samen	
+Slochteren	sneuvelen	snøfəln
+Slochteren	staan	
+Slochteren	stapt	kɔmt
+Slochteren	steen	stɑin
+Slochteren	stil	stɪl
+Slochteren	straat	strʊt
+Slochteren	straten	
+Slochteren	te	
+Slochteren	tijd	tit
+Slochteren	toevallig	tɑfɑləx
+Slochteren	van	fan
+Slochteren	veel	
+Slochteren	vraagt	frɑxt
+Slochteren	vrouw	frɑ
+Slochteren	wil_1	
+Slochteren	ze_1	zə
+Slochteren	ziet_1	zʏx
+Sneek	aan	ɑn
+Sneek	agent	plisi
+Sneek	als	ɑz
+Sneek	beiden	ɑləbɛi
+Sneek	besluit	bəslyt
+Sneek	bij	bai
+Sneek	buiten	bytn
+Sneek	daar	dɛr
+Sneek	dan_1	dan
+Sneek	dat	dɑt
+Sneek	de_6	də
+Sneek	door	dʏr
+Sneek	een_count	ɪ
+Sneek	een_det	ə
+Sneek	er	dər
+Sneek	even	eifə
+Sneek	extra	ɛkstra
+Sneek	gerinkel	ɡərɪŋkəl
+Sneek	glas	ɡlɑs
+Sneek	glaszetter_1	ɡlɑsɛtər
+Sneek	goed	ɡud
+Sneek	gooien	ɡʊiə
+Sneek	he	
+Sneek	heel	
+Sneek	hem	ɔm
+Sneek	het	ət
+Sneek	hij_2	i
+Sneek	hoek	hukə
+Sneek	houden	hɑuən
+Sneek	huizen	hyzn
+Sneek	in_1	
+Sneek	ineens	ɪninn
+Sneek	is	ɪs
+Sneek	jongetje_2	jɔŋkjə
+Sneek	juist	jyst
+Sneek	klein	klɛin
+Sneek	klinkt	
+Sneek	korte	kɒrtə
+Sneek	krijgen	kræiə
+Sneek	later	latər
+Sneek	let	lɛt
+Sneek	loopt	loupt
+Sneek	lopen	loupm
+Sneek	lukt	
+Sneek	maar_1	mɑr
+Sneek	met_1	mɛt
+Sneek	mevrouw	frɒu
+Sneek	naar	nɑ
+Sneek	net	krɛk
+Sneek	niet	nit
+Sneek	nou	
+Sneek	nu	nɑu
+Sneek	of	
+Sneek	om	ɔm
+Sneek	ontdaan	heiləmɑlɪndəʋɑr
+Sneek	ook	ouk
+Sneek	op	ɔp
+Sneek	pakken	pakən
+Sneek	politieagent	plisi
+Sneek	repareren	mɑkə
+Sneek	ruit	ram
+Sneek	ruiten	rytn
+Sneek	samen	təɡarə
+Sneek	sneuvelen	
+Sneek	staan	stan
+Sneek	stapt	
+Sneek	steen	stin
+Sneek	stil	stɪl
+Sneek	straat	strat
+Sneek	straten	stratn
+Sneek	te	tə
+Sneek	tijd	tit
+Sneek	toevallig	tufɑləx
+Sneek	van	fan
+Sneek	veel	
+Sneek	vraagt	fraxt
+Sneek	vrouw	frɒu
+Sneek	wil_1	ʋʏl
+Sneek	ze_1	zə
+Sneek	ziet_1	sit
+Tegelen	aan	an
+Tegelen	agent	pəlisi
+Tegelen	als	ɑs
+Tegelen	beiden	ɑləbæi
+Tegelen	besluit	bəslyt
+Tegelen	bij	bi
+Tegelen	buiten	butə
+Tegelen	daar	dʊ
+Tegelen	dan_1	dan
+Tegelen	dat	dat
+Tegelen	de_6	də
+Tegelen	door	dʊʀ
+Tegelen	een_count	ein
+Tegelen	een_det	ənə
+Tegelen	er	dəʀ
+Tegelen	even	ɛfkəs
+Tegelen	extra	ækstʀə
+Tegelen	gerinkel	çəʀɪŋkəl
+Tegelen	glas	çlæs
+Tegelen	glaszetter_1	çlasætəʀ
+Tegelen	goed	çut
+Tegelen	gooien	çuiə
+Tegelen	he	hei
+Tegelen	heel	hil
+Tegelen	hem	əm
+Tegelen	het	həd
+Tegelen	hij_2	hɪʀ
+Tegelen	hoek	hut
+Tegelen	houden	hæiə
+Tegelen	huizen	hyzəʀ
+Tegelen	in_1	ɛn
+Tegelen	ineens	ʏbɛns
+Tegelen	is	ɪʃ
+Tegelen	jongetje_2	jʏŋskə
+Tegelen	juist	nɛt
+Tegelen	klein	klɛin
+Tegelen	klinkt	klɪŋk
+Tegelen	korte	kɒʀtə
+Tegelen	krijgen	kʀiçə
+Tegelen	later	latəʀ
+Tegelen	let	læt
+Tegelen	loopt	lœp
+Tegelen	lopen	lʌupə
+Tegelen	lukt	lɶk
+Tegelen	maar_1	maʀ
+Tegelen	met_1	mæt
+Tegelen	mevrouw	fʀɑu
+Tegelen	naar	nə
+Tegelen	net	næt
+Tegelen	niet	nɪd
+Tegelen	nou	nɯ
+Tegelen	nu	nʊu
+Tegelen	of	ɒf
+Tegelen	om	œm
+Tegelen	ontdaan	çəʃʀʊkə
+Tegelen	ook	ok
+Tegelen	op	ɔp
+Tegelen	pakken	pɑkə
+Tegelen	politieagent	pəlisi
+Tegelen	repareren	makə
+Tegelen	ruit	ʀut
+Tegelen	ruiten	ʀutə
+Tegelen	samen	samə
+Tegelen	sneuvelen	ʃnøfəld
+Tegelen	staan	
+Tegelen	stapt	kʏm
+Tegelen	steen	ʃtɛin
+Tegelen	stil	ʃtɪl
+Tegelen	straat	ʃtʀot
+Tegelen	straten	ʃtʀɔtə
+Tegelen	te	tə
+Tegelen	tijd	tit
+Tegelen	toevallig	tufɑləç
+Tegelen	van	fɑn
+Tegelen	veel	fyl
+Tegelen	vraagt	fʀøç
+Tegelen	vrouw	fʀɑu
+Tegelen	wil_1	wʏlt
+Tegelen	ze_1	zə
+Tegelen	ziet_1	syt
+Tienen	aan	
+Tienen	agent	çɑʀdə
+Tienen	als	
+Tienen	beiden	ɒlətwi
+Tienen	besluit	wil
+Tienen	bij	
+Tienen	buiten	bɑtə
+Tienen	daar	
+Tienen	dan_1	
+Tienen	dat	dɑ
+Tienen	de_6	də
+Tienen	door	
+Tienen	een_count	iən
+Tienen	een_det	ən
+Tienen	er	dəʀ
+Tienen	even	əbɛcə
+Tienen	extra	
+Tienen	gerinkel	lɑwɒt
+Tienen	glas	çlɒs
+Tienen	glaszetter_1	çlɒəzəmakəʀ
+Tienen	goed	çʏɯt
+Tienen	gooien	smɛtə
+Tienen	he	
+Tienen	heel	hil
+Tienen	hem	
+Tienen	het	ət
+Tienen	hij_2	
+Tienen	hoek	huk
+Tienen	houden	pɑkə
+Tienen	huizen	hɑsə
+Tienen	in_1	
+Tienen	ineens	nənins
+Tienen	is	ɪs
+Tienen	jongetje_2	
+Tienen	juist	
+Tienen	klein	
+Tienen	klinkt	
+Tienen	korte	
+Tienen	krijgen	
+Tienen	later	lʊtəʀ
+Tienen	let	
+Tienen	loopt	kɔmt
+Tienen	lopen	lɤpə
+Tienen	lukt	
+Tienen	maar_1	mɒ
+Tienen	met_1	bɛ
+Tienen	mevrouw	
+Tienen	naar	
+Tienen	net	ʃyst
+Tienen	niet	
+Tienen	nou	
+Tienen	nu	
+Tienen	of	ɒf
+Tienen	om	
+Tienen	ontdaan	
+Tienen	ook	
+Tienen	op	in
+Tienen	pakken	
+Tienen	politieagent	çɑrdə
+Tienen	repareren	ʀəpaʀɑiʀə
+Tienen	ruit	ʀɑt
+Tienen	ruiten	ʀɑtə
+Tienen	samen	
+Tienen	sneuvelen	flʏiçədəstɑʀcəfɑnɪn
+Tienen	staan	
+Tienen	stapt	kɔm
+Tienen	steen	kɑi
+Tienen	stil	stil
+Tienen	straat	
+Tienen	straten	
+Tienen	te	
+Tienen	tijd	
+Tienen	toevallig	lɑkə
+Tienen	van	fɑn
+Tienen	veel	
+Tienen	vraagt	fʀʊçt
+Tienen	vrouw	fʀʌ
+Tienen	wil_1	wil
+Tienen	ze_1	
+Tienen	ziet_1	set
+Tilligte	aan	ɑn
+Tilligte	agent	plitsi
+Tilligte	als	ɑt
+Tilligte	beiden	bɪr
+Tilligte	besluit	bəslʊt
+Tilligte	bij	bi
+Tilligte	buiten	butn
+Tilligte	daar	dʊ
+Tilligte	dan_1	dan
+Tilligte	dat	dat
+Tilligte	de_6	də
+Tilligte	door	dʏr
+Tilligte	een_count	en
+Tilligte	een_det	nə
+Tilligte	er	ər
+Tilligte	even	ɛfn
+Tilligte	extra	ɛkstrʌ
+Tilligte	gerinkel	xərɪŋkəl
+Tilligte	glas	
+Tilligte	glaszetter_1	xlasɛtər
+Tilligte	goed	xʊt
+Tilligte	gooien	smitn
+Tilligte	he	hei
+Tilligte	heel	
+Tilligte	hem	hɛm
+Tilligte	het	t
+Tilligte	hij_2	he
+Tilligte	hoek	hok
+Tilligte	houden	hɒln
+Tilligte	huizen	hys
+Tilligte	in_1	ɪn
+Tilligte	ineens	ɪnens
+Tilligte	is	ɪs
+Tilligte	jongetje_2	jʏŋskə
+Tilligte	juist	nɛt
+Tilligte	klein	
+Tilligte	klinkt	klɪŋkt
+Tilligte	korte	kɒrtn
+Tilligte	krijgen	kriɡŋ
+Tilligte	later	latər
+Tilligte	let	kɪk
+Tilligte	loopt	lop
+Tilligte	lopen	lopm
+Tilligte	lukt	lʏkt
+Tilligte	maar_1	mar
+Tilligte	met_1	mɛt
+Tilligte	mevrouw	frɒu
+Tilligte	naar	nə
+Tilligte	net	
+Tilligte	niet	nɪx
+Tilligte	nou	nʊ
+Tilligte	nu	nu
+Tilligte	of	ɒf
+Tilligte	om	œm
+Tilligte	ontdaan	ɒndɒn
+Tilligte	ook	
+Tilligte	op	ɔp
+Tilligte	pakken	pakŋ
+Tilligte	politieagent	plitsiɑxɛnt
+Tilligte	repareren	makŋ
+Tilligte	ruit	rut
+Tilligte	ruiten	rutn
+Tilligte	samen	samm
+Tilligte	sneuvelen	snøfəlt
+Tilligte	staan	
+Tilligte	stapt	lœp
+Tilligte	steen	stɪ
+Tilligte	stil	stɪl
+Tilligte	straat	strʌt
+Tilligte	straten	strɒtn
+Tilligte	te	tə
+Tilligte	tijd	tit
+Tilligte	toevallig	
+Tilligte	van	fan
+Tilligte	veel	fœl
+Tilligte	vraagt	frœx
+Tilligte	vrouw	frɔu
+Tilligte	wil_1	ʋʏl
+Tilligte	ze_1	zə
+Tilligte	ziet_1	sœt
+Uithuizen	aan	æ
+Uithuizen	agent	plitsi
+Uithuizen	als	təʋɑl
+Uithuizen	beiden	bɑidn
+Uithuizen	besluit	beslyt
+Uithuizen	bij	
+Uithuizen	buiten	butn
+Uithuizen	daar	də
+Uithuizen	dan_1	
+Uithuizen	dat	da
+Uithuizen	de_6	
+Uithuizen	door	dʏr
+Uithuizen	een_count	
+Uithuizen	een_det	n
+Uithuizen	er	də
+Uithuizen	even	
+Uithuizen	extra	ɛkstra
+Uithuizen	gerinkel	
+Uithuizen	glas	
+Uithuizen	glaszetter_1	
+Uithuizen	goed	χɑut
+Uithuizen	gooien	xʊin
+Uithuizen	he	hei
+Uithuizen	heel	
+Uithuizen	hem	
+Uithuizen	het	t
+Uithuizen	hij_2	hai
+Uithuizen	hoek	hɑuk
+Uithuizen	houden	hɒln
+Uithuizen	huizen	
+Uithuizen	in_1	in
+Uithuizen	ineens	
+Uithuizen	is	ɪs
+Uithuizen	jongetje_2	kɪrəlcə
+Uithuizen	juist	nɛt
+Uithuizen	klein	løɟə
+Uithuizen	klinkt	
+Uithuizen	korte	
+Uithuizen	krijgen	
+Uithuizen	later	
+Uithuizen	let	kikt
+Uithuizen	loopt	kɔmt
+Uithuizen	lopen	
+Uithuizen	lukt	
+Uithuizen	maar_1	mʌr
+Uithuizen	met_1	
+Uithuizen	mevrouw	frɑu
+Uithuizen	naar	nə
+Uithuizen	net	nɛt
+Uithuizen	niet	nait
+Uithuizen	nou	
+Uithuizen	nu	nɑu
+Uithuizen	of	ɒf
+Uithuizen	om	ɔm
+Uithuizen	ontdaan	
+Uithuizen	ook	ouk
+Uithuizen	op	ɔp
+Uithuizen	pakken	pakŋ
+Uithuizen	politieagent	pliʃə
+Uithuizen	repareren	mɒkŋ
+Uithuizen	ruit	
+Uithuizen	ruiten	rutn
+Uithuizen	samen	
+Uithuizen	sneuvelen	xɒnkəpɒət
+Uithuizen	staan	stʊn
+Uithuizen	stapt	kɔmt
+Uithuizen	steen	stɑin
+Uithuizen	stil	stɪl
+Uithuizen	straat	strʊt
+Uithuizen	straten	
+Uithuizen	te	tə
+Uithuizen	tijd	titsbəstɛk
+Uithuizen	toevallig	tufɑləx
+Uithuizen	van	
+Uithuizen	veel	
+Uithuizen	vraagt	fraxt
+Uithuizen	vrouw	frɑu
+Uithuizen	wil_1	ʋɪl
+Uithuizen	ze_1	zə
+Uithuizen	ziet_1	zɪxt
+Vaals	aan	
+Vaals	agent	pʊlis
+Vaals	als	wɛn
+Vaals	beiden	
+Vaals	besluit	ɛntʃæitsɪʃ
+Vaals	bij	bɛi
+Vaals	buiten	uʃ
+Vaals	daar	
+Vaals	dan_1	
+Vaals	dat	dɑt
+Vaals	de_6	dəʀ
+Vaals	door	dʏʀç
+Vaals	een_count	e
+Vaals	een_det	ənə
+Vaals	er	
+Vaals	even	ɛfə
+Vaals	extra	ɛkstʀa
+Vaals	gerinkel	
+Vaals	glas	
+Vaals	glaszetter_1	jlɑsəʀ
+Vaals	goed	
+Vaals	gooien	wɪʀpə
+Vaals	he	
+Vaals	heel	jɑns
+Vaals	hem	əm
+Vaals	het	ət
+Vaals	hij_2	hɪʀ
+Vaals	hoek	ɛk
+Vaals	houden	fəʀhɑftə
+Vaals	huizen	hysəʀ
+Vaals	in_1	ɪ
+Vaals	ineens	plœtsliç
+Vaals	is	ɪʃ
+Vaals	jongetje_2	jʏŋʃə
+Vaals	juist	jʀat
+Vaals	klein	
+Vaals	klinkt	
+Vaals	korte	kʊʀtə
+Vaals	krijgen	kʀiə
+Vaals	later	dʌnɒə
+Vaals	let	pɑst
+Vaals	loopt	jet
+Vaals	lopen	lofə
+Vaals	lukt	fluçd
+Vaals	maar_1	
+Vaals	met_1	mɪt
+Vaals	mevrouw	fʀɑu
+Vaals	naar	əʀ
+Vaals	net	çʀat
+Vaals	niet	nɪt
+Vaals	nou	
+Vaals	nu	nu
+Vaals	of	ɒf
+Vaals	om	œm
+Vaals	ontdaan	fəʃʀɛkt
+Vaals	ook	ɔç
+Vaals	op	ɔp
+Vaals	pakken	pɑkə
+Vaals	politieagent	pʊlis
+Vaals	repareren	
+Vaals	ruit	ʀut
+Vaals	ruiten	ʀutə
+Vaals	samen	tsəzamə
+Vaals	sneuvelen	jʏntkɑpɒt
+Vaals	staan	
+Vaals	stapt	kʏmt
+Vaals	steen	ʃte
+Vaals	stil	ʃtɪl
+Vaals	straat	ʃtʀɔəʃ
+Vaals	straten	
+Vaals	te	tsə
+Vaals	tijd	tsit
+Vaals	toevallig	
+Vaals	van	fan
+Vaals	veel	fœl
+Vaals	vraagt	fʀʊçt
+Vaals	vrouw	fʀɑu
+Vaals	wil_1	wɪlt
+Vaals	ze_1	zə
+Vaals	ziet_1	sit
+Veenwouden	aan	ɒ
+Veenwouden	agent	pliʃəmɑn
+Veenwouden	als	ʌt
+Veenwouden	beiden	bɛidə
+Veenwouden	besluit	bəslyt
+Veenwouden	bij	bei
+Veenwouden	buiten	butn
+Veenwouden	daar	da
+Veenwouden	dan_1	dan
+Veenwouden	dat	dɑt
+Veenwouden	de_6	də
+Veenwouden	door	trʏx
+Veenwouden	een_count	ɪ
+Veenwouden	een_det	ən
+Veenwouden	er	dər
+Veenwouden	even	ɛfkəs
+Veenwouden	extra	ɛkstrə
+Veenwouden	gerinkel	ɡərɪŋkəl
+Veenwouden	glas	ɡlæs
+Veenwouden	glaszetter_1	ɡlæsɛtər
+Veenwouden	goed	ɡut
+Veenwouden	gooien	smitə
+Veenwouden	he	
+Veenwouden	heel	
+Veenwouden	hem	hɪm
+Veenwouden	het	ət
+Veenwouden	hij_2	ər
+Veenwouden	hoek	hukə
+Veenwouden	houden	hɒdn
+Veenwouden	huizen	huzn
+Veenwouden	in_1	ɪn
+Veenwouden	ineens	inɛnn
+Veenwouden	is	ɪs
+Veenwouden	jongetje_2	jɔŋkjə
+Veenwouden	juist	krɛk
+Veenwouden	klein	lits
+Veenwouden	klinkt	
+Veenwouden	korte	kuɑtskɔtʃə
+Veenwouden	krijgen	kræiə
+Veenwouden	later	lɛtər
+Veenwouden	let	lɛt
+Veenwouden	loopt	rɛnt
+Veenwouden	lopen	rɪnn
+Veenwouden	lukt	lʏkt
+Veenwouden	maar_1	mɑr
+Veenwouden	met_1	mɛi
+Veenwouden	mevrouw	frɑu
+Veenwouden	naar	na
+Veenwouden	net	krɛkt
+Veenwouden	niet	nɛt
+Veenwouden	nou	nɔ
+Veenwouden	nu	nɑu
+Veenwouden	of	
+Veenwouden	om	
+Veenwouden	ontdaan	fəsxrɪkt
+Veenwouden	ook	ɛk
+Veenwouden	op	ɔp
+Veenwouden	pakken	pakən
+Veenwouden	politieagent	pliʃəmʌn
+Veenwouden	repareren	
+Veenwouden	ruit	ryt
+Veenwouden	ruiten	rytn
+Veenwouden	samen	
+Veenwouden	sneuvelen	rɛitʃəstɪkən
+Veenwouden	staan	
+Veenwouden	stapt	stɑp
+Veenwouden	steen	stɪn
+Veenwouden	stil	stɪl
+Veenwouden	straat	strɪtə
+Veenwouden	straten	strɪtn
+Veenwouden	te	tə
+Veenwouden	tijd	
+Veenwouden	toevallig	təfɑləx
+Veenwouden	van	fan
+Veenwouden	veel	fɔlə
+Veenwouden	vraagt	freihət
+Veenwouden	vrouw	frɑu
+Veenwouden	wil_1	ʋɔl
+Veenwouden	ze_1	sə
+Veenwouden	ziet_1	ʃyt
+Venray	aan	an
+Venray	agent	plisi
+Venray	als	ɑs
+Venray	beiden	ɑləbæi
+Venray	besluit	bəslyt
+Venray	bij	bɪi
+Venray	buiten	butə
+Venray	daar	dʊ
+Venray	dan_1	dɑn
+Venray	dat	dʌt
+Venray	de_6	də
+Venray	door	dʏʀ
+Venray	een_count	in
+Venray	een_det	ənə
+Venray	er	dəʀ
+Venray	even	ifkəs
+Venray	extra	ɛkstʀa
+Venray	gerinkel	çəʀɪŋkəl
+Venray	glas	çlɑs
+Venray	glaszetter_1	çlɑsɛtəʀ
+Venray	goed	çut
+Venray	gooien	smite
+Venray	he	hei
+Venray	heel	hil
+Venray	hem	əm
+Venray	het	ət
+Venray	hij_2	hei
+Venray	hoek	tɔŋ
+Venray	houden	hɑldə
+Venray	huizen	hys
+Venray	in_1	in
+Venray	ineens	ɪnɛns
+Venray	is	ɪʃ
+Venray	jongetje_2	jʏŋskə
+Venray	juist	kʀɛk
+Venray	klein	klɛin
+Venray	klinkt	klɪŋk
+Venray	korte	kɒʀtən
+Venray	krijgen	kʀiçə
+Venray	later	latəʀ
+Venray	let	lɛt
+Venray	loopt	lɒp
+Venray	lopen	lɯəpə
+Venray	lukt	lʏkt
+Venray	maar_1	maʀ
+Venray	met_1	mɪt
+Venray	mevrouw	fʀɒu
+Venray	naar	nə
+Venray	net	kʀɛk
+Venray	niet	ni
+Venray	nou	nɑu
+Venray	nu	nɑu
+Venray	of	ɒf
+Venray	om	ʏm
+Venray	ontdaan	ɔndɔn
+Venray	ook	ouk
+Venray	op	ɔp
+Venray	pakken	pɑkə
+Venray	politieagent	plisi
+Venray	repareren	ʀepəʀɪrə
+Venray	ruit	ʀyt
+Venray	ruiten	ʀytə
+Venray	samen	samə
+Venray	sneuvelen	snøfələ
+Venray	staan	
+Venray	stapt	stapt
+Venray	steen	stɪn
+Venray	stil	ʃtɪl
+Venray	straat	ʃtʀɒt
+Venray	straten	ʃtʀɒtə
+Venray	te	tə
+Venray	tijd	tit
+Venray	toevallig	stæʀk
+Venray	van	fɑn
+Venray	veel	føl
+Venray	vraagt	fʀɒçt
+Venray	vrouw	fʀɔməs
+Venray	wil_1	wʏlt
+Venray	ze_1	sə
+Venray	ziet_1	zit
+Veurne	aan	
+Veurne	agent	ɑhænt
+Veurne	als	ɒt
+Veurne	beiden	ɒlətwiə
+Veurne	besluit	hɒt
+Veurne	bij	bi
+Veurne	buiten	bytn
+Veurne	daar	dɒ
+Veurne	dan_1	tunə
+Veurne	dat	dɑ
+Veurne	de_6	də
+Veurne	door	
+Veurne	een_count	ɪ
+Veurne	een_det	ə
+Veurne	er	dər
+Veurne	even	əbecə
+Veurne	extra	
+Veurne	gerinkel	χəriŋkəl
+Veurne	glas	hlɑs
+Veurne	glaszetter_1	rytəmʌkrə
+Veurne	goed	χut
+Veurne	gooien	smitn
+Veurne	he	
+Veurne	heel	stɪf
+Veurne	hem	
+Veurne	het	t
+Veurne	hij_2	m
+Veurne	hoek	uk
+Veurne	houden	pɑkŋ
+Veurne	huizen	yzn
+Veurne	in_1	ɪn
+Veurne	ineens	ɒməkɪr
+Veurne	is	ɪs
+Veurne	jongetje_2	juncə
+Veurne	juist	ʒystə
+Veurne	klein	klɪn
+Veurne	klinkt	kliŋkt
+Veurne	korte	
+Veurne	krijgen	
+Veurne	later	lɒtərə
+Veurne	let	læt
+Veurne	loopt	lɒpt
+Veurne	lopen	lopm
+Veurne	lukt	
+Veurne	maar_1	mɒr
+Veurne	met_1	mæt
+Veurne	mevrouw	frɔmɛs
+Veurne	naar	nɑ
+Veurne	net	ʒystə
+Veurne	niet	ni
+Veurne	nou	
+Veurne	nu	
+Veurne	of	ɒt
+Veurne	om	
+Veurne	ontdaan	ɛndəkɔlɛrə
+Veurne	ook	ok
+Veurne	op	ɔp
+Veurne	pakken	pɑkŋ
+Veurne	politieagent	pɒliʃə
+Veurne	repareren	fəmɑkŋ
+Veurne	ruit	rytə
+Veurne	ruiten	rytn
+Veurne	samen	təhɒrə
+Veurne	sneuvelen	brekŋ
+Veurne	staan	
+Veurne	stapt	
+Veurne	steen	stɪ
+Veurne	stil	stɪlə
+Veurne	straat	strʌtə
+Veurne	straten	
+Veurne	te	
+Veurne	tijd	
+Veurne	toevallig	apɑst
+Veurne	van	fan
+Veurne	veel	
+Veurne	vraagt	frʌχt
+Veurne	vrouw	frɔmɛs
+Veurne	wil_1	wɛlt
+Veurne	ze_1	sə
+Veurne	ziet_1	zit
+Vrouwenparochie	aan	
+Vrouwenparochie	agent	plisi
+Vrouwenparochie	als	ɑs
+Vrouwenparochie	beiden	
+Vrouwenparochie	besluit	
+Vrouwenparochie	bij	
+Vrouwenparochie	buiten	bytn
+Vrouwenparochie	daar	də
+Vrouwenparochie	dan_1	dɑ
+Vrouwenparochie	dat	dɑ
+Vrouwenparochie	de_6	də
+Vrouwenparochie	door	
+Vrouwenparochie	een_count	
+Vrouwenparochie	een_det	ə
+Vrouwenparochie	er	
+Vrouwenparochie	even	ənhʏtʃə
+Vrouwenparochie	extra	
+Vrouwenparochie	gerinkel	ɡəreŋɡəl
+Vrouwenparochie	glas	
+Vrouwenparochie	glaszetter_1	ɡlɑsɛtər
+Vrouwenparochie	goed	ɣut
+Vrouwenparochie	gooien	ɡʊiə
+Vrouwenparochie	he	
+Vrouwenparochie	heel	
+Vrouwenparochie	hem	
+Vrouwenparochie	het	ət
+Vrouwenparochie	hij_2	i
+Vrouwenparochie	hoek	
+Vrouwenparochie	houden	
+Vrouwenparochie	huizen	
+Vrouwenparochie	in_1	ɪn
+Vrouwenparochie	ineens	ɪneinn
+Vrouwenparochie	is	ɪs
+Vrouwenparochie	jongetje_2	jɔŋki
+Vrouwenparochie	juist	krɛk
+Vrouwenparochie	klein	klɑin
+Vrouwenparochie	klinkt	
+Vrouwenparochie	korte	
+Vrouwenparochie	krijgen	kræiə
+Vrouwenparochie	later	latər
+Vrouwenparochie	let	lɛt
+Vrouwenparochie	loopt	kɔmt
+Vrouwenparochie	lopen	loupm
+Vrouwenparochie	lukt	
+Vrouwenparochie	maar_1	mɑr
+Vrouwenparochie	met_1	mɛt
+Vrouwenparochie	mevrouw	frɑu
+Vrouwenparochie	naar	nɑ
+Vrouwenparochie	net	
+Vrouwenparochie	niet	nit
+Vrouwenparochie	nou	
+Vrouwenparochie	nu	nɑu
+Vrouwenparochie	of	ɑ
+Vrouwenparochie	om	
+Vrouwenparochie	ontdaan	
+Vrouwenparochie	ook	ɤuk
+Vrouwenparochie	op	ɔp
+Vrouwenparochie	pakken	pakŋ
+Vrouwenparochie	politieagent	pliʃə
+Vrouwenparochie	repareren	repərɪrə
+Vrouwenparochie	ruit	ryt
+Vrouwenparochie	ruiten	rytn
+Vrouwenparochie	samen	
+Vrouwenparochie	sneuvelen	
+Vrouwenparochie	staan	
+Vrouwenparochie	stapt	kɔmt
+Vrouwenparochie	steen	stein
+Vrouwenparochie	stil	stɪl
+Vrouwenparochie	straat	dik
+Vrouwenparochie	straten	
+Vrouwenparochie	te	
+Vrouwenparochie	tijd	
+Vrouwenparochie	toevallig	təfaləx
+Vrouwenparochie	van	
+Vrouwenparochie	veel	
+Vrouwenparochie	vraagt	fraxt
+Vrouwenparochie	vrouw	frɑu
+Vrouwenparochie	wil_1	ʋɪl
+Vrouwenparochie	ze_1	zə
+Vrouwenparochie	ziet_1	zit
+Waubach	aan	ɑ
+Waubach	agent	plis
+Waubach	als	wɛnt
+Waubach	beiden	alətwiə
+Waubach	besluit	wʏl
+Waubach	bij	bei
+Waubach	buiten	butə
+Waubach	daar	dʊ
+Waubach	dan_1	dan
+Waubach	dat	dɑt
+Waubach	de_6	dəʀ
+Waubach	door	dʏʀ
+Waubach	een_count	i
+Waubach	een_det	ənə
+Waubach	er	
+Waubach	even	çæ
+Waubach	extra	ækstʀa
+Waubach	gerinkel	çəʀiŋkəl
+Waubach	glas	çlas
+Waubach	glaszetter_1	çlɑzənɪʀ
+Waubach	goed	çut
+Waubach	gooien	wæʀpə
+Waubach	he	
+Waubach	heel	
+Waubach	hem	
+Waubach	het	əd
+Waubach	hij_2	hɪʀ
+Waubach	hoek	ɛk
+Waubach	houden	hʌudə
+Waubach	huizen	husəʀ
+Waubach	in_1	ɛn
+Waubach	ineens	œpɪns
+Waubach	is	ɪʃ
+Waubach	jongetje_2	jʏŋskə
+Waubach	juist	çʀat
+Waubach	klein	
+Waubach	klinkt	klɪŋk
+Waubach	korte	kɒʀtə
+Waubach	krijgen	
+Waubach	later	latəʀ
+Waubach	let	pɑst
+Waubach	loopt	lʏp
+Waubach	lopen	lopə
+Waubach	lukt	
+Waubach	maar_1	mɑ
+Waubach	met_1	mət
+Waubach	mevrouw	fʀɒu
+Waubach	naar	na
+Waubach	net	çʀat
+Waubach	niet	nɪt
+Waubach	nou	nə
+Waubach	nu	nu
+Waubach	of	ɒf
+Waubach	om	
+Waubach	ontdaan	wɪtfəʃʀɛk
+Waubach	ook	ɤuk
+Waubach	op	ɪ
+Waubach	pakken	pɑkə
+Waubach	politieagent	plis
+Waubach	repareren	mɑkə
+Waubach	ruit	ʀut
+Waubach	ruiten	fɛnstəʀə
+Waubach	samen	
+Waubach	sneuvelen	çɒnkɑpɒt
+Waubach	staan	
+Waubach	stapt	kʏmt
+Waubach	steen	ʃte
+Waubach	stil	ʃtɪl
+Waubach	straat	ʃtʀɔt
+Waubach	straten	ʃtʀɔtə
+Waubach	te	
+Waubach	tijd	tit
+Waubach	toevallig	
+Waubach	van	fən
+Waubach	veel	
+Waubach	vraagt	fʀʏç
+Waubach	vrouw	fʀɒu
+Waubach	wil_1	wɪlt
+Waubach	ze_1	sə
+Waubach	ziet_1	sit
+Wervershoof	aan	
+Wervershoof	agent	pəlisi
+Wervershoof	als	æʃ
+Wervershoof	beiden	ɑlətwɑi
+Wervershoof	besluit	wɪl
+Wervershoof	bij	bɑi
+Wervershoof	buiten	baytə
+Wervershoof	daar	
+Wervershoof	dan_1	
+Wervershoof	dat	da
+Wervershoof	de_6	
+Wervershoof	door	dʏr
+Wervershoof	een_count	i
+Wervershoof	een_det	ə
+Wervershoof	er	
+Wervershoof	even	ɛfis
+Wervershoof	extra	
+Wervershoof	gerinkel	xərɪŋkəl
+Wervershoof	glas	xlas
+Wervershoof	glaszetter_1	xlasmɛiə
+Wervershoof	goed	xɯt
+Wervershoof	gooien	xʊiə
+Wervershoof	he	
+Wervershoof	heel	
+Wervershoof	hem	
+Wervershoof	het	hɛt
+Wervershoof	hij_2	i
+Wervershoof	hoek	huk
+Wervershoof	houden	xrɑipə
+Wervershoof	huizen	
+Wervershoof	in_1	
+Wervershoof	ineens	ɒpis
+Wervershoof	is	ɪs
+Wervershoof	jongetje_2	jɔwɪ
+Wervershoof	juist	nɛt
+Wervershoof	klein	klɑin
+Wervershoof	klinkt	
+Wervershoof	korte	
+Wervershoof	krijgen	
+Wervershoof	later	lɑtər
+Wervershoof	let	kɑikt
+Wervershoof	loopt	lʌupt
+Wervershoof	lopen	lʌupə
+Wervershoof	lukt	
+Wervershoof	maar_1	mʌr
+Wervershoof	met_1	mɛt
+Wervershoof	mevrouw	
+Wervershoof	naar	næ
+Wervershoof	net	nɛt
+Wervershoof	niet	nit
+Wervershoof	nou	
+Wervershoof	nu	
+Wervershoof	of	
+Wervershoof	om	
+Wervershoof	ontdaan	fərskrɪkt
+Wervershoof	ook	ouk
+Wervershoof	op	ɔp
+Wervershoof	pakken	pakən
+Wervershoof	politieagent	pəlisi
+Wervershoof	repareren	mɑkə
+Wervershoof	ruit	xlas
+Wervershoof	ruiten	rɑmə
+Wervershoof	samen	
+Wervershoof	sneuvelen	
+Wervershoof	staan	
+Wervershoof	stapt	
+Wervershoof	steen	stin
+Wervershoof	stil	stɪl
+Wervershoof	straat	strɛit
+Wervershoof	straten	
+Wervershoof	te	
+Wervershoof	tijd	
+Wervershoof	toevallig	stɛrk
+Wervershoof	van	fɑn
+Wervershoof	veel	
+Wervershoof	vraagt	frʌxt
+Wervershoof	vrouw	
+Wervershoof	wil_1	wʏl
+Wervershoof	ze_1	sə
+Wervershoof	ziet_1	sit
+Westhoek	aan	ɑn
+Westhoek	agent	plisimɑn
+Westhoek	als	ɑz
+Westhoek	beiden	bɒidə
+Westhoek	besluit	beslyt
+Westhoek	bij	bɛi
+Westhoek	buiten	bytn
+Westhoek	daar	dæ
+Westhoek	dan_1	dan
+Westhoek	dat	dɑ
+Westhoek	de_6	də
+Westhoek	door	
+Westhoek	een_count	ein
+Westhoek	een_det	ə
+Westhoek	er	ər
+Westhoek	even	
+Westhoek	extra	ɛkstrə
+Westhoek	gerinkel	ɡərɪŋkəl
+Westhoek	glas	ɡlas
+Westhoek	glaszetter_1	ɡlɑsɛtər
+Westhoek	goed	ɡut
+Westhoek	gooien	xʊiə
+Westhoek	he	hei
+Westhoek	heel	
+Westhoek	hem	
+Westhoek	het	t
+Westhoek	hij_2	i
+Westhoek	hoek	huk
+Westhoek	houden	hɑuən
+Westhoek	huizen	hysn
+Westhoek	in_1	
+Westhoek	ineens	ɪnes
+Westhoek	is	ɪs
+Westhoek	jongetje_2	jɔŋki
+Westhoek	juist	krɛk
+Westhoek	klein	klɒin
+Westhoek	klinkt	
+Westhoek	korte	
+Westhoek	krijgen	
+Westhoek	later	dəna
+Westhoek	let	lɛt
+Westhoek	loopt	loupt
+Westhoek	lopen	loupm
+Westhoek	lukt	
+Westhoek	maar_1	
+Westhoek	met_1	mɛt
+Westhoek	mevrouw	frɑu
+Westhoek	naar	
+Westhoek	net	krɛkt
+Westhoek	niet	
+Westhoek	nou	
+Westhoek	nu	nɑu
+Westhoek	of	ɒf
+Westhoek	om	ɔm
+Westhoek	ontdaan	heilndɑlʌpstərnat
+Westhoek	ook	ouk
+Westhoek	op	ɔp
+Westhoek	pakken	
+Westhoek	politieagent	plisi
+Westhoek	repareren	
+Westhoek	ruit	ryt
+Westhoek	ruiten	rytn
+Westhoek	samen	təɡar
+Westhoek	sneuvelen	snøfələ
+Westhoek	staan	
+Westhoek	stapt	kɔmd
+Westhoek	steen	stein
+Westhoek	stil	stɪl
+Westhoek	straat	dik
+Westhoek	straten	
+Westhoek	te	tə
+Westhoek	tijd	titbəstɛk
+Westhoek	toevallig	tufɑləx
+Westhoek	van	fan
+Westhoek	veel	
+Westhoek	vraagt	fraxt
+Westhoek	vrouw	frɑu
+Westhoek	wil_1	sɪl
+Westhoek	ze_1	
+Westhoek	ziet_1	ʃit
+Westkapelle	aan	ɑn
+Westkapelle	agent	pəlisi
+Westkapelle	als	ʌt
+Westkapelle	beiden	ʊləbæi
+Westkapelle	besluit	bəslyt
+Westkapelle	bij	be
+Westkapelle	buiten	bytn
+Westkapelle	daar	dər
+Westkapelle	dan_1	dɑn
+Westkapelle	dat	da
+Westkapelle	de_6	də
+Westkapelle	door	
+Westkapelle	een_count	e
+Westkapelle	een_det	ə
+Westkapelle	er	
+Westkapelle	even	əstaycə
+Westkapelle	extra	
+Westkapelle	gerinkel	χərɪŋkəl
+Westkapelle	glas	χlɒs
+Westkapelle	glaszetter_1	χlʌsætər
+Westkapelle	goed	χut
+Westkapelle	gooien	χʊiə
+Westkapelle	he	
+Westkapelle	heel	
+Westkapelle	hem	
+Westkapelle	het	ət
+Westkapelle	hij_2	m
+Westkapelle	hoek	uk
+Westkapelle	houden	ɑun
+Westkapelle	huizen	yzn
+Westkapelle	in_1	
+Westkapelle	ineens	ɪnis
+Westkapelle	is	ɪs
+Westkapelle	jongetje_2	juŋəcə
+Westkapelle	juist	nɛt
+Westkapelle	klein	klæin
+Westkapelle	klinkt	klɪŋk
+Westkapelle	korte	kɒrtə
+Westkapelle	krijgen	
+Westkapelle	later	lætər
+Westkapelle	let	læt
+Westkapelle	loopt	loup
+Westkapelle	lopen	lopə
+Westkapelle	lukt	
+Westkapelle	maar_1	mɑ
+Westkapelle	met_1	mæt
+Westkapelle	mevrouw	frɑuə
+Westkapelle	naar	nɛ
+Westkapelle	net	næt
+Westkapelle	niet	ni
+Westkapelle	nou	ny
+Westkapelle	nu	nɯ
+Westkapelle	of	ɒf
+Westkapelle	om	ɔm
+Westkapelle	ontdaan	
+Westkapelle	ook	ok
+Westkapelle	op	ɔp
+Westkapelle	pakken	
+Westkapelle	politieagent	pəlizi
+Westkapelle	repareren	mækə
+Westkapelle	ruit	rytə
+Westkapelle	ruiten	rytn
+Westkapelle	samen	sæmə
+Westkapelle	sneuvelen	breikən
+Westkapelle	staan	
+Westkapelle	stapt	stɑpt
+Westkapelle	steen	
+Westkapelle	stil	stɪlə
+Westkapelle	straat	strætə
+Westkapelle	straten	
+Westkapelle	te	t
+Westkapelle	tijd	tit
+Westkapelle	toevallig	tufʌləχ
+Westkapelle	van	wɑn
+Westkapelle	veel	
+Westkapelle	vraagt	fræχt
+Westkapelle	vrouw	frɑuə
+Westkapelle	wil_1	wʏl
+Westkapelle	ze_1	
+Westkapelle	ziet_1	zit
+Workum	aan	ʊ
+Workum	agent	plisi
+Workum	als	ʌz
+Workum	beiden	baidə
+Workum	besluit	beslyt
+Workum	bij	bai
+Workum	buiten	bytn
+Workum	daar	də
+Workum	dan_1	dɛ
+Workum	dat	dɑt
+Workum	de_6	də
+Workum	door	trʏ
+Workum	een_count	ɪn
+Workum	een_det	ən
+Workum	er	dər
+Workum	even	ɛfkə
+Workum	extra	ɛkstra
+Workum	gerinkel	ɡərɪŋkəl
+Workum	glas	ɡlɛs
+Workum	glaszetter_1	ɡlɛsɛtər
+Workum	goed	ɡut
+Workum	gooien	ɡʊiə
+Workum	he	hei
+Workum	heel	
+Workum	hem	
+Workum	het	hət
+Workum	hij_2	ər
+Workum	hoek	hukə
+Workum	houden	hɒdn
+Workum	huizen	hyzn
+Workum	in_1	in
+Workum	ineens	ɪnis
+Workum	is	ɪs
+Workum	jongetje_2	
+Workum	juist	krɛkt
+Workum	klein	
+Workum	klinkt	klɪŋkt
+Workum	korte	kɒrtskɔfkə
+Workum	krijgen	kræiə
+Workum	later	lɛtər
+Workum	let	lɛt
+Workum	loopt	rɪnt
+Workum	lopen	
+Workum	lukt	
+Workum	maar_1	mɑr
+Workum	met_1	mai
+Workum	mevrouw	frɑu
+Workum	naar	nɛi
+Workum	net	
+Workum	niet	nɛt
+Workum	nou	
+Workum	nu	nau
+Workum	of	
+Workum	om	ɔm
+Workum	ontdaan	sxrɔkən
+Workum	ook	ɪk
+Workum	op	ɔp
+Workum	pakken	pakŋ
+Workum	politieagent	pliʃə
+Workum	repareren	mæitʃən
+Workum	ruit	ryt
+Workum	ruiten	rytn
+Workum	samen	
+Workum	sneuvelen	snøfələ
+Workum	staan	
+Workum	stapt	kɔmt
+Workum	steen	stin
+Workum	stil	stɪl
+Workum	straat	strɪtə
+Workum	straten	strʏtə
+Workum	te	tə
+Workum	tijd	
+Workum	toevallig	tufʌləx
+Workum	van	fan
+Workum	veel	
+Workum	vraagt	freiɡət
+Workum	vrouw	frɑu
+Workum	wil_1	ʋɔl
+Workum	ze_1	
+Workum	ziet_1	ʃɔxt
+Zandvliet	aan	ʊp
+Zandvliet	agent	æçɪn
+Zandvliet	als	ɑlz
+Zandvliet	beiden	bædən
+Zandvliet	besluit	bəslɪst
+Zandvliet	bij	
+Zandvliet	buiten	bœtə
+Zandvliet	daar	dɑ
+Zandvliet	dan_1	dan
+Zandvliet	dat	da
+Zandvliet	de_6	də
+Zandvliet	door	dʊr
+Zandvliet	een_count	ɪ
+Zandvliet	een_det	nə
+Zandvliet	er	dəʀ
+Zandvliet	even	əmbicə
+Zandvliet	extra	
+Zandvliet	gerinkel	çəriŋkəl
+Zandvliet	glas	çlas
+Zandvliet	glaszetter_1	çlʌzəmʌkər
+Zandvliet	goed	çu
+Zandvliet	gooien	çʊiə
+Zandvliet	he	
+Zandvliet	heel	ɪl
+Zandvliet	hem	
+Zandvliet	het	t
+Zandvliet	hij_2	hɛi
+Zandvliet	hoek	huk
+Zandvliet	houden	pakə
+Zandvliet	huizen	hœzə
+Zandvliet	in_1	ɪn
+Zandvliet	ineens	
+Zandvliet	is	ɪs
+Zandvliet	jongetje_2	fɛncə
+Zandvliet	juist	ʃyst
+Zandvliet	klein	klæin
+Zandvliet	klinkt	
+Zandvliet	korte	
+Zandvliet	krijgen	kræçə
+Zandvliet	later	lɑtər
+Zandvliet	let	kækt
+Zandvliet	loopt	lɒpt
+Zandvliet	lopen	lopə
+Zandvliet	lukt	
+Zandvliet	maar_1	mʌʀ
+Zandvliet	met_1	mæt
+Zandvliet	mevrouw	frau
+Zandvliet	naar	nɑr
+Zandvliet	net	ʃyst
+Zandvliet	niet	ni
+Zandvliet	nou	nɑu
+Zandvliet	nu	
+Zandvliet	of	ɒf
+Zandvliet	om	ɔm
+Zandvliet	ontdaan	
+Zandvliet	ook	ok
+Zandvliet	op	ɔp
+Zandvliet	pakken	pakə
+Zandvliet	politieagent	pɒlis
+Zandvliet	repareren	mʌkə
+Zandvliet	ruit	rœt
+Zandvliet	ruiten	rœtə
+Zandvliet	samen	sʌmə
+Zandvliet	sneuvelen	brekə
+Zandvliet	staan	
+Zandvliet	stapt	kɔmt
+Zandvliet	steen	stin
+Zandvliet	stil	stɪl
+Zandvliet	straat	strɑt
+Zandvliet	straten	strɑtə
+Zandvliet	te	tə
+Zandvliet	tijd	
+Zandvliet	toevallig	tufɑləç
+Zandvliet	van	fan
+Zandvliet	veel	føl
+Zandvliet	vraagt	fraçt
+Zandvliet	vrouw	frau
+Zandvliet	wil_1	wyl
+Zandvliet	ze_1	zə
+Zandvliet	ziet_1	zit
+Zevenhuizen	aan	
+Zevenhuizen	agent	pəlisi
+Zevenhuizen	als	ɑz
+Zevenhuizen	beiden	bɛidn
+Zevenhuizen	besluit	ʋɪl
+Zevenhuizen	bij	bɛi
+Zevenhuizen	buiten	butn
+Zevenhuizen	daar	dʊ
+Zevenhuizen	dan_1	dan
+Zevenhuizen	dat	da
+Zevenhuizen	de_6	də
+Zevenhuizen	door	dʏr
+Zevenhuizen	een_count	ein
+Zevenhuizen	een_det	
+Zevenhuizen	er	dər
+Zevenhuizen	even	eibm
+Zevenhuizen	extra	
+Zevenhuizen	gerinkel	dɪɣəln
+Zevenhuizen	glas	xlas
+Zevenhuizen	glaszetter_1	xlʊzənzɛdər
+Zevenhuizen	goed	xut
+Zevenhuizen	gooien	
+Zevenhuizen	he	he
+Zevenhuizen	heel	
+Zevenhuizen	hem	həm
+Zevenhuizen	het	hɛt
+Zevenhuizen	hij_2	ər
+Zevenhuizen	hoek	huk
+Zevenhuizen	houden	pakŋ
+Zevenhuizen	huizen	hyzn
+Zevenhuizen	in_1	in
+Zevenhuizen	ineens	ɪneins
+Zevenhuizen	is	ɪs
+Zevenhuizen	jongetje_2	jʌŋkjə
+Zevenhuizen	juist	nɛt
+Zevenhuizen	klein	klɛinə
+Zevenhuizen	klinkt	klɪŋkt
+Zevenhuizen	korte	kɒrtoɡŋblɪkjə
+Zevenhuizen	krijgen	
+Zevenhuizen	later	lɔtər
+Zevenhuizen	let	kɪkt
+Zevenhuizen	loopt	lɒp
+Zevenhuizen	lopen	lʌupm
+Zevenhuizen	lukt	lʏkt
+Zevenhuizen	maar_1	mər
+Zevenhuizen	met_1	mɛt
+Zevenhuizen	mevrouw	frɑu
+Zevenhuizen	naar	nə
+Zevenhuizen	net	
+Zevenhuizen	niet	nit
+Zevenhuizen	nou	
+Zevenhuizen	nu	
+Zevenhuizen	of	ɒf
+Zevenhuizen	om	
+Zevenhuizen	ontdaan	fərɑldərɪrt
+Zevenhuizen	ook	ɤuk
+Zevenhuizen	op	ɔp
+Zevenhuizen	pakken	pakŋ
+Zevenhuizen	politieagent	plisi
+Zevenhuizen	repareren	mɒkŋ
+Zevenhuizen	ruit	ryt
+Zevenhuizen	ruiten	rytn
+Zevenhuizen	samen	sɔmm
+Zevenhuizen	sneuvelen	xɒnandɪxəls
+Zevenhuizen	staan	stɒn
+Zevenhuizen	stapt	stapt
+Zevenhuizen	steen	
+Zevenhuizen	stil	stɪl
+Zevenhuizen	straat	strʊt
+Zevenhuizen	straten	strʊtn
+Zevenhuizen	te	
+Zevenhuizen	tijd	
+Zevenhuizen	toevallig	tufɑləx
+Zevenhuizen	van	fan
+Zevenhuizen	veel	
+Zevenhuizen	vraagt	frɑxt
+Zevenhuizen	vrouw	frɑu
+Zevenhuizen	wil_1	
+Zevenhuizen	ze_1	sə
+Zevenhuizen	ziet_1	sɪxt
+Zierikzee	aan	
+Zierikzee	agent	pliʃə
+Zierikzee	als	ɑt
+Zierikzee	beiden	
+Zierikzee	besluit	
+Zierikzee	bij	bi
+Zierikzee	buiten	bytə
+Zierikzee	daar	
+Zierikzee	dan_1	dɑn
+Zierikzee	dat	
+Zierikzee	de_6	də
+Zierikzee	door	dʏr
+Zierikzee	een_count	ɪ
+Zierikzee	een_det	ən
+Zierikzee	er	
+Zierikzee	even	
+Zierikzee	extra	ækstra
+Zierikzee	gerinkel	χərɪŋkəl
+Zierikzee	glas	χlɑs
+Zierikzee	glaszetter_1	χlʌsætər
+Zierikzee	goed	χut
+Zierikzee	gooien	
+Zierikzee	he	
+Zierikzee	heel	
+Zierikzee	hem	
+Zierikzee	het	ət
+Zierikzee	hij_2	m
+Zierikzee	hoek	uk
+Zierikzee	houden	
+Zierikzee	huizen	yzn
+Zierikzee	in_1	ɪn
+Zierikzee	ineens	
+Zierikzee	is	ɪs
+Zierikzee	jongetje_2	
+Zierikzee	juist	nɛt
+Zierikzee	klein	klain
+Zierikzee	klinkt	
+Zierikzee	korte	kɒrtə
+Zierikzee	krijgen	kriχən
+Zierikzee	later	
+Zierikzee	let	læt
+Zierikzee	loopt	lɒpt
+Zierikzee	lopen	
+Zierikzee	lukt	lœkt
+Zierikzee	maar_1	mʌr
+Zierikzee	met_1	mæt
+Zierikzee	mevrouw	frɑuə
+Zierikzee	naar	nɛ
+Zierikzee	net	
+Zierikzee	niet	ni
+Zierikzee	nou	
+Zierikzee	nu	nu
+Zierikzee	of	ɒf
+Zierikzee	om	
+Zierikzee	ontdaan	ɔndah
+Zierikzee	ook	
+Zierikzee	op	ɔp
+Zierikzee	pakken	pɑkə
+Zierikzee	politieagent	plisi
+Zierikzee	repareren	mækə
+Zierikzee	ruit	rytə
+Zierikzee	ruiten	rytn
+Zierikzee	samen	sæmə
+Zierikzee	sneuvelen	snøfələ
+Zierikzee	staan	
+Zierikzee	stapt	stʌp
+Zierikzee	steen	kai
+Zierikzee	stil	stɪl
+Zierikzee	straat	
+Zierikzee	straten	
+Zierikzee	te	
+Zierikzee	tijd	tit
+Zierikzee	toevallig	tufɑləχ
+Zierikzee	van	fɑn
+Zierikzee	veel	
+Zierikzee	vraagt	fræχt
+Zierikzee	vrouw	frɑuə
+Zierikzee	wil_1	
+Zierikzee	ze_1	zə
+Zierikzee	ziet_1	sit
+Zwinderen	aan	ɑn
+Zwinderen	agent	
+Zwinderen	als	
+Zwinderen	beiden	bɛidə
+Zwinderen	besluit	
+Zwinderen	bij	
+Zwinderen	buiten	butn
+Zwinderen	daar	dʌ
+Zwinderen	dan_1	dɑn
+Zwinderen	dat	dət
+Zwinderen	de_6	də
+Zwinderen	door	dʏr
+Zwinderen	een_count	
+Zwinderen	een_det	n
+Zwinderen	er	
+Zwinderen	even	
+Zwinderen	extra	
+Zwinderen	gerinkel	xərɪŋkəl
+Zwinderen	glas	xlas
+Zwinderen	glaszetter_1	
+Zwinderen	goed	
+Zwinderen	gooien	xʊin
+Zwinderen	he	
+Zwinderen	heel	
+Zwinderen	hem	
+Zwinderen	het	hɛt
+Zwinderen	hij_2	i
+Zwinderen	hoek	huk
+Zwinderen	houden	hɒln
+Zwinderen	huizen	
+Zwinderen	in_1	ɪn
+Zwinderen	ineens	œpis
+Zwinderen	is	ɪs
+Zwinderen	jongetje_2	fɛnti
+Zwinderen	juist	nɛt
+Zwinderen	klein	
+Zwinderen	klinkt	
+Zwinderen	korte	
+Zwinderen	krijgen	
+Zwinderen	later	
+Zwinderen	let	
+Zwinderen	loopt	
+Zwinderen	lopen	lopm
+Zwinderen	lukt	
+Zwinderen	maar_1	ma
+Zwinderen	met_1	be
+Zwinderen	mevrouw	frʌuə
+Zwinderen	naar	hɛn
+Zwinderen	net	nɛt
+Zwinderen	niet	
+Zwinderen	nou	
+Zwinderen	nu	
+Zwinderen	of	
+Zwinderen	om	œm
+Zwinderen	ontdaan	
+Zwinderen	ook	ɤuk
+Zwinderen	op	ɔp
+Zwinderen	pakken	
+Zwinderen	politieagent	plitsi
+Zwinderen	repareren	
+Zwinderen	ruit	
+Zwinderen	ruiten	rutn
+Zwinderen	samen	
+Zwinderen	sneuvelen	xʌtkəpʌt
+Zwinderen	staan	stɒn
+Zwinderen	stapt	kɔmd
+Zwinderen	steen	stin
+Zwinderen	stil	stɪl
+Zwinderen	straat	strʌt
+Zwinderen	straten	
+Zwinderen	te	tə
+Zwinderen	tijd	
+Zwinderen	toevallig	tufɑləx
+Zwinderen	van	
+Zwinderen	veel	
+Zwinderen	vraagt	
+Zwinderen	vrouw	frʌə
+Zwinderen	wil_1	ʋʏl
+Zwinderen	ze_1	
+Zwinderen	ziet_1	zœt
