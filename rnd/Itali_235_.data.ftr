@@ -1,0 +1,251 @@
+%utf8
+: West-Terschelling
++ 1 16 10 32 11 6
+: Oost-Vlieland
++ 1 16 9 32 1 6
+: Den Burg
++ 1 16 9 32 1 11 6
+: Hollum
++ 8 16 10 32 1 11 6
+: Nes
++ 1 16 10 32 1 11 6
+: Schiermonnikoog
++ 1 16 10 32 11 6
+: Ferwerd
++ 1 16 10 32 11 1
+: Holwerd
++ 1 16 10 32 1 11 6
+: Zoutkamp
++ 1 16 13 6 32 11 6
+: Stiens
++ 1 16 10 32 11 6
+: Sexbierum
++ 1 16 10 32 11 6
+: Bergum
++ 1 16 10 32 1 11 6
+: Surhuisterveen
++ 1 16 10 32 1 11 6
+: Grouw
++ 1 16 10 32 1 11 6
+: Ureterp
++ 1 16 10 32 11 6
+: Makkum
++ 1 16 10 32 11 6
+: Beets
++ 1 16 10 32 11 6
+: Roodeschool
++ 1 16 13 32 1 11 6
+: Warffum
++ 1 16 13 32 1
+: Middelstum
++ 1 16 13 32 1 11 6
+: Zijldijk
++ 1 16 13 32 1
+: Bierum
++ 1 16 13 32 1
+: Oldehove
++ 1 16 13 32 11 6
+: Adorp
++ 1 16 13 32 1
+: Tjamsweer
++ 1 16 13 32 1
+: Zuidhorn
++ 1 16 13 32 1
+: Groningen
++ 1 16 17 32 1
+: Garmerwolde
++ 1 16 13 32 1
+: Schildwolde
++ 1 16 13 32 1 11 6
+: Finsterwolde
++ 1 16 13 32 1
+: Hoogezand
++ 1 16 13 32 1 11 6
+: Zuidlaren
++ 1 16 13 32 1
+: Winschoten
++ 1 16 13 32 1 11 6
+: Norg
++ 1 16 17 32 1
+: Stadskanaal
++ 1 16 13 32 1 11 6
+: Onstwedde
++ 1 16 17 32 1
+: Den Oever
++ 1 16 9 32 1 11 6
+: Schagen
++ 1 16 9 32 1 11 6
+: Heerhugowaard
++ 1 16 10 32 1 6
+: Heemskerk
++ 1 16 9 32 1 11 6
+: Haarlem
++ 1 16 9 32 1 11 6
+: Huizen
++ 1 16 10 32 1 11 6
+: Nieuwveen
++ 1 16 17 32 1 11 6
+: Soest
++ 1 16 17 32 1 11 6
+: Delft
++ 1 16 10 32 1 11 6
+: Zoetermeer
++ 1 16 10 32 1 11 6
+: Hindeloopen
++ 1 16 9 32 11 6
+: Langweer
++ 1 16 10 32 11 6
+: Steenwijk
++ 1 16 9 32 1 6
+: Kampen
++ 1 16 9 32 1 6
+: Wijhe
++ 1 16 9 32 1 6
+: Putten
++ 1 16 9 32 1 11 6
+: Vaassen
++ 1 16 9 32 1 6
+: Veenendaal
++ 1 16 17 32 1 11 6
+: Spankeren
++ 1 16 9 32 1 11 6
+: Assen
++ 1 16 9 32 1
+: Borger
++ 1 16 9 32 1
+: Wessingtange
++ 1 16 17 32 1
+: Roswinkel
++ 1 16 17 32 1
+: Ruinen
++ 1 16 9 32 1 6
+: Emmen
++ 1 16 9 32 1 6
+: Hoogstede
++ 1 16 9 32 1 6
+: Ommen
++ 1 16 9 32 1 6
+: Hardenberg
++ 1 16 9 32 1 6
+: Lemele
++ 1 16 9 32 1 6
+: Nordhorn
++ 1 16 9 32 1 6 7
+: Almelo
++ 1 16 9 32 1 6
+: Hengelo
++ 1 16 9 32 1 6
+: Laren
++ 1 16 9 32 1 6
+: Damme
++ 1 16 17 32 11 6
+: Bekegem
++ 1 16 13 32 1
+: Alveringem
++ 1 16 10 32 1
+: Renesse
++ 1 16 10 32 1 11 6
+: Zierikzee
++ 1 16 10 32 8 11 6
+: Middelburg
++ 1 16 10 32 11 6
+: Kapelle
++ 8 16 10 32 1 11 6
+: Breskens
++ 1 16 17 32 11 6
+: Lamswaarde
++ 1 16 17 32 11 6
+: Kieldrecht
++ 1 16 13 32 11 6
+: Zelzate
++ 1 16 17 32 6
+: Lebbeke
++ 1 16 13 1 32 6
+: Lippelo
++ 1 16 23 32 6
+: Polsbroek
++ 1 16 10 32 1 11 6
+: Vianen
++ 1 16 17 32 1 11 6
+: Klaaswaal
++ 1 16 17 32 1 11 6
+: Almkerk
++ 1 16 17 32 1 11 6
+: Dussen
++ 1 16 10 32 1 11 6
+: Drongelen
++ 1 16 17 32 1 11 6
+: Roosendaal
++ 1 16 10 32 11 6
+: Goirle
++ 1 16 9 32 1 11 6
+: Zevendonk
++ 1 16 13 32 11 6
+: Wijnegem
++ 1 16 13 32 11 6
+: Geel
++ 1 16 9 32 1 11 6
+: Mechelen
++ 1 16 23 32 11 6
+: Doetinchem
++ 1 16 9 32 1 11 6
+: Oosterhout
++ 1 16 9 32 1 11 6
+: Ravenstein
++ 1 16 17 32 1 11 6
+: Gemert
++ 1 16 9 32 1 11 6
+: Venray
++ 1 16 9 32 1 11 6
+: Helmond
++ 1 16 10 32 1
+: Riethoven
++ 1 16 9 32 1 11 6
+: Tegelen
++ 8 16 9 32 1 11 6
+: Kinrooi
++ 8 16 10 32 8 11 6
+: Houthalen
++ 8 16 10 32 11 6
+: Born
++ 8 16 9 32 8 11 6
+: Aalten
++ 1 16 9 32 1 11 6
+: Reninge
++ 1 16 13 32 1
+: Gits
++ 1 16 13 32 1 11 6
+: Steenbeek
++ 1 16 9 32 11 6 7
+: Bottelare
++ 8 16 17 32 6
+: Hekelgem
++ 1 16 17 1 32 6
+: Ingooigem
++ 1 16 13 32 1
+: Geraardsbergen
++ 1 16 33 32 11 6
+: Grimbergen
++ 1 16 13 1 32 6
+: Werchter
++ 1 16 17 32 6
+: Boutersem
++ 1 16 17 32 6
+: Tienen
++ 1 16 10 32 6
+: Beek
++ 8 16 9 32 8 11 6
+: Kerkrade
++ 8 16 9 32 1 11 6
+: Vreren
++ 1 16 10 32 11 6
+: Aubel
++ 1 16 9 32 11 6
+: Raeren
++ 1 16 9 32 11 6
+: Baelen
++ 1 16 9 32 11 6
+: Eupen
++ 1 16 9 32 11 6
+: Kapelle-Broek
++ 1 16 9 11 7

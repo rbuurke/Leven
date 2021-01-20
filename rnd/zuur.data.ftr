@@ -1,0 +1,689 @@
+%utf8
+: West-Terschelling
++ 25 12 26
+: Oost-Vlieland
++ 25 38 26
+: Den Burg
++ 25 38 26
+: Hollum
++ 25 38 6 26
+: Nes
++ 25 38 6 26
+: Schiermonnikoog
++ 25 1 12 26
+: Oosterend
++ 25 12 26
+: Ferwerd
++ 25 12 6 26
+: Holwerd
++ 25 12 6 26
+: Anjum
++ 25 12 6 26
+: Zoutkamp
++ 30 38 6 26
+: Sint Annaparochie
++ 25 38 6 26
+: Hallum
++ 25 12 6 26
+: Stiens
++ 25 12 6 26
+: Westergeest
++ 25 12 6 26
+: Grijpskerk
++ 30 38 6 26
+: Sexbierum
++ 25 12 26
+: Tietjerk
++ 25 12 6 26
+: Veenwouden
++ 25 12 6 26
+: Bergum
++ 25 12 6 26
+: Surhuisterveen
++ 25 12 6 26
+: Spannum
++ 25 12 26
+: Grouw
++ 25 12 6 26
+: Oudega
++ 25 12 6 26
+: Rottevalle
++ 25 12 6 26
+: Ureterp
++ 25 12 26
+: Marum
++ 25 38 6 26 25 12 6 26
+: Makkum
++ 25 12 26
+: IJlst
++ 25 12 26
+: Beets
++ 25 12 26
+: Bakkeveen
++ 25 12 6 26
+: Donkerbroek
++ 25 12 26
+: Roodeschool
++ 30 38 26
+: Eenrum
++ 30 38 26
+: Warffum
++ 30 38 26
+: Middelstum
++ 30 38 26
+: Zijldijk
++ 30 38 26
+: Bierum
++ 30 38 26
+: Oldehove
++ 30 38 26
+: Adorp
++ 30 38 26
+: Stedum
++ 30 38 26
+: Tjamsweer
++ 30 38 26
+: Wagenborgen
++ 30 12 26
+: Zuidhorn
++ 30 38 26
+: Niekerk
++ 30 38 26
+: Groningen
++ 30 12 26
+: Garmerwolde
++ 30 38 26
+: Schildwolde
++ 30 12 26
+: Scheemda
++ 30 12 26
+: Finsterwolde
++ 30 12 6 26
+: Peize
++ 30 12 26
+: Eelde
++ 30 12 26
+: Hoogezand
++ 30 12 26
+: Zuidlaren
++ 30 12 26
+: Veendam
++ 30 12 26
+: Winschoten
++ 30 12 26
+: Bellingwolde
++ 30 12 26
+: Norg
++ 30 12 26
+: Eext
++ 30 12 26
+: Stadskanaal
++ 30 12 26
+: Onstwedde
++ 30 12 26
+: Wateringen
++ 30 38 26
+: Den Oever
++ 30 38 26
+: Schagen
++ 25 24 26 9 32
+: Opperdoes
++ 30 38 26
+: Heerhugowaard
++ 30 38 26
+: Enkhuizen
++ 30 38 26
+: Egmond aan Zee
++ 30 1 26
+: Hoorn
++ 30 38 26
+: Heemskerk
++ 30 38 26
+: De Rijp
++ 30 38 26
+: Koog aan de Zaan
++ 30 38 26
+: Volendam
++ 30 38 26
+: Monnickenwerf
++ 30 38 26
+: Haarlem
++ 25 38 26
+: Aalsmeer
++ 30 38 26
+: Huizen
++ 30 38 26
+: Katwijk aan Zee
++ 30 38 26
+: Warmond
++ 30 38 26
+: Nieuwveen
++ 30 38 26
+: Koudekerk
++ 30 38 26
+: Utrecht
++ 30 38 26
+: Delft
++ 30 38 26
+: Zoetermeer
++ 30 38 26
+: Oudewater
++ 25 38 26
+: Vreeswijk
++ 30 38 26
+: Driebergen
++ 30 38 26
+: Workum
++ 25 12 26
+: Hindeloopen
++ 25 12 6 26
+: Langweer
++ 25 12 26
+: Tjalleberd
++ 25 12 26
+: Oudeschoot
++ 25 12 26
+: Jubbega
++ 25 12 26
+: Koudum
++ 25 12 6 26
+: Lemmer
++ 25 12 26
+: Noordwolde
++ 25 12 26 40 26 10 3 6
+: Kuinder
++ 30 38 26
+: Oldemarkt
++ 30 12 26
+: Steenwijk
++ 30 12 26
+: Vollenhove
++ 30 12 26
+: Koekange
++ 30 12 26
+: Urk
++ 30 38 26
+: Hasselt
++ 30 12 26
+: Rouveen
++ 30 12 26
+: Staphorst
++ 30 12 26
+: IJsselmuiden
++ 30 12 26
+: Kampen
++ 30 12 29
+: Zalk
++ 30 12 6
+: Dalfsen
++ 30 12 6
+: Oldebroek
++ 30 12 26
+: Hattem
++ 30 12 6
+: Nunspeet
++ 30 38 26
+: Wijhe
++ 30 12 6
+: Spakenburg
++ 30 38 26
+: Putten
++ 30 38 26
+: Vaassen
++ 30 12 26
+: Bathmen
++ 30 12 6
+: Wilp
++ 30 12 6
+: Amersfoort
++ 30 38 6
+: Woudenberg
++ 30 38 26
+: Barneveld
++ 30 38 6 26
+: Hoenderlo
++ 30 38 6 26
+: Doorn
++ 30 38 26
+: Veenendaal
++ 30 38 26
+: Spankeren
++ 30 12 6
+: Dieren
++ 30 12 6
+: Bronkhorst
++ 30 12 6
+: Appelscha
++ 25 12 6 26
+: Assen
++ 30 12 26
+: Grolloo
++ 30 12 26
+: Borger
++ 30 12 26
+: Wessingtange
++ 30 12 26
+: Dwingelo
++ 30 12 26
+: Beilen
++ 30 12 26
+: Orvelte
++ 30 12 26
+: Odoorn
++ 30 12 6 26
+: Roswinkel
++ 30 12 26
+: Ruinen
++ 30 12 26
+: Emmen
++ 30 12 6
+: Zuidbarge
++ 30 12 26
+: Hollandscheveld
++ 30 12 26
+: Zwinderen
++ 30 12 26
+: Schoonebeek
++ 30 12 6
+: Dedemsvaart
++ 30 12 26
+: Gramsbergen
++ 30 12 6
+: Coevorden
++ 30 12 6
+: Emlichheim
++ 30 12 6
+: Hoogstede
++ 30 12 6
+: Nieuw Schoonebeek
++ 30 12 26
+: Ommen
++ 30 12 26
+: Hardenberg
++ 30 12 6
+: Bergentheim
++ 30 12 26
+: Radewijk
++ 30 12 6
+: Itterbeck
++ 30 12 6
+: Wilsum
++ 30 12 6
+: Lemele
++ 30 12 6
+: Langeveen
++ 30 12 6
+: Vasse
++ 30 12 6
+: Uelsen
++ 30 12 6
+: Neuenhaus
++ 30 12 6
+: Lage
++ 30 12 6
+: Lattrop
++ 30 12 6
+: Nordhorn
++ 30 12 6
+: Vriezenveen
++ 30 12 26
+: Wierden
++ 30 12 6
+: Almelo
++ 30 12 6
+: Tubbergen
++ 30 12 6
+: Ootmarsum
++ 30 12 26
+: Tilligte
++ 30 12 26
+: Rijssen
++ 30 12 26
+: Delden
++ 30 12 6
+: Hengelo
++ 30 12 26
+: Oldenzaal
++ 30 12 26
+: Laren
++ 30 12 6
+: Usselo
++ 30 12 6
+: Lochem
++ 30 12 6
+: Eibergen
++ 30 12 29
+: Haaksbergen
++ 30 12 6
+: Zelhem
++ 30 12 6
+: Groenlo
++ 30 12 6
+: Blankenberge
++ 30 28 26
+: Damme
++ 30 28 26
+: Middelkerke
++ 30 28 26
+: Oostende
++ 30 28 26
+: Brugge
++ 30 28 26
+: Gistel
++ 30 28 26
+: Bekegem
++ 30 28 26
+: Oostkamp
++ 30 28 26
+: Veurne
++ 30 28 29
+: Oostkerke
++ 30 28 26
+: Alveringem
++ 30 28 26
+: Wingene
++ 30 28 26
+: Brielle
++ 30 38 26
+: Middelharnis
++ 30 38 26
+: Renesse
++ 30 38 26
+: Zierikzee
++ 30 38 26
+: Steenbergen
++ 30 38 29
+: Westkapelle
++ 30 38 26
+: Goes
++ 30 38 26
+: Middelburg
++ 30 38 26
+: Kapelle
++ 30 38 26
+: Breskens
++ 30 38 26
+: Lamswaarde
++ 30 38 26
+: Groenendijk
++ 30 38 26
+: Ossendrecht
++ 30 38 26
+: Zandvliet
++ 30 38 26
+: Clinge
++ 30 38 26
+: Kieldrecht
++ 30 38 26
+: Moerkerke
++ 30 38 26
+: Assenede
++ 30 38 26
+: Zelzate
++ 30 38 26 6
+: Moerbeke
++ 30 38 26
+: Beveren
++ 30 38 26
+: Zomergem
++ 30 38 26
+: Lochristi
++ 30 38 26
+: Hingene
++ 30 38 26
+: Gent
++ 30 38 26
+: Kalken
++ 30 38 26
+: Lebbeke
++ 30 1 26
+: Lippelo
++ 30 38 26
+: Buggenhout
++ 30 1 26
+: Berkel
++ 30 38 26
+: Polsbroek
++ 25 38 26
+: Vianen
++ 30 38 26
+: Lekkerkerk
++ 30 38 26
+: Deil
++ 30 38 26
+: Klaaswaal
++ 25 38 26
+: Papendrecht
++ 30 38 26
+: Hardinxveld
++ 30 38 26
+: Almkerk
++ 30 38 26
+: Dussen
++ 30 38 26
+: Drongelen
++ 30 38 26
+: Fijnaart
++ 30 38 26
+: Zevenbergen
++ 30 38 26
+: Oudenbosch
++ 30 38 26
+: Dongen
++ 30 38 26
+: Loon op Zand
++ 30 12 26
+: Roosendaal
++ 30 38 26
+: Goirle
++ 30 12 26
+: Oirschot
++ 30 12 26
+: Essen
++ 30 38 26
+: Zundert
++ 30 38 26
+: Kalmthout
++ 30 38 26
+: Rijkevorsel
++ 30 38 26
+: Zevendonk
++ 30 38 26
+: Gierle
++ 30 38 26
+: Arendonk
++ 30 38 11 6 26
+: Wijnegem
++ 30 38 26
+: Oelegem
++ 30 38 26
+: Balen
++ 30 12 26
+: Boom
++ 30 1 26
+: Itegem
++ 30 38 26
+: Geel
++ 30 38 26
+: Meerhout
++ 30 12 26
+: Thisselt
++ 30 1 26
+: Mechelen
++ 30 28 26
+: Herselt
++ 30 12 26
+: Zolder
++ 30 12 26
+: Wijk bij Duurstede
++ 30 38 26
+: Renkum
++ 30 38 26
+: Zevenaar
++ 30 12 6
+: Doetinchem
++ 30 38 6
+: Druten
++ 30 12 26
+: Oosterhout
++ 30 12 26
+: s-Herenberg
++ 30 12 6 26
+: Heerewaarden
++ 30 38 26
+: Ravenstein
++ 30 38 6
+: Groesbeek
++ 30 12 26
+: Den Dungen
++ 30 12 6 26
+: Zeeland
++ 30 38 6 26
+: Rijkevoort
++ 30 12 6 29
+: Sint Oedenrode
++ 30 12 26
+: Gemert
++ 30 12 26
+: Bakel
++ 30 12 26
+: Venray
++ 30 12 29
+: Wanssum
++ 30 12 29
+: Helmond
++ 25 12 29
+: Geldrop
++ 30 12 26
+: Riethoven
++ 30 12 26
+: Meijel
++ 30 12 26
+: Tegelen
++ 30 12 6 29
+: Venlo
++ 30 2 6 29
+: Budel
++ 30 12 6 29
+: Overpelt
++ 30 38 29
+: Horn
++ 30 12 26
+: Bree
++ 25 12 29
+: Kinrooi
++ 30 2 29 6
+: Echt
++ 30 12 29
+: Houthalen
++ 30 12 26
+: Born
++ 30 12 29
+: Susteren
++ 30 12 29
+: Aalten
++ 30 12 6
+: Ulft
++ 30 12 6
+: Warhem
++ 30 28 26
+: Reninge
++ 30 28 26
+: Houthulst
++ 30 28 26
+: Gits
++ 30 28 26
+: Roeselare
++ 30 28 26
+: Woesten
++ 30 28 26
+: Moorslede
++ 30 28 26
+: Hondegem
++ 30 28 26
+: Kortrijk
++ 30 28 26
+: Bellegem
++ 30 28 26
+: Steenbeek
++ 30 28 26
+: Nieuwkerke
++ 30 28 29
+: Nazareth
++ 30 38 26
+: Bottelare
++ 30 38 26
+: Aalst
++ 30 1 26
+: Waregem
++ 30 38 26
+: Heldergem
++ 30 38 26
+: Hekelgem
++ 30 1 26
+: Wemmel
++ 30 38 26
+: Zwevegem
++ 30 38 26
+: Ingooigem
++ 30 38 26
+: Nukerke
++ 30 38 26
+: Geraardsbergen
++ 30 38 26
+: Lot
++ 30 28 26
+: Ronse
++ 30 38 26
+: Humbeek
++ 30 38 26
+: Grimbergen
++ 30 38 26
+: Kampenhout
++ 30 38 26
+: Aarschot
++ 30 38 26
+: Werchter
++ 30 38 26
+: Diest
++ 25 12 29
+: Boutersem
++ 30 2 26
+: Overijse
++ 30 28 26
+: Vertrijk
++ 30 2 26
+: Tienen
++ 30 12 6 29
+: Velm
++ 30 12 26
+: Beek
++ 30 12 6 29
+: Sittard
++ 30 12 6 29
+: Diepenbeek
++ 30 12 26
+: Meerssen
++ 30 12 6 29
+: Kerkrade
++ 30 12 6 29
+: Vreren
++ 30 12 26
+: s-Gravenvoeren
++ 30 12 29
+: Vaals
++ 30 12 6 29
+: Lauw
++ 30 12 26
+: Aubel
++ 30 12 29
+: Raeren
++ 30 12 29
+: Baelen
++ 30 12 29
+: Eupen
++ 30 12 6 29 30 12 6 29 6
+: Kapelle-Broek
++ 30 28 26
+: Bollezeele
++ 30 28 26

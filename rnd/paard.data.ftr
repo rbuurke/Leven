@@ -1,0 +1,695 @@
+%utf8
+: West-Terschelling
++ 43 2 1 25
+: Oost-Vlieland
++ 21 8 26 16
+: Den Burg
++ 21 8 26 16
+: Hollum
++ 21 4 6 16
+: Nes
++ 21 4 6 16
+: Schiermonnikoog
++ 43 1 11 6 26
+: Oosterend
++ 43 17 1 25
+: Ferwerd
++ 43 1 7 34 6 26
+: Holwerd
++ 43 1 7 34 6 26
+: Anjum
++ 43 1 7 34 6 26
+: Zoutkamp
++ 21 4 6 16
+: Sint Annaparochie
++ 21 4 6 34
+: Hallum
++ 43 1 7 34 6 26
+: Stiens
++ 43 1 7 34 6 26
+: Westergeest
++ 43 1 7 34 6 26
+: Grijpskerk
++ 21 4 6 16
+: Sexbierum
++ 43 1 7 34 6 26
+: Tietjerk
++ 43 1 7 34 6 26
+: Veenwouden
++ 43 1 7 34 6 26
+: Bergum
++ 43 1 7 34 6 26
+: Surhuisterveen
++ 43 1 7 34 6 26
+: Spannum
++ 43 1 7 34 6 26
+: Grouw
++ 43 1 7 34 6 26
+: Oudega
++ 43 1 7 34 6 26
+: Rottevalle
++ 43 1 7 34 6 26
+: Ureterp
++ 43 1 7 34 6 26
+: Marum
++ 21 4 6 34
+: Makkum
++ 43 1 7 34 6 26
+: IJlst
++ 43 1 7 34 6 26
+: Beets
++ 43 1 7 34 6 26
+: Bakkeveen
++ 43 1 7 34 6 26
+: Donkerbroek
++ 43 1 7 34 6 26
+: Roodeschool
++ 21 4 26 16
+: Eenrum
++ 21 4 26 16
+: Warffum
++ 21 4 26 16
+: Middelstum
++ 21 4 26 16
+: Zijldijk
++ 21 4 26 16
+: Bierum
++ 21 4 26 16
+: Oldehove
++ 21 4 26 16
+: Adorp
++ 21 4 26 16
+: Stedum
++ 21 4 26 16
+: Tjamsweer
++ 21 4 26 16
+: Wagenborgen
++ 21 4 26 16
+: Zuidhorn
++ 21 4 26 16
+: Niekerk
++ 21 4 26 16
+: Groningen
++ 21 4 26 16
+: Garmerwolde
++ 21 4 26 16
+: Schildwolde
++ 21 4 26 16
+: Scheemda
++ 21 4 26 16
+: Finsterwolde
++ 21 4 26 16
+: Peize
++ 21 4 26 16
+: Eelde
++ 21 4 26 16
+: Hoogezand
++ 21 4 26 16
+: Zuidlaren
++ 21 4 26 16 21 4 16
+: Veendam
++ 21 4 26 16
+: Winschoten
++ 21 4 26 16
+: Bellingwolde
++ 21 4 26 16
+: Norg
++ 21 4 26 16 21 4 16
+: Eext
++ 21 4 26 16
+: Stadskanaal
++ 21 4 26 16
+: Onstwedde
++ 21 4 26 16
+: Wateringen
++ 21 20 26 16
+: Den Oever
++ 21 8 26 16
+: Schagen
++ 21 8 26 16
+: Opperdoes
++ 21 8 26 16
+: Heerhugowaard
++ 21 8 26 16
+: Enkhuizen
++ 21 8 26 16
+: Egmond aan Zee
++ 21 8 26 16
+: Hoorn
++ 21 9 26 16
+: Heemskerk
++ 21 9 26 16
+: De Rijp
++ 21 8 26 16
+: Koog aan de Zaan
++ 21 8 6 26 16
+: Volendam
++ 21 18 26 16
+: Monnickenwerf
++ 21 9 26 16
+: Haarlem
++ 21 9 26 16
+: Aalsmeer
++ 21 4 6 26 16
+: Huizen
++ 21 18 6 26 16
+: Katwijk aan Zee
++ 21 20 26 16
+: Warmond
++ 21 10 26 16
+: Langeraar
++ 21 10 26 16
+: Nieuwveen
++ 21 10 26 16
+: Loenen
++ 21 20 26 16
+: Soest
++ 21 4 26 16
+: Koudekerk
++ 21 9 26 16
+: Utrecht
++ 21 17 26 16
+: Delft
++ 21 10 6 26 16
+: Zoetermeer
++ 21 10 26 16
+: Oudewater
++ 21 20 26 16
+: Vreeswijk
++ 21 20 26 16
+: Driebergen
++ 21 4 26 16
+: Workum
++ 43 1 7 34 6 26
+: Hindeloopen
++ 43 1 3 25 16
+: Langweer
++ 43 1 7 34 6 26
+: Tjalleberd
++ 43 1 7 34 6 26
+: Oudeschoot
++ 43 1 7 34 6 26
+: Jubbega
++ 43 1 7 34 6 26
+: Koudum
++ 43 1 7 34 6 26
+: Lemmer
++ 43 1 7 34 6 26
+: Noordwolde
++ 21 4 6 16
+: Kuinder
++ 21 4 6 16
+: Oldemarkt
++ 21 4 6 16
+: Steenwijk
++ 21 4 6 16
+: Vollenhove
++ 21 4 6 16
+: Koekange
++ 21 4 6 16
+: Urk
++ 21 9 26 16
+: Hasselt
++ 21 4 6 16
+: Rouveen
++ 21 4 6 16
+: Staphorst
++ 21 4 6 16
+: IJsselmuiden
++ 21 4 6 16
+: Kampen
++ 21 4 29 16
+: Zalk
++ 21 4 6 16
+: Dalfsen
++ 21 4 6 16
+: Oldebroek
++ 21 4 6 16
+: Hattem
++ 21 4 6 16
+: Nunspeet
++ 21 4 6 16
+: Wijhe
++ 21 4 6 16
+: Spakenburg
++ 21 4 26 16
+: Putten
++ 21 4 26 16
+: Vaassen
++ 21 4 6 16
+: Bathmen
++ 21 4 6 16
+: Wilp
++ 21 4 6 16
+: Amersfoort
++ 21 4 29 16
+: Woudenberg
++ 21 4 26 16
+: Barneveld
++ 21 4 26 16 21 4 26 16
+: Hoenderlo
++ 21 4 26 16
+: Doorn
++ 21 4 26 16
+: Veenendaal
++ 21 4 26 16
+: Spankeren
++ 21 4 26 16
+: Dieren
++ 21 4 26 16
+: Bronkhorst
++ 21 4 26 34
+: Appelscha
++ 21 4 6 16
+: Assen
++ 21 4 26 16
+: Grolloo
++ 21 4 26 16
+: Borger
++ 21 4 26 16
+: Wessingtange
++ 21 8 26 16
+: Dwingelo
++ 21 4 26 16
+: Beilen
++ 21 18 26 16
+: Orvelte
++ 21 18 26 16
+: Odoorn
++ 21 18 6 26 16
+: Roswinkel
++ 21 4 26 16
+: Ruinen
++ 21 4 6 16
+: Emmen
++ 21 4 6 16
+: Zuidbarge
++ 21 4 26 16
+: Hollandscheveld
++ 21 4 6 16
+: Zwinderen
++ 21 4 6 16
+: Schoonebeek
++ 21 4 6 16
+: Dedemsvaart
++ 21 4 6 16
+: Gramsbergen
++ 21 4 6 16
+: Coevorden
++ 21 4 6 16
+: Emlichheim
++ 21 4 6 16
+: Hoogstede
++ 21 4 6 16
+: Nieuw Schoonebeek
++ 21 4 6 16
+: Ommen
++ 21 4 6 16
+: Hardenberg
++ 21 4 6 16
+: Bergentheim
++ 21 4 6 16
+: Radewijk
++ 21 4 6 16
+: Itterbeck
++ 21 4 6 16
+: Wilsum
++ 21 4 6 16
+: Lemele
++ 21 4 6 16
+: Langeveen
++ 21 4 6 16
+: Vasse
++ 21 18 6 16
+: Uelsen
++ 21 4 6 16
+: Neuenhaus
++ 21 4 6 16
+: Lage
++ 21 4 6 16
+: Lattrop
++ 21 4 6 16
+: Nordhorn
++ 21 4 6 16
+: Vriezenveen
++ 21 4 26 16
+: Wierden
++ 21 4 6 16
+: Almelo
++ 21 4 26 16
+: Tubbergen
++ 21 4 6 16
+: Ootmarsum
++ 21 4 26 16
+: Tilligte
++ 21 4 6 16
+: Rijssen
++ 21 4 26 16
+: Delden
++ 21 4 6 16
+: Hengelo
++ 21 4 26 16
+: Oldenzaal
++ 21 4 26 16
+: Laren
++ 21 4 6 16
+: Usselo
++ 21 4 6 16
+: Lochem
++ 21 4 6 16
+: Eibergen
++ 21 4 29 16
+: Haaksbergen
++ 21 4 26 16
+: Zelhem
++ 21 4 6 16
+: Groenlo
++ 21 4 6 16
+: Blankenberge
++ 21 18 6 26 16
+: Damme
++ 21 20 26 16
+: Middelkerke
++ 21 20 26 16
+: Oostende
++ 21 20 26 16
+: Brugge
++ 21 20 26 16
+: Gistel
++ 21 20 26 16
+: Bekegem
++ 21 20 26 16
+: Oostkamp
++ 21 18 26 16
+: Veurne
++ 21 20 29 34
+: Oostkerke
++ 21 20 26 16
+: Alveringem
++ 21 20 26 16
+: Wingene
++ 21 18 6 26 16
+: Brielle
++ 21 9 26 16
+: Middelharnis
++ 21 20 26 34
+: Renesse
++ 21 20 26 16
+: Zierikzee
++ 21 20 6 26 16
+: Steenbergen
++ 21 18 6 29 16
+: Westkapelle
++ 21 20 26 16
+: Goes
++ 21 20 26 16
+: Middelburg
++ 21 20 26 16
+: Kapelle
++ 21 20 26 16
+: Breskens
++ 21 18 26 16
+: Lamswaarde
++ 21 11 20 26 16
+: Groenendijk
++ 21 11 20 26 16
+: Ossendrecht
++ 21 18 6 26 16
+: Zandvliet
++ 21 18 6 26 16
+: Clinge
++ 21 11 20 26 16
+: Kieldrecht
++ 21 11 18 26 16
+: Moerkerke
++ 21 18 26 16
+: Assenede
++ 21 18 6 26 16
+: Zelzate
++ 21 18 6 26 16
+: Moerbeke
++ 21 18 6 26 16
+: Beveren
++ 21 18 6 26 16
+: Zomergem
++ 21 18 6 26 16
+: Lochristi
++ 21 18 6 26 16
+: Hingene
++ 21 11 20 16
+: Gent
++ 21 18 6 26 16
+: Kalken
++ 21 11 8 6 26 16
+: Lebbeke
++ 21 18 16 21 11 18 16
+: Lippelo
++ 21 11 20 16
+: Buggenhout
++ 21 11 20 16
+: Berkel
++ 21 10 26 16
+: Polsbroek
++ 21 20 26 16
+: Vianen
++ 21 20 26 16
+: Lekkerkerk
++ 21 20 26 16
+: Deil
++ 21 18 26 16
+: Klaaswaal
++ 21 20 26 16
+: Papendrecht
++ 21 20 26 16
+: Hardinxveld
++ 21 18 26 16
+: Almkerk
++ 21 18 26 16
+: Dussen
++ 21 18 26 16
+: Drongelen
++ 21 18 26 16
+: Fijnaart
++ 21 20 26 16
+: Zevenbergen
++ 21 18 26 16
+: Oudenbosch
++ 21 20 26 16
+: Dongen
++ 21 18 26 16
+: Loon op Zand
++ 21 18 26 16
+: Roosendaal
++ 21 18 6 26 16
+: Goirle
++ 21 18 26 16
+: Oirschot
++ 21 18 26 16
+: Essen
++ 21 18 26 16
+: Zundert
++ 21 18 26 16
+: Kalmthout
++ 21 18 26 16
+: Rijkevorsel
++ 21 18 26 16
+: Zevendonk
++ 21 18 6 26 16
+: Gierle
++ 21 18 6 26 16
+: Arendonk
++ 21 10 18 26 16
+: Wijnegem
++ 21 18 26 16 21 11 18 16
+: Oelegem
++ 21 11 18 16
+: Balen
++ 21 8 6 16
+: Boom
++ 21 1 18 16
+: Itegem
++ 21 18 16
+: Geel
++ 21 11 4 16
+: Meerhout
++ 21 18 6 16
+: Thisselt
++ 21 11 20 16
+: Mechelen
++ 21 11 20 16
+: Herselt
++ 21 18 20 16
+: Zolder
++ 21 8 6 26 16
+: Wijk bij Duurstede
++ 21 18 26 16
+: Renkum
++ 21 4 26 16
+: Zevenaar
++ 21 18 26 16
+: Doetinchem
++ 21 4 26 16
+: Druten
++ 21 18 26 16
+: Oosterhout
++ 21 18 26 16
+: s-Herenberg
++ 21 18 26 16
+: Heerewaarden
++ 21 20 26 16
+: Ravenstein
++ 21 20 29 16
+: Groesbeek
++ 21 18 6 26 16
+: Den Dungen
++ 21 20 26 16
+: Zeeland
++ 21 18 26 16
+: Rijkevoort
++ 21 18 6 29 16
+: Sint Oedenrode
++ 21 20 26 16
+: Gemert
++ 21 20 26 16
+: Bakel
++ 21 18 26 16
+: Venray
++ 21 18 29 16
+: Wanssum
++ 21 18 29 16
+: Helmond
++ 21 18 6 29 16
+: Geldrop
++ 21 11 18 26 16
+: Riethoven
++ 21 18 26 16
+: Meijel
++ 21 18 26 16
+: Tegelen
++ 21 18 29 16
+: Venlo
++ 21 18 29 16
+: Budel
++ 21 20 29 34
+: Overpelt
++ 21 18 29 16
+: Horn
++ 21 18 26 16
+: Bree
++ 21 18 6 29 16
+: Kinrooi
++ 21 18 29 16
+: Echt
++ 21 18 29 34
+: Houthalen
++ 21 18 6 26 34
+: Born
++ 21 18 29 16
+: Susteren
++ 21 18 29 16
+: Aalten
++ 21 4 26 16 21 18 26 16
+: Ulft
++ 21 4 26 16
+: Warhem
++ 21 20 26
+: Reninge
++ 21 20 26 16
+: Houthulst
++ 21 20 26 16 21 20 26 16
+: Gits
++ 21 18 26 16
+: Roeselare
++ 21 20 26 16
+: Woesten
++ 21 20 26
+: Moorslede
++ 21 18 26 16
+: Hondegem
++ 21 18 6 26 16
+: Kortrijk
++ 21 18 6 26
+: Bellegem
++ 21 18 6 26 34
+: Steenbeek
++ 21 18 26 34
+: Nieuwkerke
++ 21 18 29 16
+: Nazareth
++ 21 18 26 34
+: Bottelare
++ 21 18 26 16
+: Aalst
++ 21 18 26 16
+: Waregem
++ 21 18 26
+: Heldergem
++ 21 4 18 26 16 21 8 18 26 16
+: Hekelgem
++ 21 11 20 16
+: Wemmel
++ 21 11 18 16
+: Zwevegem
++ 21 18 6 26 16
+: Ingooigem
++ 21 18 26 16
+: Nukerke
++ 21 8 6 26 16
+: Geraardsbergen
++ 21 18 26 16
+: Lot
++ 21 1 18 16
+: Ronse
++ 21 8 6 26 16
+: Humbeek
++ 21 11 20 16
+: Grimbergen
++ 21 11 20 16
+: Kampenhout
++ 21 18 6 16
+: Aarschot
++ 21 1 20 16
+: Werchter
++ 21 1 20 16
+: Diest
++ 21 18 6 16
+: Boutersem
++ 21 1 20 16
+: Overijse
++ 21 1 20 16
+: Vertrijk
++ 21 1 20 16
+: Tienen
++ 21 18 9 16
+: Velm
++ 21 18 6 16
+: Beek
++ 21 18 29 34
+: Sittard
++ 21 18 6 29 34
+: Diepenbeek
++ 21 11 10 16
+: Meerssen
++ 21 4 29 34
+: Kerkrade
++ 21 18 6 29 16
+: Vreren
++ 21 11 10 16
+: s-Gravenvoeren
++ 21 11 9 29 16
+: Vaals
++ 21 4 6 16
+: Lauw
++ 21 1 11 10 16 21 11 10 16
+: Aubel
++ 21 8 9 16
+: Raeren
++ 21 8 6 16
+: Baelen
++ 21 8 6 29 16
+: Eupen
++ 21 4 6 29 16
+: Kapelle-Broek
++ 21 18 26 16
+: Bollezeele
++ 21 18 26

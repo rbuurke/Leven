@@ -1,0 +1,681 @@
+%utf8
+: West-Terschelling
++ 27 4 6
+: Oost-Vlieland
++ 35 9 7
+: Den Burg
++ 35 9 7
+: Hollum
++ 36 10
+: Nes
++ 36 10
+: Schiermonnikoog
++ 36 10 1
+: Oosterend
++ 36 4 6
+: Holwerd
++ 36 4 6
+: Anjum
++ 36 4 6
+: Zoutkamp
++ 27 13 6
+: Sint Annaparochie
++ 36 9
+: Hallum
++ 36 8 6
+: Stiens
++ 36 4 6
+: Westergeest
++ 36 4 6
+: Grijpskerk
++ 27 13 6
+: Sexbierum
++ 36 4 6
+: Tietjerk
++ 36 4 6
+: Veenwouden
++ 36 4 6
+: Bergum
++ 36 8 6
+: Surhuisterveen
++ 36 4 6
+: Spannum
++ 36 4 6
+: Grouw
++ 36 4 6
+: Oudega
++ 36 4 6
+: Rottevalle
++ 36 4 6
+: Marum
++ 36 13 6
+: Makkum
++ 36 4 6
+: IJlst
++ 36 4 6
+: Beets
++ 36 4 6
+: Bakkeveen
++ 36 8 6
+: Donkerbroek
++ 36 4 6
+: Roodeschool
++ 35 13 7
+: Eenrum
++ 35 13 7
+: Warffum
++ 35 13 7
+: Middelstum
++ 35 13 7
+: Zijldijk
++ 35 13 7
+: Bierum
++ 35 13 7
+: Oldehove
++ 35 13 7
+: Adorp
++ 35 13 7
+: Stedum
++ 35 13 7
+: Tjamsweer
++ 35 13 7
+: Wagenborgen
++ 35 13 7
+: Zuidhorn
++ 35 13 7
+: Niekerk
++ 27 13 7
+: Groningen
++ 35 17 7
+: Garmerwolde
++ 35 13 7
+: Schildwolde
++ 35 13 7
+: Scheemda
++ 35 13 7
+: Finsterwolde
++ 35 13 7
+: Peize
++ 35 13 7
+: Eelde
++ 35 17 7
+: Hoogezand
++ 35 13 7
+: Zuidlaren
++ 35 13 7
+: Veendam
++ 35 13 7
+: Winschoten
++ 35 13 7
+: Bellingwolde
++ 35 13 7
+: Norg
++ 35 17 7
+: Eext
++ 35 17 7
+: Stadskanaal
++ 35 13 7
+: Onstwedde
++ 35 17 7
+: Wateringen
++ 35 10 7
+: Den Oever
++ 35 9 7
+: Schagen
++ 35 9 7
+: Heerhugowaard
++ 35 9 7
+: Enkhuizen
++ 35 9 7
+: Egmond aan Zee
++ 35 20 7
+: Hoorn
++ 35 9 7
+: Heemskerk
++ 35 9 7
+: De Rijp
++ 35 9 7
+: Koog aan de Zaan
++ 35 9 7
+: Volendam
++ 35 9 7
+: Monnickenwerf
++ 35 4 7
+: Haarlem
++ 35 9 7
+: Aalsmeer
++ 35 18 6 7
+: Huizen
++ 35 18 6 7
+: Katwijk aan Zee
++ 35 20 7
+: Langeraar
++ 35 10 7
+: Loenen
++ 35 10 7
+: Soest
++ 35 10 7
+: Koudekerk
++ 35 9 7
+: Utrecht
++ 35 17 7
+: Oudewater
++ 35 17 7
+: Vreeswijk
++ 35 17 7
+: Driebergen
++ 35 10 7
+: Workum
++ 36 4 6
+: Hindeloopen
++ 36 10 6
+: Langweer
++ 36 4 6 7
+: Tjalleberd
++ 36 4 6
+: Oudeschoot
++ 36 4 6 7
+: Jubbega
++ 36 4 6
+: Koudum
++ 36 4 6
+: Lemmer
++ 36 4 6
+: Noordwolde
++ 27 17 6
+: Kuinder
++ 35 17 7
+: Oldemarkt
++ 35 17 7
+: Steenwijk
++ 35 17
+: Vollenhove
++ 35 17 7
+: Koekange
++ 35 17 7
+: Urk
++ 35 17 7
+: Hasselt
++ 35 17
+: Rouveen
++ 35 17 7
+: Staphorst
++ 35 17 7
+: IJsselmuiden
++ 35 17 7
+: Kampen
++ 35 17 7
+: Zalk
++ 35 17 7
+: Dalfsen
++ 35 17 7
+: Oldebroek
++ 35 17 7
+: Hattem
++ 35 17 7
+: Nunspeet
++ 35 17 7
+: Wijhe
++ 35 17 7
+: Spakenburg
++ 35 17 6 7
+: Putten
++ 35 17 7
+: Vaassen
++ 27 17 7
+: Bathmen
++ 35 17 7
+: Wilp
++ 35 17
+: Amersfoort
++ 35 17 7
+: Woudenberg
++ 35 17 6 7
+: Barneveld
++ 35 17 6 7
+: Hoenderlo
++ 35 17 6 7
+: Doorn
++ 35 17 7
+: Veenendaal
++ 35 17 7
+: Spankeren
++ 35 17 7
+: Dieren
++ 35 17 7
+: Bronkhorst
++ 35 17 7
+: Appelscha
++ 36 17 6 27 17 6
+: Assen
++ 35 17 7
+: Grolloo
++ 35 17 7
+: Borger
++ 35 17 7
+: Wessingtange
++ 35 17 7
+: Dwingelo
++ 35 17 7
+: Beilen
++ 35 17 7
+: Orvelte
++ 35 17 7
+: Odoorn
++ 35 17 7
+: Roswinkel
++ 35 17 7
+: Ruinen
++ 35 17
+: Emmen
++ 35 17 7
+: Zuidbarge
++ 35 17 7
+: Hollandscheveld
++ 35 17 7
+: Zwinderen
++ 35 17 7
+: Schoonebeek
++ 35 17 7
+: Dedemsvaart
++ 35 17 7
+: Gramsbergen
++ 35 17 7
+: Coevorden
++ 35 17 7
+: Emlichheim
++ 35 17
+: Hoogstede
++ 35 17
+: Nieuw Schoonebeek
++ 35 17 7
+: Ommen
++ 35 17 7
+: Hardenberg
++ 35 17 7
+: Bergentheim
++ 35 17 7
+: Radewijk
++ 35 17 7
+: Itterbeck
++ 36 27 17 7
+: Wilsum
++ 35 17 6 7
+: Lemele
++ 35 17
+: Langeveen
++ 35 17 7
+: Vasse
++ 35 17 7
+: Uelsen
++ 35 17 7
+: Neuenhaus
++ 35 17 7
+: Lage
++ 35 17 7
+: Lattrop
++ 35 17 7
+: Nordhorn
++ 36 17 7
+: Vriezenveen
++ 27 17
+: Wierden
++ 35 17 7
+: Almelo
++ 35 17 7
+: Tubbergen
++ 35 17 7
+: Ootmarsum
++ 35 17 7
+: Tilligte
++ 35 17 7
+: Rijssen
++ 35 17 7
+: Delden
++ 35 17 7
+: Hengelo
++ 27 17 7
+: Oldenzaal
++ 27 17 7
+: Laren
++ 35 17
+: Usselo
++ 35 2 6
+: Lochem
++ 35 17 7
+: Eibergen
++ 35 17 7
+: Haaksbergen
++ 27 17 7
+: Zelhem
++ 35 17 7
+: Groenlo
++ 35 17
+: Blankenberge
++ 35 17 7
+: Damme
++ 35 17 6 7
+: Middelkerke
++ 35 13 7
+: Oostende
++ 35 13 7
+: Brugge
++ 35 13 7
+: Gistel
++ 35 13 7
+: Bekegem
++ 35 13 7
+: Oostkamp
++ 35 17 6 7
+: Veurne
++ 35 17
+: Oostkerke
++ 35 13 7
+: Alveringem
++ 35 17 6
+: Wingene
++ 35 17 6 7
+: Brielle
++ 35 9 7
+: Middelharnis
++ 35 20 7
+: Renesse
++ 35 20
+: Zierikzee
++ 35 18
+: Steenbergen
++ 35 10 7
+: Westkapelle
++ 35 20
+: Goes
++ 35 9 6
+: Middelburg
++ 35 10 7
+: Kapelle
++ 35 18 7
+: Breskens
++ 35 17 7
+: Lamswaarde
++ 35 13 7
+: Groenendijk
++ 35 13 7
+: Ossendrecht
++ 35 17 7
+: Zandvliet
++ 35 17 7
+: Clinge
++ 35 17 6 7
+: Kieldrecht
++ 35 13 7
+: Moerkerke
++ 35 13 7
+: Assenede
++ 35 17 8 7
+: Zelzate
++ 35 17 6 7
+: Moerbeke
++ 35 13 6 7
+: Beveren
++ 35 13 6 7
+: Zomergem
++ 35 17 6 7
+: Lochristi
++ 35 17 6 7
+: Hingene
++ 35 10 12 7
+: Gent
++ 35 17 6
+: Kalken
++ 35 13 6 7
+: Lebbeke
++ 35 13 7
+: Lippelo
++ 35 22 7
+: Buggenhout
++ 35 17 7
+: Berkel
++ 35 13 7
+: Polsbroek
++ 35 10 7
+: Vianen
++ 35 10 7
+: Lekkerkerk
++ 35 13 7
+: Deil
++ 35 13 7
+: Klaaswaal
++ 35 17 7
+: Papendrecht
++ 35 17 7
+: Hardinxveld
++ 35 13 7
+: Almkerk
++ 35 17 7
+: Dussen
++ 35 17 7
+: Drongelen
++ 35 13 7
+: Fijnaart
++ 35 17 7
+: Zevenbergen
++ 35 13 7
+: Oudenbosch
++ 35 13 7
+: Dongen
++ 35 17 7
+: Loon op Zand
++ 35 17 7
+: Roosendaal
++ 35 17 7
+: Goirle
++ 35 13 7
+: Oirschot
++ 35 13 7
+: Essen
++ 35 13 7
+: Zundert
++ 35 17 7
+: Kalmthout
++ 35 13 7
+: Rijkevorsel
++ 35 17 7
+: Zevendonk
++ 35 17 7
+: Gierle
++ 35 13 7
+: Arendonk
++ 35 13 7
+: Wijnegem
++ 35 17 7
+: Oelegem
++ 35 13 7
+: Balen
++ 35 17 7
+: Boom
++ 35 17 7
+: Itegem
++ 35 13 7
+: Geel
++ 35 13 7
+: Meerhout
++ 35 13 7
+: Thisselt
++ 35 10 7
+: Mechelen
++ 35 10 7
+: Herselt
++ 35 17 6 7
+: Zolder
++ 35 6 7
+: Wijk bij Duurstede
++ 35 17 7
+: Renkum
++ 35 17 7
+: Zevenaar
++ 35 17 7
+: Doetinchem
++ 35 17 7
+: Druten
++ 35 17 7
+: Oosterhout
++ 35 17 7
+: s-Herenberg
++ 35 17 6 7
+: Heerewaarden
++ 35 17 7
+: Ravenstein
++ 35 17 7
+: Groesbeek
++ 35 17 7
+: Den Dungen
++ 35 2 6 7
+: Zeeland
++ 35 17
+: Rijkevoort
++ 35 17 6 7
+: Sint Oedenrode
++ 35 17 7
+: Gemert
++ 35 17 7
+: Bakel
++ 35 17 7
+: Venray
++ 35 13 7
+: Wanssum
++ 35 17 7
+: Helmond
++ 36 17 6 7
+: Geldrop
++ 35 17 12
+: Riethoven
++ 35 17 7
+: Meijel
++ 35 17 6
+: Tegelen
++ 35 17 6 7
+: Venlo
++ 35 17 6 7
+: Budel
++ 35 17 6 7
+: Overpelt
++ 35 17 7
+: Horn
++ 35 17 7
+: Bree
++ 35 12 6 7
+: Kinrooi
++ 35 13 7
+: Echt
++ 35 13 7
+: Houthalen
++ 35 12 6 7
+: Born
++ 35 13 7
+: Susteren
++ 35 13 7 6
+: Aalten
++ 35 17 6 7
+: Ulft
++ 35 17 6 7
+: Warhem
++ 35 13 7
+: Reninge
++ 35 13 7
+: Houthulst
++ 35 17 7
+: Gits
++ 35 13 7
+: Roeselare
++ 35 17 7
+: Woesten
++ 35 13 7
+: Moorslede
++ 35 17 7
+: Hondegem
++ 35 13 6 7
+: Kortrijk
++ 35 17 7
+: Bellegem
++ 35 17 7
+: Steenbeek
++ 35 13 7
+: Nieuwkerke
++ 35 17 7
+: Nazareth
++ 35 13 7
+: Bottelare
++ 35 13 7
+: Aalst
++ 35 33 7
+: Waregem
++ 35 13 6 7
+: Heldergem
++ 35 13 6 7 35 12 6 7
+: Hekelgem
++ 35 23 7
+: Wemmel
++ 35 9 12 7
+: Zwevegem
++ 35 17 7 6
+: Ingooigem
++ 35 17 6 7
+: Nukerke
++ 35 12 6 7
+: Geraardsbergen
++ 35 13 7
+: Lot
++ 35 12 7
+: Ronse
++ 35 12 7
+: Humbeek
++ 35 23 7
+: Grimbergen
++ 35 10 7
+: Kampenhout
++ 35 17
+: Aarschot
++ 35 17 6 7
+: Werchter
++ 35 17 6 7
+: Diest
++ 35 17 7
+: Boutersem
++ 35 17 6 7
+: Overijse
++ 35 13 6 7
+: Vertrijk
++ 35 17 7
+: Tienen
++ 35 17 6 7
+: Velm
++ 35 17 6 7
+: Beek
++ 27 17 7
+: Sittard
++ 35 13 7
+: Diepenbeek
++ 35 13 1 7
+: Meerssen
++ 35 2 7
+: Kerkrade
++ 11 17
+: Vreren
++ 35 13 18 7
+: s-Gravenvoeren
++ 35 12 6
+: Vaals
++ 11 2 6
+: Lauw
++ 36 13 6 7
+: Aubel
++ 35 12 6
+: Raeren
++ 11 12 6
+: Baelen
++ 35 12 6
+: Eupen
++ 35 2 6
+: Kapelle-Broek
++ 35 13 7
+: Bollezeele
++ 35 13

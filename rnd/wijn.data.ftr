@@ -1,0 +1,693 @@
+%utf8
+: West-Terschelling
++ 40 1 7
+: Oost-Vlieland
++ 40 1 7
+: Den Burg
++ 40 18 1 7
+: Hollum
++ 40 1 7
+: Nes
++ 40 1 7
+: Schiermonnikoog
++ 40 1 7
+: Oosterend
++ 40 1 7
+: Ferwerd
++ 40 1 7
+: Holwerd
++ 40 1 7
+: Anjum
++ 40 1 7
+: Zoutkamp
++ 40 1 7
+: Sint Annaparochie
++ 40 1 7
+: Hallum
++ 40 1 7
+: Stiens
++ 40 1 7
+: Westergeest
++ 40 1 7
+: Grijpskerk
++ 40 1 7
+: Sexbierum
++ 40 1 7
+: Tietjerk
++ 40 1 7
+: Veenwouden
++ 40 8 7
+: Bergum
++ 40 1 7
+: Surhuisterveen
++ 40 1 7
+: Spannum
++ 40 1 7
+: Grouw
++ 40 1 7
+: Oudega
++ 40 8 7
+: Rottevalle
++ 40 1 7
+: Ureterp
++ 40 1 7
+: Marum
++ 40 1 7
+: Makkum
++ 40 1 7
+: IJlst
++ 40 1 7
+: Beets
++ 40 1 7
+: Bakkeveen
++ 40 1 7
+: Donkerbroek
++ 40 1 7
+: Roodeschool
++ 40 1 7
+: Eenrum
++ 40 1 7
+: Warffum
++ 40 1 7
+: Middelstum
++ 40 1 7
+: Zijldijk
++ 40 1 7 40 1 7
+: Bierum
++ 40 8 7
+: Oldehove
++ 40 1 7
+: Adorp
++ 40 1 7
+: Stedum
++ 40 1 7
+: Tjamsweer
++ 40 1 7
+: Wagenborgen
++ 40 1 7
+: Zuidhorn
++ 40 1 7
+: Niekerk
++ 40 1 7
+: Groningen
++ 40 1 7
+: Garmerwolde
++ 40 1 7
+: Schildwolde
++ 40 1 7
+: Scheemda
++ 40 1 7
+: Finsterwolde
++ 40 1 7
+: Peize
++ 40 1 7
+: Eelde
++ 40 1 7
+: Hoogezand
++ 40 1 7
+: Zuidlaren
++ 40 1 7
+: Veendam
++ 40 1 7
+: Winschoten
++ 40 1 7
+: Bellingwolde
++ 40 1 7
+: Norg
++ 40 1 7
+: Eext
++ 40 1 7
+: Stadskanaal
++ 40 1 7
+: Onstwedde
++ 40 1 7
+: Wateringen
++ 40 10 1 7
+: Den Oever
++ 40 1 7
+: Schagen
++ 40 10 1 7
+: Opperdoes
++ 40 17 1 7
+: Heerhugowaard
++ 40 10 1 7
+: Enkhuizen
++ 40 18 1 7
+: Egmond aan Zee
++ 41 10 1 7
+: Hoorn
++ 40 18 1 7
+: Heemskerk
++ 40 18 1 7
+: De Rijp
++ 40 18 1 7
+: Koog aan de Zaan
++ 40 10 1 7
+: Volendam
++ 40 8 7
+: Monnickenwerf
++ 40 18 1 7
+: Haarlem
++ 40 18 1 7
+: Aalsmeer
++ 41 10 8 7
+: Huizen
++ 41 9 1 7
+: Katwijk aan Zee
++ 41 18 1 7
+: Warmond
++ 40 20 8 7
+: Langeraar
++ 40 9 8 7
+: Nieuwveen
++ 41 9 8 7
+: Loenen
++ 40 9 8 7
+: Soest
++ 41 8 7
+: Koudekerk
++ 41 10 1 7
+: Utrecht
++ 40 20 1 3
+: Delft
++ 40 20 1 7
+: Zoetermeer
++ 40 20 8 7
+: Oudewater
++ 41 20 8 7
+: Vreeswijk
++ 40 18 1 7
+: Driebergen
++ 41 9 8 7
+: Workum
++ 40 1 7
+: Langweer
++ 40 1 7
+: Tjalleberd
++ 40 1 7
+: Oudeschoot
++ 40 1 7
+: Jubbega
++ 40 1 7
+: Koudum
++ 40 1 7
+: Lemmer
++ 40 1 7
+: Noordwolde
++ 40 8 7
+: Kuinder
++ 40 1 7
+: Oldemarkt
++ 40 1 7
+: Steenwijk
++ 40 1 7
+: Vollenhove
++ 40 1 7
+: Koekange
++ 40 1 7
+: Urk
++ 40 4 7
+: Hasselt
++ 40 1 7
+: Rouveen
++ 40 1 7
+: Staphorst
++ 40 1 7
+: IJsselmuiden
++ 40 1 7
+: Kampen
++ 40 1 7
+: Zalk
++ 40 1 7
+: Dalfsen
++ 40 1 7
+: Oldebroek
++ 40 1 7
+: Hattem
++ 40 1 7
+: Nunspeet
++ 40 1 7
+: Wijhe
++ 40 1 7
+: Spakenburg
++ 40 8 3
+: Putten
++ 40 1 7
+: Vaassen
++ 40 1 7
+: Bathmen
++ 40 1 7
+: Wilp
++ 40 1 7
+: Amersfoort
++ 40 1 3
+: Woudenberg
++ 40 1 7
+: Barneveld
++ 40 1 7
+: Hoenderlo
++ 40 1 7
+: Doorn
++ 41 18 1 7
+: Veenendaal
++ 41 20 1 7
+: Spankeren
++ 40 1 7
+: Dieren
++ 41 1 7
+: Bronkhorst
++ 41 1 7
+: Appelscha
++ 40 1 7
+: Assen
++ 40 1 7
+: Grolloo
++ 40 1 7
+: Borger
++ 40 1 7
+: Wessingtange
++ 40 1 7
+: Dwingelo
++ 40 1 7
+: Beilen
++ 40 1 7
+: Orvelte
++ 40 1 7
+: Odoorn
++ 40 1 7
+: Roswinkel
++ 40 1 7
+: Ruinen
++ 40 1 7
+: Emmen
++ 40 8 7
+: Zuidbarge
++ 40 1 7
+: Hollandscheveld
++ 40 1 7
+: Zwinderen
++ 40 1 7
+: Schoonebeek
++ 40 1 7
+: Dedemsvaart
++ 40 1 7
+: Gramsbergen
++ 40 1 7
+: Coevorden
++ 40 1 7
+: Emlichheim
++ 40 1 7
+: Hoogstede
++ 40 1 7
+: Nieuw Schoonebeek
++ 40 1 7
+: Ommen
++ 40 1 7
+: Hardenberg
++ 40 1 7
+: Bergentheim
++ 40 1 7
+: Radewijk
++ 40 1 7
+: Itterbeck
++ 40 1 7
+: Wilsum
++ 40 1 7
+: Lemele
++ 40 1 7
+: Langeveen
++ 40 1 7
+: Vasse
++ 40 1 7
+: Uelsen
++ 40 1 7
+: Neuenhaus
++ 40 1 7
+: Lage
++ 40 1 7
+: Lattrop
++ 40 1 7
+: Nordhorn
++ 40 1 7
+: Vriezenveen
++ 40 1
+: Wierden
++ 40 1 7
+: Almelo
++ 40 1 6
+: Tubbergen
++ 40 1 7
+: Ootmarsum
++ 40 1 7
+: Tilligte
++ 40 1 7
+: Rijssen
++ 40 1 7
+: Delden
++ 40 1 7
+: Hengelo
++ 40 1 7
+: Oldenzaal
++ 40 1
+: Laren
++ 40 1 7
+: Usselo
++ 40 1 7
+: Lochem
++ 40 1 7
+: Eibergen
++ 40 1 7
+: Haaksbergen
++ 40 1 7
+: Zelhem
++ 40 1 7
+: Groenlo
++ 40 1 7
+: Blankenberge
++ 41 1 7
+: Damme
++ 41 1 7
+: Middelkerke
++ 41 1 7
+: Oostende
++ 41 1 7
+: Brugge
++ 41 1 7
+: Gistel
++ 41 1 7
+: Bekegem
++ 41 1 7
+: Oostkamp
++ 41 1 7
+: Veurne
++ 41 1
+: Oostkerke
++ 41 1 7
+: Alveringem
++ 41 1
+: Wingene
++ 41 1 7
+: Brielle
++ 40 9 1 7
+: Middelharnis
++ 41 1 7
+: Renesse
++ 41 1 7
+: Zierikzee
++ 41 1 7
+: Steenbergen
++ 41 18 7
+: Westkapelle
++ 41 1 7
+: Goes
++ 41 1 7
+: Middelburg
++ 41 1 7
+: Kapelle
++ 41 1 7
+: Breskens
++ 41 1
+: Lamswaarde
++ 41 18 7
+: Groenendijk
++ 41 18 7
+: Ossendrecht
++ 41 18 7
+: Zandvliet
++ 41 18 1 7
+: Clinge
++ 41 18 6 7
+: Kieldrecht
++ 41 18 7
+: Moerkerke
++ 41 1 7
+: Assenede
++ 41 18 7
+: Zelzate
++ 41 18 7
+: Moerbeke
++ 41 18 7
+: Beveren
++ 41 18 7
+: Zomergem
++ 41 18 7
+: Lochristi
++ 41 18 7
+: Hingene
++ 41 10 6 7
+: Gent
++ 41 9 8
+: Kalken
++ 41 18 7
+: Lebbeke
++ 41 13 18 7
+: Lippelo
++ 41 10 6 7
+: Buggenhout
++ 41 13 18 7
+: Berkel
++ 40 18 8 7
+: Polsbroek
++ 40 9 8 7
+: Vianen
++ 40 9 1 7
+: Lekkerkerk
++ 40 9 1 7
+: Deil
++ 40 9 1 7
+: Klaaswaal
++ 40 9 1 7
+: Papendrecht
++ 40 9 1 7
+: Hardinxveld
++ 40 9 1 7
+: Almkerk
++ 41 9 1 7
+: Dussen
++ 41 20 1 7
+: Drongelen
++ 41 20 1 7
+: Fijnaart
++ 40 9 1 7
+: Zevenbergen
++ 41 18 1 7
+: Oudenbosch
++ 40 20 1 7
+: Dongen
++ 41 18 7
+: Loon op Zand
++ 40 18 7
+: Roosendaal
++ 41 18 1 7
+: Goirle
++ 41 18 7
+: Oirschot
++ 40 18 7
+: Essen
++ 41 18 7
+: Zundert
++ 41 18 7
+: Kalmthout
++ 41 18 7 41 18 7
+: Rijkevorsel
++ 41 18 7
+: Zevendonk
++ 41 9 1 7
+: Gierle
++ 41 9 7
+: Arendonk
++ 41 9 1 7
+: Wijnegem
++ 41 20 7
+: Oelegem
++ 41 9 7
+: Balen
++ 41 20 8 7
+: Boom
++ 41 17 9 7
+: Itegem
++ 41 20 7
+: Geel
++ 41 18 7
+: Meerhout
++ 41 18 7
+: Thisselt
++ 41 13 10 7
+: Mechelen
++ 41 10 7
+: Herselt
++ 41 9 6 7
+: Zolder
++ 41 18 7
+: Wijk bij Duurstede
++ 41 20 1 7
+: Renkum
++ 41 18 1 7
+: Zevenaar
++ 41 1 7
+: Doetinchem
++ 40 1 7
+: Druten
++ 41 20 1 7
+: Oosterhout
++ 41 1 7
+: s-Herenberg
++ 40 1 7
+: Heerewaarden
++ 41 20 1 7
+: Ravenstein
++ 41 20 1 7
+: Groesbeek
++ 41 1 7
+: Den Dungen
++ 41 18 1 7
+: Zeeland
++ 41 8 3 41 18 1 7
+: Rijkevoort
++ 41 1 7
+: Sint Oedenrode
++ 41 18 1 7
+: Gemert
++ 41 18 1 7
+: Bakel
++ 41 8 3
+: Venray
++ 41 1 7
+: Wanssum
++ 41 1 7
+: Helmond
++ 41 8 3
+: Geldrop
++ 41 22 38 7
+: Riethoven
++ 41 18 7
+: Meijel
++ 41 8 39
+: Tegelen
++ 41 1 7
+: Venlo
++ 41 1 7
+: Budel
++ 41 1 7
+: Overpelt
++ 41 18 1 7
+: Horn
++ 41 1 7
+: Bree
++ 41 1 7
+: Kinrooi
++ 41 1 7
+: Echt
++ 41 1 6 7
+: Houthalen
++ 41 18 7
+: Born
++ 41 1 7
+: Susteren
++ 41 1 7 6
+: Aalten
++ 40 1 7
+: Ulft
++ 40 1 7
+: Warhem
++ 41 1 7
+: Reninge
++ 41 1 7
+: Houthulst
++ 41 1 7
+: Gits
++ 41 1 7
+: Roeselare
++ 41 1 7
+: Woesten
++ 41 1 7
+: Moorslede
++ 41 1 7
+: Hondegem
++ 41 1 7
+: Kortrijk
++ 41 8 7
+: Bellegem
++ 41 18 7
+: Steenbeek
++ 41 1 7
+: Nieuwkerke
++ 41 1
+: Nazareth
++ 41 18 7
+: Bottelare
++ 41 18 7
+: Aalst
++ 41 13 6 7
+: Waregem
++ 41 18 7
+: Heldergem
++ 41 18 7
+: Hekelgem
++ 41 17 20 7
+: Wemmel
++ 41 9 6 7
+: Zwevegem
++ 41 8 7
+: Ingooigem
++ 41 18 7
+: Nukerke
++ 41 18 7
+: Geraardsbergen
++ 41 18 7
+: Lot
++ 41 9 1 7
+: Ronse
++ 41 10 7
+: Humbeek
++ 41 13 20 7
+: Grimbergen
++ 41 10 6 7
+: Kampenhout
++ 41 9 6 7
+: Aarschot
++ 41 10 6 7
+: Werchter
++ 40 10 6 7
+: Diest
++ 41 20 6 7
+: Boutersem
++ 41 18 6 7
+: Overijse
++ 41 9 6 7
+: Vertrijk
++ 41 18 6 7
+: Tienen
++ 41 18 6 7
+: Velm
++ 41 18 6 7
+: Beek
++ 41 1 7
+: Sittard
++ 41 1 7
+: Diepenbeek
++ 41 8 7
+: Meerssen
++ 41 1 7
+: Kerkrade
++ 41 1 7
+: Vreren
++ 41 10 8 7
+: s-Gravenvoeren
++ 41 1 7
+: Vaals
++ 41 1 7
+: Lauw
++ 41 9 8 7
+: Aubel
++ 41 1 7
+: Raeren
++ 41 1 7
+: Baelen
++ 41 1 7
+: Eupen
++ 41 1 7 6
+: Kapelle-Broek
++ 41 1 7
+: Bollezeele
++ 41 1 7
