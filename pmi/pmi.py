@@ -4,12 +4,13 @@ import numpy as np
 import pandas as pd
 from numba import njit
 import sys
-sys.path.insert(0,'..')
+
+sys.path.insert(0, '..')
 import leven
 
-logging.basicConfig(filename='computation.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s',
-                    level=logging.DEBUG)
-# logging.basicConfig(filename='computation.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+# logging.basicConfig(filename='computation.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s',
+#                     level=logging.DEBUG)
+logging.basicConfig(filename='computation.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 
 # np.set_printoptions(threshold=sys.maxsize)
@@ -120,13 +121,12 @@ if __name__ == '__main__':
         symbol_spec = {line.strip().split('\t')[0]: line.strip().split('\t')[1]
                        for line in file.readlines()}
 
-    ''' generate an initial cost matrix with linguistic constraints''' 
+    ''' generate an initial cost matrix with linguistic constraints'''
     char_inv = sorted(list(leven.get_char_inv(trs)))
     char_inv.append("-")  # add the indel character
     cost_mat = leven.init_cost_matrix(char_inv, symbol_spec)
     # np.savetxt('test_cost_mat', cost_mat, delimiter='\t', fmt='%.2f')
 
-    
     # enc_trs, dec_trs, cost_mat = leven.init_cost_matrix_weighted('../pmi/pmi_wieling_large.tsv')
 
     # generate mappings to numpy arrays
@@ -153,7 +153,7 @@ if __name__ == '__main__':
         iteration += 1
         cost_mat, difference = iteration_procedure(trs, trs_map, cost_mat, iteration)
         # np.savetxt('cost_mat_iter_' + str(iteration) + '.txt', cost_mat, delimiter='\t', fmt='%.4f')
-    
+
         print('Iteration', iteration)
         # print(cost_mat)
         print(difference)
@@ -163,9 +163,6 @@ if __name__ == '__main__':
 
     # np.savetxt('converged_output.txt', cost_mat, fmt='%.8f', delimiter='\t')
     # cost_mat = np.loadtxt('converged_output.txt', delimiter='\t')
-
-    
-
 
     ''' Testing alignments '''
     #
@@ -184,13 +181,13 @@ if __name__ == '__main__':
 
     # dist = leven.leven_compute_align(s1, s2, cost_mat)
     # print(dist[1])
-    
+
     # alignment = dist[2]
     # # print(alignment)
     # alignment.reverse()
-    
+
     # # print(cost_mat[enc_trs['d'], -1])
-    
+
     # for segment in alignment:
     #     # print(segment)
     #     if segment[0] == -1:

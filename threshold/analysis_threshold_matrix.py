@@ -2,11 +2,13 @@ import os
 import random
 from concurrent.futures import ProcessPoolExecutor
 from itertools import permutations
-
-import leven
+import sys
 import numpy as np
 import pandas as pd
 from numba import njit
+
+sys.path.insert(0, '..')
+import leven
 
 
 @njit(cache=True)

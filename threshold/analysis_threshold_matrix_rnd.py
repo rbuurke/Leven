@@ -3,11 +3,13 @@ import random
 from concurrent.futures import ProcessPoolExecutor
 from itertools import permutations
 
-import leven
 import numpy as np
 import pandas as pd
 from numba import njit
+import sys
 
+sys.path.insert(0, '..')
+import leven
 
 @njit(cache=True)
 def mean_of_list(list_of_nr):
