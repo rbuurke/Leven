@@ -62,13 +62,23 @@ def generate_char_map(list_of_chars):
     return enc_dict, dec_dict
 
 
-
 def encode_column_trs_array(list_of_trs, char_map):
     """ encode a Pandas DataFrame column of transcriptions to NumPy arrays """
     encoded_list = []
     for trs in list_of_trs:
         if isinstance(trs, float):
             encoded_list.append(np.array([-1]))
+        else:
+            encoded_list.append(np.array([char_map[char] for char in trs]))
+    return encoded_list
+
+
+def encode_column_trs_array_native(list_of_trs, char_map):
+    """ encode a Pandas DataFrame column of transcriptions to NumPy arrays """
+    encoded_list = []
+    for trs in list_of_trs:
+        if isinstance(trs, float):
+            encoded_list.append(np.nan)
         else:
             encoded_list.append(np.array([char_map[char] for char in trs]))
     return encoded_list
@@ -279,7 +289,7 @@ def leven_dist(w1_idx, w2_idx, cost_matrix):
     """ compute the dynamic programming tableau"""
     # init tableau
     if np.array_equal(w1_idx, w2_idx):
-        return float64(0.0), np.zeros((1,0))
+        return float64(0.0), np.zeros((1, 0))
     else:
         tabl = np.zeros((w1_idx.size + 1, w2_idx.size + 1))
 

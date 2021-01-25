@@ -1,0 +1,63 @@
+---
+title: "Thresholding dialectometry [Diareg-GTRP overlap] 25-1-2021"
+author: "Raoul Buurke"
+date: "1/25/2021"
+output: 
+    html_document:
+      theme: sandstone
+      highlight: pygments
+      toc: true
+      df_print: paged
+      code_folding: show
+      toc_float: 
+          collapsed: true
+          smooth_scroll: true
+      number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = FALSE)
+```
+
+# Load libs + import data
+```{r}
+library(readr)
+library(mgcv)
+library(itsadug)
+
+df_gtrp <- read_delim("~/Leven/threshold/gtrp_diareg_overlap_simulation_norm_mat_diff.txt", 
+    "\t", escape_double = FALSE, trim_ws = TRUE)
+df_diareg_om <- read_delim("DOWNLOADS/pdf/PHD/Leven/threshold/diareg_om_gtrp_overlap_simulation_norm_mat_diff.txt", 
+    "\t", escape_double = FALSE, trim_ws = TRUE)
+```
+
+
+# Plot influence of sample sizes: GTRP (Diareg overlap)
+```{r}
+# different location sample sizes
+m1 = gam(corr ~ s(loc_ssize), data =  df_gtrp)
+plot(m1, shade = T, rug = T, main='GTRP (overlapping DiaReg locations)', xlab = 'Number of locations', ylab = 'Normalized matrix difference')
+abline(h=0)
+
+boxplot(df_diareg_om$corr ~ df_diareg_om$word_ssize)
+
+# different word sample sizes
+m2 = gam(corr ~ s(word_ssize), data =  df_gtrp)
+plot(m2, shade = T, rug = T, main='GTRP (overlapping DiaReg locations)', xlab = 'Number of words', ylab = 'Normalized matrix difference')
+abline(h=0)
+```
+
+# Plot influence of sample sizes: DiaReg
+```{r}
+# different location sample sizes
+m3 = gam(corr ~ s(loc_ssize), data =  df_diareg_om)
+plot(m3, shade = T, rug = T, main='DiaReg', xlab = 'Number of locations', ylab = 'Normalized matrix difference')
+abline(h=0)
+
+# different word sample sizes
+m4 = gam(corr ~ s(word_ssize), data =  df_diareg_om)
+plot(m4, shade = T, rug = T, main='DiaReg', xlab = 'Number of words', ylab = 'Normalized matrix difference')
+abline(h=0)
+```
+
+
