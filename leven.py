@@ -320,3 +320,4 @@ def leven_dist(w1_idx, w2_idx, cost_matrix):
                 # update tableau
                 tabl[i, j] = np.min(costs)
         return tabl[-1, -1], tabl
+
