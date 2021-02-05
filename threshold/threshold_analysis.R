@@ -6,7 +6,7 @@ gtrp_l <- read.delim("~/PHD/Leven/threshold/threshold_output_gtrp_var_loc.txt")
 
 library(mgcv)
 library(itsadug)
-
+library(dplyr)
 
 add_words = gam(corr ~ s(loc_ssize, word_ssize), data = dia_w)
 fvisgam(add_words, view = c('word_ssize', 'loc_ssize'))
@@ -27,3 +27,45 @@ add_locations = gam(corr ~ s(loc_ssize, word_ssize), data = gtrp_l)
 fvisgam(add_locations, view = c('loc_ssize', 'word_ssize'))
 table(dia_l$loc_ssize, dia_l$word_ssize)
 boxplot(dia_l$corr ~ dia_l$loc_ssize)
+
+# distributional values
+
+summary_dia_l = dia_l %>%
+  group_by(loc_ssize, word_ssize) %>%
+  summarise(lower_bound = min(corr),
+            lower_95 = quantile(corr, probs = 0.05),
+            upper_95 = quantile(corr, probs = 0.95),
+            upper_bound = max(corr))
+
+m_summ = gam(lower_95 ~ s(loc_ssize, word_ssize), data = summary_dia_l)
+fvisgam(m_summ, view = c('loc_ssize', 'word_ssize'), main = 'P(smaller corr.) = 0.05')
+
+summary_dia_w = dia_w %>%
+  group_by(loc_ssize, word_ssize) %>%
+  summarise(lower_bound = min(corr),
+            lower_95 = quantile(corr, probs = 0.05),
+            upper_95 = quantile(corr, probs = 0.95),
+            upper_bound = max(corr))
+
+m_summ = gam(lower_95 ~ s(word_ssize, loc_ssize), data = summary_dia_w)
+fvisgam(m_summ, view = c('word_ssize', 'loc_ssize'), main = 'P(smaller corr.) = 0.05')
+
+summary_gtrp_l = gtrp_l %>%
+  group_by(loc_ssize, word_ssize) %>%
+  summarise(lower_bound = min(corr),
+            lower_95 = quantile(corr, probs = 0.05),
+            upper_95 = quantile(corr, probs = 0.95),
+            upper_bound = max(corr))
+
+m_summ = gam(lower_95 ~ s(loc_ssize, word_ssize), data = summary_gtrp_l)
+fvisgam(m_summ, view = c('loc_ssize', 'word_ssize'), main = 'P(smaller corr.) = 0.05')
+
+summary_gtrp_w = gtrp_w %>%
+  group_by(loc_ssize, word_ssize) %>%
+  summarise(lower_bound = min(corr),
+            lower_95 = quantile(corr, probs = 0.05),
+            upper_95 = quantile(corr, probs = 0.95),
+            upper_bound = max(corr))
+
+m_summ = gam(lower_95 ~ s(word_ssize, loc_ssize), data = summary_gtrp_w)
+fvisgam(m_summ, view = c('word_ssize', 'loc_ssize'), main = 'P(smaller corr.) = 0.05')

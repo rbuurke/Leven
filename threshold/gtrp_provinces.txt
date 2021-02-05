@@ -1,0 +1,82 @@
+location	province
+Aalsmeer NH                                	Noord-Holland
+Appelscha Fr - Appelskea Fr                	Fryslân
+Axel Ze                                    	Zeeland
+Budel NB                                   	Noord-Brabant
+De Lier ZH                                 	Zuid-Holland
+Deerlijk BeWv                              	West-Vlaanderen
+Den Hoorn NH                               	Noord-Holland
+Dendermonde BeOv                           	Oost-Vlaanderen
+Didam Gl                                   	Gelderland
+Diepenbeek BeLb                            	Limburg
+Dokkum Fr                                  	Fryslân
+Dongen NB                                  	Noord-Brabant
+Ede Gl                                     	Gelderland
+Eelde Dr                                   	Drenthe
+Finsterwolde Gn                            	Groningen
+Geraardsbergen BeOv                        	Oost-Vlaanderen
+Gouda ZH                                   	Zuid-Holland
+Gouderak ZH                                	Zuid-Holland
+Grijpskerk Gn                              	Groningen
+Groenlo Gl                                 	Gelderland
+Grouw Fr - Grou Fr                         	Fryslân
+Gulpen Lb                                  	Limburg
+Hallum Fr                                  	Fryslân
+Heerewaarden Gl                            	Gelderland
+Hollum Fr                                  	Fryslân
+Hooghalen Dr                               	Drenthe
+Horn Lb                                    	Rheinland-Pfalz
+Houthulst BeWv                             	West-Vlaanderen
+Huizen NH                                  	Noord-Holland
+IJmuiden NH                                	Noord-Holland
+IJsselmuiden Ov                            	Overijssel
+Ingen Gl                                   	Gelderland
+Itegem BeAnt                               	Antwerpen
+Jubbega Fr - Jobbegea Fr                   	Fryslân
+Kampen Ov                                  	Overijssel
+Kantens Gn                                 	Groningen
+Kerkrade Lb                                	Limburg
+Kleit BeOv                                 	Oost-Vlaanderen
+Koekange Dr                                	Drenthe
+Laren Gl                                   	Noord-Holland
+Lemele Ov                                  	Overijssel
+Lemmer Fr - De Lemmer Fr                   	Fryslân
+Lokeren BeOv                               	Oost-Vlaanderen
+Lommel BeLb                                	Limburg
+Marken NH                                  	Marche
+Marum Gn                                   	Groningen
+Middelharnis ZH                            	Zuid-Holland
+Nazareth BeOv                              	Oost-Vlaanderen
+Neeroeteren BeLb                           	Limburg
+Nijverdal Ov                               	Overijssel
+Noordwolde Fr                              	Groningen
+Onstwedde Gn                               	Groningen
+Oostende BeWv                              	West-Vlaanderen
+Opperdoes NH                               	Noord-Holland
+Overijse BeBr                              	Vlaams-Brabant
+Papendrecht ZH                             	Zuid-Holland
+Poperinge BeWv                             	West-Vlaanderen
+Putten Gl                                  	Gelderland
+Rijkevorsel BeAnt                          	Antwerpen
+Roswinkel Dr                               	Drenthe
+Sexbierum Fr - Seisbierrum Fr              	Fryslân
+s-Gravenvoeren BeLb                        	Limburg
+Sint Annaparochie Fr - Sint Anne Fr        	Fryslân
+Sint-Oedenrode NB                          	Noord-Brabant
+Slochteren Gn                              	Groningen
+Sneek Fr - Snits Fr                        	Fryslân
+Spanbroek NH                               	Noord-Holland
+Tegelen Lb                                 	Limburg
+Tienen BeBr                                	Vlaams-Brabant
+Tilligte Ov                                	Overijssel
+Vaals Lb                                   	Limburg
+Veenwouden Fr - Feanwalden Fr              	Fryslân
+Veurne BeWv                                	West-Vlaanderen
+Wanssum Lb                                 	Limburg
+Westkapelle Ze                             	Limburg
+Workum Fr - Warkum Fr                      	Fryslân
+Zandvliet BeAnt                            	Antwerpen
+Zevenaar Gl                                	Gelderland
+Zevenbergen NB                             	Noord-Brabant
+Zierikzee Ze                               	Zeeland
+Zwinderen Dr                               	Drenthe
