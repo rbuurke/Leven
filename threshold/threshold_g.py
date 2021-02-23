@@ -105,22 +105,22 @@ if __name__ == '__main__':
     random.seed(341995)
 
     ''' select random subsets: locations, variable words '''
-    # df_dict = {loc: {word: df.transcription[(df.word == word) & (df.location == loc)].iloc[0]
-    #                  for word in df.word.unique()}
-    #            for loc in df.location.unique()}
+    df_dict = {loc: {word: df.transcription[(df.word == word) & (df.location == loc)].iloc[0]
+                     for word in df.word.unique()}
+               for loc in df.location.unique()}
 
-    # loc_sample_df = {sample: random.sample(list_of_locs, sample)
-    #                  for sample in range(5, len(list_of_locs), 5)}
+    loc_sample_df = {sample: random.sample(list_of_locs, sample)
+                     for sample in range(5, len(list_of_locs), 5)}
 
-    # with ProcessPoolExecutor(max_workers=len(os.sched_getaffinity(0))) as executor:
-    #     results_loc = [executor.submit(meta_cycle, 'location', loc_sample_df, list_of_words) for i in range(100)]
+    with ProcessPoolExecutor(max_workers=len(os.sched_getaffinity(0))) as executor:
+        results_loc = [executor.submit(meta_cycle, 'location', loc_sample_df, list_of_words) for i in range(100)]
 
-    # df = pd.DataFrame([result for cycle in results_loc for result in cycle.result()],
-    #                   columns=['loc_ssize', 'word_ssize', 'corr'])
+    output_df = pd.DataFrame([result for cycle in results_loc for result in cycle.result()],
+                      columns=['loc_ssize', 'word_ssize', 'corr'])
 
-    # df.sort_values(by=['loc_ssize', 'word_ssize']).to_csv('threshold_output_gtrp_var_word.txt',
-    #                                                       sep='\t',
-    #                                                       index=False)
+    output_df.sort_values(by=['loc_ssize', 'word_ssize']).to_csv('threshold_output_gtrp_var_word.txt',
+                                                          sep='\t',
+                                                          index=False)
 
     ''' select random subsets: words, variable locations '''
 
@@ -134,8 +134,8 @@ if __name__ == '__main__':
     with ProcessPoolExecutor(max_workers=len(os.sched_getaffinity(0))) as executor:
         results_loc = [executor.submit(meta_cycle, 'word', word_sample_df, list_of_locs) for i in range(100)]
     
-    df = pd.DataFrame([result for cycle in results_loc for result in cycle.result()],
+    output_df = pd.DataFrame([result for cycle in results_loc for result in cycle.result()],
                       columns=['loc_ssize', 'word_ssize', 'corr'])
-    df.sort_values(by=['loc_ssize', 'word_ssize']).to_csv('threshold_output_gtrp_var_loc.txt',
+    output_df.sort_values(by=['loc_ssize', 'word_ssize']).to_csv('threshold_output_gtrp_var_loc.txt',
                                                           sep='\t',
                                                           index=False)
