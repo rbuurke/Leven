@@ -11,6 +11,9 @@ from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0, '..')
 import leven
 
+# determine the maximum size of floats
+max_float = sys.float_info.max_10_exp
+
 # logging.basicConfig(filename='computation.log',
 #                     filemode='w',
 #                     format='%(name)s - %(levelname)s - %(message)s',
@@ -56,6 +59,8 @@ def matrix_count(segment_list, count_mat):
 
 @njit(cache=True)
 def pmi(i, j, x_count, y_count, corpus_size, count_mat):
+    if i == j:
+        return 0
     # P(X, Y)
     co_count = count_mat[i, j] + count_mat[j, i]
     # co_count = count_mat[i, j]
@@ -68,7 +73,8 @@ def pmi(i, j, x_count, y_count, corpus_size, count_mat):
     y_prob = y_count / corpus_size
 
     if co_count == 0:
-        return np.log2((0.1 ** 200) / (x_prob * y_prob))
+        return np.log2((0.1 ** max_float) / (x_prob * y_prob))
+        # return np.log2((0.1 ** 80) / (x_prob * y_prob))
     else:
         return np.log2(co_prob / (x_prob * y_prob))
 
@@ -120,6 +126,7 @@ def compute_single_col(trs_list,
                             dtype='int')
     cache = {}
     for target_trs, compare_trs in combinations(trs_list, 2):
+        # print(target_trs, compare_trs)
         # only include strings, not NAs
         if target_trs in trs_mapping and compare_trs in trs_mapping:
             # use cached result if possible
@@ -137,21 +144,28 @@ def compute_single_col(trs_list,
 
 
 def cycle(df: pd.DataFrame, cost_matrix: np.array, trs_mapping: dict, list_of_chars):
-    with ProcessPoolExecutor(
-            max_workers=len(os.sched_getaffinity(0))
-    ) as executor:
-        results = [executor.submit(compute_single_col, df[col], cost_matrix,
-                                   trs_mapping, list_of_chars)
-                   for col in df.columns]
-    return sum([result.result() for result in results])
+    # with ProcessPoolExecutor(
+    #         max_workers=len(os.sched_getaffinity(0))
+    # ) as executor:
+    #     results = [executor.submit(compute_single_col, df[col], cost_matrix,
+    #                                trs_mapping, list_of_chars)
+    #                for col in df.columns]
+    results = []
+    
+    for col in df:
+        results.append(compute_single_col(
+            df[col], cost_matrix, trs_mapping, list_of_chars))
+    return sum([result for result in results])
+    # return sum([result.result() for result in results])
 
 
 if __name__ == '__main__':
-    dat = pd.read_csv('../trs_files/RND_no_dia.txt', sep='\t')
+    # dat = pd.read_csv('../trs_files/RND_no_dia.txt', sep='\t')
     # dat = pd.read_csv('../trs_files/GTRP.txt', sep='\t')
+    dat = pd.read_csv('../trs_files/Dutch613.txt', sep='\t')
     trs = dat.iloc[:, 1:]
 
-    trs = trs.iloc[:, 0:50]
+    trs = trs.iloc[:, 0:80]
 
     ''' Get rid of diacritics '''
     trs = pd.DataFrame.from_dict({col: [leven.remove_accents(transcription)
@@ -183,7 +197,9 @@ if __name__ == '__main__':
 
         print('Iteration', iteration)
         print(difference)
-        print(counts)
+        # print(counts)
+        print(cost_mat)
+        print(char_inv)
         print()
 
     np.savetxt('converged_output.txt', cost_mat, fmt='%.8f', delimiter='\t')

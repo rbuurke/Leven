@@ -1,6 +1,8 @@
 """ compute VC sensitive Levenshtein distance cost matrix
     retrace cost matrix to find VC sensitive alignment"""
 
+import resource
+from sys import maxsize, setrecursionlimit
 import numpy as np
 import pandas as pd
 from numba import int64, float64
@@ -9,9 +11,7 @@ from numba.core.types.containers import UniTuple
 from numba.typed import List
 
 list_type = UniTuple(int64, 2)
-
-# set a limit on segment generation
-alignments_lim = 50
+setrecursionlimit(10**6)
 
 
 def get_char_inv(df, drop_col=None):
@@ -168,7 +168,6 @@ def init_cost_matrix(list_of_chars, symbol_specification_dict):
 
 def init_cost_matrix_weighted(pmi_file):
     """ Generates a NumPy segment-segment matrix  **with** an input file """
-
     with open(pmi_file, 'r') as file:
         char_list = file.readlines()[0].strip().split('\t')
         enc_dict, dec_dict = generate_char_map(char_list)
@@ -179,78 +178,234 @@ def init_cost_matrix_weighted(pmi_file):
 
 
 @njit(cache=True)
-def backtrack(a, array, w1_array, w2_array, alignment):
+def member_(node, trace_list):
+    is_visited = False
+    for check_node in trace_list:
+        if (node[0], node[1]) == check_node:
+            is_visited = True
+    return is_visited
+
+
+@njit(cache=True)
+def check_first(node, list_):
+    if len(list_) == 0:
+        return False
+    else:
+        if (node[0], node[1]) == list_[0]:
+            return True
+        else:
+            return False
+
+
+@njit(cache=True)
+def add_alignment(current_alignment, aggregate):
+    for node in current_alignment:
+        aggregate.append(node)
+
+
+@njit(cache=True)
+def check_final(node, valid_vals):
+    """ Check if current option is the final one"""
+    if (node[0], node[1]) == (valid_vals[-2], valid_vals[-1]):
+        return True
+    else:
+        return False
+
+
+@njit(cache=True)
+def check_depth(node, trace_list):
+    if len(trace_list) > 0:
+        if trace_list[0][0] < node[0] or trace_list[0][1] < node[1]:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+
+@njit(cache=True)
+def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
     """ backtrack the path from the pointer array without strings;
         faster for PMI matrix computation,
         although strings still need to be decoded for human legibility """
-    # cut off alignment generation of total # of segments > set limit
-    if len(alignment) > alignments_lim:
-        return 0
+    # construct reshaped array of only source node coordinates
+    iter_ = a.reshape(4, 2)[1:]
 
-    # paths = 0
+    # compute the number of options (note: value is doubled)
+    options = np.sum(np.not_equal(iter_, -1))
 
-    # for i in a[2:]:
-    #     if not i == -1:
-    #         paths += 1
+    # view only valid coordinates for index checking (see below)
+    valid_ = a[a != -1]
+    # print(a)
+    # print(trace_list)
 
-    # if paths > 2:
-    #     copy_alignment = [i for i in alignment]
-    #     for i in copy_alignment:
-    #         alignment.append(i)
-
-    # if any of the targets are [0,0], stop tracing back
-    if (a[2] == 0 and a[3] == 0) \
-            or (a[4] == 0 and a[5] == 0) \
-            or (a[6] == 0 and a[7] == 0):
-        if a[2] == 0 and a[3] == 0:
-            alignment.append((w1_array[a[2]], -1))
-        if a[4] == 0 and a[5] == 0:
-            alignment.append((-1, w2_array[a[5]]))
-        if a[6] == 0 and a[7] == 0:
-            alignment.append((w1_array[a[6]], w2_array[a[7]]))
-        return 0
-
-    for i, k in enumerate(a.reshape(4, 2)):
-        # value is [-1, -1] or equal to current node, so continue iteration
-        if np.max(k) == -1 \
-                or (a[0] == k[0] and a[1] == k[1]):
+    for i, k in enumerate(iter_):
+        # if len(trace_list) > 5:
+        #     break
+        # value is [-1, -1], so continue iteration
+        if np.max(k) == -1:
             continue
-
-        # append current node to alignment and do recursion
-        else:
+        # value is [0, 0], so we are at the beginning
+        if np.max(k) == 0:
+            if i == 0:
+                align_.append((w1_array[a[2]], -1))
             if i == 1:
-                # ins S1
-                alignment.append((w1_array[a[2]], -1))
-
-                # start again from connected nodes
-                backtrack(array[(array[:, 0] == k[0]) &
-                                (array[:, 1] == k[1])].flatten(),
-                          array,
-                          w1_array,
-                          w2_array,
-                          alignment)
+                align_.append((-1, w2_array[a[5]]))
             if i == 2:
-                # ins S2
-                alignment.append((-1, w2_array[a[5]]))
+                align_.append((w1_array[a[6]], w2_array[a[7]]))
 
-                # start again from connected nodes
-                backtrack(array[(array[:, 0] == k[0]) &
-                                (array[:, 1] == k[1])].flatten(),
-                          array,
-                          w1_array,
-                          w2_array,
-                          alignment)
-            if i == 3:
-                # substitute S1 and S2
-                alignment.append((w1_array[a[6]], w2_array[a[7]]))
+            if len(trace_list) == 0:
+                add_alignment(align_, alignment)
+                return 0
+            else:
+                add_alignment(align_, alignment)
+                align_.clear()
+                return backtrack(array[-1], array, w1_array, w2_array,
+                                 trace_list, align_, alignment)
+        else:
+            if options > 2:
+                available_ = member_(k, trace_list)
+                final_ = check_final(k, valid_)
+                trace_len = len(trace_list)
 
-                # start again from connected nodes
-                backtrack(array[(array[:, 0] == k[0]) &
-                                (array[:, 1] == k[1])].flatten(),
-                          array,
-                          w1_array,
-                          w2_array,
-                          alignment)
+                if member_(k, trace_list):
+                    if i == 0:
+                        if check_first(k, trace_list):
+                            trace_list.pop(0)
+                        else:
+                            align_.append((w1_array[a[2]], -1))
+                            return backtrack(array[(array[:, 0] == k[0])
+                                                   & (array[:, 1] == k[1])].
+                                             flatten(),
+                                             array, w1_array, w2_array,
+                                             trace_list, align_,
+                                             alignment)
+                    if i == 1:
+                        if check_first(k, trace_list):
+                            trace_list.pop(0)
+                        else:
+                            align_.append((-1, w2_array[a[5]]))
+                            return backtrack(array[(array[:, 0] == k[0])
+                                                   & (array[:, 1] == k[1])].
+                                             flatten(),
+                                             array, w1_array, w2_array,
+                                             trace_list, align_,
+                                             alignment)
+                    if i == 2:
+                        if check_first(k, trace_list):
+                            trace_list.pop(0)
+                        else:
+                            align_.append((w1_array[a[6]], w2_array[a[7]]))
+                            return backtrack(array[(array[:, 0] == k[0])
+                                                   & (array[:, 1] == k[1])].
+                                             flatten(),
+                                             array, w1_array, w2_array,
+                                             trace_list, align_,
+                                             alignment)
+                else:
+                    if check_depth(k, trace_list):
+                        if final_:
+                            if i == 0:
+                                align_.append((w1_array[a[2]], -1))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                            if i == 1:
+                                align_.append((-1, w2_array[a[5]]))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                            if i == 2:
+                                align_.append((w1_array[a[6]], w2_array[a[7]]))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                    else:
+                        if final_:
+                            if i == 0:
+                                align_.append((w1_array[a[2]], -1))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                            if i == 1:
+                                align_.append((-1, w2_array[a[5]]))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                            if i == 2:
+                                align_.append((w1_array[a[6]], w2_array[a[7]]))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                        else:
+                            if i == 0:
+                                trace_list.insert(0, (k[0], k[1]))
+                                align_.append((w1_array[a[2]], -1))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                            if i == 1:
+                                trace_list.insert(0, (k[0], k[1]))
+                                align_.append((-1, w2_array[a[5]]))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+                            if i == 2:
+                                trace_list.insert(0, (k[0], k[1]))
+                                align_.append((w1_array[a[6]], w2_array[a[7]]))
+                                return backtrack(array[(array[:, 0] == k[0])
+                                                       & (array[:, 1] == k[1])].
+                                                 flatten(),
+                                                 array, w1_array, w2_array,
+                                                 trace_list, align_,
+                                                 alignment)
+            else:
+                if i == 0:
+                    align_.append((w1_array[a[2]], -1))
+                    return backtrack(array[(array[:, 0] == k[0])
+                                           & (array[:, 1] == k[1])].flatten(),
+                                     array, w1_array, w2_array,
+                                     trace_list, align_,
+                                     alignment)
+
+                if i == 1:
+                    align_.append((-1, w2_array[a[5]]))
+                    return backtrack(array[(array[:, 0] == k[0])
+                                           & (array[:, 1] == k[1])].flatten(),
+                                     array, w1_array, w2_array,
+                                     trace_list, align_,
+                                     alignment)
+                if i == 2:
+                    align_.append((w1_array[a[6]], w2_array[a[7]]))
+                    return backtrack(array[(array[:, 0] == k[0])
+                                           & (array[:, 1] == k[1])].flatten(),
+                                     array, w1_array, w2_array,
+                                     trace_list, align_,
+                                     alignment)
 
 
 @njit(cache=True)
@@ -279,7 +434,6 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
 
     # begin iteration
     for (i, j) in np.ndindex(w1_idx.size + 1, w2_idx.size + 1):
-
         # ignore the first column and row
         if i != 0 and j != 0:
             path_directions[row_nr][0] = i
@@ -295,93 +449,110 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
             # going down-right
             sub = tabl[i - 1, j - 1] + cost_matrix[w1_idx[i - 1],
                                                    w2_idx[j - 1]]
-
             if (sub <= ins_s2) and (sub <= ins_s1):
                 min_val = sub
                 path_directions[row_nr][6] = i - 1
                 path_directions[row_nr][7] = j - 1
-            elif (ins_s2 <= sub) and (ins_s2 <= ins_s1):
+            if (ins_s2 <= sub) and (ins_s2 <= ins_s1):
                 min_val = ins_s2
                 path_directions[row_nr][4] = i
                 path_directions[row_nr][5] = j - 1
-            elif (ins_s1 <= sub) and (ins_s1 <= ins_s2):
+            if (ins_s1 <= sub) and (ins_s1 <= ins_s2):
                 min_val = ins_s1
                 path_directions[row_nr][2] = i - 1
                 path_directions[row_nr][3] = j
+            # tabl[i, j] = min(ins_s1, ins_s2, sub)
             tabl[i, j] = min_val
             row_nr += 1
     alignment = List.empty_list(item_type=list_type)
-    backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, alignment)
+    current_ = List.empty_list(item_type=list_type)
+    trace = List.empty_list(item_type=list_type)
+    backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, trace,
+          current_, alignment)
+    return tabl[-1, -1], tabl, alignment
 
-    if len(alignment) > alignments_lim:
-        return tabl[-1, -1], tabl, List.empty_list(item_type=list_type)
-    else:
-        return tabl[-1, -1], tabl, alignment
 
 @njit(cache=True)
-def leven_3_dim(w1_idx, w2_idx, cost_matrix):
+def weight_(c1_idx, c2_idx, c3_idx, cost_matrix):
+    """ compute the sum of all pairwise weights"""
+    return cost_matrix[c1_idx, c2_idx] \
+           + cost_matrix[c1_idx, c3_idx] \
+           + cost_matrix[c2_idx, c3_idx]
+
+
+@njit(cache=True)
+def min_(o1, o2, o3, o4, o5, o6, o7):
+    """ returns the minimum value from the given operation costs"""
+    if o1 < o2 and o1 < o3 and o1 < o4 and o1 < o5 and o1 < o6 and o1 < o7:
+        return o1
+    if o2 < o3 and o2 < o4 and o2 < o5 and o2 < o6 and o2 < o7:
+        return o2
+    if o3 < o4 and o3 < o5 and o3 < o6 and o3 < o7:
+        return o3
+    if o4 < o5 and o4 < o6 and o4 < o7:
+        return o4
+    if o5 < o6 and o5 < o7:
+        return o5
+    if o6 < o7:
+        return o6
+    else:
+        return o7
+
+
+@njit(cache=True)
+def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
     """ compute the dynamic programming tableau;
         track 'pointers' from cell to cell"""
-    row_nr = 0
+    # row_nr = 0
 
-    # init tableau
-    tabl = np.zeros((w1_idx.size + 1, w2_idx.size + 1))
+    ''' tableau initialization
+    note that the maximum length of the 3 strings is used here'''
+    tabl = np.zeros((w3_idx.size + 1, w2_idx.size + 1, w1_idx.size + 1))
 
     # initiate the pointer matrix with lengths corresponding to input strings
-    path_directions = np.full(
-        (((w1_idx.size + 1) * (w2_idx.size + 1) - 1), 8), -1)
-
-    # fill out first column and row + path directions
-    for i, idx in enumerate(w1_idx):
-        tabl[i + 1, 0] = tabl[i, 0] + cost_matrix[idx, -1]
-        path_directions[row_nr] = np.array([i + 1, 0, i, 0, -1, -1, -1, -1])
-        row_nr += 1
-
-    for j, idx in enumerate(w2_idx):
-        tabl[0, j + 1] = tabl[0, j] + cost_matrix[idx, -1]
-        path_directions[row_nr] = np.array([0, j + 1, -1, -1, 0, j, -1, -1])
-        row_nr += 1
+    # path_directions = np.full(((tabl.size - 1), 24), -1)
 
     # begin iteration
-    for (i, j) in np.ndindex(w1_idx.size + 1, w2_idx.size + 1):
+    for (i, j, k), val in np.ndenumerate(tabl):
+        # init the operation costs to a large number
+        i1 = maxsize
+        i2 = maxsize
+        i3 = maxsize
+        i12 = maxsize
+        i13 = maxsize
+        i23 = maxsize
+        i123 = maxsize
 
-        # ignore the first column and row
-        if i != 0 and j != 0:
-            path_directions[row_nr][0] = i
-            path_directions[row_nr][1] = j
-
-            # compute prior costs + added operation costs
-            # going down: ins s1
-            ins_s1 = tabl[i - 1, j] + cost_matrix[-1, w1_idx[i - 1]]
-
-            # going right: ins s2
-            ins_s2 = tabl[i, j - 1] + cost_matrix[-1, w2_idx[j - 1]]
-
-            # going down-right
-            sub = tabl[i - 1, j - 1] + cost_matrix[w1_idx[i - 1],
-                                                   w2_idx[j - 1]]
-
-            if (sub <= ins_s2) and (sub <= ins_s1):
-                min_val = sub
-                path_directions[row_nr][6] = i - 1
-                path_directions[row_nr][7] = j - 1
-            elif (ins_s2 <= sub) and (ins_s2 <= ins_s1):
-                min_val = ins_s2
-                path_directions[row_nr][4] = i
-                path_directions[row_nr][5] = j - 1
-            elif (ins_s1 <= sub) and (ins_s1 <= ins_s2):
-                min_val = ins_s1
-                path_directions[row_nr][2] = i - 1
-                path_directions[row_nr][3] = j
-            tabl[i, j] = min_val
-            row_nr += 1
-    alignment = List.empty_list(item_type=list_type)
-    backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, alignment)
-
-    if len(alignment) > alignments_lim:
-        return tabl[-1, -1], tabl, List.empty_list(item_type=list_type)
-    else:
-        return tabl[-1, -1], tabl, alignment
+        # determine costs for each operation
+        if i > 0:
+            i1 = tabl[i - 1, j, k] + weight_(-1, -1, w3_idx[i - 1],
+                                             cost_matrix)
+        if j > 0:
+            i2 = tabl[i, j - 1, k] + weight_(-1, w2_idx[j - 1], -1,
+                                             cost_matrix)
+        if k > 0:
+            i3 = tabl[i, j, k - 1] + weight_(w1_idx[k - 1], -1, -1,
+                                             cost_matrix)
+        if i > 0 and j > 0:
+            i23 = tabl[i - 1, j - 1, k] + weight_(-1, w2_idx[j - 1],
+                                                  w3_idx[i - 1],
+                                                  cost_matrix)
+        if i > 0 and k > 0:
+            i13 = tabl[i - 1, j, k - 1] + weight_(w1_idx[k - 1], -1,
+                                                  w3_idx[i - 1],
+                                                  cost_matrix)
+        if j > 0 and k > 0:
+            i12 = tabl[i, j - 1, k - 1] + weight_(-1, w2_idx[j - 1],
+                                                  w1_idx[k - 1],
+                                                  cost_matrix)
+        if i > 0 and j > 0 and k > 0:
+            i123 = tabl[i - 1, j - 1, k - 1] + weight_(w1_idx[k - 1],
+                                                       w2_idx[j - 1],
+                                                       w1_idx[k - 1],
+                                                       cost_matrix)
+        min_val = min_(i1, i2, i3, i23, i13, i12, i123)
+        tabl[i, j, k] = min_val
+    return tabl
 
 
 @njit(cache=True)
@@ -447,41 +618,80 @@ if __name__ == '__main__':
     # str2 = 'abcd'
     # str1 = 'swart'
     # str2 = 'zwɑtɦ'
-    str1 = 'abc'
-    str2 = 'dbc'
+    # str1 = 'abc'
+    # str2 = 'dbc'
 
-    str1_ = np.array([enc_map[char] for char in str1])
-    str2_ = np.array([enc_map[char] for char in str2])
+    # str1_ = np.array([enc_map[char] for char in str1])
+    # str2_ = np.array([enc_map[char] for char in str2])
 
-    result = leven_compute_align(str1_, str2_, cost_mat)
+    # result = leven_compute_align(str1_, str2_, cost_mat)
+    #
+    # alignment_ = result[2]
+    # alignment_.reverse()
+    #
+    # decoded_alignment = [(dec_map[segment[0]], dec_map[segment[1]])
+    #                      for segment in alignment_]
 
-    alignment_ = result[2]
-    alignment_.reverse()
-
-    decoded_alignment = [(dec_map[segment[0]], dec_map[segment[1]])
-                         for segment in alignment_]
-
-    # print(result[1])
-    for segment in decoded_alignment:
-        print(segment)
-    # print(result[1])
-    # print(result[3])
+    # for segment in decoded_alignment:
+    #     print(segment)
 
     ''' zwart testing '''
     # zwart_trs = pd.read_csv('trs_files/zwart_trs.tsv', sep='\t').transcription
     # for trs in zwart_trs:
     #     for comp in zwart_trs:
+    #         print(trs, comp)
     #         if trs == comp or pd.isna(trs) or pd.isna(comp):
     #             continue
     #         trs_ = np.array([enc_map[char] for char in trs])
     #         comp_ = np.array([enc_map[char] for char in comp])
-
+    #
     #         result = leven_compute_align(trs_, comp_, cost_mat)
-    #         print(trs, comp)
     #         alignment_ = result[2]
     #         alignment_.reverse()
-
+    #
     #         decoded_alignment = [(dec_map[segment[0]], dec_map[segment[1]])
     #                              for segment in alignment_]
     #         for segment in decoded_alignment:
     #             print(segment)
+
+    ''' 3 dim testing '''
+    # str1 = 'fabc'
+    # str2 = 'aec'
+    str1 = 'zwɑrt'
+    # str1 = 'swart'
+    str2 = 'suɑt'
+    # str1 = 'ʔæχt'
+    # str2 = 'ouədə'
+    # str1 = 'kipən'
+    # str2 = 'hɔundrɔundrhɔunrɔunr'
+    str3 = 'abc'
+
+    str1_ = np.array([enc_map[char] for char in str1])
+    str2_ = np.array([enc_map[char] for char in str2])
+    str3_ = np.array([enc_map[char] for char in str3])
+
+    # result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+    # print(result)
+
+    # for i in range(1 + 1):
+    #     for j in range(2 + 1):
+    #         for k in range(3 + 1):
+    #             print(i, j, k)
+
+    # test_tabl = np.arange(2*3*4)
+    # print(test_tabl)
+
+    # test_tabl = test_tabl.reshape((2, 3, 4))
+    # print(test_tabl)
+    # print((test_tabl[0, 0, 0]))
+
+    # for i in np.ndenumerate(test_tabl):
+    # print(i)
+
+    result = leven_compute_align(str1_, str2_, cost_mat)
+    alignment_ = result[2]
+    alignment_.reverse()
+
+    for (i, j) in alignment_:
+        print(dec_map[i], dec_map[j])
+    print(result[1])
