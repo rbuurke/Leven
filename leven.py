@@ -240,8 +240,6 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
     # print(trace_list)
 
     for i, k in enumerate(iter_):
-        # if len(trace_list) > 5:
-        #     break
         # value is [-1, -1], so continue iteration
         if np.max(k) == -1:
             continue
@@ -254,19 +252,17 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
             if i == 2:
                 align_.append((w1_array[a[6]], w2_array[a[7]]))
 
+            # align_.append((-1, -1))
+            add_alignment(align_, alignment)
             if len(trace_list) == 0:
-                add_alignment(align_, alignment)
                 return 0
             else:
-                add_alignment(align_, alignment)
                 align_.clear()
                 return backtrack(array[-1], array, w1_array, w2_array,
                                  trace_list, align_, alignment)
         else:
             if options > 2:
-                available_ = member_(k, trace_list)
                 final_ = check_final(k, valid_)
-                trace_len = len(trace_list)
 
                 if member_(k, trace_list):
                     if i == 0:
@@ -657,11 +653,13 @@ if __name__ == '__main__':
     ''' 3 dim testing '''
     # str1 = 'fabc'
     # str2 = 'aec'
-    str1 = 'zwɑrt'
+    # str1 = 'bɪndən'
     # str1 = 'swart'
-    str2 = 'suɑt'
+    # str2 = 'bɛində'
     # str1 = 'ʔæχt'
     # str2 = 'ouədə'
+    str1 = 'ʔɒrde'
+    str2 = 'ɛət'
     # str1 = 'kipən'
     # str2 = 'hɔundrɔundrhɔunrɔunr'
     str3 = 'abc'
