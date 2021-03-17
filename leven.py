@@ -601,91 +601,16 @@ if __name__ == '__main__':
 
     dec_map[-1] = '-'
 
-    ''' manual testing '''
-
-    # str1 = 'kɑmərɑt'
-    # str2 = 'vriəndkænɪsə'
-    # str2 = 'vrind'
-    # str1 = 'fbc'
-    # str2 = 'ffbc'
-    # str1 = 'ɑʊtos'
-    # str2 = 'othos'
-    # str1 = 'fabc'
-    # str2 = 'abcd'
-    # str1 = 'swart'
-    # str2 = 'zwɑtɦ'
-    # str1 = 'abc'
-    # str2 = 'dbc'
-
-    # str1_ = np.array([enc_map[char] for char in str1])
-    # str2_ = np.array([enc_map[char] for char in str2])
-
-    # result = leven_compute_align(str1_, str2_, cost_mat)
-    #
-    # alignment_ = result[2]
-    # alignment_.reverse()
-    #
-    # decoded_alignment = [(dec_map[segment[0]], dec_map[segment[1]])
-    #                      for segment in alignment_]
-
-    # for segment in decoded_alignment:
-    #     print(segment)
-
-    ''' zwart testing '''
-    # zwart_trs = pd.read_csv('trs_files/zwart_trs.tsv', sep='\t').transcription
-    # for trs in zwart_trs:
-    #     for comp in zwart_trs:
-    #         print(trs, comp)
-    #         if trs == comp or pd.isna(trs) or pd.isna(comp):
-    #             continue
-    #         trs_ = np.array([enc_map[char] for char in trs])
-    #         comp_ = np.array([enc_map[char] for char in comp])
-    #
-    #         result = leven_compute_align(trs_, comp_, cost_mat)
-    #         alignment_ = result[2]
-    #         alignment_.reverse()
-    #
-    #         decoded_alignment = [(dec_map[segment[0]], dec_map[segment[1]])
-    #                              for segment in alignment_]
-    #         for segment in decoded_alignment:
-    #             print(segment)
-
     ''' 3 dim testing '''
-    # str1 = 'fabc'
-    # str2 = 'aec'
-    # str1 = 'bɪndən'
-    # str1 = 'swart'
-    # str2 = 'bɛində'
-    # str1 = 'ʔæχt'
-    # str2 = 'ouədə'
-    str1 = 'ʔɒrde'
-    str2 = 'ɛət'
-    # str1 = 'kipən'
-    # str2 = 'hɔundrɔundrhɔunrɔunr'
-    str3 = 'abc'
+    # two strings
+    str1 = 'fabc'
+    str2 = 'aec'
 
+    # encode them in numpy arrays
     str1_ = np.array([enc_map[char] for char in str1])
     str2_ = np.array([enc_map[char] for char in str2])
-    str3_ = np.array([enc_map[char] for char in str3])
 
-    # result = leven_3_dim(str1_, str2_, str3_, cost_mat)
-    # print(result)
-
-    # for i in range(1 + 1):
-    #     for j in range(2 + 1):
-    #         for k in range(3 + 1):
-    #             print(i, j, k)
-
-    # test_tabl = np.arange(2*3*4)
-    # print(test_tabl)
-
-    # test_tabl = test_tabl.reshape((2, 3, 4))
-    # print(test_tabl)
-    # print((test_tabl[0, 0, 0]))
-
-    # for i in np.ndenumerate(test_tabl):
-    # print(i)
-
+    # compute the distance
     result = leven_compute_align(str1_, str2_, cost_mat)
     alignment_ = result[2]
     alignment_.reverse()
