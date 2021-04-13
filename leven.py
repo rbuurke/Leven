@@ -1,7 +1,6 @@
 """ compute VC sensitive Levenshtein distance cost matrix
     retrace cost matrix to find VC sensitive alignment"""
 
-import resource
 from sys import maxsize, setrecursionlimit
 import numpy as np
 import pandas as pd
@@ -11,7 +10,13 @@ from numba.core.types.containers import UniTuple
 from numba.typed import List
 
 list_type = UniTuple(int64, 2)
-setrecursionlimit(10**6)
+list_type_3d = UniTuple(int64, 3)
+setrecursionlimit(10 ** 6)
+
+# maxsize = 9999
+
+
+np.set_printoptions(threshold=np.inf)
 
 
 def get_char_inv(df, drop_col=None):
@@ -35,12 +40,12 @@ def remove_accents(input_str: str):
         if '/' in input_str:
             input_str = input_str.split('/')[0]
 
-        remove_chars_manual = {' ', '/', ':', '´', 'ʰ', 'ʲ', 'ʷ', 'ˀ',
+        remove_chars_manual = {' ', '_', '/', ':', '´', 'ʰ', 'ʲ', 'ʷ', 'ˀ',
                                'ˈ', 'ː', 'ˑ', '˞', 'ˠ', 'ˡ', 'ˢ', 'ˤ',
                                '˳', '˺', '̂', '̃', '̆', '̌', '̍', '̑',
                                '̘', '̙', '̚', '̜', '̝', '̞', '̟', '̠',
                                '̤', '̥', '̩', '̪', '̬', '̮', '̯', '̰',
-                               '̱', '̹', '̺', '̻', '͂', '͆', '͉', '͎',
+                               '̱', '̹', '̺', '̻', '͂', '͆', '͉', '͎', '◌̭',
                                '͡', 'ᵊ', '̴', 'ʲ'}
 
         # manually remove chars
@@ -187,11 +192,31 @@ def member_(node, trace_list):
 
 
 @njit(cache=True)
+def member_3d_(node, trace_list):
+    is_visited = False
+    for check_node in trace_list:
+        if (node[0], node[1], node[2]) == check_node:
+            is_visited = True
+    return is_visited
+
+
+@njit(cache=True)
 def check_first(node, list_):
     if len(list_) == 0:
         return False
     else:
         if (node[0], node[1]) == list_[0]:
+            return True
+        else:
+            return False
+
+
+@njit(cache=True)
+def check_first_3d(node, list_):
+    if len(list_) == 0:
+        return False
+    else:
+        if (node[0], node[1], node[2]) == list_[0]:
             return True
         else:
             return False
@@ -213,6 +238,19 @@ def check_final(node, valid_vals):
 
 
 @njit(cache=True)
+def check_final_3d(node, valid_vals):
+    """ Check if current option is the final one"""
+    if (node[0],
+        node[1],
+        node[2]) == (valid_vals[-3],
+                     valid_vals[-2],
+                     valid_vals[-1]):
+        return True
+    else:
+        return False
+
+
+@njit(cache=True)
 def check_depth(node, trace_list):
     if len(trace_list) > 0:
         if trace_list[0][0] < node[0] or trace_list[0][1] < node[1]:
@@ -221,6 +259,70 @@ def check_depth(node, trace_list):
             return False
     else:
         return False
+
+
+@njit(cache=True)
+def check_depth_3d(node, trace_list):
+    if len(trace_list) > 0:
+        if trace_list[0][0] < node[0] \
+                or trace_list[0][1] < node[1] \
+                or trace_list[0][2] < node[2]:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+
+@njit(cache=True)
+def check_op(op, op_vec, w1_array, w2_array, trace_list, align_, trace):
+    if op == 0:
+        align_.append((w1_array[op_vec[2]], -1))
+        if trace:
+            trace_list.insert(0, (op_vec[2], op_vec[3]))
+    if op == 1:
+        align_.append((-1, w2_array[op_vec[5]]))
+        if trace:
+            trace_list.insert(0, (op_vec[4], op_vec[5]))
+    if op == 2:
+        align_.append((w1_array[op_vec[6]], w2_array[op_vec[7]]))
+        if trace:
+            trace_list.insert(0, (op_vec[6], op_vec[7]))
+
+
+@njit(cache=True)
+def check_op_3d(op, op_vec, w1_array, w2_array, w3_array, trace_list,
+                align_, trace):
+    if op == 0:
+        align_.append((w1_array[op_vec[5]], -1, -1))
+        if trace:
+            trace_list.insert(0, (op_vec[3], op_vec[4], op_vec[5]))
+    if op == 1:
+        align_.append((-1, w2_array[op_vec[7]], -1))
+        if trace:
+            trace_list.insert(0, (op_vec[6], op_vec[7], op_vec[9]))
+    if op == 2:
+        align_.append((-1, -1, w3_array[op_vec[9]]))
+        if trace:
+            trace_list.insert(0, (op_vec[9], op_vec[10], op_vec[11]))
+    if op == 3:
+        align_.append((-1, w2_array[op_vec[13]], w3_array[op_vec[12]]))
+        if trace:
+            trace_list.insert(0, (op_vec[12], op_vec[13], op_vec[14]))
+    if op == 4:
+        align_.append((w1_array[op_vec[17]], -1, w3_array[op_vec[15]]))
+        if trace:
+            trace_list.insert(0, (op_vec[15], op_vec[16], op_vec[17]))
+    if op == 5:
+        align_.append((w1_array[op_vec[20]], w2_array[op_vec[19]], -1))
+        if trace:
+            trace_list.insert(0, (op_vec[18], op_vec[19], op_vec[20]))
+    if op == 6:
+        align_.append((w1_array[op_vec[23]],
+                       w2_array[op_vec[22]],
+                       w3_array[op_vec[21]]))
+        if trace:
+            trace_list.insert(0, (op_vec[21], op_vec[22], op_vec[23]))
 
 
 @njit(cache=True)
@@ -245,15 +347,10 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
             continue
         # value is [0, 0], so we are at the beginning
         if np.max(k) == 0:
-            if i == 0:
-                align_.append((w1_array[a[2]], -1))
-            if i == 1:
-                align_.append((-1, w2_array[a[5]]))
-            if i == 2:
-                align_.append((w1_array[a[6]], w2_array[a[7]]))
+            check_op(i, a, w1_array, w2_array, trace_list, align_, False)
+            add_alignment(align_, alignment)
 
             # align_.append((-1, -1))
-            add_alignment(align_, alignment)
             if len(trace_list) == 0:
                 return 0
             else:
@@ -265,143 +362,54 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
                 final_ = check_final(k, valid_)
 
                 if member_(k, trace_list):
-                    if i == 0:
-                        if check_first(k, trace_list):
-                            trace_list.pop(0)
-                        else:
-                            align_.append((w1_array[a[2]], -1))
-                            return backtrack(array[(array[:, 0] == k[0])
-                                                   & (array[:, 1] == k[1])].
-                                             flatten(),
-                                             array, w1_array, w2_array,
-                                             trace_list, align_,
-                                             alignment)
-                    if i == 1:
-                        if check_first(k, trace_list):
-                            trace_list.pop(0)
-                        else:
-                            align_.append((-1, w2_array[a[5]]))
-                            return backtrack(array[(array[:, 0] == k[0])
-                                                   & (array[:, 1] == k[1])].
-                                             flatten(),
-                                             array, w1_array, w2_array,
-                                             trace_list, align_,
-                                             alignment)
-                    if i == 2:
-                        if check_first(k, trace_list):
-                            trace_list.pop(0)
-                        else:
-                            align_.append((w1_array[a[6]], w2_array[a[7]]))
-                            return backtrack(array[(array[:, 0] == k[0])
-                                                   & (array[:, 1] == k[1])].
-                                             flatten(),
-                                             array, w1_array, w2_array,
-                                             trace_list, align_,
-                                             alignment)
+                    if check_first(k, trace_list):
+                        trace_list.pop(0)
+                    else:
+                        check_op(i, a, w1_array, w2_array, trace_list, align_,
+                                 False)
+                        backtrack(
+                            array[(array[:, 0] == k[0])
+                                  & (array[:, 1] == k[1])].flatten(),
+                            array, w1_array, w2_array, trace_list, align_,
+                            alignment)
                 else:
                     if check_depth(k, trace_list):
                         if final_:
-                            if i == 0:
-                                align_.append((w1_array[a[2]], -1))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
-                            if i == 1:
-                                align_.append((-1, w2_array[a[5]]))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
-                            if i == 2:
-                                align_.append((w1_array[a[6]], w2_array[a[7]]))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
+                            check_op(i, a, w1_array, w2_array, trace_list,
+                                     align_,
+                                     False)
+                            backtrack(
+                                array[(array[:, 0] == k[0])
+                                      & (array[:, 1] == k[1])].flatten(),
+                                array, w1_array, w2_array, trace_list, align_,
+                                alignment)
                     else:
                         if final_:
-                            if i == 0:
-                                align_.append((w1_array[a[2]], -1))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
-                            if i == 1:
-                                align_.append((-1, w2_array[a[5]]))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
-                            if i == 2:
-                                align_.append((w1_array[a[6]], w2_array[a[7]]))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
+                            check_op(i, a, w1_array, w2_array, trace_list,
+                                     align_,
+                                     False)
+                            backtrack(
+                                array[(array[:, 0] == k[0])
+                                      & (array[:, 1] == k[1])].flatten(),
+                                array, w1_array, w2_array, trace_list, align_,
+                                alignment)
                         else:
-                            if i == 0:
-                                trace_list.insert(0, (k[0], k[1]))
-                                align_.append((w1_array[a[2]], -1))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
-                            if i == 1:
-                                trace_list.insert(0, (k[0], k[1]))
-                                align_.append((-1, w2_array[a[5]]))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
-                            if i == 2:
-                                trace_list.insert(0, (k[0], k[1]))
-                                align_.append((w1_array[a[6]], w2_array[a[7]]))
-                                return backtrack(array[(array[:, 0] == k[0])
-                                                       & (array[:, 1] == k[1])].
-                                                 flatten(),
-                                                 array, w1_array, w2_array,
-                                                 trace_list, align_,
-                                                 alignment)
+                            check_op(i, a, w1_array, w2_array, trace_list,
+                                     align_,
+                                     True)
+                            backtrack(
+                                array[(array[:, 0] == k[0])
+                                      & (array[:, 1] == k[1])].flatten(),
+                                array, w1_array, w2_array, trace_list, align_,
+                                alignment)
             else:
-                if i == 0:
-                    align_.append((w1_array[a[2]], -1))
-                    return backtrack(array[(array[:, 0] == k[0])
-                                           & (array[:, 1] == k[1])].flatten(),
-                                     array, w1_array, w2_array,
-                                     trace_list, align_,
-                                     alignment)
-
-                if i == 1:
-                    align_.append((-1, w2_array[a[5]]))
-                    return backtrack(array[(array[:, 0] == k[0])
-                                           & (array[:, 1] == k[1])].flatten(),
-                                     array, w1_array, w2_array,
-                                     trace_list, align_,
-                                     alignment)
-                if i == 2:
-                    align_.append((w1_array[a[6]], w2_array[a[7]]))
-                    return backtrack(array[(array[:, 0] == k[0])
-                                           & (array[:, 1] == k[1])].flatten(),
-                                     array, w1_array, w2_array,
-                                     trace_list, align_,
-                                     alignment)
+                check_op(i, a, w1_array, w2_array, trace_list, align_,
+                         False)
+                backtrack(
+                    array[(array[:, 0] == k[0])
+                          & (array[:, 1] == k[1])].flatten(),
+                    array, w1_array, w2_array, trace_list, align_,
+                    alignment)
 
 
 @njit(cache=True)
@@ -457,23 +465,24 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
                 min_val = ins_s1
                 path_directions[row_nr][2] = i - 1
                 path_directions[row_nr][3] = j
-            # tabl[i, j] = min(ins_s1, ins_s2, sub)
             tabl[i, j] = min_val
             row_nr += 1
+
+    ''' 3 lists are required: the final set of alignments, one temporary list
+        for each alignment, and one list for tracing visited crossings'''
     alignment = List.empty_list(item_type=list_type)
     current_ = List.empty_list(item_type=list_type)
     trace = List.empty_list(item_type=list_type)
     backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, trace,
-          current_, alignment)
+              current_, alignment)
     return tabl[-1, -1], tabl, alignment
 
 
 @njit(cache=True)
 def weight_(c1_idx, c2_idx, c3_idx, cost_matrix):
     """ compute the sum of all pairwise weights"""
-    return cost_matrix[c1_idx, c2_idx] \
-           + cost_matrix[c1_idx, c3_idx] \
-           + cost_matrix[c2_idx, c3_idx]
+    return cost_matrix[c1_idx, c2_idx] + cost_matrix[
+        c1_idx, c3_idx] + cost_matrix[c2_idx, c3_idx]
 
 
 @njit(cache=True)
@@ -499,17 +508,20 @@ def min_(o1, o2, o3, o4, o5, o6, o7):
 def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
     """ compute the dynamic programming tableau;
         track 'pointers' from cell to cell"""
-    # row_nr = 0
+    row_nr = 0
 
-    ''' tableau initialization
-    note that the maximum length of the 3 strings is used here'''
+    # tableau initialization
     tabl = np.zeros((w3_idx.size + 1, w2_idx.size + 1, w1_idx.size + 1))
 
     # initiate the pointer matrix with lengths corresponding to input strings
-    # path_directions = np.full(((tabl.size - 1), 24), -1)
+    path_directions = np.full(((tabl.size - 1), 24), -1)
 
     # begin iteration
     for (i, j, k), val in np.ndenumerate(tabl):
+        path_directions[row_nr][0] = i
+        path_directions[row_nr][1] = j
+        path_directions[row_nr][2] = k
+
         # init the operation costs to a large number
         i1 = maxsize
         i2 = maxsize
@@ -519,36 +531,181 @@ def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
         i23 = maxsize
         i123 = maxsize
 
+        # skip the origin
+        if max(i, j, k) == 0:
+            continue
+
         # determine costs for each operation
-        if i > 0:
-            i1 = tabl[i - 1, j, k] + weight_(-1, -1, w3_idx[i - 1],
-                                             cost_matrix)
-        if j > 0:
-            i2 = tabl[i, j - 1, k] + weight_(-1, w2_idx[j - 1], -1,
-                                             cost_matrix)
         if k > 0:
-            i3 = tabl[i, j, k - 1] + weight_(w1_idx[k - 1], -1, -1,
-                                             cost_matrix)
-        if i > 0 and j > 0:
+            # ins s1
+            i1 = tabl[i, j, k - 1] + weight_(w1_idx[k - 1], -1, -1, cost_matrix)
+        if j > 0:
+            # ins s2
+            i2 = tabl[i, j - 1, k] + weight_(-1, w2_idx[j - 1], -1, cost_matrix)
+        if i > 0:
+            # ins s3
+            i3 = tabl[i - 1, j, k] + weight_(-1, -1, w3_idx[i - 1], cost_matrix)
+        if j > 0 and i > 0:
+            # ins s2 + s3
             i23 = tabl[i - 1, j - 1, k] + weight_(-1, w2_idx[j - 1],
-                                                  w3_idx[i - 1],
-                                                  cost_matrix)
-        if i > 0 and k > 0:
+                                                  w3_idx[i - 1], cost_matrix)
+
+        if k > 0 and i > 0:
+            # ins s1 + s3
             i13 = tabl[i - 1, j, k - 1] + weight_(w1_idx[k - 1], -1,
-                                                  w3_idx[i - 1],
-                                                  cost_matrix)
-        if j > 0 and k > 0:
-            i12 = tabl[i, j - 1, k - 1] + weight_(-1, w2_idx[j - 1],
-                                                  w1_idx[k - 1],
-                                                  cost_matrix)
+                                                  w3_idx[i - 1], cost_matrix)
+        if k > 0 and j > 0:
+            # ins s1 + s2
+            i12 = tabl[i, j - 1, k - 1] + weight_(w1_idx[k - 1], w2_idx[j - 1],
+                                                  -1, cost_matrix)
         if i > 0 and j > 0 and k > 0:
+            # ins s1 + s2 + s3
             i123 = tabl[i - 1, j - 1, k - 1] + weight_(w1_idx[k - 1],
                                                        w2_idx[j - 1],
-                                                       w1_idx[k - 1],
+                                                       w3_idx[i - 1],
                                                        cost_matrix)
         min_val = min_(i1, i2, i3, i23, i13, i12, i123)
         tabl[i, j, k] = min_val
+
+        if i1 == min_val:
+            path_directions[row_nr][3] = i
+            path_directions[row_nr][4] = j
+            path_directions[row_nr][5] = k - 1
+        if i2 == min_val:
+            path_directions[row_nr][6] = i
+            path_directions[row_nr][7] = j - 1
+            path_directions[row_nr][8] = k
+        if i3 == min_val:
+            path_directions[row_nr][9] = i - 1
+            path_directions[row_nr][10] = j
+            path_directions[row_nr][11] = k
+        if i23 == min_val:
+            path_directions[row_nr][12] = i - 1
+            path_directions[row_nr][13] = j - 1
+            path_directions[row_nr][14] = k
+        if i13 == min_val:
+            path_directions[row_nr][15] = i - 1
+            path_directions[row_nr][16] = j
+            path_directions[row_nr][17] = k - 1
+        if i12 == min_val:
+            path_directions[row_nr][18] = i
+            path_directions[row_nr][19] = j - 1
+            path_directions[row_nr][20] = k - 1
+        if i123 == min_val:
+            path_directions[row_nr][21] = i - 1
+            path_directions[row_nr][22] = j - 1
+            path_directions[row_nr][23] = k - 1
+        row_nr += 1
+
+    ''' 3 lists are required: the final set of alignments, one temporary list
+            for each alignment, and one list for tracing visited crossings'''
+    alignment = List.empty_list(item_type=list_type_3d)
+    current_ = List.empty_list(item_type=list_type_3d)
+    trace = List.empty_list(item_type=list_type_3d)
+    backtrack_3d(path_directions[-1], path_directions, w1_idx, w2_idx, w3_idx,
+                 trace, current_, alignment)
     return tabl
+
+
+@njit(cache=True)
+def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
+                 alignment):
+    """ backtrack the path from the pointer array without strings;
+        faster for PMI matrix computation,
+        although strings still need to be decoded for human legibility """
+    # construct reshaped array of only source node coordinates
+    print(a)
+    iter_ = a.reshape(8, 3)[1:]
+
+    # compute the number of options (note: value is tripled)
+    options = np.sum(np.not_equal(iter_, -1))
+
+    # view only valid coordinates for index checking (see below)
+    valid_ = a[a != -1]
+    # print(trace_list)
+
+    for i, k in enumerate(iter_):
+        # value is [-1, -1], so continue iteration
+        if np.max(k) == -1:
+            continue
+        # value is [0, 0], so we are at the beginning
+        if np.max(k) == 0:
+            check_op_3d(i, a, w1_array, w2_array, w3_array,
+                        trace_list, align_, False)
+            add_alignment(align_, alignment)
+            print(align_)
+            # print('-----')
+            align_.clear()
+            if len(trace_list) == 0:
+                return 0
+            else:
+                return backtrack_3d(array[-1], array, w1_array, w2_array,
+                                    w3_array, trace_list, align_, alignment)
+        else:
+            if options > 3:
+                final_ = check_final_3d(k, valid_)
+
+                if member_3d_(k, trace_list):
+                    if check_first_3d(k, trace_list):
+                        trace_list.pop(0)
+                    else:
+                        check_op_3d(
+                            i, a, w1_array, w2_array, w3_array,
+                            trace_list, align_, False)
+                        backtrack_3d(
+                            array[(array[:, 0] == k[0])
+                                  & (array[:, 1] == k[1])
+                                  & (array[:, 2] == k[2])].flatten(),
+                            array, w1_array, w2_array, w3_array,
+                            trace_list, align_,
+                            alignment)
+                else:
+                    if check_depth_3d(k, trace_list):
+                        if final_:
+                            check_op_3d(
+                                i, a, w1_array, w2_array, w3_array,
+                                trace_list, align_, False)
+                            backtrack_3d(
+                                array[(array[:, 0] == k[0])
+                                      & (array[:, 1] == k[1])
+                                      & (array[:, 2] == k[2])].flatten(),
+                                array, w1_array, w2_array, w3_array,
+                                trace_list, align_,
+                                alignment)
+                    else:
+                        if final_:
+                            check_op_3d(
+                                i, a, w1_array, w2_array, w3_array,
+                                trace_list, align_, False)
+                            backtrack_3d(
+                                array[(array[:, 0] == k[0])
+                                      & (array[:, 1] == k[1])
+                                      & (array[:, 2] == k[2])].flatten(),
+                                array, w1_array, w2_array, w3_array,
+                                trace_list, align_,
+                                alignment)
+                        else:
+                            check_op_3d(
+                                i, a, w1_array, w2_array, w3_array,
+                                trace_list, align_, True)
+                            backtrack_3d(
+                                array[(array[:, 0] == k[0])
+                                      & (array[:, 1] == k[1])
+                                      & (array[:, 2] == k[2])].flatten(),
+                                array, w1_array, w2_array, w3_array,
+                                trace_list, align_,
+                                alignment)
+            else:
+                check_op_3d(
+                    i, a, w1_array, w2_array, w3_array,
+                    trace_list, align_, False)
+                backtrack_3d(
+                    array[(array[:, 0] == k[0])
+                          & (array[:, 1] == k[1])
+                          & (array[:, 2] == k[2])].flatten(),
+                    array, w1_array, w2_array, w3_array,
+                    trace_list, align_,
+                    alignment)
 
 
 @njit(cache=True)
@@ -602,19 +759,14 @@ if __name__ == '__main__':
     dec_map[-1] = '-'
 
     ''' 3 dim testing '''
-    # two strings
-    str1 = 'fabc'
-    str2 = 'aec'
+    str1 = 'abc'
+    str2 = 'abc'
+    str3 = 'abc'
 
-    # encode them in numpy arrays
     str1_ = np.array([enc_map[char] for char in str1])
     str2_ = np.array([enc_map[char] for char in str2])
+    str3_ = np.array([enc_map[char] for char in str3])
 
-    # compute the distance
-    result = leven_compute_align(str1_, str2_, cost_mat)
-    alignment_ = result[2]
-    alignment_.reverse()
-
-    for (i, j) in alignment_:
-        print(dec_map[i], dec_map[j])
-    print(result[1])
+    result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+    # result = leven_compute_align(str1_, str2_, cost_mat)
+    # print(result)
