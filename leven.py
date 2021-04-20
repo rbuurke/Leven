@@ -11,17 +11,14 @@ from numba.typed import List
 
 list_type = UniTuple(int64, 2)
 list_type_3d = UniTuple(int64, 3)
-setrecursionlimit(10 ** 6)
+# setrecursionlimit(10 ** 6)
 
-# maxsize = 9999
-
-
-np.set_printoptions(threshold=np.inf)
+# np.set_printoptions(threshold=np.inf)
 
 
 def get_char_inv(df, drop_col=None):
-    """ Get the character inventory of a DataFrame;
-        Possible to remove a location column with the drop_col argument"""
+    """ get the character inventory of a DataFrame;
+        possible to remove a location column with the drop_col argument"""
     if drop_col:
         return {char for trs in df.drop(columns=drop_col).stack()
                 for char in trs}
@@ -30,8 +27,8 @@ def get_char_inv(df, drop_col=None):
 
 
 def remove_accents(input_str: str):
-    """ Removes known diacritics from unicode type strings;
-        Note that currently the '/' and spaces are also removed,
+    """ removes known diacritics from unicode type strings;
+        note that currently the '/' and spaces are also removed,
         although they are used to denote multiple transcriptions
         in Gabmap style data"""
     if isinstance(input_str, str):
@@ -57,13 +54,13 @@ def remove_accents(input_str: str):
 
 
 def generate_trs_map(list_of_trs, char_map):
-    """ Generates NumPy number encodings given a list """
+    """ generates NumPy number encodings given a list """
     return {trs: np.array([char_map[char] for char in trs])
             for trs in list_of_trs if isinstance(trs, str)}
 
 
 def encode_df(df, char_map):
-    """ Generates NumPy number encodings given a dataframe """
+    """ generates NumPy number encodings given a dataframe """
     return {trs: np.array([char_map[char] for char in trs])
             for trs in df.stack() if isinstance(trs, str)}
 
@@ -109,8 +106,8 @@ def encode_column_trs(list_of_trs, char_map):
 
 
 def init_cost_matrix_semivowels(list_of_chars, symbol_specification_dict):
-    """ Generates a NumPy segment-segment matrix  **without** an input file
-        Semivowels are allowed to match both vowels and consonants"""
+    """ generates a NumPy segment-segment matrix  **without** an input file
+        semivowels are allowed to match both vowels and consonants"""
     inv_size = len(list_of_chars)
     cost_matrix = np.zeros((inv_size, inv_size))
 
@@ -142,7 +139,7 @@ def init_cost_matrix_semivowels(list_of_chars, symbol_specification_dict):
 
 
 def init_cost_matrix(list_of_chars, symbol_specification_dict):
-    """ Generates a NumPy segment-segment matrix  **without** an input file """
+    """ generates a NumPy segment-segment matrix  **without** an input file """
     inv_size = len(list_of_chars)
     cost_matrix = np.zeros((inv_size, inv_size))
 
@@ -172,7 +169,7 @@ def init_cost_matrix(list_of_chars, symbol_specification_dict):
 
 
 def init_cost_matrix_weighted(pmi_file):
-    """ Generates a NumPy segment-segment matrix  **with** an input file """
+    """ generates a NumPy segment-segment matrix  **with** an input file """
     with open(pmi_file, 'r') as file:
         char_list = file.readlines()[0].strip().split('\t')
         enc_dict, dec_dict = generate_char_map(char_list)
@@ -183,19 +180,36 @@ def init_cost_matrix_weighted(pmi_file):
 
 
 @njit(cache=True)
+def weight_(c1_idx, c2_idx, c3_idx, cost_matrix):
+    """ compute the sum of all pairwise weights"""
+    return cost_matrix[c1_idx, c2_idx] + cost_matrix[
+        c1_idx, c3_idx] + cost_matrix[c2_idx, c3_idx]
+
+
+@njit(cache=True)
+def min_(o1, o2, o3, o4, o5, o6, o7):
+    """ returns the minimum value from the given operation costs"""
+    if o1 < o2 and o1 < o3 and o1 < o4 and o1 < o5 and o1 < o6 and o1 < o7:
+        return o1
+    if o2 < o3 and o2 < o4 and o2 < o5 and o2 < o6 and o2 < o7:
+        return o2
+    if o3 < o4 and o3 < o5 and o3 < o6 and o3 < o7:
+        return o3
+    if o4 < o5 and o4 < o6 and o4 < o7:
+        return o4
+    if o5 < o6 and o5 < o7:
+        return o5
+    if o6 < o7:
+        return o6
+    else:
+        return o7
+
+
+@njit(cache=True)
 def member_(node, trace_list):
     is_visited = False
     for check_node in trace_list:
         if (node[0], node[1]) == check_node:
-            is_visited = True
-    return is_visited
-
-
-@njit(cache=True)
-def member_3d_(node, trace_list):
-    is_visited = False
-    for check_node in trace_list:
-        if (node[0], node[1], node[2]) == check_node:
             is_visited = True
     return is_visited
 
@@ -212,17 +226,6 @@ def check_first(node, list_):
 
 
 @njit(cache=True)
-def check_first_3d(node, list_):
-    if len(list_) == 0:
-        return False
-    else:
-        if (node[0], node[1], node[2]) == list_[0]:
-            return True
-        else:
-            return False
-
-
-@njit(cache=True)
 def add_alignment(current_alignment, aggregate):
     for node in current_alignment:
         aggregate.append(node)
@@ -230,21 +233,8 @@ def add_alignment(current_alignment, aggregate):
 
 @njit(cache=True)
 def check_final(node, valid_vals):
-    """ Check if current option is the final one"""
+    """ check if current option is the final one"""
     if (node[0], node[1]) == (valid_vals[-2], valid_vals[-1]):
-        return True
-    else:
-        return False
-
-
-@njit(cache=True)
-def check_final_3d(node, valid_vals):
-    """ Check if current option is the final one"""
-    if (node[0],
-        node[1],
-        node[2]) == (valid_vals[-3],
-                     valid_vals[-2],
-                     valid_vals[-1]):
         return True
     else:
         return False
@@ -254,19 +244,6 @@ def check_final_3d(node, valid_vals):
 def check_depth(node, trace_list):
     if len(trace_list) > 0:
         if trace_list[0][0] < node[0] or trace_list[0][1] < node[1]:
-            return True
-        else:
-            return False
-    else:
-        return False
-
-
-@njit(cache=True)
-def check_depth_3d(node, trace_list):
-    if len(trace_list) > 0:
-        if trace_list[0][0] < node[0] \
-                or trace_list[0][1] < node[1] \
-                or trace_list[0][2] < node[2]:
             return True
         else:
             return False
@@ -291,41 +268,6 @@ def check_op(op, op_vec, w1_array, w2_array, trace_list, align_, trace):
 
 
 @njit(cache=True)
-def check_op_3d(op, op_vec, w1_array, w2_array, w3_array, trace_list,
-                align_, trace):
-    if op == 0:
-        align_.append((w1_array[op_vec[5]], -1, -1))
-        if trace:
-            trace_list.insert(0, (op_vec[3], op_vec[4], op_vec[5]))
-    if op == 1:
-        align_.append((-1, w2_array[op_vec[7]], -1))
-        if trace:
-            trace_list.insert(0, (op_vec[6], op_vec[7], op_vec[9]))
-    if op == 2:
-        align_.append((-1, -1, w3_array[op_vec[9]]))
-        if trace:
-            trace_list.insert(0, (op_vec[9], op_vec[10], op_vec[11]))
-    if op == 3:
-        align_.append((-1, w2_array[op_vec[13]], w3_array[op_vec[12]]))
-        if trace:
-            trace_list.insert(0, (op_vec[12], op_vec[13], op_vec[14]))
-    if op == 4:
-        align_.append((w1_array[op_vec[17]], -1, w3_array[op_vec[15]]))
-        if trace:
-            trace_list.insert(0, (op_vec[15], op_vec[16], op_vec[17]))
-    if op == 5:
-        align_.append((w1_array[op_vec[20]], w2_array[op_vec[19]], -1))
-        if trace:
-            trace_list.insert(0, (op_vec[18], op_vec[19], op_vec[20]))
-    if op == 6:
-        align_.append((w1_array[op_vec[23]],
-                       w2_array[op_vec[22]],
-                       w3_array[op_vec[21]]))
-        if trace:
-            trace_list.insert(0, (op_vec[21], op_vec[22], op_vec[23]))
-
-
-@njit(cache=True)
 def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
     """ backtrack the path from the pointer array without strings;
         faster for PMI matrix computation,
@@ -338,8 +280,6 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
 
     # view only valid coordinates for index checking (see below)
     valid_ = a[a != -1]
-    # print(a)
-    # print(trace_list)
 
     for i, k in enumerate(iter_):
         # value is [-1, -1], so continue iteration
@@ -348,9 +288,9 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
         # value is [0, 0], so we are at the beginning
         if np.max(k) == 0:
             check_op(i, a, w1_array, w2_array, trace_list, align_, False)
+            align_.append((-1, -1))
             add_alignment(align_, alignment)
 
-            # align_.append((-1, -1))
             if len(trace_list) == 0:
                 return 0
             else:
@@ -367,7 +307,7 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
                     else:
                         check_op(i, a, w1_array, w2_array, trace_list, align_,
                                  False)
-                        backtrack(
+                        return backtrack(
                             array[(array[:, 0] == k[0])
                                   & (array[:, 1] == k[1])].flatten(),
                             array, w1_array, w2_array, trace_list, align_,
@@ -378,7 +318,7 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
                             check_op(i, a, w1_array, w2_array, trace_list,
                                      align_,
                                      False)
-                            backtrack(
+                            return backtrack(
                                 array[(array[:, 0] == k[0])
                                       & (array[:, 1] == k[1])].flatten(),
                                 array, w1_array, w2_array, trace_list, align_,
@@ -388,7 +328,7 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
                             check_op(i, a, w1_array, w2_array, trace_list,
                                      align_,
                                      False)
-                            backtrack(
+                            return backtrack(
                                 array[(array[:, 0] == k[0])
                                       & (array[:, 1] == k[1])].flatten(),
                                 array, w1_array, w2_array, trace_list, align_,
@@ -397,7 +337,7 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
                             check_op(i, a, w1_array, w2_array, trace_list,
                                      align_,
                                      True)
-                            backtrack(
+                            return backtrack(
                                 array[(array[:, 0] == k[0])
                                       & (array[:, 1] == k[1])].flatten(),
                                 array, w1_array, w2_array, trace_list, align_,
@@ -405,11 +345,10 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
             else:
                 check_op(i, a, w1_array, w2_array, trace_list, align_,
                          False)
-                backtrack(
-                    array[(array[:, 0] == k[0])
-                          & (array[:, 1] == k[1])].flatten(),
-                    array, w1_array, w2_array, trace_list, align_,
-                    alignment)
+                return backtrack(array[(array[:, 0] == k[0])
+                                       & (array[:, 1] == k[1])].flatten(),
+                                 array, w1_array, w2_array, trace_list, align_,
+                                 alignment)
 
 
 @njit(cache=True)
@@ -473,35 +412,91 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
     alignment = List.empty_list(item_type=list_type)
     current_ = List.empty_list(item_type=list_type)
     trace = List.empty_list(item_type=list_type)
+
     backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, trace,
               current_, alignment)
     return tabl[-1, -1], tabl, alignment
 
 
 @njit(cache=True)
-def weight_(c1_idx, c2_idx, c3_idx, cost_matrix):
-    """ compute the sum of all pairwise weights"""
-    return cost_matrix[c1_idx, c2_idx] + cost_matrix[
-        c1_idx, c3_idx] + cost_matrix[c2_idx, c3_idx]
+def check_first_3d(node, list_):
+    if len(list_) == 0:
+        return False
+    else:
+        if (node[0], node[1], node[2]) == list_[0]:
+            return True
+        else:
+            return False
 
 
 @njit(cache=True)
-def min_(o1, o2, o3, o4, o5, o6, o7):
-    """ returns the minimum value from the given operation costs"""
-    if o1 < o2 and o1 < o3 and o1 < o4 and o1 < o5 and o1 < o6 and o1 < o7:
-        return o1
-    if o2 < o3 and o2 < o4 and o2 < o5 and o2 < o6 and o2 < o7:
-        return o2
-    if o3 < o4 and o3 < o5 and o3 < o6 and o3 < o7:
-        return o3
-    if o4 < o5 and o4 < o6 and o4 < o7:
-        return o4
-    if o5 < o6 and o5 < o7:
-        return o5
-    if o6 < o7:
-        return o6
+def check_depth_3d(node, trace_list):
+    if len(trace_list) > 0:
+        if trace_list[0][0] < node[0] \
+                or trace_list[0][1] < node[1] \
+                or trace_list[0][2] < node[2]:
+            return True
+        else:
+            return False
     else:
-        return o7
+        return False
+
+
+@njit(cache=True)
+def check_final_3d(node, valid_vals):
+    """ check if current option is the final one"""
+    if (node[0],
+        node[1],
+        node[2]) == (valid_vals[-3],
+                     valid_vals[-2],
+                     valid_vals[-1]):
+        return True
+    else:
+        return False
+
+
+@njit(cache=True)
+def member_3d_(node, trace_list):
+    is_visited = False
+    for check_node in trace_list:
+        if (node[0], node[1], node[2]) == check_node:
+            is_visited = True
+    return is_visited
+
+
+@njit(cache=True)
+def check_op_3d(op, op_vec, w1_array, w2_array, w3_array, trace_list,
+                align_, trace):
+    if op == 0:
+        align_.append((w1_array[op_vec[5]], -1, -1))
+        if trace:
+            trace_list.insert(0, (op_vec[3], op_vec[4], op_vec[5]))
+    if op == 1:
+        align_.append((-1, w2_array[op_vec[7]], -1))
+        if trace:
+            trace_list.insert(0, (op_vec[6], op_vec[7], op_vec[8]))
+    if op == 2:
+        align_.append((-1, -1, w3_array[op_vec[9]]))
+        if trace:
+            trace_list.insert(0, (op_vec[9], op_vec[10], op_vec[11]))
+    if op == 3:
+        align_.append((-1, w2_array[op_vec[13]], w3_array[op_vec[12]]))
+        if trace:
+            trace_list.insert(0, (op_vec[12], op_vec[13], op_vec[14]))
+    if op == 4:
+        align_.append((w1_array[op_vec[17]], -1, w3_array[op_vec[15]]))
+        if trace:
+            trace_list.insert(0, (op_vec[15], op_vec[16], op_vec[17]))
+    if op == 5:
+        align_.append((w1_array[op_vec[20]], w2_array[op_vec[19]], -1))
+        if trace:
+            trace_list.insert(0, (op_vec[18], op_vec[19], op_vec[20]))
+    if op == 6:
+        align_.append((w1_array[op_vec[23]],
+                       w2_array[op_vec[22]],
+                       w3_array[op_vec[21]]))
+        if trace:
+            trace_list.insert(0, (op_vec[21], op_vec[22], op_vec[23]))
 
 
 @njit(cache=True)
@@ -538,13 +533,16 @@ def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
         # determine costs for each operation
         if k > 0:
             # ins s1
-            i1 = tabl[i, j, k - 1] + weight_(w1_idx[k - 1], -1, -1, cost_matrix)
+            i1 = tabl[i, j, k - 1] + \
+                weight_(w1_idx[k - 1], -1, -1, cost_matrix)
         if j > 0:
             # ins s2
-            i2 = tabl[i, j - 1, k] + weight_(-1, w2_idx[j - 1], -1, cost_matrix)
+            i2 = tabl[i, j - 1, k] + \
+                weight_(-1, w2_idx[j - 1], -1, cost_matrix)
         if i > 0:
             # ins s3
-            i3 = tabl[i - 1, j, k] + weight_(-1, -1, w3_idx[i - 1], cost_matrix)
+            i3 = tabl[i - 1, j, k] + \
+                weight_(-1, -1, w3_idx[i - 1], cost_matrix)
         if j > 0 and i > 0:
             # ins s2 + s3
             i23 = tabl[i - 1, j - 1, k] + weight_(-1, w2_idx[j - 1],
@@ -604,7 +602,7 @@ def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
     trace = List.empty_list(item_type=list_type_3d)
     backtrack_3d(path_directions[-1], path_directions, w1_idx, w2_idx, w3_idx,
                  trace, current_, alignment)
-    return tabl
+    return tabl, alignment
 
 
 @njit(cache=True)
@@ -614,7 +612,6 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
         faster for PMI matrix computation,
         although strings still need to be decoded for human legibility """
     # construct reshaped array of only source node coordinates
-    print(a)
     iter_ = a.reshape(8, 3)[1:]
 
     # compute the number of options (note: value is tripled)
@@ -622,7 +619,6 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
 
     # view only valid coordinates for index checking (see below)
     valid_ = a[a != -1]
-    # print(trace_list)
 
     for i, k in enumerate(iter_):
         # value is [-1, -1], so continue iteration
@@ -632,9 +628,8 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
         if np.max(k) == 0:
             check_op_3d(i, a, w1_array, w2_array, w3_array,
                         trace_list, align_, False)
+            align_.append((-1, -1, -1))
             add_alignment(align_, alignment)
-            print(align_)
-            # print('-----')
             align_.clear()
             if len(trace_list) == 0:
                 return 0
@@ -652,7 +647,7 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
                         check_op_3d(
                             i, a, w1_array, w2_array, w3_array,
                             trace_list, align_, False)
-                        backtrack_3d(
+                        return backtrack_3d(
                             array[(array[:, 0] == k[0])
                                   & (array[:, 1] == k[1])
                                   & (array[:, 2] == k[2])].flatten(),
@@ -665,7 +660,7 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
                             check_op_3d(
                                 i, a, w1_array, w2_array, w3_array,
                                 trace_list, align_, False)
-                            backtrack_3d(
+                            return backtrack_3d(
                                 array[(array[:, 0] == k[0])
                                       & (array[:, 1] == k[1])
                                       & (array[:, 2] == k[2])].flatten(),
@@ -677,7 +672,7 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
                             check_op_3d(
                                 i, a, w1_array, w2_array, w3_array,
                                 trace_list, align_, False)
-                            backtrack_3d(
+                            return backtrack_3d(
                                 array[(array[:, 0] == k[0])
                                       & (array[:, 1] == k[1])
                                       & (array[:, 2] == k[2])].flatten(),
@@ -688,7 +683,7 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
                             check_op_3d(
                                 i, a, w1_array, w2_array, w3_array,
                                 trace_list, align_, True)
-                            backtrack_3d(
+                            return backtrack_3d(
                                 array[(array[:, 0] == k[0])
                                       & (array[:, 1] == k[1])
                                       & (array[:, 2] == k[2])].flatten(),
@@ -699,7 +694,7 @@ def backtrack_3d(a, array, w1_array, w2_array, w3_array, trace_list, align_,
                 check_op_3d(
                     i, a, w1_array, w2_array, w3_array,
                     trace_list, align_, False)
-                backtrack_3d(
+                return backtrack_3d(
                     array[(array[:, 0] == k[0])
                           & (array[:, 1] == k[1])
                           & (array[:, 2] == k[2])].flatten(),
@@ -768,5 +763,12 @@ if __name__ == '__main__':
     str3_ = np.array([enc_map[char] for char in str3])
 
     result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+    # print(result)
     # result = leven_compute_align(str1_, str2_, cost_mat)
     # print(result)
+
+    # def test_speed():
+    #     for i in range(10000):
+    #         result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+    #
+    # test_speed()
