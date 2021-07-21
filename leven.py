@@ -1,17 +1,17 @@
 """ compute VC sensitive Levenshtein distance cost matrix
     retrace cost matrix to find VC sensitive alignment"""
 
-from sys import maxsize, setrecursionlimit
+from sys import maxsize
 import numpy as np
 import pandas as pd
 from numba import int64, float64
 from numba import njit
 from numba.core.types.containers import UniTuple
 from numba.typed import List
+from time import time
 
 list_type = UniTuple(int64, 2)
 list_type_3d = UniTuple(int64, 3)
-# setrecursionlimit(10 ** 6)
 
 # np.set_printoptions(threshold=np.inf)
 
@@ -122,19 +122,34 @@ def init_cost_matrix_semivowels(list_of_chars, symbol_specification_dict):
         elif c1 == '-' or c2 == '-':
             # indel
             if c1 == '-':
-                cost_matrix[-1, j] = 0.01
+                cost_matrix[-1, j] = 1
             if c2 == '-':
-                cost_matrix[i, -1] = 0.01
-        elif c1 in {'j', 'w'} or c2 in {'j', 'w'}:
-            cost_matrix[i, j] = 0.01
+                cost_matrix[i, -1] = 1
+        # elif c1 in {'j', 'w', 'i', 'u'} or c2 in {'j', 'w', 'i', 'u'}:
+        #     cost_matrix[i, j] = 1
+        elif c1 == 'ə' or c2 == 'ə':
+            if c1 in {'m', 'l', 'n', 'r', 'ŋ', 'j', 'w'} or \
+                    c2 in {'m', 'l', 'n', 'r', 'ŋ', 'j', 'w'}:
+                cost_matrix[i, j] = 1
+            else:
+                if c1 != c2 and \
+                        symbol_specification_dict[c1] == \
+                        symbol_specification_dict[c2]:
+                    # substitution
+                    cost_matrix[i, j] = 1
+                elif c1 != c2 and \
+                        symbol_specification_dict[c1] != \
+                        symbol_specification_dict[c2]:
+                    # V-C substitution
+                    cost_matrix[i, j] = 100
         elif c1 != c2 and \
                 symbol_specification_dict[c1] == symbol_specification_dict[c2]:
             # substitution
-            cost_matrix[i, j] = 0.01
+            cost_matrix[i, j] = 1
         elif c1 != c2 and \
                 symbol_specification_dict[c1] != symbol_specification_dict[c2]:
             # V-C substitution
-            cost_matrix[i, j] = 1
+            cost_matrix[i, j] = 100
     return cost_matrix
 
 
@@ -154,17 +169,17 @@ def init_cost_matrix(list_of_chars, symbol_specification_dict):
         elif c1 == '-' or c2 == '-':
             # indel
             if c1 == '-':
-                cost_matrix[-1, j] = 0.01
+                cost_matrix[-1, j] = 1
             if c2 == '-':
-                cost_matrix[i, -1] = 0.01
+                cost_matrix[i, -1] = 1
         elif c1 != c2 and \
                 symbol_specification_dict[c1] == symbol_specification_dict[c2]:
             # substitution
-            cost_matrix[i, j] = 0.01
+            cost_matrix[i, j] = 1
         elif c1 != c2 and \
                 symbol_specification_dict[c1] != symbol_specification_dict[c2]:
             # V-C substitution
-            cost_matrix[i, j] = 1
+            cost_matrix[i, j] = 100
     return cost_matrix
 
 
@@ -184,25 +199,6 @@ def weight_(c1_idx, c2_idx, c3_idx, cost_matrix):
     """ compute the sum of all pairwise weights"""
     return cost_matrix[c1_idx, c2_idx] + cost_matrix[
         c1_idx, c3_idx] + cost_matrix[c2_idx, c3_idx]
-
-
-@njit(cache=True)
-def min_(o1, o2, o3, o4, o5, o6, o7):
-    """ returns the minimum value from the given operation costs"""
-    if o1 < o2 and o1 < o3 and o1 < o4 and o1 < o5 and o1 < o6 and o1 < o7:
-        return o1
-    if o2 < o3 and o2 < o4 and o2 < o5 and o2 < o6 and o2 < o7:
-        return o2
-    if o3 < o4 and o3 < o5 and o3 < o6 and o3 < o7:
-        return o3
-    if o4 < o5 and o4 < o6 and o4 < o7:
-        return o4
-    if o5 < o6 and o5 < o7:
-        return o5
-    if o6 < o7:
-        return o6
-    else:
-        return o7
 
 
 @njit(cache=True)
@@ -234,6 +230,9 @@ def add_alignment(current_alignment, aggregate):
 @njit(cache=True)
 def check_final(node, valid_vals):
     """ check if current option is the final one"""
+    # return (node[0], node[1]) == (valid_vals[-2], valid_vals[-1])
+    # return node == valid_vals[-2::]
+
     if (node[0], node[1]) == (valid_vals[-2], valid_vals[-1]):
         return True
     else:
@@ -352,17 +351,42 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
 
 
 @njit(cache=True)
+def decompose(alignment, cost_mat):
+    var1_var2 = 0
+
+    for segment in alignment:
+        if segment == (-1, -1):
+            break  # only first alignment, as the distance is always the same
+        else:
+            var1_var2 += cost_mat[segment[0], segment[1]]
+
+    max_length = 0
+    length = 0
+    for segment in alignment:
+        if segment == (-1, -1):
+            if length > max_length:  # take the longest alignment length
+                max_length = length
+            length = 0
+        else:
+            length += 1
+
+    return var1_var2, max_length
+
+
+@njit(cache=True)
 def leven_compute_align(w1_idx, w2_idx, cost_matrix):
     """ compute the dynamic programming tableau;
         track 'pointers' from cell to cell"""
     row_nr = 0
 
     # init tableau
-    tabl = np.zeros((w1_idx.size + 1, w2_idx.size + 1))
+    # tabl = np.zeros((w1_idx.size + 1, w2_idx.size + 1))
+    tabl = np.empty((w1_idx.size + 1, w2_idx.size + 1))
+    tabl[0, 0] = 0
 
     # initiate the pointer matrix with lengths corresponding to input strings
     path_directions = np.full(
-        (((w1_idx.size + 1) * (w2_idx.size + 1) - 1), 8), -1)
+        ((tabl.size - 1), 8), -1)
 
     # fill out first column and row + path directions
     for i, idx in enumerate(w1_idx):
@@ -378,34 +402,50 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
     # begin iteration
     for (i, j) in np.ndindex(w1_idx.size + 1, w2_idx.size + 1):
         # ignore the first column and row
-        if i != 0 and j != 0:
-            path_directions[row_nr][0] = i
-            path_directions[row_nr][1] = j
+        if i == 0 or j == 0:
+            continue
+        path_directions[row_nr][0] = i
+        path_directions[row_nr][1] = j
 
-            # compute prior costs + added operation costs
-            # going down: ins s1
-            ins_s1 = tabl[i - 1, j] + cost_matrix[-1, w1_idx[i - 1]]
+        # compute prior costs + added operation costs
+        # going down: ins s1
+        ins_s1 = tabl[i - 1, j] + cost_matrix[-1, w1_idx[i - 1]]
 
-            # going right: ins s2
-            ins_s2 = tabl[i, j - 1] + cost_matrix[-1, w2_idx[j - 1]]
+        # going right: ins s2
+        ins_s2 = tabl[i, j - 1] + cost_matrix[-1, w2_idx[j - 1]]
 
-            # going down-right
-            sub = tabl[i - 1, j - 1] + cost_matrix[w1_idx[i - 1],
-                                                   w2_idx[j - 1]]
-            if (sub <= ins_s2) and (sub <= ins_s1):
-                min_val = sub
-                path_directions[row_nr][6] = i - 1
-                path_directions[row_nr][7] = j - 1
-            if (ins_s2 <= sub) and (ins_s2 <= ins_s1):
-                min_val = ins_s2
-                path_directions[row_nr][4] = i
-                path_directions[row_nr][5] = j - 1
-            if (ins_s1 <= sub) and (ins_s1 <= ins_s2):
-                min_val = ins_s1
-                path_directions[row_nr][2] = i - 1
-                path_directions[row_nr][3] = j
-            tabl[i, j] = min_val
-            row_nr += 1
+        # going down-right
+        sub = tabl[i - 1, j - 1] + cost_matrix[w1_idx[i - 1],
+                                               w2_idx[j - 1]]
+        if (sub <= ins_s2) and (sub <= ins_s1):
+            min_val = sub
+            path_directions[row_nr][6] = i - 1
+            path_directions[row_nr][7] = j - 1
+        if (ins_s2 <= sub) and (ins_s2 <= ins_s1):
+            min_val = ins_s2
+            path_directions[row_nr][4] = i
+            path_directions[row_nr][5] = j - 1
+        if (ins_s1 <= sub) and (ins_s1 <= ins_s2):
+            min_val = ins_s1
+            path_directions[row_nr][2] = i - 1
+            path_directions[row_nr][3] = j
+
+        tabl[i, j] = min_val
+
+        # min_val = min(ins_s1, ins_s2, sub)
+        # tabl[i, j] = min_val
+
+        # if ins_s1 == min_val:
+        #     path_directions[row_nr][2] = i - 1
+        #     path_directions[row_nr][3] = j
+        # if ins_s2 == min_val:
+        #     path_directions[row_nr][4] = i
+        #     path_directions[row_nr][5] = j - 1
+        # if sub == min_val:
+        #     path_directions[row_nr][6] = i - 1
+        #     path_directions[row_nr][7] = j - 1
+
+        row_nr += 1
 
     ''' 3 lists are required: the final set of alignments, one temporary list
         for each alignment, and one list for tracing visited crossings'''
@@ -415,7 +455,27 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
 
     backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, trace,
               current_, alignment)
-    return tabl[-1, -1], tabl, alignment
+    dists = decompose(alignment, cost_matrix)
+    return tabl[-1, -1], tabl, alignment, dists
+
+
+@njit(cache=True)
+def min_(o1, o2, o3, o4, o5, o6, o7):
+    """ returns the minimum value from the given operation costs"""
+    if o1 < o2 and o1 < o3 and o1 < o4 and o1 < o5 and o1 < o6 and o1 < o7:
+        return o1
+    if o2 < o3 and o2 < o4 and o2 < o5 and o2 < o6 and o2 < o7:
+        return o2
+    if o3 < o4 and o3 < o5 and o3 < o6 and o3 < o7:
+        return o3
+    if o4 < o5 and o4 < o6 and o4 < o7:
+        return o4
+    if o5 < o6 and o5 < o7:
+        return o5
+    if o6 < o7:
+        return o6
+    else:
+        return o7
 
 
 @njit(cache=True)
@@ -500,7 +560,58 @@ def check_op_3d(op, op_vec, w1_array, w2_array, w3_array, trace_list,
 
 
 @njit(cache=True)
-def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
+def decompose_3d(alignment, cost_mat, std_comp=False):
+    if std_comp == True:
+        var1_var2 = maxsize
+        var2_var3 = maxsize
+        var1_var3 = maxsize
+
+        var1_var2_ = 0
+        var2_var3_ = 0
+        var1_var3_ = 0
+
+        for triplet in alignment:
+            if triplet == (-1, -1, -1):
+                # if current 2-3 or 1-3 dist is lower, replace vals
+                if var2_var3_ < var2_var3 or var1_var3_ < var1_var3:
+                    var2_var3 = var2_var3_
+                    var1_var3 = var1_var3_
+                    var1_var2 = var1_var2_
+                var1_var2_ = 0
+                var2_var3_ = 0
+                var1_var3_ = 0
+            else:        
+                var1_var2_ += cost_mat[triplet[0], triplet[1]]
+                var2_var3_ += cost_mat[triplet[1], triplet[2]]
+                var1_var3_ += cost_mat[triplet[0], triplet[2]]
+    else:
+        var1_var2 = 0
+        var2_var3 = 0
+        var1_var3 = 0
+
+        for triplet in alignment:
+            if triplet == (-1, -1, -1):
+                break  # only first alignment, as the distance is always the same
+            else:
+                var1_var2 += cost_mat[triplet[0], triplet[1]]
+                var2_var3 += cost_mat[triplet[1], triplet[2]]
+                var1_var3 += cost_mat[triplet[0], triplet[2]]
+
+    max_length = 0
+    length = 0
+    for triplet in alignment:
+        if triplet == (-1, -1, -1):
+            if length > max_length:  # take the longest alignment length
+                max_length = length
+            length = 0
+        else:
+            length += 1
+
+    return var1_var2, var2_var3, var1_var3, max_length
+
+
+@njit(cache=True)
+def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix, std_comp=False):
     """ compute the dynamic programming tableau;
         track 'pointers' from cell to cell"""
     row_nr = 0
@@ -602,7 +713,11 @@ def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix):
     trace = List.empty_list(item_type=list_type_3d)
     backtrack_3d(path_directions[-1], path_directions, w1_idx, w2_idx, w3_idx,
                  trace, current_, alignment)
-    return tabl, alignment
+    if std_comp == True:
+        dists = decompose_3d(alignment, cost_matrix, std_comp=True)
+    else:
+        dists = decompose_3d(alignment, cost_matrix)
+    return tabl, alignment, dists
 
 
 @njit(cache=True)
@@ -751,24 +866,31 @@ if __name__ == '__main__':
     cost_mat = init_cost_matrix(chars_, char_inv)
     enc_map, dec_map = generate_char_map(chars_)
 
+    enc_map, dec_map, cost_mat = init_cost_matrix_weighted(
+        "hedwig_merged_pmi.tsv")
     dec_map[-1] = '-'
 
     ''' 3 dim testing '''
-    str1 = 'abc'
-    str2 = 'abc'
-    str3 = 'abc'
+    str1 = 'hɛm'
+    str2 = 'əm'
+    str3 = 'əm'
 
     str1_ = np.array([enc_map[char] for char in str1])
     str2_ = np.array([enc_map[char] for char in str2])
     str3_ = np.array([enc_map[char] for char in str3])
 
     result = leven_3_dim(str1_, str2_, str3_, cost_mat)
-    # print(result)
+    print(result[-1])
+    for i in result[-2]:
+        print(dec_map[i[0]], dec_map[i[1]], dec_map[i[2]])
+
     # result = leven_compute_align(str1_, str2_, cost_mat)
-    # print(result)
+    # print(result[-1])
 
     # def test_speed():
+    #     start = time()
     #     for i in range(10000):
-    #         result = leven_3_dim(str1_, str2_, str3_, cost_mat)
-    #
+    #         leven_compute_align(str1_, str2_, cost_mat)
+    #     print(time() - start)
+
     # test_speed()
