@@ -580,7 +580,7 @@ def decompose_3d(alignment, cost_mat, std_comp=False):
                 var1_var2_ = 0
                 var2_var3_ = 0
                 var1_var3_ = 0
-            else:        
+            else:
                 var1_var2_ += cost_mat[triplet[0], triplet[1]]
                 var2_var3_ += cost_mat[triplet[1], triplet[2]]
                 var1_var3_ += cost_mat[triplet[0], triplet[2]]
@@ -608,6 +608,76 @@ def decompose_3d(alignment, cost_mat, std_comp=False):
             length += 1
 
     return var1_var2, var2_var3, var1_var3, max_length
+
+
+@njit(cache=True)
+def decompose_3d_count(alignment, cost_mat):
+    var1_var2 = maxsize
+    var2_var3 = maxsize
+    var1_var3 = maxsize
+
+    var1_var2_ = 0
+    var2_var3_ = 0
+    var1_var3_ = 0
+
+    count_c = 0
+    count_d = 0
+    count_n = 0
+
+    count_c_ = 0
+    count_d_ = 0
+    count_n_ = 0
+    for triplet in alignment:
+        if triplet == (-1, -1, -1):
+            # if current 2-3 or 1-3 dist is lower, replace vals
+            if var2_var3_ < var2_var3 or var1_var3_ < var1_var3:
+                var2_var3 = var2_var3_
+                var1_var3 = var1_var3_
+                var1_var2 = var1_var2_
+
+                count_c = count_c_
+                count_d = count_d_
+                count_n = count_n_
+            var1_var2_ = 0
+            var2_var3_ = 0
+            var1_var3_ = 0
+
+            count_c_ = 0
+            count_d_ = 0
+            count_n_ = 0
+        else:
+            old_new = cost_mat[triplet[0], triplet[1]]
+            new_std = cost_mat[triplet[1], triplet[2]]
+            old_std = cost_mat[triplet[0], triplet[2]]
+
+            convergence = old_std - new_std
+
+            var1_var2_ += old_new
+            var2_var3_ += new_std
+            var1_var3_ += old_std
+
+            if convergence == 0:
+                count_n_ += 1
+                # count_n_ += abs(old_new)
+            elif convergence > 0:
+                # count_c_ += 1
+                count_c_ += abs(convergence)
+            elif convergence < 0:
+                # count_d_ += 1
+                count_d_ += abs(convergence)
+            else:
+                break
+
+    max_length = 0
+    length = 0
+    for triplet in alignment:
+        if triplet == (-1, -1, -1):
+            if length > max_length:  # take the longest alignment length
+                max_length = length
+            length = 0
+        else:
+            length += 1
+    return var1_var2, var2_var3, var1_var3, max_length, count_n, count_d, count_c
 
 
 @njit(cache=True)
@@ -858,6 +928,16 @@ def leven_dist(w1_idx, w2_idx, cost_matrix):
         return tabl[-1, -1], tabl
 
 
+def normalize_pmi(pmi_matrix, threshold=0.7):
+    # obtain largest allowed segment-segment distance
+    max_val = np.max(pmi_matrix[pmi_matrix < threshold])
+    min_val = np.min(pmi_matrix)
+
+    # normalize the matrix
+    pmi_matrix = (pmi_matrix - min_val) / (max_val - min_val)
+    return pmi_matrix
+
+
 if __name__ == '__main__':
     with open('inventory.txt', 'r', encoding='utf8') as inv_file:
         char_inv = {line.strip().split('\t')[0]: line.strip().split('\t')[1]
@@ -866,23 +946,25 @@ if __name__ == '__main__':
     cost_mat = init_cost_matrix(chars_, char_inv)
     enc_map, dec_map = generate_char_map(chars_)
 
-    enc_map, dec_map, cost_mat = init_cost_matrix_weighted(
-        "hedwig_merged_pmi.tsv")
+    # enc_map, dec_map, cost_mat = init_cost_matrix_weighted(
+    #     "hedwig_merged_pmi.tsv")
     dec_map[-1] = '-'
 
     ''' 3 dim testing '''
-    str1 = 'hɛm'
-    str2 = 'əm'
-    str3 = 'əm'
+    str1 = 'eaa'
+    str2 = 'aea'
+    str3 = 'aaa'
 
     str1_ = np.array([enc_map[char] for char in str1])
     str2_ = np.array([enc_map[char] for char in str2])
     str3_ = np.array([enc_map[char] for char in str3])
 
     result = leven_3_dim(str1_, str2_, str3_, cost_mat)
-    print(result[-1])
-    for i in result[-2]:
-        print(dec_map[i[0]], dec_map[i[1]], dec_map[i[2]])
+    print(result)
+    print(decompose_3d_count(result[1], cost_mat))
+    # print(result[-1])
+    # for i in result[-2]:
+    #     print(dec_map[i[0]], dec_map[i[1]], dec_map[i[2]])
 
     # result = leven_compute_align(str1_, str2_, cost_mat)
     # print(result[-1])
