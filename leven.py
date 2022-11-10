@@ -50,7 +50,7 @@ def remove_accents(input_str: str):
             char for char in input_str if char not in remove_chars_manual)
         return final_form
     else:
-        return input_str
+        return np.nan
 
 
 def generate_trs_map(list_of_trs, char_map):
@@ -456,7 +456,7 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
     backtrack(path_directions[-1], path_directions, w1_idx, w2_idx, trace,
               current_, alignment)
     dists = decompose(alignment, cost_matrix)
-    return tabl[-1, -1], tabl, alignment, dists
+    return tabl[-1, -1], tabl, alignment, dists, path_directions
 
 
 @njit(cache=True)
@@ -667,6 +667,99 @@ def decompose_3d_count(alignment, cost_mat):
                 count_d_ += abs(convergence)
             else:
                 break
+
+    max_length = 0
+    length = 0
+    for triplet in alignment:
+        if triplet == (-1, -1, -1):
+            if length > max_length:  # take the longest alignment length
+                max_length = length
+            length = 0
+        else:
+            length += 1
+    return var1_var2, var2_var3, var1_var3, max_length, count_n, count_d, count_c
+
+
+@njit(cache=True)
+def decompose_3d_count_neutral_char(alignment, cost_mat, neutral_char = None):
+    var1_var2 = maxsize
+    var2_var3 = maxsize
+    var1_var3 = maxsize
+
+    var1_var2_ = 0
+    var2_var3_ = 0
+    var1_var3_ = 0
+
+    count_c = 0
+    count_d = 0
+    count_n = 0
+
+    count_c_ = 0
+    count_d_ = 0
+    count_n_ = 0
+    for triplet in alignment:
+        if triplet == (-1, -1, -1):
+            # if current 2-3 or 1-3 dist is lower, replace vals
+            if var2_var3_ < var2_var3 or var1_var3_ < var1_var3:
+                var2_var3 = var2_var3_
+                var1_var3 = var1_var3_
+                var1_var2 = var1_var2_
+
+                count_c = count_c_
+                count_d = count_d_
+                count_n = count_n_
+            var1_var2_ = 0
+            var2_var3_ = 0
+            var1_var3_ = 0
+
+            count_c_ = 0
+            count_d_ = 0
+            count_n_ = 0
+        else:
+            if (triplet[0] == neutral_char) or (triplet[1] == neutral_char) or (triplet[2] == neutral_char):
+                old_new = 0
+                new_std = 0
+                old_std = 0
+
+                convergence = old_std - new_std
+
+                var1_var2_ += old_new
+                var2_var3_ += new_std
+                var1_var3_ += old_std
+
+                if convergence == 0:
+                    count_n_ += 1
+                    # count_n_ += abs(old_new)
+                elif convergence > 0:
+                    # count_c_ += 1
+                    count_c_ += abs(convergence)
+                elif convergence < 0:
+                    # count_d_ += 1
+                    count_d_ += abs(convergence)
+                else:
+                    break
+            else:
+                old_new = cost_mat[triplet[0], triplet[1]]
+                new_std = cost_mat[triplet[1], triplet[2]]
+                old_std = cost_mat[triplet[0], triplet[2]]
+
+                convergence = old_std - new_std
+
+                var1_var2_ += old_new
+                var2_var3_ += new_std
+                var1_var3_ += old_std
+
+                if convergence == 0:
+                    count_n_ += 1
+                    # count_n_ += abs(old_new)
+                elif convergence > 0:
+                    # count_c_ += 1
+                    count_c_ += abs(convergence)
+                elif convergence < 0:
+                    # count_d_ += 1
+                    count_d_ += abs(convergence)
+                else:
+                    break
 
     max_length = 0
     length = 0
@@ -951,17 +1044,35 @@ if __name__ == '__main__':
     dec_map[-1] = '-'
 
     ''' 3 dim testing '''
-    str1 = 'eaa'
-    str2 = 'aea'
-    str3 = 'aaa'
+    str1 = 'stʀɔət'
+    str2 = 'stʀodə'
+    # str3 = 'aaa'
 
     str1_ = np.array([enc_map[char] for char in str1])
     str2_ = np.array([enc_map[char] for char in str2])
-    str3_ = np.array([enc_map[char] for char in str3])
 
-    result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+    result = leven_compute_align(str1_, str2_, cost_mat)
     print(result)
-    print(decompose_3d_count(result[1], cost_mat))
+    alignment = result[-3]
+    alignment.reverse()
+    for i in alignment:
+        try:
+            dec_i = dec_map[i[0]]
+        except: 
+            dec_i = '-'
+        
+        try:
+            dec_j = dec_map[i[1]]
+        except: 
+            dec_j = '-'
+        print(dec_i, dec_j)
+
+    print(result[-1])
+    # str3_ = np.array([enc_map[char] for char in str3])
+
+    # result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+    # print(result)
+    # print(decompose_3d_count(result[1], cost_mat))
     # print(result[-1])
     # for i in result[-2]:
     #     print(dec_map[i[0]], dec_map[i[1]], dec_map[i[2]])
