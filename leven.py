@@ -8,12 +8,10 @@ from numba import int64, float64
 from numba import njit
 from numba.core.types.containers import UniTuple
 from numba.typed import List
-from time import time
+from unidecode import unidecode
 
 list_type = UniTuple(int64, 2)
 list_type_3d = UniTuple(int64, 3)
-
-# np.set_printoptions(threshold=np.inf)
 
 
 def get_char_inv(df, drop_col=None):
@@ -49,6 +47,21 @@ def remove_accents(input_str: str):
         final_form = ''.join(
             char for char in input_str if char not in remove_chars_manual)
         return final_form
+    else:
+        return np.nan
+
+
+def string2ascii(input_str: str):
+    """ removes diacritics from unicode strings, leaving only ASCII symbols;
+        note that currently the '/' and spaces are also removed,
+        although they are used to denote multiple transcriptions
+        in Gabmap style data"""
+    if isinstance(input_str, str):
+
+        # if two transcriptions are given (in Gabmap format), take the first
+        if '/' in input_str:
+            input_str = input_str.split('/')[0]
+        return unidecode(input_str)
     else:
         return np.nan
 
@@ -431,20 +444,6 @@ def leven_compute_align(w1_idx, w2_idx, cost_matrix):
             path_directions[row_nr][3] = j
 
         tabl[i, j] = min_val
-
-        # min_val = min(ins_s1, ins_s2, sub)
-        # tabl[i, j] = min_val
-
-        # if ins_s1 == min_val:
-        #     path_directions[row_nr][2] = i - 1
-        #     path_directions[row_nr][3] = j
-        # if ins_s2 == min_val:
-        #     path_directions[row_nr][4] = i
-        #     path_directions[row_nr][5] = j - 1
-        # if sub == min_val:
-        #     path_directions[row_nr][6] = i - 1
-        #     path_directions[row_nr][7] = j - 1
-
         row_nr += 1
 
     ''' 3 lists are required: the final set of alignments, one temporary list
@@ -561,7 +560,7 @@ def check_op_3d(op, op_vec, w1_array, w2_array, w3_array, trace_list,
 
 @njit(cache=True)
 def decompose_3d(alignment, cost_mat, std_comp=False):
-    if std_comp == True:
+    if std_comp:
         var1_var2 = maxsize
         var2_var3 = maxsize
         var1_var3 = maxsize
@@ -591,7 +590,8 @@ def decompose_3d(alignment, cost_mat, std_comp=False):
 
         for triplet in alignment:
             if triplet == (-1, -1, -1):
-                break  # only first alignment, as the distance is always the same
+                break  # only first alignment, as the distance is always the
+                # same
             else:
                 var1_var2 += cost_mat[triplet[0], triplet[1]]
                 var2_var3 += cost_mat[triplet[1], triplet[2]]
@@ -677,11 +677,12 @@ def decompose_3d_count(alignment, cost_mat):
             length = 0
         else:
             length += 1
-    return var1_var2, var2_var3, var1_var3, max_length, count_n, count_d, count_c
+    return var1_var2, var2_var3, var1_var3, max_length, count_n, count_d, \
+           count_c
 
 
 @njit(cache=True)
-def decompose_3d_count_neutral_char(alignment, cost_mat, neutral_char = None):
+def decompose_3d_count_neutral_char(alignment, cost_mat, neutral_char=None):
     var1_var2 = maxsize
     var2_var3 = maxsize
     var1_var3 = maxsize
@@ -716,7 +717,8 @@ def decompose_3d_count_neutral_char(alignment, cost_mat, neutral_char = None):
             count_d_ = 0
             count_n_ = 0
         else:
-            if (triplet[0] == neutral_char) or (triplet[1] == neutral_char) or (triplet[2] == neutral_char):
+            if (triplet[0] == neutral_char) or (triplet[1] == neutral_char) or (
+                    triplet[2] == neutral_char):
                 old_new = 0
                 new_std = 0
                 old_std = 0
@@ -770,7 +772,8 @@ def decompose_3d_count_neutral_char(alignment, cost_mat, neutral_char = None):
             length = 0
         else:
             length += 1
-    return var1_var2, var2_var3, var1_var3, max_length, count_n, count_d, count_c
+    return var1_var2, var2_var3, var1_var3, max_length, count_n, count_d, \
+           count_c
 
 
 @njit(cache=True)
@@ -808,15 +811,15 @@ def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix, std_comp=False):
         if k > 0:
             # ins s1
             i1 = tabl[i, j, k - 1] + \
-                weight_(w1_idx[k - 1], -1, -1, cost_matrix)
+                 weight_(w1_idx[k - 1], -1, -1, cost_matrix)
         if j > 0:
             # ins s2
             i2 = tabl[i, j - 1, k] + \
-                weight_(-1, w2_idx[j - 1], -1, cost_matrix)
+                 weight_(-1, w2_idx[j - 1], -1, cost_matrix)
         if i > 0:
             # ins s3
             i3 = tabl[i - 1, j, k] + \
-                weight_(-1, -1, w3_idx[i - 1], cost_matrix)
+                 weight_(-1, -1, w3_idx[i - 1], cost_matrix)
         if j > 0 and i > 0:
             # ins s2 + s3
             i23 = tabl[i - 1, j - 1, k] + weight_(-1, w2_idx[j - 1],
@@ -876,7 +879,7 @@ def leven_3_dim(w1_idx, w2_idx, w3_idx, cost_matrix, std_comp=False):
     trace = List.empty_list(item_type=list_type_3d)
     backtrack_3d(path_directions[-1], path_directions, w1_idx, w2_idx, w3_idx,
                  trace, current_, alignment)
-    if std_comp == True:
+    if std_comp:
         dists = decompose_3d(alignment, cost_matrix, std_comp=True)
     else:
         dists = decompose_3d(alignment, cost_matrix)
@@ -1031,59 +1034,134 @@ def normalize_pmi(pmi_matrix, threshold=0.7):
     return pmi_matrix
 
 
+def test_2d_ipa():
+    """ 2 dimensional test: IPA-based"""
+    # generate cost matrix
+    cost_mat = init_cost_matrix(chars_, char_inv)
+
+    # encoder/decoder maps between numeric and character representations
+    enc_map, dec_map = generate_char_map(chars_)
+    dec_map[-1] = '-'
+
+    str1 = 'abc'
+    str2 = 'abe'
+
+    # encode strings into NumPy arrays
+    str1_ = np.array([enc_map[char] for char in str1])
+    str2_ = np.array([enc_map[char] for char in str2])
+
+    # compute Levenshtein distance
+    result = leven_compute_align(str1_, str2_, cost_mat)
+
+    # first value is distance
+    print(result[0])
+
+    # alignment is third result parameter, in reverse order, delimited by - -> -
+    alignment = result[-3]
+    alignment.reverse()
+    for i in alignment:
+        print(" -> ".join([dec_map[idx] for idx in i
+                           if not (i[0] == -1 and i[1] == -1)]))
+
+
+def test_3d_ipa():
+    """ 3 dimensional test: IPA-based"""
+    # generate cost matrix
+    cost_mat = init_cost_matrix(chars_, char_inv)
+
+    # encoder/decoder maps between numeric and character representations
+    enc_map, dec_map = generate_char_map(chars_)
+    dec_map[-1] = '-'
+
+    str1 = 'abc'
+    str2 = 'abe'
+    str3 = 'aaa'
+
+    # encode strings into NumPy arrays
+    str1_ = np.array([enc_map[char] for char in str1])
+    str2_ = np.array([enc_map[char] for char in str2])
+    str3_ = np.array([enc_map[char] for char in str3])
+
+    # compute Levenshtein distance
+    result = leven_3_dim(str1_, str2_, str3_, cost_mat)
+
+    # last value is tuple of distances (1-2, 2-3, 1-3) and alignment length
+    print(result[-1])
+
+    alignment = result[-2]
+    alignment.reverse()
+
+    for i in alignment:
+        print(" <-> ".join([dec_map[idx] for idx in i
+                           if not (i[0] == -1 and i[1] == -1 and i[2] == -1)]))
+
+
+def encode_graphemes(input_str: str, symbol_list: list, encoder_map: dict):
+    """ in case of multi-character input inventory;
+        graphemes should be specified in inventory.txt"""
+
+    encoded_str = []
+    current_grapheme = input_str[0]
+    idx = 0
+
+    while idx < len(input_str):
+        if not (idx == len(input_str) - 1):
+            if current_grapheme + input_str[idx + len(current_grapheme)] \
+                    in symbol_list:
+                current_grapheme += input_str[idx]
+            else:
+                encoded_str.append(encoder_map[current_grapheme])
+                idx += len(current_grapheme)
+                current_grapheme = input_str[idx]
+        else:
+            encoded_str.append(encoder_map[current_grapheme])
+            idx += 1
+
+    return np.array(encoded_str)
+
+
+def test_2d_grapheme():
+    """ 2 dimensional test: grapheme-based"""
+    # generate cost matrix
+    cost_mat = init_cost_matrix(chars_, char_inv)
+
+    # encoder/decoder maps between numeric and character representations
+    enc_map, dec_map = generate_char_map(chars_)
+    dec_map[-1] = '-'
+
+    str1 = 'gemeenscheep'
+    str2 = 'gemeenscheeppen'
+
+    # encode strings into NumPy arrays
+    str1_ = encode_graphemes(str1, chars_, enc_map)
+    str2_ = encode_graphemes(str2, chars_, enc_map)
+
+    print(str1_)
+    print(str2_)
+
+    # compute Levenshtein distance
+    result = leven_compute_align(str1_, str2_, cost_mat)
+
+    # first value is distance
+    print(result[0])
+
+    # alignment is third result parameter, in reverse order, delimited by -
+    # -> -
+    alignment = result[-3]
+    alignment.reverse()
+    for i in alignment:
+        print(" -> ".join([dec_map[idx] for idx in i
+                           if not (i[0] == -1 and i[1] == -1)]))
+
+
 if __name__ == '__main__':
+    # read in character/grapheme inventory
     with open('inventory.txt', 'r', encoding='utf8') as inv_file:
         char_inv = {line.strip().split('\t')[0]: line.strip().split('\t')[1]
                     for line in inv_file.readlines()}
     chars_ = list(char_inv.keys())
-    cost_mat = init_cost_matrix(chars_, char_inv)
-    enc_map, dec_map = generate_char_map(chars_)
 
-    # enc_map, dec_map, cost_mat = init_cost_matrix_weighted(
-    #     "hedwig_merged_pmi.tsv")
-    dec_map[-1] = '-'
+    # test_2d_ipa()
+    # test_3d_ipa()
+    test_2d_grapheme()
 
-    ''' 3 dim testing '''
-    str1 = 'stʀɔət'
-    str2 = 'stʀodə'
-    # str3 = 'aaa'
-
-    str1_ = np.array([enc_map[char] for char in str1])
-    str2_ = np.array([enc_map[char] for char in str2])
-
-    result = leven_compute_align(str1_, str2_, cost_mat)
-    print(result)
-    alignment = result[-3]
-    alignment.reverse()
-    for i in alignment:
-        try:
-            dec_i = dec_map[i[0]]
-        except: 
-            dec_i = '-'
-        
-        try:
-            dec_j = dec_map[i[1]]
-        except: 
-            dec_j = '-'
-        print(dec_i, dec_j)
-
-    print(result[-1])
-    # str3_ = np.array([enc_map[char] for char in str3])
-
-    # result = leven_3_dim(str1_, str2_, str3_, cost_mat)
-    # print(result)
-    # print(decompose_3d_count(result[1], cost_mat))
-    # print(result[-1])
-    # for i in result[-2]:
-    #     print(dec_map[i[0]], dec_map[i[1]], dec_map[i[2]])
-
-    # result = leven_compute_align(str1_, str2_, cost_mat)
-    # print(result[-1])
-
-    # def test_speed():
-    #     start = time()
-    #     for i in range(10000):
-    #         leven_compute_align(str1_, str2_, cost_mat)
-    #     print(time() - start)
-
-    # test_speed()
