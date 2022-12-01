@@ -1,6 +1,7 @@
 """ compute VC sensitive Levenshtein distance cost matrix
     retrace cost matrix to find VC sensitive alignment"""
-
+import functools
+import itertools
 from sys import maxsize
 import numpy as np
 import pandas as pd
@@ -310,51 +311,51 @@ def backtrack(a, array, w1_array, w2_array, trace_list, align_, alignment):
                 return backtrack(array[-1], array, w1_array, w2_array,
                                  trace_list, align_, alignment)
         else:
-            if options > 2:
-                final_ = check_final(k, valid_)
+            # if options > 2:
+            #     final_ = check_final(k, valid_)
 
-                if member_(k, trace_list):
-                    if check_first(k, trace_list):
-                        trace_list.pop(0)
-                    else:
-                        check_op(i, a, w1_array, w2_array, trace_list, align_,
-                                 False)
-                        return backtrack(
-                            array[(array[:, 0] == k[0])
-                                  & (array[:, 1] == k[1])].flatten(),
-                            array, w1_array, w2_array, trace_list, align_,
-                            alignment)
-                else:
-                    if check_depth(k, trace_list):
-                        if final_:
-                            check_op(i, a, w1_array, w2_array, trace_list,
-                                     align_,
-                                     False)
-                            return backtrack(
-                                array[(array[:, 0] == k[0])
-                                      & (array[:, 1] == k[1])].flatten(),
-                                array, w1_array, w2_array, trace_list, align_,
-                                alignment)
-                    else:
-                        if final_:
-                            check_op(i, a, w1_array, w2_array, trace_list,
-                                     align_,
-                                     False)
-                            return backtrack(
-                                array[(array[:, 0] == k[0])
-                                      & (array[:, 1] == k[1])].flatten(),
-                                array, w1_array, w2_array, trace_list, align_,
-                                alignment)
-                        else:
-                            check_op(i, a, w1_array, w2_array, trace_list,
-                                     align_,
-                                     True)
-                            return backtrack(
-                                array[(array[:, 0] == k[0])
-                                      & (array[:, 1] == k[1])].flatten(),
-                                array, w1_array, w2_array, trace_list, align_,
-                                alignment)
-            else:
+            #     if member_(k, trace_list):
+            #         if check_first(k, trace_list):
+            #             trace_list.pop(0)
+            #         else:
+            #             check_op(i, a, w1_array, w2_array, trace_list, align_,
+            #                      False)
+            #             return backtrack(
+            #                 array[(array[:, 0] == k[0])
+            #                       & (array[:, 1] == k[1])].flatten(),
+            #                 array, w1_array, w2_array, trace_list, align_,
+            #                 alignment)
+            #     else:
+            #         if check_depth(k, trace_list):
+            #             if final_:
+            #                 check_op(i, a, w1_array, w2_array, trace_list,
+            #                          align_,
+            #                          False)
+            #                 return backtrack(
+            #                     array[(array[:, 0] == k[0])
+            #                           & (array[:, 1] == k[1])].flatten(),
+            #                     array, w1_array, w2_array, trace_list, align_,
+            #                     alignment)
+            #         else:
+            #             if final_:
+            #                 check_op(i, a, w1_array, w2_array, trace_list,
+            #                          align_,
+            #                          False)
+            #                 return backtrack(
+            #                     array[(array[:, 0] == k[0])
+            #                           & (array[:, 1] == k[1])].flatten(),
+            #                     array, w1_array, w2_array, trace_list, align_,
+            #                     alignment)
+            #             else:
+            #                 check_op(i, a, w1_array, w2_array, trace_list,
+            #                          align_,
+            #                          True)
+            #                 return backtrack(
+            #                     array[(array[:, 0] == k[0])
+            #                           & (array[:, 1] == k[1])].flatten(),
+            #                     array, w1_array, w2_array, trace_list, align_,
+            #                     alignment)
+            # else:
                 check_op(i, a, w1_array, w2_array, trace_list, align_,
                          False)
                 return backtrack(array[(array[:, 0] == k[0])
@@ -1093,7 +1094,7 @@ def test_3d_ipa():
 
     for i in alignment:
         print(" <-> ".join([dec_map[idx] for idx in i
-                           if not (i[0] == -1 and i[1] == -1 and i[2] == -1)]))
+                            if not (i[0] == -1 and i[1] == -1 and i[2] == -1)]))
 
 
 def encode_graphemes(input_str: str, symbol_list: list, encoder_map: dict):
@@ -1105,17 +1106,20 @@ def encode_graphemes(input_str: str, symbol_list: list, encoder_map: dict):
     idx = 0
 
     while idx < len(input_str):
-        if not (idx == len(input_str) - 1):
-            if current_grapheme + input_str[idx + len(current_grapheme)] \
-                    in symbol_list:
-                current_grapheme += input_str[idx]
-            else:
-                encoded_str.append(encoder_map[current_grapheme])
-                idx += len(current_grapheme)
-                current_grapheme = input_str[idx]
-        else:
+        # exit at the last character
+        if idx == len(input_str) - 1:
             encoded_str.append(encoder_map[current_grapheme])
             idx += 1
+        else:
+            # check if the next character occurs with current
+            if current_grapheme + input_str[idx + 1] in symbol_list:
+                current_grapheme += input_str[idx + 1]
+                idx += 1
+            # append current character(s) and continue
+            else:
+                encoded_str.append(encoder_map[current_grapheme])
+                idx += 1
+                current_grapheme = input_str[idx]
 
     return np.array(encoded_str)
 
@@ -1129,15 +1133,12 @@ def test_2d_grapheme():
     enc_map, dec_map = generate_char_map(chars_)
     dec_map[-1] = '-'
 
-    str1 = 'gemeenscheep'
+    str1 = 'gemeinskop'
     str2 = 'gemeenscheeppen'
 
     # encode strings into NumPy arrays
     str1_ = encode_graphemes(str1, chars_, enc_map)
     str2_ = encode_graphemes(str2, chars_, enc_map)
-
-    print(str1_)
-    print(str2_)
 
     # compute Levenshtein distance
     result = leven_compute_align(str1_, str2_, cost_mat)
@@ -1164,4 +1165,11 @@ if __name__ == '__main__':
     # test_2d_ipa()
     # test_3d_ipa()
     test_2d_grapheme()
-
+    #
+    # with open(
+    #         '/home/raoul/DOWNLOADS'
+    #         '/nl_sassisk_nedderlandske_lemmaparen_filterd.txt',
+    #         'r', encoding='utf8') as textfile:
+    #     data = [[line.strip().split('\t')[0], line.strip().split('\t')[1]]
+    #             for line in textfile.readlines()]
+    # print([i + " -> " + string2ascii(i) for i in list(itertools.chain(*data))])
