@@ -124,6 +124,7 @@ def cycle(df: pd.DataFrame, cost_matrix: np.array, trs_mapping: dict,
     """ Single core version """
     # results = []
     # for col in df:
+    #     print(col)
     #     results.append(compute_single_col(
     #         df[col], cost_matrix, trs_mapping, list_of_chars))
     return sum([result for result in results])
@@ -135,7 +136,8 @@ if __name__ == '__main__':
     # dat = pd.read_csv('../trs_files/DiaReg_-_Hedwig_merged_std.tsv', sep='\t')
     # dat = pd.read_csv('../trs_files/h_w_trs_clean.tsv', sep='\t')
     # dat = pd.read_csv('../trs_files/DiaReg_-_h_w_trs_clean_std.tsv', sep='\t')
-    dat = pd.read_csv('../trs_files/DiaReg_-_IPA-original_removed_cols.tsv', sep='\t')
+    # dat = pd.read_csv('../trs_files/DiaReg_-_IPA-original_removed_cols.tsv', sep='\t')
+    dat = pd.read_csv('../trs_files/transcription_files_-_GTRP.tsv', sep='\t')
 
     # ignore first column with location names
     trs = dat.iloc[:, 1:]
